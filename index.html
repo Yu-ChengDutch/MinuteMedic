@@ -11,16 +11,26 @@
 
     <!-- Link to several different JS scripts -->
 
-    <script src="/Scripts/Skilltree.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/"></script>
 
 </head>
 <body>
 
     <!-- Build skill tree -->
 
-    <div id="popin"></div>
-    <div id="skilltree"></div>
-    <div id="panel">Crédits : <span id="wallet"></span></div>
+    <div class="skill-tree">
+        <div class="skill" id="skill-1" onclick="unlockSkill(1)">Skill 1</div>
+        <div class="skill-branch">
+            <div class="skill" id="skill-2" onclick="unlockSkill(2)">Skill 2</div>
+            <div class="skill" id="skill-3" onclick="unlockSkill(3)">Skill 3</div>
+        </div>
+        <div class="skill-branch">
+            <div class="skill" id="skill-4" onclick="unlockSkill(4)">Skill 4</div>
+            <div class="skill" id="skill-5" onclick="unlockSkill(5)">Skill 5</div>
+        </div>
+    </div>
+
+    <script src="/Scripts/Skilltree.js"></script>
 
 </body>
 </html>
