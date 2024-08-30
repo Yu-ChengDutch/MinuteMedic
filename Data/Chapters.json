@@ -1,0 +1,53 @@
+{
+    "Name": "Chapters",
+    "Subdivision": [
+    {   
+        "Name": "Basic science", 
+        "Content": "Cell biology, embryology etc.", 
+        "Style": "url('/Images/Image_cells.jpg')",
+        "DetailedDescription": "The basic sciences of medicine are all about how nature works and about how it interacts with humans. It shows us the basics of medicine, without actually delving into the structures that we usually think of as 'human'. Still, they are some of the most high-value subjects to be studying! Good luck~",
+        "DetailedCardInfo": [
+            { "Name": "Genetics", "Description": "The DNA and RNA that makes us ... us", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Cell biology", "Description": "The biology of our smallest units", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2." },
+            { "Name": "Embryology", "Description": "About who we are and where we come from", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
+            { "Name": "Infectious disease", "Description": "Microbes, viruses and everything in between", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." }
+        ]
+    },
+    {   
+        "Name": "Applied science", 
+        "Content": "Anatomy, physiology etc.", 
+        "Style": "url('/Images/Image_anatomy.jpg')",
+        "DetailedDescription": "The applied sciences make up the bulk of medicine. They describe how the human body is constructed and works. The structures and functions described in the applied sciences form the basis for clinical pathology and disease categories.",
+        "DetailedCardInfo": [
+            { "Name": "Anatomy", "Description": "The structures that determine how we are", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2." },
+            { "Name": "Psychology", "Description": "Mens sana in corpore sana. Amen.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." }
+        ]
+    },
+    {   "Name": "Clinical science", 
+        "Content": "Diagnoses, treatments etc.", 
+        "Style": "url('/Images/Image_stethoscope.jpg')",
+        "DetailedDescription": "So, then there it is: medicine. Basically, medicine is about the clinical sciences. If you master the art of diagnosis and treatment, you`re on your way to be a great doctor. It`s all about pattern recognition and creative thinking here. You think you`ve got what it takes?",
+        "DetailedCardInfo": [
+            { "Name": "Internal medicine", "Description": "All the fleshy parts protected by our bones.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Psychiatry", "Description": "What`s inside that noggin` of yours.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2." },
+            { "Name": "Paediatrics", "Description": "About humans. But small.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
+            { "Name": "Orthopaedics", "Description": "Bones. Just bones, bro!", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
+            { "Name": "Neurology", "Description": "Everything you don`t understand.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
+            { "Name": "Physical Medicine & Rehabilitation", "Description": "Muscles & shit. Disability.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
+            { "Name": "Cardiology", "Description": "What makes us tick. Tack. Tick. Tack.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
+            { "Name": "Surgical Techniques", "Description": "How to sew a foot back on.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." }
+        ]
+    },
+    {   "Name": "Metascience", 
+        "Content": "Statistics, philosophy etc.", 
+        "Style": "",
+        "DetailedDescription": "Here we are: we`ve considered the basics of medicine, the building blocks of the human body and everything that can go wrong with it. Now what about what we should, or shouldn`t do? Or whether we`re actually there ... like, at all? The metasciences teach us all that, and more, probably, I think ... therefore I am.",
+        "DetailedCardInfo": [
+            { "Name": "Ethics", "Description": "The science of what we should and shouldn`t do", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1.", "Page": "../Pages/Ethics.html" },
+            { "Name": "Research methodology", "Description": "How we know what we know now, no?", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2.", "Page": "../Pages/ResearchMethods.html" },
+            { "Name": "Medical law", "Description": "Limited only to the jurisdiction of the Kingdom of the Netherlands!.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3.", "Page": "../Pages/Law.html"}
+        ]
+    }
+    ]
+}

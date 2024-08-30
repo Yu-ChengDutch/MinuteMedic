@@ -1,0 +1,119 @@
+:root {
+    --primary: #A5D6A7;
+    --secondary: #FFCC80;
+    --bgcolor: #FAFAFA;
+    --accent: #90CAF9;
+    --text: #616161;
+  }
+
+/* Side bar */
+
+.sidebar {
+    width: 5vw;
+    height: 100vh;
+    background-color: var(--primary);
+    color: var(--text);
+    transition: width 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar h1 {
+    text-align: center;
+}
+
+.sidebar.expanded {
+    width: 30vw; /* Expanded width */
+}
+
+.arrow-toggle {
+    position: absolute;
+    top: 50%;
+    right: -15px; /* Initially positioned outside the sidebar */
+    transform: translateY(-50%);
+    background-color: var(--accent);
+    color: white;
+    font-size: 1vw;
+    padding: 1vw;
+    margin: 2vw;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-content {
+    padding: 20px;
+    width: 27.5vw;
+    display: none;
+    height: calc(100vh - 50px); /* Adjusts to full height */
+    overflow-y: auto;
+}
+
+.sidebar.expanded .sidebar-content {
+    display: block;
+}
+
+.sidebar-content h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar-content ul {
+    list-style: none;
+}
+
+.sidebar-content ul li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: scroll; /* Scrollable content */
+    max-height: calc(100vh - 120px); /* Ensure it uses almost the full sidebar height */
+    padding-right: 10px;
+    scrollbar-width: none; /* For Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Make the card container span the whole sidebar height */
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-container {
+    flex-grow: 1;
+}
+
+/* Card styling */
+.card {
+    background-color: var(--bgcolor);
+    padding: 15px;
+    border-radius: 8px;
+    color: var(--text);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 
+                0 1px 3px rgba(0, 0, 0, 0.16); /* Material shadow */
+    transition: box-shadow 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+    height: 20vh;
+}
+
+.card h3 {
+    margin-bottom: 0.5vh;
+}
+
+/* Add a deeper shadow on hover */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 
+                0 3px 6px rgba(0, 0, 0, 0.2);
+}

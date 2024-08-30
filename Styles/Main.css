@@ -1,0 +1,27 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    display: flex;
+    height: 100vh;
+    background-color: var(--bgcolor);
+}
+
+H1, H2, H3 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+:root {
+    --primary: #A5D6A7;
+    --secondary: #FFCC80;
+    --bgcolor: #FAFAFA;
+    --accent: #90CAF9;
+    --text: #616161;
+  }

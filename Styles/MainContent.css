@@ -1,0 +1,205 @@
+:root {
+    --primary: #A5D6A7;
+    --secondary: #FFCC80;
+    --bgcolor: #FAFAFA;
+    --accent: #90CAF9;
+    --text: #616161;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and other WebKit-based browsers */
+.main-content::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.welcome-screen {
+    display: none;
+    width: 100%;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+
+    margin-bottom: 100px;
+}
+
+.welcome-banner {
+    background-color: #90CAF9; /* Light Pastel Blue */
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.welcome-banner #welcome-description {
+    margin-top: 2.5vh;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.detailed-cards {
+    width: 80%;
+    max-width: 80vw;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detailed-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+                0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    align-items: center;
+    margin-top: 1.25vh;
+    margin-bottom: 1.25vh;
+    overflow: hidden;
+}
+
+.detailed-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 0vh;
+}
+
+.detailed-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.detailed-card p {
+    margin: 5px 0 0;
+}
+
+.inner-detailed-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.expandable-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #E0E0E0;
+    height: 50vh;
+}
+
+.detailed-card.expanded .expandable-content {
+    display: block;
+    max-height: 50vh; /* Start with height 0 for animation */
+    overflow: hidden; /* Hide content overflow */
+    transition: max-height 5s ease-out; /* Smooth transition */
+}
+
+/* Make up for the levels */
+
+.explanation-card {
+
+    width: 80%;
+    max-width: 80vw;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-direction: column;
+    padding: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05),
+                0 1px 3px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+}
+
+.explanation-card p {
+    margin-top: 15px;
+}
+
+.question-card {
+
+    width: 80%;
+    max-width: 80vw;
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+                0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+
+    background-color: var(--secondary);
+
+}
+
+ol {
+
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.explanation-card h2 {
+    margin-top: 15px;
+}
+
+.question-card p {
+    margin-top: 15px;
+}
+
+/* Questions */
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options li.correct {
+    background-color: #a5d6a7; /* Green for correct */
+}
+
+.options li.wrong {
+    background-color: #ef9a9a; /* Red for wrong */
+}
+
+.options li:hover {
+    background-color: #d1c4e9;
+}
+
+.options.disabled li {
+    pointer-events: none;
+}
+
+.placeholder {
+    height: 10vh;
+    background-color: var(--bgcolor);
+    color: var(--bgcolor);
+}
