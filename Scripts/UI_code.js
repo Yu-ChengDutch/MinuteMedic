@@ -127,7 +127,7 @@ function showPage(page, load=false){
 
         document.getElementById('mainContent').innerHTML = data;
 
-        if (load == true) {loadScript('../Scripts/Questions.js')}
+        if (load == true) {loadScript('Scripts/Questions.js')}
 
     })
     .catch(error => {
