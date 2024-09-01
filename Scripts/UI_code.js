@@ -3,7 +3,7 @@
 let currentlyOpenCard = null; // Keep track of the currently opened card
 let cards = null; // The cards are to be filled in from JSON file
 
-fetch ("/Data/Chapters.json")
+fetch ("Data/Chapters.json")
     .then(response => {
         if (!response.ok) {
         throw new Error('Network response was not ok');
