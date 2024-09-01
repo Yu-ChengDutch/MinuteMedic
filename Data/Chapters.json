@@ -4,7 +4,7 @@
     {   
         "Name": "Basic science", 
         "Content": "Cell biology, embryology etc.", 
-        "Style": "url('Images/Image_cells.jpg')",
+        "Style": "url('Images/image_cells.jpg')",
         "DetailedDescription": "The basic sciences of medicine are all about how nature works and about how it interacts with humans. It shows us the basics of medicine, without actually delving into the structures that we usually think of as 'human'. Still, they are some of the most high-value subjects to be studying! Good luck~",
         "DetailedCardInfo": [
             { "Name": "Genetics", "Description": "The DNA and RNA that makes us ... us", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
@@ -16,7 +16,7 @@
     {   
         "Name": "Applied science", 
         "Content": "Anatomy, physiology etc.", 
-        "Style": "url('Images/Image_anatomy.jpg')",
+        "Style": "url('Images/image_anatomy.jpg')",
         "DetailedDescription": "The applied sciences make up the bulk of medicine. They describe how the human body is constructed and works. The structures and functions described in the applied sciences form the basis for clinical pathology and disease categories.",
         "DetailedCardInfo": [
             { "Name": "Anatomy", "Description": "The structures that determine how we are", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
@@ -26,7 +26,7 @@
     },
     {   "Name": "Clinical science", 
         "Content": "Diagnoses, treatments etc.", 
-        "Style": "url('Images/Image_stethoscope.jpg')",
+        "Style": "url('Images/image_stethoscope.jpg')",
         "DetailedDescription": "So, then there it is: medicine. Basically, medicine is about the clinical sciences. If you master the art of diagnosis and treatment, you`re on your way to be a great doctor. It`s all about pattern recognition and creative thinking here. You think you`ve got what it takes?",
         "DetailedCardInfo": [
             { "Name": "Internal medicine", "Description": "All the fleshy parts protected by our bones.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
