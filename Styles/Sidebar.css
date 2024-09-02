@@ -117,3 +117,23 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 
                 0 3px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 767px) {
+    
+    .sidebar {
+        width: 15vw;
+    }
+    
+    .sidebar.expanded {
+        width: 60vw; /* Expanded width */
+    }
+
+    .arrow-toggle {
+        font-size: 2.5vw;
+        padding: 5vw;
+        margin: 5vw;
+    }
+
+}

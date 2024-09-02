@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+    font-optical-sizing: auto;
     color: var(--text);
     display: flex;
     height: 100vh;
