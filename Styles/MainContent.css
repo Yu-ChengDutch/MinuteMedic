@@ -203,3 +203,17 @@ ol {
     background-color: var(--bgcolor);
     color: var(--bgcolor);
 }
+
+@media screen and (max-width: 1000px) {
+
+    p {
+        font-size: 3vw;
+    }
+
+    .explanation-card, .question-card {
+
+        width: 100%;
+        margin-left: 0px;
+    }
+
+};

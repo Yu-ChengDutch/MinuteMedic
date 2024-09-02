@@ -120,7 +120,7 @@
 
 /* RESPONSIVE DESIGN */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
     
     .sidebar {
         width: 15vw;
@@ -133,7 +133,12 @@
     .arrow-toggle {
         font-size: 2.5vw;
         padding: 5vw;
-        margin: 5vw;
+        margin: 2.5vw;
+    }
+
+    .sidebar-content {
+        padding: 2.5vw;
+        width: 35vw;
     }
 
 }
