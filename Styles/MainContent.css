@@ -206,9 +206,22 @@ ol {
     color: var(--bgcolor);
 }
 
+.mnemonic {
+    background-color: var(--primary);
+    color: black;
+    border-radius: 12px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding: 1vh;
+}
+
 @media screen and (max-width: 1000px) {
 
-    p {
+    .mnemonic {
+        font-size: 3vw;
+    }
+
+    p, ol {
         font-size: 3vw;
     }
 

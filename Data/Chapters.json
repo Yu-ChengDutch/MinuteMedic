@@ -21,6 +21,7 @@
         "DetailedCardInfo": [
             {   "Name": "Anatomy", 
                 "Description": "The structures that determine how we are", 
+                "DetailedDescription": "Anatomy is the science that describes the structure of the human body. It is essential to be able to not only understand, but also to locate the the source of symptoms. ",
                 "Icon": "Images/icon_anatomy.png", 
                 "Extra": "More details about Detail 1.", 
                 "DetailedCardInfo": [
@@ -81,7 +82,8 @@
                             },
                             {
                                 "Name": "Lower (axio)appendicular muscles",
-                                "Description": "Never skip leg day!"
+                                "Description": "Never skip leg day!",
+                                "Page": "Pages/Muscular_lower.html"
                             }
                         ]
                     },

@@ -53,12 +53,12 @@ function showCards() {
         `;
         cardElement.style.backgroundImage = card.Style;
         // cardElement.style.backgroundPosition = "center center";
-        cardElement.onclick = () => showWelcomeScreen(index, card.DetailedCardInfo, card.Name, card.DetailedDescription); // Bind click event
+        cardElement.onclick = () => showWelcomeScreen(card.DetailedCardInfo, card.Name, card.DetailedDescription); // Bind click event
         cardContainer.appendChild(cardElement);
     });
 }
 
-function showWelcomeScreen(cardIndex, detailedCardInfo, title, description) {
+function showWelcomeScreen(detailedCardInfo, title, description="") {
     
     // Reset screen
     resetContent();
@@ -97,7 +97,18 @@ function showWelcomeScreen(cardIndex, detailedCardInfo, title, description) {
         `;
         // detailedCard.onclick = () => toggleExpandableContent(detailedCard); SAVE THIS FOR WHEN THERE IS EXPANDABLE CONTENT
 
-        detailedCard.onclick = () => showPage(detail.Page, true);
+        console.log(Object.keys(detail))
+
+        if (Object.keys(detail).includes('DetailedCardInfo')) {
+
+            detailedCard.onclick = () => showWelcomeScreen(detail.DetailedCardInfo, detail.Name, detail.DetailedDescription);
+
+        } else {
+
+            detailedCard.onclick = () => showPage(detail.Page, true);
+
+        };
+        
         detailedCards.appendChild(detailedCard);
     });
 }

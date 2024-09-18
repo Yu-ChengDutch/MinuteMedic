@@ -14,6 +14,11 @@ body {
     background-color: var(--bgcolor);
 }
 
+ol {
+    font-family: 'Roboto', sans-serif;    
+    font-optical-sizing: auto;
+}
+
 H1, H2, H3 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
