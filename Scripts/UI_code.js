@@ -85,7 +85,7 @@ function showWelcomeScreen(cardIndex, detailedCardInfo, title, description) {
         detailedCard.className = 'detailed-card';
         detailedCard.innerHTML = `
             <div class='inner-detailed-card'>
-                <img src="${detail.Econ}" alt="${detail.Name}">
+                <img src="${detail.Icon}" alt="${detail.Name}">
                 <div>
                     <h3>${detail.Name}</h3>
                     <p>${detail.Description}</p>

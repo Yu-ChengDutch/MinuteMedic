@@ -19,9 +19,145 @@
         "Style": "url('Images/image_anatomy.jpg')",
         "DetailedDescription": "The applied sciences make up the bulk of medicine. They describe how the human body is constructed and works. The structures and functions described in the applied sciences form the basis for clinical pathology and disease categories.",
         "DetailedCardInfo": [
-            { "Name": "Anatomy", "Description": "The structures that determine how we are", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2." },
-            { "Name": "Psychology", "Description": "Mens sana in corpore sana. Amen.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." }
+            {   "Name": "Anatomy", 
+                "Description": "The structures that determine how we are", 
+                "Icon": "Images/icon_anatomy.png", 
+                "Extra": "More details about Detail 1.", 
+                "DetailedCardInfo": [
+                    {
+                        "Name": "Respiratory sytem",
+                        "Description": "Rule 1 of medicine: keep air in the lung",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Digestive system",
+                        "Description": "A bunch of bullsh*it",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Circulatory system",
+                        "Description": "Rule 2 of medicine: keep the heart pumping",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Integumentary system",
+                        "Description": "We're just sacks of flesh and bones",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Skeletal sytem",
+                        "Description": "Bones. Just bones, bro!",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Introduction",
+                                "Description": "What are bones?"
+                            },
+                            {
+                                "Name": "Axial skeleton"
+                            },
+                            {
+                                "Name": "Appendicular skeleton"
+                            },
+                            {
+                                "Name": "Dental anatomy"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Muscular system",
+                        "Description": "I'll be back!",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Introduction",
+                                "Description": "What are muscles?"
+                            },
+                            {
+                                "Name": "Axial muscles",
+                                "Description": "Abs, bro! Chicks dig 'em"
+                            },
+                            {
+                                "Name": "Upper (axio)appendicular muscles",
+                                "Description": "Chest and arms, bro! Beats everything"
+                            },
+                            {
+                                "Name": "Lower (axio)appendicular muscles",
+                                "Description": "Never skip leg day!"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Endocrine system",
+                        "Description": "You're being hormonal right now...",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Exocrine system",
+                        "Description": "Brb. Crying tears of joy rn",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Lymphatic system",
+                        "Description": "The circulatory system's less famous cousin",
+                        "DetailedCardInfo": ""
+                    },
+                    {
+                        "Name": "Nervous system",
+                        "Description": "They hate us, cause they ain't us",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Introduction",
+                                "Description": "What are nerves?"
+                            },
+                            {
+                                "Name": "Central nervous system",
+                                "DetailedCardInfo": [
+                                    {
+                                        "Name": "Brain",
+                                        "Description": "What makes us ... us",
+                                        "DetailedCardInfo": [
+                                            {
+                                                "Name": "Cerebrum",
+                                                "Description": "When we say someone is 'cerebral', this is it"
+                                            },
+                                            {
+                                                "Name": "Cerebellum",
+                                                "Description": "The big thing, but small"
+                                            },
+                                            {
+                                                "Name": "Brainstem",
+                                                "Description": "The ultimate sine-qua-non"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Name": "Spinal cord"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Peripheral nervous system",
+                                "Description": "Don't shoot the messenger!",
+                                "DetailedCardInfo": [
+                                    {
+                                        "Name": "Somatic nervous system",
+                                        "Description": "We are what we do"
+                                    },
+                                    {
+                                        "Name": "Visceral nervous system",
+                                        "Description": "Just a gut feeling..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Reproductive system",
+                        "Description": "All c*nts and d*ckheads",
+                        "DetailedCardInfo": ""
+                    }
+                ]},
+            { "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "Images/icon_temperature.png", "Extra": "More details about Detail 2." },
+            { "Name": "Psychology", "Description": "Mens sana in corpore sana. Amen.", "Icon": "Images/icon_magnifier.png", "Extra": "More details about Detail 3." }
         ]
     },
     {   "Name": "Clinical science", 
