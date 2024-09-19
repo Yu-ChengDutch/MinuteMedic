@@ -28,31 +28,85 @@
                     {
                         "Name": "Respiratory sytem",
                         "Description": "Rule 1 of medicine: keep air in the lung",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Upper airways",
+                                "Description": "So. Much. Snot."
+                            },
+                            {
+                                "Name": "Lower airways",
+                                "Description": "Lungs. Not just one, but two of them!"
+                            }
+                        ]
                     },
                     {
                         "Name": "Digestive system",
                         "Description": "A bunch of bullsh*it",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Upper digestive tract",
+                                "Description": "To Treitz! And not beyond..."
+                            },
+                            {
+                                "Name": "Lower digestive tract",
+                                "Description": "Truly full of bullsh*t"
+                            },
+                            {
+                                "Name": "Liver"
+                            },
+                            {
+                                "Name": "Biliary tract"
+                            }
+                        ]
                     },
                     {
                         "Name": "Circulatory system",
                         "Description": "Rule 2 of medicine: keep the heart pumping",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Heart"
+                            },
+                            {
+                                "Name": "Arteries",
+                                "DetailedCardInfo": [
+                                    {
+                                        "Name": "Large arteries"
+                                    },
+                                    {
+                                        "Name": "Organ-specified arteries"
+                                    },
+                                    {
+                                        "Name": "Cerebral blood supply"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Veins"
+                            }
+                        ]
+                    },
+                    {
+                        "Name": "Urinary system",
+                        "Description": "P*issing all over your assumptions",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Kidneys",
+                                "Description": "My bean buddies"
+                            },
+                            {
+                                "Name": "Lower urinary tract",
+                                "Description": "Footballs used to be made from bladder"
+                            }
+                        ]
                     },
                     {
                         "Name": "Integumentary system",
-                        "Description": "We're just sacks of flesh and bones",
-                        "DetailedCardInfo": ""
+                        "Description": "We're just sacks of flesh and bones"
                     },
                     {
                         "Name": "Skeletal sytem",
                         "Description": "Bones. Just bones, bro!",
                         "DetailedCardInfo": [
-                            {
-                                "Name": "Introduction",
-                                "Description": "What are bones?"
-                            },
                             {
                                 "Name": "Axial skeleton"
                             },
@@ -68,10 +122,6 @@
                         "Name": "Muscular system",
                         "Description": "I'll be back!",
                         "DetailedCardInfo": [
-                            {
-                                "Name": "Introduction",
-                                "Description": "What are muscles?"
-                            },
                             {
                                 "Name": "Axial muscles",
                                 "Description": "Abs, bro! Chicks dig 'em"
@@ -90,26 +140,52 @@
                     {
                         "Name": "Endocrine system",
                         "Description": "You're being hormonal right now...",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Central endocrine glands"
+                            },
+                            {
+                                "Name": "(Para)thyroid gland"
+                            },
+                            {
+                                "Name": "Abdominal glands"
+                            },
+                            {
+                                "Name": "Reproductive glands"
+                            }
+                        ]
                     },
                     {
                         "Name": "Exocrine system",
                         "Description": "Brb. Crying tears of joy rn",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Eyes"
+                            },
+                            {
+                                "Name": "Ears"
+                            }
+                        ]
                     },
                     {
                         "Name": "Lymphatic system",
                         "Description": "The circulatory system's less famous cousin",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Lymph vessels"
+                            },
+                            {
+                                "Name": "Lymph nodes"
+                            },
+                            {
+                                "Name": "Spleen"
+                            }
+                        ]
                     },
                     {
                         "Name": "Nervous system",
                         "Description": "They hate us, cause they ain't us",
                         "DetailedCardInfo": [
-                            {
-                                "Name": "Introduction",
-                                "Description": "What are nerves?"
-                            },
                             {
                                 "Name": "Central nervous system",
                                 "DetailedCardInfo": [
@@ -155,10 +231,73 @@
                     {
                         "Name": "Reproductive system",
                         "Description": "All c*nts and d*ckheads",
-                        "DetailedCardInfo": ""
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Male reproductive system"
+                            },
+                            {
+                                "Name": "Female reproductive system"
+                            }
+                        ]
                     }
                 ]},
             { "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "Images/icon_temperature.png", "Extra": "More details about Detail 2." },
+            { 
+                "Name": "Histology", 
+                "Description": "Seeing different shades of pink hits a lot different now", 
+                "Icon": "Images/icon_temperature.png", 
+                "Extra": "Blabla", 
+                "DetailedCardInfo": [
+                    {
+                        "Name": "Respiratory sytem",
+                        "Description": "Cells that make us breath"
+                    },
+                    {
+                        "Name": "Digestive system",
+                        "Description": "Cells that process our food"
+                    },
+                    {
+                        "Name": "Circulatory system",
+                        "Description": "Cells that contain our blood; and our blood itself"
+                    },
+                    {
+                        "Name": "Urinary system",
+                        "Description": "Cells that process our waste"
+                    },
+                    {
+                        "Name": "Integumentary system",
+                        "Description": "Cells that separate us from the outside world"
+                    },
+                    {
+                        "Name": "Skeletal sytem",
+                        "Description": "Cells that keep us upright"
+                    },
+                    {
+                        "Name": "Muscular system",
+                        "Description": "Cells that move us"
+                    },
+                    {
+                        "Name": "Endocrine system",
+                        "Description": "Cells that produce without ducts"
+                    },
+                    {
+                        "Name": "Exocrine system",
+                        "Description": "Cells that produce ... with ducts"
+                    },
+                    {
+                        "Name": "Immune system",
+                        "Description": "Cells that protect us from within"
+                    },
+                    {
+                        "Name": "Nervous system",
+                        "Description": "Cells that are ... us"
+                    },
+                    {
+                        "Name": "Reproductive system",
+                        "Description": "Cells that become us"
+                    }
+                ]
+            },
             { "Name": "Psychology", "Description": "Mens sana in corpore sana. Amen.", "Icon": "Images/icon_magnifier.png", "Extra": "More details about Detail 3." }
         ]
     },

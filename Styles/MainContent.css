@@ -17,6 +17,7 @@
 
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
+    
 }
 
 /* Hide scrollbar for Chrome, Safari, and other WebKit-based browsers */
@@ -229,6 +230,15 @@ ol {
 
         width: 100%;
         margin-left: 0px;
+    }
+
+    .detailed-cards {
+        width: 80vw;
+        margin-left: 0px;
+    }
+
+    .detailed-card {
+        width: 60vw;
     }
 
 };

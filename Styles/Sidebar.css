@@ -124,10 +124,25 @@
     
     .sidebar {
         width: 15vw;
+        height: 15vw;
+        bottom: 0;
+        left: 0;
+        position: absolute;        
+        transition: all 0.5s ease-in-out;
     }
     
     .sidebar.expanded {
-        width: 60vw; /* Expanded width */
+        width: 90vw; /* Expanded width */
+        height: 100vh;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .sidebar.expanded .sidebar-content {
+        display: block;
+        width: 80vw;
     }
 
     .arrow-toggle {
