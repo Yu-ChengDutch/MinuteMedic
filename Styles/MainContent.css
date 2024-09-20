@@ -161,12 +161,19 @@ ol {
 
 }
 
-.explanation-card h2 {
+.explanation-card h2,h3 {
     margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.explanation-card h3, h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .question-card p {
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px
 }
 
 /* Questions */

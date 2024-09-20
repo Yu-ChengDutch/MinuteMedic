@@ -7,10 +7,82 @@
         "Style": "url('Images/image_cells.jpg')",
         "DetailedDescription": "The basic sciences of medicine are all about how nature works and about how it interacts with humans. It shows us the basics of medicine, without actually delving into the structures that we usually think of as 'human'. Still, they are some of the most high-value subjects to be studying! Good luck~",
         "DetailedCardInfo": [
-            { "Name": "Genetics", "Description": "The DNA and RNA that makes us ... us", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Cell biology", "Description": "The biology of our smallest units", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2." },
-            { "Name": "Embryology", "Description": "About who we are and where we come from", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
-            { "Name": "Infectious disease", "Description": "Microbes, viruses and everything in between", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." }
+            {   "Name": "Genetics", 
+                "Description": "The DNA and RNA that makes us ... us", 
+                "Icon": "https://via.placeholder.com/50", 
+                "Extra": "More details about Detail 1.", 
+                "DetailedCardInfo": [
+
+                    {
+                        "Name": "Basic genetics",
+                        "Description": "All about our DNA and how it usually produces protein"
+                    },
+                    {
+                        "Name": "Clinical genetics",
+                        "Description": "Everything that can go wrong with our DNA"
+                    }
+
+                ]},
+            {   "Name": "Cell biology", 
+                "Description": "The biology of our smallest units", 
+                "Icon": "https://via.placeholder.com/50", 
+                "Extra": "More details about Detail 2.",
+                "DetailedCardInfo": [
+                    {
+                        "Name": "Intracellular biology", 
+                        "Description": "Everything going on within the cell"
+                    },
+                    {
+                        "Name": "Intercellular biology",
+                        "Description": "BSc. in communication but between cells ... and more challenging"
+                    },
+                    {
+                        "Name": "Extracellular biology",
+                        "Description": "On cellular products and tissue formation"
+                    }
+                ]},
+            {   "Name": "Growth and development", 
+                "Description": "About who we are and where we come from", 
+                "Icon": "https://via.placeholder.com/50", 
+                "Extra": "More details about Detail 3.",
+                "DetailedCardInfo": [
+                    {
+                        "Name": "Embryology",
+                        "Description": "Intra-uterine human development"
+                    },
+                    {
+                        "Name": "Human development",
+                        "Description": "Extra-uterine embryology"
+                    },
+                    {
+                        "Name": "Gerontogenesis",
+                        "Description": "The science of getting older"
+                    },
+                    {
+                        "Name": "Thanatology",
+                        "Description": "What happen to our body after we die?"
+                    }
+                ]},
+            {   "Name": "Infectiology", 
+                "Description": "Microbes, viruses and everything in between", 
+                "Icon": "https://via.placeholder.com/50", 
+                "Extra": "More details about Detail 3.", 
+                "DetailedCardInfo": [
+
+                    {
+                        "Name": "Microbiology", 
+                        "Description": "The scientific study of cooties"
+                    },
+                    {
+                        "Name": "Epidemiology", 
+                        "Description": "How do the cooties spread?"
+                    },
+                    {
+                        "Name": "Infection prevention",
+                        "Description": "How do we prevent the spread of cooties?"
+                    }
+
+            ]}
         ]
     },
     {   
@@ -121,6 +193,7 @@
                     {
                         "Name": "Muscular system",
                         "Description": "I'll be back!",
+                        "Icon": "Images/icon_muscle.png",
                         "DetailedCardInfo": [
                             {
                                 "Name": "Axial muscles",
@@ -133,6 +206,7 @@
                             {
                                 "Name": "Lower (axio)appendicular muscles",
                                 "Description": "Never skip leg day!",
+                                "Icon": "Images/icon_leg.png",
                                 "Page": "Pages/Muscular_lower.html"
                             }
                         ]
@@ -306,14 +380,27 @@
         "Style": "url('Images/image_stethoscope.jpg')",
         "DetailedDescription": "So, then there it is: medicine. Basically, medicine is about the clinical sciences. If you master the art of diagnosis and treatment, you`re on your way to be a great doctor. It`s all about pattern recognition and creative thinking here. You think you`ve got what it takes?",
         "DetailedCardInfo": [
-            { "Name": "Internal medicine", "Description": "All the fleshy parts protected by our bones.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Psychiatry", "Description": "What`s inside that noggin` of yours.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2." },
-            { "Name": "Paediatrics", "Description": "About humans. But small.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
-            { "Name": "Orthopaedics", "Description": "Bones. Just bones, bro!", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
-            { "Name": "Neurology", "Description": "Everything you don`t understand.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
-            { "Name": "Physical Medicine & Rehabilitation", "Description": "Muscles & shit. Disability.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
-            { "Name": "Cardiology", "Description": "What makes us tick. Tack. Tick. Tack.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." },
-            { "Name": "Surgical Techniques", "Description": "How to sew a foot back on.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3." }
+            { "Name": "Infectious disease", "Description": "Diseases caused by bacteria, viruses, fungi or parasites", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Oncology", "Description": "Various forms of benign and malign cancer", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Immunology", "Description": "Disease of the immune system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Homeostasis", "Description": "Endocrine, nutritional or metabolic diseases", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Neurology", "Description": "Diseases of the nervous system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+            { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
+            { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
+            { "Name": "Pulmonology", "Description": "Diseases of the respiratory system", "Icon": "", "Extra": ""},
+            { "Name": "Gastroenterology", "Description": "Diseases of the digestive system", "Icon": "", "Extra": ""},
+            { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
+            { "Name": "Orthopaedics and PM&R", "Description": "Diseases of the musculoskeletal system or connective tissue", "Icon": "", "Extra": ""},
+            { "Name": "Urology and gynaecology", "Description": "Diseases of the genitourinary system", "Icon": "", "Extra": ""},
+            { "Name": "Sexuology", "Description": "Conditions related to sexual health", "Icon": "", "Extra": ""},
+            { "Name": "Obstetrics", "Description": "Pregnancy, childbirth or the puerperium", "Icon": "", "Extra": ""},
+            { "Name": "Perinatal medicine", "Description": "Certain conditions originating in the perinatal period", "Icon": "", "Extra": ""},
+            { "Name": "Paediatrics", "Description": "Developmental anomalies", "Icon": "", "Extra": ""},
+            { "Name": "Toxology", "Description": "Injury, poisoning or certain other consequences of external causes", "Icon": "", "Extra": ""}        
         ]
     },
     {   "Name": "Metascience", 
