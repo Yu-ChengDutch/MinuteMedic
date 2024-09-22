@@ -259,6 +259,7 @@
                     {
                         "Name": "Nervous system",
                         "Description": "They hate us, cause they ain't us",
+                        "Icon": "Images/icon_nerve.png",
                         "DetailedCardInfo": [
                             {
                                 "Name": "Central nervous system",
@@ -288,11 +289,25 @@
                             },
                             {
                                 "Name": "Peripheral nervous system",
+                                "Icon": "Images/icon_leg.png",
                                 "Description": "Don't shoot the messenger!",
                                 "DetailedCardInfo": [
                                     {
                                         "Name": "Somatic nervous system",
-                                        "Description": "We are what we do"
+                                        "Icon": "Images/icon_muscle.png",
+                                        "Description": "We are what we do",
+                                        "DetailedCardInfo": [
+                                            {
+                                                "Name": "Derma- and myotomes",
+                                                "Description": "It always does strike a nerve",
+                                                "Icon": "Images/icon_skin.png",
+                                                "Page": "Pages/Nervous_peripheral_somatic_dermatomes.html"
+                                            },
+                                            {
+                                                "Name": "Nerves and their branches",
+                                                "Description": "Where taken the path less taken is inefficient"
+                                            }
+                                        ]
                                     },
                                     {
                                         "Name": "Visceral nervous system",
