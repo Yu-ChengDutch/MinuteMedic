@@ -375,7 +375,9 @@
                     },
                     {
                         "Name": "Immune system",
-                        "Description": "Cells that protect us from within"
+                        "Description": "Cells that protect us from within",
+                        "Icon": "Images/icon_temperature.png",
+                        "Page": "Pages/Applied_science/Histology_immune.html"
                     },
                     {
                         "Name": "Nervous system",
@@ -423,9 +425,9 @@
         "Style": "",
         "DetailedDescription": "Here we are: we`ve considered the basics of medicine, the building blocks of the human body and everything that can go wrong with it. Now what about what we should, or shouldn`t do? Or whether we`re actually there ... like, at all? The metasciences teach us all that, and more, probably, I think ... therefore I am.",
         "DetailedCardInfo": [
-            { "Name": "Ethics", "Description": "The science of what we should and shouldn`t do", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1.", "Page": "Pages/Ethics.html" },
-            { "Name": "Research methodology", "Description": "How we know what we know now, no?", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 2.", "Page": "Pages/ResearchMethods.html" },
-            { "Name": "Medical law", "Description": "Limited only to the jurisdiction of the Kingdom of the Netherlands!.", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 3.", "Page": "Pages/Law.html"}
+            { "Name": "Ethics", "Description": "The science of what we should and shouldn`t do", "Icon": "Images/icon_scale.png", "Extra": "More details about Detail 1.", "Page": "Pages/Metascience/Ethics.html" },
+            { "Name": "Research methodology", "Description": "How we know what we know now, no?", "Icon": "Images/icon_computer.png", "Extra": "More details about Detail 2.", "Page": "Pages/Metascience/ResearchMethods.html" },
+            { "Name": "Medical law", "Description": "Limited only to the jurisdiction of the Kingdom of the Netherlands!.", "Icon": "Images/icon_book.png", "Extra": "More details about Detail 3.", "Page": "Pages/Metascience/Law.html"}
         ]
     }
     ]
