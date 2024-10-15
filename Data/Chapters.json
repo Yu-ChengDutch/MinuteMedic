@@ -330,7 +330,15 @@
                         ]
                     }
                 ]},
-            { "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "Images/icon_temperature.png", "Extra": "More details about Detail 2." },
+            {   "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "Images/icon_temperature.png", "Extra": "More details about Detail 2.",
+                "DetailedCardInfo": [ 
+                    {
+                        "Name": "Temperature regulation",
+                        "Description": "Fever and the like",
+                        "Icon": "Images/icon_temperature.png",
+                        "Page": "Pages/Applied_science/Physiology_temperature.html"
+                    }
+                ]},
             { 
                 "Name": "Histology", 
                 "Description": "Seeing different shades of pink hits a lot different now", 
