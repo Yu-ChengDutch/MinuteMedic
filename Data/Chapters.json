@@ -43,12 +43,71 @@
                 ]},
             {   "Name": "Growth and development", 
                 "Description": "About who we are and where we come from", 
-                "Icon": "https://via.placeholder.com/50", 
+                "Icon": "Images/icon_growth.png", 
                 "Extra": "More details about Detail 3.",
                 "DetailedCardInfo": [
                     {
                         "Name": "Embryology",
-                        "Description": "Intra-uterine human development"
+                        "Description": "Intra-uterine human development",
+                        "Icon": "Images/icon_baby.png",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Introduction",
+                                "Description": "What is embryology?",
+                                "Icon": "Images/icon_baby.png",
+                                "Page": "Pages/Basic_science/Embryology_introduction.html"
+                            },
+                            {
+                                "Name": "Respiratory sytem",
+                                "Description": "Rule 1 of medicine: keep air in the lung"
+                            },
+                            {
+                                "Name": "Digestive system",
+                                "Description": "A bunch of bullsh*it"
+                            },
+                            {
+                                "Name": "Circulatory system",
+                                "Description": "Rule 2 of medicine: keep the heart pumping"
+                            },
+                            {
+                                "Name": "Urinary system",
+                                "Description": "P*issing all over your assumptions"
+                            },
+                            {
+                                "Name": "Integumentary system",
+                                "Description": "We're just sacks of flesh and bones"
+                            },
+                            {
+                                "Name": "Skeletal sytem",
+                                "Description": "Bones. Just bones, bro!"
+                            },
+                            {
+                                "Name": "Muscular system",
+                                "Description": "I'll be back!",
+                                "Icon": "Images/icon_muscle.png"
+                            },
+                            {
+                                "Name": "Endocrine system",
+                                "Description": "You're being hormonal right now..."
+                            },
+                            {
+                                "Name": "Exocrine system",
+                                "Description": "Brb. Crying tears of joy rn"
+                            },
+                            {
+                                "Name": "Lymphatic system",
+                                "Description": "The circulatory system's less famous cousin"
+                            },
+                            {
+                                "Name": "Nervous system",
+                                "Description": "They hate us, cause they ain't us",
+                                "Icon": "Images/icon_nerve.png"
+                            },
+                            {
+                                "Name": "Reproductive system",
+                                "Description": "All c*nts and d*ckheads"
+                            }
+                        ]
                     },
                     {
                         "Name": "Human development",
