@@ -464,27 +464,84 @@
         "Style": "url('Images/image_stethoscope.jpg')",
         "DetailedDescription": "So, then there it is: medicine. Basically, medicine is about the clinical sciences. If you master the art of diagnosis and treatment, you`re on your way to be a great doctor. It`s all about pattern recognition and creative thinking here. You think you`ve got what it takes?",
         "DetailedCardInfo": [
-            { "Name": "Infectious disease", "Description": "Diseases caused by bacteria, viruses, fungi or parasites", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Oncology", "Description": "Various forms of benign and malign cancer", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Immunology", "Description": "Disease of the immune system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Homeostasis", "Description": "Endocrine, nutritional or metabolic diseases", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Neurology", "Description": "Diseases of the nervous system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-            { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
-            { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
-            { "Name": "Pulmonology", "Description": "Diseases of the respiratory system", "Icon": "", "Extra": ""},
-            { "Name": "Gastroenterology", "Description": "Diseases of the digestive system", "Icon": "", "Extra": ""},
-            { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
-            { "Name": "Orthopaedics and PM&R", "Description": "Diseases of the musculoskeletal system or connective tissue", "Icon": "", "Extra": ""},
-            { "Name": "Urology and gynaecology", "Description": "Diseases of the genitourinary system", "Icon": "", "Extra": ""},
-            { "Name": "Sexuology", "Description": "Conditions related to sexual health", "Icon": "", "Extra": ""},
-            { "Name": "Obstetrics", "Description": "Pregnancy, childbirth or the puerperium", "Icon": "", "Extra": ""},
-            { "Name": "Perinatal medicine", "Description": "Certain conditions originating in the perinatal period", "Icon": "", "Extra": ""},
-            { "Name": "Paediatrics", "Description": "Developmental anomalies", "Icon": "", "Extra": ""},
-            { "Name": "Toxology", "Description": "Injury, poisoning or certain other consequences of external causes", "Icon": "", "Extra": ""}        
+            {
+                "Name": "Diagnoses",
+                "Description": "This roughly follows the ICD-11 structure",
+                "DetailedCardInfo": [
+                    { "Name": "Infectious disease", "Description": "Diseases caused by bacteria, viruses, fungi or parasites", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Oncology", "Description": "Various forms of benign and malign cancer", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Immunology", "Description": "Disease of the immune system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Homeostasis", "Description": "Endocrine, nutritional or metabolic diseases", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Neurology", "Description": "Diseases of the nervous system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
+                    { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
+                    { "Name": "Pulmonology", "Description": "Diseases of the respiratory system", "Icon": "", "Extra": ""},
+                    { "Name": "Gastroenterology", "Description": "Diseases of the digestive system", "Icon": "", "Extra": ""},
+                    { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
+                    { "Name": "Orthopaedics and PM&R", "Description": "Diseases of the musculoskeletal system or connective tissue", "Icon": "", "Extra": ""},
+                    { "Name": "Urology and gynaecology", "Description": "Diseases of the genitourinary system", "Icon": "", "Extra": ""},
+                    { "Name": "Sexuology", "Description": "Conditions related to sexual health", "Icon": "", "Extra": ""},
+                    { "Name": "Obstetrics", "Description": "Pregnancy, childbirth or the puerperium", "Icon": "", "Extra": ""},
+                    { "Name": "Perinatal medicine", "Description": "Certain conditions originating in the perinatal period", "Icon": "", "Extra": ""},
+                    { "Name": "Paediatrics", "Description": "Developmental anomalies", "Icon": "", "Extra": ""},
+                    { "Name": "Toxology", "Description": "Injury, poisoning or certain other consequences of external causes", "Icon": "", "Extra": ""}        
+                ]
+            },
+            {
+                "Name": "Treatment",
+                "Description": "This roughly follows the ATC system",
+                "Icon": "Images/icon_pill.png",
+                "DetailedCardInfo": [
+                    {
+                        "Name": "Alimentary tract and metabolism"
+                    },
+                    {
+                        "Name": "Bloed and blood forming organs"
+                    },
+                    {
+                        "Name": "Cardiovascular system"
+                    },
+                    {
+                        "Name": "Dermatologicals"
+                    },
+                    {
+                        "Name": "Genito urinary system and sex hormones"
+                    },
+                    {
+                        "Name": "Systemic hormonal preparations"
+                    },
+                    {
+                        "Name": "Antiinfective for systemic use"
+                    },
+                    {
+                        "Name": "Antineoplastic and immunomodulating agens"
+                    },
+                    {
+                        "Name": "Musculo-skeletal system"
+                    },
+                    {
+                        "Name": "Nervous system"
+                    },
+                    {
+                        "Name": "Antiparasitic products, insecticides and repellants"
+                    },
+                    {
+                        "Name": "Respiratory system",
+                        "Icon": "Images/icon_lungs.png",
+                        "Page": "Pages/Clinical_science/Treatment_respiratory.html"
+                    },
+                    {
+                        "Name": "Sensory organs"
+                    },
+                    {
+                        "Name": "Various"
+                    }
+                ]
+            }
         ]
     },
     {   "Name": "Metascience", 
