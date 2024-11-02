@@ -467,9 +467,34 @@
             {
                 "Name": "Diagnoses",
                 "Description": "This roughly follows the ICD-11 structure",
+                "Icon": "Images/icon_magnifier.png",
                 "DetailedCardInfo": [
                     { "Name": "Infectious disease", "Description": "Diseases caused by bacteria, viruses, fungi or parasites", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { "Name": "Oncology", "Description": "Various forms of benign and malign cancer", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { 
+                        "Name": "Oncology", 
+                        "Description": "Various forms of benign and malign cancer", 
+                        "Icon": "Images/icon_cancer.png", 
+                        "Extra": "More details about Detail 1.",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Neuro-oncology",
+                                "Description": "Neoplasms of brain or CNS"
+                            },
+                            {
+                                "Name": "Oncology-haematology",
+                                "Description": "Neoplasms of haematopoietic or lymphoid tissues"
+                            },
+                            {
+                                "Name": "General oncology",
+                                "Description": "Malignant neoplasms elsewhere"
+                            },
+                            {
+                                "Name": "Onco-genetics",
+                                "Description": "Inherited cancer-predisposing syndromes",
+                                "Icon": "Images/icon_gene.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_onco-genetics.html"
+                            }
+                        ]},
                     { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Immunology", "Description": "Disease of the immune system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Homeostasis", "Description": "Endocrine, nutritional or metabolic diseases", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
