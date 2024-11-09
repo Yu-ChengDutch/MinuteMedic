@@ -478,7 +478,9 @@
                         "DetailedCardInfo": [
                             {
                                 "Name": "Neuro-oncology",
-                                "Description": "Neoplasms of brain or CNS"
+                                "Description": "Neoplasms of brain or CNS",
+                                "Icon": "Images/icon_brain.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_neuro-onco.html"
                             },
                             {
                                 "Name": "Oncology-haematology",
