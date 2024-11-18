@@ -499,7 +499,29 @@
                         ]},
                     { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Immunology", "Description": "Disease of the immune system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { "Name": "Homeostasis", "Description": "Endocrine, nutritional or metabolic diseases", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    {   "Name": "Homeostasis", 
+                        "Description": "Endocrine, nutritional or metabolic diseases", 
+                        "Icon": "Images/icon_balance.png", 
+                        "Extra": "More details about Detail 1.",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Endocrine disorders"
+                            },
+                            {
+                                "Name": "Nutritional disorders"
+                            },
+                            {
+                                "Name": "Metabolic disorders",
+                                "Icon": "Images/icon_metabolism.png",
+                                "DetailedCardInfo": [
+                                    {
+                                        "Name": "Electrolyte imbalances",
+                                        "Icon": "Images/icon_salt.png",
+                                        "Page": "Pages/clinical_science/Diagnosis_electrolytes.html"
+                                    }
+                                ]
+                            }
+                        ]},
                     { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Neurology", "Description": "Diseases of the nervous system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
