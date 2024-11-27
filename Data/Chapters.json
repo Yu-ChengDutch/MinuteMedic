@@ -173,6 +173,7 @@
                     {
                         "Name": "Digestive system",
                         "Description": "A bunch of bullsh*it",
+                        "Icon": "Images/icon_intestines.png",
                         "DetailedCardInfo": [
                             {
                                 "Name": "Upper digestive tract",
@@ -183,10 +184,9 @@
                                 "Description": "Truly full of bullsh*t"
                             },
                             {
-                                "Name": "Liver"
-                            },
-                            {
-                                "Name": "Biliary tract"
+                                "Name": "Accessory organs",
+                                "Icon": "Images/icon_liver.png",
+                                "Page": "Pages/Applied_science/Anatomy_digestive_accesory.html"
                             }
                         ]
                     },
