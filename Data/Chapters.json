@@ -396,6 +396,12 @@
                         "Description": "Fever and the like",
                         "Icon": "Images/icon_temperature.png",
                         "Page": "Pages/Applied_science/Physiology_temperature.html"
+                    },
+                    {
+                        "Name": "Acid-base metabolism",
+                        "Description": "A bit sour faced...",
+                        "Icon": "Images/icon_acid.png",
+                        "Page": "Pages/Applied_science/Physiology_acid_base.html"
                     }
                 ]},
             { 
