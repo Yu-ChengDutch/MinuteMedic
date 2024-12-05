@@ -528,7 +528,14 @@
                                 ]
                             }
                         ]},
-                    { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "Images/icon_brain.png", "Extra": "More details about Detail 1.",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Neurocognitive disorders",
+                                "Icon": "Images/icon_brain.png",
+                                "Page": "Pages/clinical_science/Diagnosis_dementia.html"
+                            }
+                        ]},
                     { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Neurology", "Description": "Diseases of the nervous system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
