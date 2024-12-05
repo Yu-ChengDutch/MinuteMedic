@@ -532,6 +532,7 @@
                         "DetailedCardInfo": [
                             {
                                 "Name": "Neurocognitive disorders",
+                                "Description": "Learn to let go",
                                 "Icon": "Images/icon_brain.png",
                                 "Page": "Pages/clinical_science/Diagnosis_dementia.html"
                             }
