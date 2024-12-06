@@ -531,6 +531,9 @@
                     { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "Images/icon_brain.png", "Extra": "More details about Detail 1.",
                         "DetailedCardInfo": [
                             {
+                                "Name": "Neurodevelopmental disorders"
+                            },
+                            {
                                 "Name": "Neurocognitive disorders",
                                 "Description": "Learn to let go",
                                 "Icon": "Images/icon_brain.png",
