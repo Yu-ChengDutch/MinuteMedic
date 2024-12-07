@@ -490,7 +490,9 @@
                             },
                             {
                                 "Name": "Oncology-haematology",
-                                "Description": "Neoplasms of haematopoietic or lymphoid tissues"
+                                "Description": "Neoplasms of haematopoietic or lymphoid tissues",
+                                "Icon": "Images/icon_blood.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_onco_haematology.html"
                             },
                             {
                                 "Name": "General oncology",
@@ -526,8 +528,7 @@
                                         "Page": "Pages/clinical_science/Diagnosis_electrolytes.html"
                                     }
                                 ]
-                            }
-                        ]},
+                            }]},
                     { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "Images/icon_brain.png", "Extra": "More details about Detail 1.",
                         "DetailedCardInfo": [
                             {
