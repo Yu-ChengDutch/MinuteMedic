@@ -454,7 +454,9 @@
                     },
                     {
                         "Name": "Nervous system",
-                        "Description": "Cells that are ... us"
+                        "Description": "Cells that are ... us",
+                        "Icon": "Images/icon_brain.png",
+                        "Page": "Pages/Applied_science/Histology_nerves.html"
                     },
                     {
                         "Name": "Reproductive system",
