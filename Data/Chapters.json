@@ -218,11 +218,14 @@
                     },
                     {
                         "Name": "Urinary system",
+                        "Icon": "Images/icon_salt.png",
                         "Description": "P*issing all over your assumptions",
                         "DetailedCardInfo": [
                             {
                                 "Name": "Kidneys",
-                                "Description": "My bean buddies"
+                                "Icon": "Images/icon_salt.png",
+                                "Description": "My bean buddies",
+                                "Page": "Pages/applied_science/Anatomy_renal.html"
                             },
                             {
                                 "Name": "Lower urinary tract",
