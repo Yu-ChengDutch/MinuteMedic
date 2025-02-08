@@ -173,3 +173,34 @@ function loadScript(src) {
     };
     document.head.appendChild(script);
 }
+
+function fetch_random() {
+
+    explorable_cards = cards
+    pages = []
+
+    while(explorable_cards.length != 0) {
+
+        current_card = explorable_cards[0]
+
+        if (Object.keys(current_card).includes("DetailedCardInfo")) {
+
+            explorable_cards = explorable_cards.concat(current_card["DetailedCardInfo"])
+
+        };
+
+        if (Object.keys(current_card).includes("Page")) {
+
+            pages.push(current_card["Page"]);
+
+        };
+
+        explorable_cards = explorable_cards.slice(1);
+    
+    };
+
+    const random_page = Math.floor(Math.random() * pages.length);
+
+    showPage(pages[random_page]);
+
+};

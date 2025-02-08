@@ -31,3 +31,15 @@ H1, H2, H3 {
     --accent: #90CAF9;
     --text: #616161;
   }
+
+.fake-button {
+
+    padding: 5vw;
+    border-radius: 1vw;
+    background-color: var(--primary);
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.5vw;
+    color: var(--bgcolor);
+
+}
