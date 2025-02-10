@@ -518,7 +518,17 @@
                         "Extra": "More details about Detail 1.",
                         "DetailedCardInfo": [
                             {
-                                "Name": "Endocrine disorders"
+                                "Name": "Endocrine disorders",
+                                "Icon": "Images/icon_hormone.png",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Diabetes mellitus",
+                                        "Icon": "Images/icon_sugar.png",
+                                        "Page": "Pages/Clinical_science/diagnosis_DM.html"
+                                    }
+
+                                ]
                             },
                             {
                                 "Name": "Nutritional disorders"
