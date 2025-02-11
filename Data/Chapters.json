@@ -562,7 +562,26 @@
                     { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
                     { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
                     { "Name": "Pulmonology", "Description": "Diseases of the respiratory system", "Icon": "", "Extra": ""},
-                    { "Name": "Gastroenterology", "Description": "Diseases of the digestive system", "Icon": "", "Extra": ""},
+                    {   "Name": "Gastroenterology", 
+                        "Description": "Diseases of the digestive system", 
+                        "Icon": "Images/icon_intestines.png", 
+                        "Extra": "",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "(Fatty) liver disease",
+                                "Description": "Also a large bit about cirrhosis",
+                                "Icon": "Images/icon_liver.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_FLD.html"
+                            },
+                            {
+                                "Name": "IBS/IBD",
+                                "Description": "Both conditions",
+                                "Icon": "Images/icon_intestines.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_IBD_IBS.html"
+                            }
+
+                        ]},
                     { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
                     { "Name": "Orthopaedics and PM&R", "Description": "Diseases of the musculoskeletal system or connective tissue", "Icon": "", "Extra": ""},
                     { "Name": "Urology and gynaecology", "Description": "Diseases of the genitourinary system", "Icon": "", "Extra": ""},
