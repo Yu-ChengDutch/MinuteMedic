@@ -557,7 +557,28 @@
                             }
                         ]},
                     { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { "Name": "Neurology", "Description": "Diseases of the nervous system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    {   "Name": "Neurology", 
+                        "Description": "Diseases of the nervous system", 
+                        "Icon": "Images/icon_brain.png", 
+                        "Extra": "More details about Detail 1.",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Strokes",
+                                "Icon": "Images/icon_brain.png",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Brainstem strokes",
+                                        "Description": "Strokes, but even more complicated",
+                                        "Icon": "Images/icon_brain.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_brain_stem_strokes.html"
+                                    }
+
+                                ]
+                            }
+
+                        ]},
                     { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
                     { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
