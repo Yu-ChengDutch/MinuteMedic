@@ -609,7 +609,21 @@
                     { "Name": "Sexuology", "Description": "Conditions related to sexual health", "Icon": "", "Extra": ""},
                     { "Name": "Obstetrics", "Description": "Pregnancy, childbirth or the puerperium", "Icon": "", "Extra": ""},
                     { "Name": "Perinatal medicine", "Description": "Certain conditions originating in the perinatal period", "Icon": "", "Extra": ""},
-                    { "Name": "Paediatrics", "Description": "Developmental anomalies", "Icon": "", "Extra": ""},
+                    { 
+                        "Name": "Paediatrics", 
+                        "Description": "Developmental anomalies", 
+                        "Icon": "Images/icon_child.png", 
+                        "Extra": "",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Hernia diaphragmatica",
+                                "Description": "A hole in the breathing muscle",
+                                "Icon": "Images/icon_lungs.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_hernia_diaphragmatica.html"
+                            }
+
+                        ]},
                     { "Name": "Toxology", "Description": "Injury, poisoning or certain other consequences of external causes", "Icon": "", "Extra": ""}        
                 ]
             },
