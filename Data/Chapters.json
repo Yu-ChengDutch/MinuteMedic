@@ -605,7 +605,29 @@
                         ]},
                     { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
                     { "Name": "Orthopaedics and PM&R", "Description": "Diseases of the musculoskeletal system or connective tissue", "Icon": "", "Extra": ""},
-                    { "Name": "Urology and gynaecology", "Description": "Diseases of the genitourinary system", "Icon": "", "Extra": ""},
+                    { 
+                        "Name": "Urology and gynaecology", 
+                        "Description": "Diseases of the genitourinary system", 
+                        "Icon": "Images/icon_uterus.png", 
+                        "Extra": "",
+                        "DetailedCardInfo":[
+
+                            {
+                                "Name": "STDs",
+                                "Description": "Sexually transmitted diseases",
+                                "Icon": "Images/icon_sex.png",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Bacterial STDs",
+                                        "Icon": "Images/icon_bacterium.png",
+                                        "Page": "Pages/Clinical_science/diagnosis_bacterial_STDs.html"
+                                    }
+
+                                ]
+                            }
+
+                        ]},
                     { "Name": "Sexuology", "Description": "Conditions related to sexual health", "Icon": "", "Extra": ""},
                     { "Name": "Obstetrics", "Description": "Pregnancy, childbirth or the puerperium", "Icon": "", "Extra": ""},
                     { "Name": "Perinatal medicine", "Description": "Certain conditions originating in the perinatal period", "Icon": "", "Extra": ""},

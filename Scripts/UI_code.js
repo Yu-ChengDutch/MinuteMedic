@@ -124,7 +124,7 @@ function toggleExpandableContent(card) {
     currentlyOpenCard = card.classList.contains('expanded') ? card : null;
 }
 
-function showPage(page, load=false){
+function showPage(page, load=true){
 
     fetch(page)
     .then(response => {
