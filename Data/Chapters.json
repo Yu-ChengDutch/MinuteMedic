@@ -405,6 +405,12 @@
                         "Description": "A bit sour faced...",
                         "Icon": "Images/icon_acid.png",
                         "Page": "Pages/Applied_science/Physiology_acid_base.html"
+                    },
+                    {
+                        "Name": "Menstrual cycle and hormones",
+                        "Description": "Oof, hormonal...",
+                        "Icon": "Images/icon_uterus.png",
+                        "Page": "Pages/Applied_science/Physiology_period.html"
                     }
                 ]},
             { 
