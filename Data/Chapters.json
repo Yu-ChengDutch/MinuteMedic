@@ -411,6 +411,12 @@
                         "Description": "Oof, hormonal...",
                         "Icon": "Images/icon_uterus.png",
                         "Page": "Pages/Applied_science/Physiology_period.html"
+                    },
+                    {
+                        "Name": "Cardiac elektrophysiology",
+                        "Description": "Pulsing and beating...",
+                        "Icon": "Images/icon_heart.png",
+                        "Page": "Pages/Applied_Science/Physiology_cardiac_elektrophysiology.html"
                     }
                 ]},
             { 
