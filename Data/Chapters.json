@@ -417,6 +417,11 @@
                         "Description": "Pulsing and beating...",
                         "Icon": "Images/icon_heart.png",
                         "Page": "Pages/Applied_Science/Physiology_cardiac_elektrophysiology.html"
+                    },
+                    {
+                        "Name": "Blood coagulation",
+                        "Icon": "Images/icon_blood.png",
+                        "Page": "Pages/Applied_science/Physiology_coagulation.html"
                     }
                 ]},
             { 
