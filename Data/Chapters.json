@@ -528,7 +528,26 @@
                             }
                         ]},
                     { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { "Name": "Immunology", "Description": "Disease of the immune system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { 
+                        "Name": "Immunology", 
+                        "Description": "Disease of the immune system", 
+                        "Icon": "Images/icon_vessel.png",
+                        "Extra": "More details about Detail 1.",
+                        "DetailedCardInfo":[
+                            {
+                                "Name": "Vasculites / lymphangitis",
+                                "Description": "Inflammation of the vessels",
+                                "Icon": "Images/icon_vessel.png",
+                                "DetailedCardInfo": [
+                                    {
+                                        "Name": "Introduction",
+                                        "Description": "An overview of vasculites",
+                                        "Icon": "Images/icon_vessel.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_vasculites_intro.html"
+                                    }
+                                ]
+                            }
+                        ]},
                     {   "Name": "Homeostasis", 
                         "Description": "Endocrine, nutritional or metabolic diseases", 
                         "Icon": "Images/icon_balance.png", 
