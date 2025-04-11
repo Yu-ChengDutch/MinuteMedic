@@ -636,6 +636,12 @@
                                 "Description": "Both conditions",
                                 "Icon": "Images/icon_intestines.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_IBD_IBS.html"
+                            },
+                            {
+                                "Name": "Abdominal hernia",
+                                "Description": "A quick overview",
+                                "Icon": "Images/icon_intestines.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_hernia.html"
                             }
 
                         ]},
