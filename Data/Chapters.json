@@ -83,8 +83,7 @@
                             },
                             {
                                 "Name": "Muscular system",
-                                "Description": "I'll be back!",
-                                "Icon": "Images/icon_muscle.png"
+                                "Description": "I'll be back!"
                             },
                             {
                                 "Name": "Endocrine system",
@@ -101,6 +100,7 @@
                             {
                                 "Name": "Nervous system",
                                 "Description": "They hate us, cause they ain't us",
+                                "Page": "Pages/Basic_science/Embryology_nervous_system.html",
                                 "Icon": "Images/icon_nerve.png"
                             },
                             {
@@ -422,6 +422,11 @@
                         "Name": "Blood coagulation",
                         "Icon": "Images/icon_blood.png",
                         "Page": "Pages/Applied_science/Physiology_coagulation.html"
+                    },
+                    {
+                        "Name": "Blood",
+                        "Icon": "Images/icon_blood.png",
+                        "Page": "Pages/Applied_science/Physiology_blood.html"
                     }
                 ]},
             { 
@@ -577,6 +582,11 @@
                                         "Name": "Electrolyte imbalances",
                                         "Icon": "Images/icon_salt.png",
                                         "Page": "Pages/clinical_science/Diagnosis_electrolytes.html"
+                                    },
+                                    {
+                                        "Name": "Vitamin deficiencies",
+                                        "Icon": "Images/icon_pill.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_vitamin_deficiencies.html"
                                     }
                                 ]
                             }]},
