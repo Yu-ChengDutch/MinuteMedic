@@ -695,6 +695,12 @@
                                 "Description": "A hole in the breathing muscle",
                                 "Icon": "Images/icon_lungs.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_hernia_diaphragmatica.html"
+                            },
+                            {
+                                "Name": "Neural Tube Disorders",
+                                "Description": "When the neural tube doesn't close",
+                                "Icon": "Images/icon_bulge.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_spina_bifida.html"
                             }
 
                         ]},
