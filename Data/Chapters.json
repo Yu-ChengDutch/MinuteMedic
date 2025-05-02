@@ -628,7 +628,20 @@
                     { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
                     { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
                     { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
-                    { "Name": "Pulmonology", "Description": "Diseases of the respiratory system", "Icon": "", "Extra": ""},
+                    {   "Name": "Pulmonology", 
+                        "Description": "Diseases of the respiratory system", 
+                        "Icon": "Images/icon_lungs.png", 
+                        "Extra": "",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Pulmonary embolism",
+                                "Icon": "Images/icon_lungs.png",
+                                "Description": "If a clot meets a tiny tube",
+                                "Page": "Pages/Clinical_science/Diagnosis_pulmonary_embolism.html"
+                            }
+
+                        ]},
                     {   "Name": "Gastroenterology", 
                         "Description": "Diseases of the digestive system", 
                         "Icon": "Images/icon_intestines.png", 
