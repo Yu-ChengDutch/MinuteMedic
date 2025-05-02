@@ -427,6 +427,12 @@
                         "Name": "Blood",
                         "Icon": "Images/icon_blood.png",
                         "Page": "Pages/Applied_science/Physiology_blood.html"
+                    },
+                    {
+                        "Name": "Pleural effusion",
+                        "Icon": "Images/icon_lungs.png",
+                        "Description": "Liquid in the lungspace",
+                        "Page": "Pages/Applied_science/Physiology_pleural_effusion.html"
                     }
                 ]},
             { 
