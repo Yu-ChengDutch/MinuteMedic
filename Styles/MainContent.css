@@ -75,7 +75,7 @@
 }
 
 .detailed-card img {
-    width: 50px;
+    max-width: 50vw;
     height: 50px;
     top: 0vh;
     padding: 5px;
@@ -169,6 +169,12 @@ ol {
 .explanation-card h3, h4 {
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.explanation-card img {
+
+    max-width: 100%;
+
 }
 
 .question-card p {

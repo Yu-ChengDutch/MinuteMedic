@@ -159,6 +159,7 @@
                     {
                         "Name": "Respiratory sytem",
                         "Description": "Rule 1 of medicine: keep air in the lung",
+                        "Icon": "Images/icon_lungs.png",
                         "DetailedCardInfo": [
                             {
                                 "Name": "Upper airways",
@@ -166,7 +167,9 @@
                             },
                             {
                                 "Name": "Lower airways",
-                                "Description": "Lungs. Not just one, but two of them!"
+                                "Icon": "Images/icon_lungs.png",
+                                "Description": "Lungs. Not just one, but two of them!",
+                                "Page": "Pages/Applied_science/Anatomy_respiratory.html"
                             }
                         ]
                     },
@@ -325,9 +328,12 @@
                         "DetailedCardInfo": [
                             {
                                 "Name": "Central nervous system",
+                                "Icon": "Images/icon_cns.png",
+                                "Description": "Brain + spine",
                                 "DetailedCardInfo": [
                                     {
                                         "Name": "Brain",
+                                        "Icon": "Images/icon_brain.png",
                                         "Description": "What makes us ... us",
                                         "DetailedCardInfo": [
                                             {
@@ -345,7 +351,10 @@
                                         ]
                                     },
                                     {
-                                        "Name": "Spinal cord"
+                                        "Name": "Spinal cord",
+                                        "Description": "How does info get where?",
+                                        "Icon": "Images/icon_spinal_cord.png",
+                                        "Page": "Pages/Applied_science/Anatomy_spinal_cord.html"
                                     }
                                 ]
                             },
@@ -693,6 +702,11 @@
                                         "Name": "Bacterial STDs",
                                         "Icon": "Images/icon_bacterium.png",
                                         "Page": "Pages/Clinical_science/diagnosis_bacterial_STDs.html"
+                                    },
+                                    {
+                                        "Name": "Viral STDs",
+                                        "Icon": "Images/icon_virus.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_viral_STDs.html"
                                     }
 
                                 ]
@@ -720,6 +734,12 @@
                                 "Description": "When the neural tube doesn't close",
                                 "Icon": "Images/icon_bulge.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_spina_bifida.html"
+                            },
+                            {
+                                "Name": "Sex chromosome syndromes",
+                                "Description": "Issues with the sex chromosomes",
+                                "Icon": "Images/icon_gene.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_sex_chromosome.html"
                             }
 
                         ]},
