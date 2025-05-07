@@ -517,7 +517,32 @@
                 "Description": "This roughly follows the ICD-11 structure",
                 "Icon": "Images/icon_magnifier.png",
                 "DetailedCardInfo": [
-                    { "Name": "Infectious disease", "Description": "Diseases caused by bacteria, viruses, fungi or parasites", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Infectious disease", 
+                    "Description": "Diseases caused by bacteria, viruses, fungi or parasites", 
+                    "Icon": "Images/icon_bacterium.png", 
+                    "Extra": "More details about Detail 1.",
+                    "DetailedCardInfo": [
+
+                        {
+                            "Name": "Food-borne pathogens",
+                            "Icon": "Images/icon_intestines.png",
+                            "Description": "You are what you eat",
+                            "Page": "Pages/Clinical_science/Diagnosis_food_born_pathogens.html"
+                        },
+                        {
+                            "Name": "Zoonotic diseases",
+                            "Icon": "Images/icon_dog.png",
+                            "Description": "CAN I PET THAT DAWGGG!",
+                            "Page": "Pages/Clinical_science/Diagnosis_zoonotic.html"
+                        },
+                        {
+                            "Name": "Paediatric infectious disease",
+                            "Icon": "Images/icon_child.png",
+                            "Description": "Disease 1 t/m 6",
+                            "Page": "Pages/Clinical_science/Diagnosis_paediatric_infections.html"
+                        }
+
+                    ] },
                     { 
                         "Name": "Oncology", 
                         "Description": "Various forms of benign and malign cancer", 
@@ -582,6 +607,12 @@
                                         "Name": "Diabetes mellitus",
                                         "Icon": "Images/icon_sugar.png",
                                         "Page": "Pages/Clinical_science/diagnosis_DM.html"
+                                    },
+                                    {
+                                        "Name": "Thyroid dysfunction",
+                                        "Icon": "Images/icon_thyroid.png",
+                                        "Description": "Hot 'n cold",
+                                        "Page": "Pages/Clinical_science/Diagnosis_thyroid.html"
                                     }
 
                                 ]
