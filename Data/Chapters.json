@@ -442,6 +442,12 @@
                         "Icon": "Images/icon_lungs.png",
                         "Description": "Liquid in the lungspace",
                         "Page": "Pages/Applied_science/Physiology_pleural_effusion.html"
+                    },
+                    {
+                        "Name": "Hypersensitivity and antibodies",
+                        "Icon": "Images/icon_antibody.png",
+                        "Description": "You're overreacting...",
+                        "Page": "Pages/Applied_science/Physiology_hypersensitivity.html"
                     }
                 ]},
             { 
@@ -741,6 +747,12 @@
                                     }
 
                                 ]
+                            },
+                            {
+                                "Name": "Glomerular injury",
+                                "Description": "Nephritic/nephrotic syndromes",
+                                "Icon": "Images/icon_kidneys.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_nephritic_nephrotic.html"
                             }
 
                         ]},
