@@ -364,6 +364,12 @@
                                 "Description": "Don't shoot the messenger!",
                                 "DetailedCardInfo": [
                                     {
+                                        "Name": "Cranial nerves",
+                                        "Icon": "Images/icon_brain.png",
+                                        "Description": "It's all in your head...",
+                                        "Page": "Pages/Applied_science/Anatomy_cranial_nerves.html"
+                                    },
+                                    {
                                         "Name": "Somatic nervous system",
                                         "Icon": "Images/icon_muscle.png",
                                         "Description": "We are what we do",
@@ -721,7 +727,20 @@
 
                         ]},
                     { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
-                    { "Name": "Orthopaedics and PM&R", "Description": "Diseases of the musculoskeletal system or connective tissue", "Icon": "", "Extra": ""},
+                    {   "Name": "Orthopaedics and PM&R", 
+                        "Description": "Diseases of the musculoskeletal system or connective tissue", 
+                        "Icon": "Images/icon_joint.png", 
+                        "Extra": "",
+                        "DetailedCardInfo": [
+                            
+                            {
+                                "Name": "Joint inflammations",
+                                "Icon": "Images/icon_joint.png",
+                                "Description": "Red, swollen, painful",
+                                "Page": "Pages/Clinical_science/Diagnosis_joint_inflammation.html"
+                            }
+
+                        ]},
                     { 
                         "Name": "Urology and gynaecology", 
                         "Description": "Diseases of the genitourinary system", 
