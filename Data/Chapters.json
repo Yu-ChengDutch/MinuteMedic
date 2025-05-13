@@ -726,7 +726,20 @@
                             }
 
                         ]},
-                    { "Name": "Dermatology", "Description": "Diseases of the skin", "Icon": "", "Extra": ""},
+                    {   "Name": "Dermatology", 
+                        "Description": "Diseases of the skin", 
+                        "Icon": "Images/icon_skin.png", 
+                        "Extra": "",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Inflammatory dermatoses",
+                                "Icon": "Images/icon_rash.png",
+                                "Description": "It's red, and it itches",
+                                "Page": "Pages/Clinical_science/Diagnosis_inflammatory_dermatoses.html"
+                            }
+
+                        ]},
                     {   "Name": "Orthopaedics and PM&R", 
                         "Description": "Diseases of the musculoskeletal system or connective tissue", 
                         "Icon": "Images/icon_joint.png", 
