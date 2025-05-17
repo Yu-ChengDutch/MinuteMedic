@@ -658,6 +658,18 @@
                                 "Description": "Learn to let go",
                                 "Icon": "Images/icon_brain.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_dementia.html"
+                            },
+                            {
+                                "Name": "Personality disorders",
+                                "Description": "When it's YOU who is odd",
+                                "Icon": "Images/icon_person.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_personality_disorders.html"
+                            },
+                            {
+                                "Name": "Positive/negative symptoms",
+                                "Description": "... what it says",
+                                "Icon": "Images/icon_scale.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_pos_neg.html"
                             }
                         ]},
                     { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
@@ -845,7 +857,10 @@
                         "Name": "Systemic hormonal preparations"
                     },
                     {
-                        "Name": "Antiinfective for systemic use"
+                        "Name": "Antiinfective for systemic use",
+                        "Description": "... antibiotics",
+                        "Icon": "Images/icon_bacterium.png",
+                        "Page": "Pages/Clinical_science/Treatment_antibiotics.html"
                     },
                     {
                         "Name": "Antineoplastic and immunomodulating agens"
