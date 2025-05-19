@@ -179,6 +179,11 @@ function fetch_random() {
     explorable_cards = cards
     pages = []
 
+    // A more cryptographically sound approach to random float
+    const array = new Uint32Array(1);
+    crypto.getRandomValues(array);
+    const random = array[0] / (2**32); // Normalize to [0, 1)
+
     while(explorable_cards.length != 0) {
 
         current_card = explorable_cards[0]
@@ -199,7 +204,7 @@ function fetch_random() {
     
     };
 
-    const random_page = Math.floor(Math.random() * pages.length);
+    const random_page = Math.floor(random * pages.length);
 
     showPage(pages[random_page]);
 

@@ -454,6 +454,12 @@
                         "Icon": "Images/icon_antibody.png",
                         "Description": "You're overreacting...",
                         "Page": "Pages/Applied_science/Physiology_hypersensitivity.html"
+                    },
+                    {
+                        "Name": "Liver function tests",
+                        "Icon": "Images/icon_liver.png",
+                        "Description": "How well the thing does its things",
+                        "Page": "Pages/Applied_science/Physiology_liver_function.html"
                     }
                 ]},
             { 
@@ -797,6 +803,12 @@
                                 "Description": "Nephritic/nephrotic syndromes",
                                 "Icon": "Images/icon_kidneys.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_nephritic_nephrotic.html"
+                            },
+                            {
+                                "Name": "Complications of pregnancy",
+                                "Description": "Exactly what the name says",
+                                "Icon": "Images/icon_baby.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_complications_of_pregnancy.html"
                             }
 
                         ]},
@@ -842,7 +854,7 @@
                         "Name": "Alimentary tract and metabolism"
                     },
                     {
-                        "Name": "Bloed and blood forming organs"
+                        "Name": "Blood and blood forming organs"
                     },
                     {
                         "Name": "Cardiovascular system"
@@ -869,7 +881,19 @@
                         "Name": "Musculo-skeletal system"
                     },
                     {
-                        "Name": "Nervous system"
+                        "Name": "Nervous system",
+                        "Icon": "Images/icon_brain.png",
+                        "Description": "Neurological and psychoactive drugs",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Antidepressants and antipsychotics",
+                                "Description": "Gaudete in veritate",
+                                "Icon": "Images/icon_person.png",
+                                "Page": "Pages/Clinical_science/Treatment_antipsychotics_antidepressants.html"
+                            }
+
+                        ]
                     },
                     {
                         "Name": "Antiparasitic products, insecticides and repellants"
