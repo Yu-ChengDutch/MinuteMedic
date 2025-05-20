@@ -1,0 +1,411 @@
+<div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-banner">
+        <h1 id="welcome-title">Welcome to the Learning App!</h1>
+        <p id="welcome-description">Explore the following topics to enhance your knowledge.</p>
+    </div>
+    
+    <div class="explanation-card">
+        <h1>Introduction to Cardiac Arrhythmias</h1>
+        
+        <h2>Anatomical Foundations</h2>
+        <p>The <b>cardiac conduction system</b> is a specialized network of myocardial cells responsible for generating and conducting electrical impulses that coordinate heart contractions. The system consists of:</p>
+        <ol>
+            <li><b>Sinoatrial (SA) node</b>: The primary pacemaker located at the junction of the superior vena cava and right atrium, generating impulses at 60-100 bpm.</li>
+            <li><b>Atrioventricular (AV) node</b>: Situated in the interatrial septum near the coronary sinus ostium, delaying impulse transmission to allow atrial contraction before ventricular activation.</li>
+            <li><b>Bundle of His</b>: The only electrical connection between atria and ventricles, running through the fibrous skeleton.</li>
+            <li><b>Bundle branches</b>: The right bundle branch and left bundle branch (with anterior and posterior fascicles) that conduct impulses down the interventricular septum.</li>
+            <li><b>Purkinje fibers</b>: Terminal conduction network that rapidly distributes impulses throughout ventricular myocardium.</li>
+        </ol>
+        
+        <img src="Images/image_cardiac_conduction.png" alt="Diagram of the cardiac conduction system showing SA node, AV node, Bundle of His, bundle branches and Purkinje fibers">
+        
+        <h2>Electrophysiological Principles</h2>
+        <p>Cardiac myocytes maintain a <b>resting membrane potential</b> of -90 mV due to high potassium permeability. Action potentials occur in five phases:</p>
+        <ol>
+            <li><b>Phase 0</b>: Rapid depolarization due to sodium influx (fast sodium channels).</li>
+            <li><b>Phase 1</b>: Early repolarization from transient potassium efflux.</li>
+            <li><b>Phase 2</b>: Plateau phase maintained by calcium influx (L-type calcium channels).</li>
+            <li><b>Phase 3</b>: Repolarization from potassium efflux.</li>
+            <li><b>Phase 4</b>: Resting potential maintained by Na+/K+ ATPase.</li>
+        </ol>
+        
+        <p>These properties differ between pacemaker cells (SA/AV nodes) and non-pacemaker cells (atria, ventricles), explaining their distinct roles in rhythm generation versus contraction.</p>
+        
+        <h2>Historical Perspective</h2>
+        <p>The understanding of arrhythmias evolved through key milestones:</p>
+        <ol>
+            <li><b>1906</b>: Einthoven's electrocardiograph enabled graphical representation of cardiac electrical activity.</li>
+            <li><b>1920s</b>: Lewis's experimental work mapped conduction pathways.</li>
+            <li><b>1969</b>: Scherlag developed His bundle electrocardiography.</li>
+            <li><b>1980s</b>: Advent of catheter ablation revolutionized treatment.</li>
+        </ol>
+        
+        <h2>Pathophysiological Mechanisms</h2>
+        <p>Arrhythmias arise from three fundamental mechanisms:</p>
+        <ol>
+            <li><b>Abnormal impulse formation</b>: Enhanced automaticity or triggered activity (early/late afterdepolarizations).</li>
+            <li><b>Abnormal impulse conduction</b>: Re-entry circuits requiring unidirectional block and slow conduction.</li>
+            <li><b>Combined disorders</b>: Most clinically significant arrhythmias involve both mechanisms.</li>
+        </ol>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: ARRHYTHMIA Mechanisms</h4>
+            <p><b>A</b>utomaticity (enhanced)<br>
+            <b>R</b>e-entry<br>
+            <b>R</b>esponsive (triggered) activity<br>
+            <b>H</b>eterogeneous repolarization<br>
+            <b>Y</b>ielding (conduction) blocks<br>
+            <b>T</b>ransmural dispersion<br>
+            <b>H</b>ypoxia/ischemia<br>
+            <b>M</b>etabolic disturbances<br>
+            <b>I</b>on channel mutations<br>
+            <b>A</b>drenergic excess</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 1</h1>
+        <p>Which of the following is NOT part of the normal cardiac conduction system?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Sinoatrial node</li>
+            <li data-answer="wrong">Bundle of His</li>
+            <li data-answer="correct">Bachmann's bundle</li>
+            <li data-answer="wrong">Purkinje fibers</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 2</h1>
+        <p>What is the primary ion responsible for phase 0 depolarization in ventricular myocytes?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Sodium</li>
+            <li data-answer="wrong">Potassium</li>
+            <li data-answer="wrong">Calcium</li>
+            <li data-answer="wrong">Chloride</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Supraventricular Arrhythmias</h1>
+        
+        <h2>Sinus Tachycardia</h2>
+        <p><b>Sinus tachycardia</b> is defined as a sinus rhythm with rate >100 bpm in adults. The P wave morphology remains normal (upright in II, III, aVF) but occurs more frequently. Common <b>etiologies</b> include:</p>
+        <ol>
+            <li><b>Physiological</b>: Exercise, anxiety, pain</li>
+            <li><b>Pharmacological</b>: Sympathomimetics, anticholinergics, caffeine</li>
+            <li><b>Pathological</b>: Fever, anemia, hyperthyroidism, hypovolemia, heart failure</li>
+        </ol>
+        
+        <p>The <b>pathophysiology</b> involves increased automaticity of the SA node due to enhanced sympathetic tone or reduced parasympathetic influence. <b>Clinical significance</b> depends on underlying cause - while usually compensatory, persistent tachycardia can reduce coronary perfusion time and increase myocardial oxygen demand.</p>
+        
+        <h3>Management</h3>
+        <p>Treatment focuses on the underlying condition rather than the rhythm itself:</p>
+        <ol>
+            <li>Address precipitating factors (pain, fever, anemia)</li>
+            <li>Beta-blockers (e.g., metoprolol) if symptomatic and no contraindications</li>
+            <li>Calcium channel blockers (e.g., verapamil) as second-line</li>
+        </ol>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: FAST Causes of Sinus Tachycardia</h4>
+            <p><b>F</b>ever<br>
+            <b>A</b>nemia<br>
+            <b>S</b>tress/anxiety<br>
+            <b>T</b>hyrotoxicosis</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 3</h1>
+        <p>A 22-year-old presents with HR 110 bpm, regular rhythm, normal P waves. Which medication would be LEAST appropriate?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Metoprolol</li>
+            <li data-answer="wrong">Verapamil</li>
+            <li data-answer="correct">Digoxin</li>
+            <li data-answer="wrong">No medication needed</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 4</h1>
+        <p>Which condition would NOT typically cause sinus tachycardia?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Pulmonary embolism</li>
+            <li data-answer="wrong">Hyperthyroidism</li>
+            <li data-answer="correct">Sick sinus syndrome</li>
+            <li data-answer="wrong">Acute hemorrhage</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h2>Sinus Bradycardia</h2>
+        <p><b>Sinus bradycardia</b> is a sinus rhythm with rate <60 bpm. Normal P wave morphology and PR interval are maintained. Causes include:</p>
+        <ol>
+            <li><b>Physiological</b>: Athletes, vagal stimulation, sleep</li>
+            <li><b>Pharmacological</b>: Beta-blockers, calcium channel blockers, digoxin</li>
+            <li><b>Pathological</b>: Hypothyroidism, hypothermia, increased intracranial pressure</li>
+        </ol>
+        
+        <p>The <b>pathophysiology</b> involves decreased automaticity of the SA node due to increased parasympathetic tone or intrinsic nodal dysfunction. <b>Symptoms</b> range from none to fatigue, dizziness, syncope, or heart failure depending on cerebral/perfusion impact.</p>
+        
+        <h3>Management</h3>
+        <p>Asymptomatic bradycardia requires no treatment. Symptomatic cases may need:</p>
+        <ol>
+            <li>Discontinuation of offending agents</li>
+            <li>Atropine (0.5mg IV) for acute symptomatic bradycardia</li>
+            <li>Pacemaker implantation for persistent symptomatic bradycardia</li>
+        </ol>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: SLOW Bradycardia Causes</h4>
+            <p><b>S</b>ick sinus syndrome<br>
+            <b>L</b>ow thyroid (hypothyroidism)<br>
+            <b>O</b>piates/medications<br>
+            <b>W</b>ell-trained athlete</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 5</h1>
+        <p>A 65-year-old on metoprolol presents with HR 48 bpm and dizziness. First-line treatment is:</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Atropine</li>
+            <li data-answer="wrong">Isoproterenol</li>
+            <li data-answer="wrong">Dopamine</li>
+            <li data-answer="wrong">Pacemaker</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h2>Atrial Fibrillation</h2>
+        <p><b>Atrial fibrillation (AF)</b> is characterized by chaotic, rapid atrial activation (400-600 bpm) with irregular ventricular response. The ECG shows:</p>
+        <ol>
+            <li>Absent P waves</li>
+            <li>Irregularly irregular R-R intervals</li>
+            <li>Narrow QRS complexes (unless pre-existing conduction abnormality)</li>
+            <li>Possible fibrillatory waves (fine or coarse)</li>
+        </ol>
+        
+        <img src="Images/image_ECG_AF.jpg" alt="ECG showing atrial fibrillation with irregularly irregular rhythm and absent P waves">
+        
+        <p><b>Etiologies</b> include:</p>
+        <ol>
+            <li><b>Cardiac</b>: Hypertension, heart failure, valvular disease (especially mitral), CAD</li>
+            <li><b>Non-cardiac</b>: Hyperthyroidism, alcohol ("holiday heart"), pulmonary disease</li>
+            <li><b>Idiopathic</b>: Lone AF in younger patients</li>
+        </ol>
+        
+        <p>The <b>pathophysiology</b> involves multiple re-entrant wavelets in the atria due to:</p>
+        <ol>
+            <li>Atrial structural remodeling (fibrosis, dilation)</li>
+            <li>Electrical remodeling (shortened refractory periods)</li>
+            <li>Triggering foci (often pulmonary vein origins)</li>
+        </ol>
+        
+        <h3>Management</h3>
+        <p>Management focuses on three pillars:</p>
+        <ol>
+            <li><b>Rate control</b>: Beta-blockers, calcium channel blockers, digoxin</li>
+            <li><b>Rhythm control</b>: Cardioversion (electrical or chemical), antiarrhythmics (flecainide, amiodarone)</li>
+            <li><b>Thromboembolism prevention</b>: CHA2DS2-VASc score guides anticoagulation (warfarin, DOACs)</li>
+        </ol>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: PIRATES Causes of AF</h4>
+            <p><b>P</b>ulmonary disease<br>
+            <b>I</b>schemic heart disease<br>
+            <b>R</b>heumatic valvular disease<br>
+            <b>A</b>nemia/alcohol<br>
+            <b>T</b>hyroid/hypertension<br>
+            <b>E</b>lderly/idiopathic<br>
+            <b>S</b>epsis/surgery</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 6</h1>
+        <p>Which medication is LEAST appropriate for rate control in AF?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Metoprolol</li>
+            <li data-answer="wrong">Diltiazem</li>
+            <li data-answer="correct">Flecainide</li>
+            <li data-answer="wrong">Digoxin</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 7</h1>
+        <p>A 70-year-old with AF and no other risk factors has CHA2DS2-VASc score of:</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">0</li>
+            <li data-answer="correct">1</li>
+            <li data-answer="wrong">2</li>
+            <li data-answer="wrong">3</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h2>Atrial Flutter</h2>
+        <p><b>Atrial flutter</b> is a macroreentrant atrial tachycardia (typically 250-350 bpm) with characteristic "sawtooth" flutter waves on ECG. The ventricular rate depends on AV node conduction (often 2:1 or 4:1 block).</p>
+        
+        <p><b>Types</b> include:</p>
+        <ol>
+            <li><b>Typical (isthmus-dependent)</b>: Counterclockwise (common) or clockwise reentry around tricuspid annulus</li>
+            <li><b>Atypical</b>: Non-isthmus dependent circuits (scar-related)</li>
+        </ol>
+        
+        <img src="Images/image_ECG_atrial_flutter.jpg" alt="ECG showing atrial flutter with sawtooth flutter waves best seen in leads II, III, aVF">
+        
+        <p><b>Clinical features</b> are similar to AF but may be more symptomatic at onset due to rapid ventricular rates. <b>Management</b> includes:</p>
+        <ol>
+            <li>Rate control (more difficult than AF due to persistent 2:1 conduction)</li>
+            <li>Anticoagulation (similar stroke risk to AF)</li>
+            <li>Catheter ablation (high success rate for typical flutter)</li>
+        </ol>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: FLUTTER Characteristics</h4>
+            <p><b>F</b>ixed ventricular rate (unless variable block)<br>
+            <b>L</b>esion in cavotricuspid isthmus<br>
+            <b>U</b>sually 300 bpm atrial rate<br>
+            <b>T</b>ypical sawtooth pattern<br>
+            <b>T</b>ransient during AF conversion<br>
+            <b>E</b>asily ablated<br>
+            <b>R</b>egular atrial activity</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 8</h1>
+        <p>Which ECG finding differentiates atrial flutter from atrial fibrillation?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Regular atrial activity</li>
+            <li data-answer="wrong">Narrow QRS complexes</li>
+            <li data-answer="wrong">Irregular ventricular response</li>
+            <li data-answer="wrong">Absent P waves</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h2>Paroxysmal Supraventricular Tachycardia (PSVT)</h2>
+        <p><b>PSVT</b> refers to episodic, regular narrow-complex tachycardias (140-250 bpm) with abrupt onset/termination. Mechanisms include:</p>
+        <ol>
+            <li><b>AV nodal reentrant tachycardia (AVNRT)</b>: Most common (60%), uses fast and slow AV nodal pathways</li>
+            <li><b>AV reentrant tachycardia (AVRT)</b>: Uses AV node and accessory pathway (e.g., WPW)</li>
+            <li><b>Atrial tachycardia</b>: Focal automaticity or reentry within atria</li>
+        </ol>
+        
+        <p><b>ECG features</b> include:</p>
+        <ol>
+            <li>Regular narrow QRS (unless aberrant conduction)</li>
+            <li>P waves often buried in QRS (AVNRT) or shortly after (AVRT)</li>
+            <li>Sudden onset/termination</li>
+        </ol>
+        
+        <h3>Management</h3>
+        <p>Acute termination maneuvers:</p>
+        <ol>
+            <li>Vagal maneuvers (carotid sinus massage, Valsalva)</li>
+            <li>Adenosine (6-12mg IV rapid push)</li>
+            <li>Calcium channel blockers (verapamil) or beta-blockers</li>
+        </ol>
+        
+        <p>Long-term prevention:</p>
+        <ol>
+            <li>Catheter ablation (curative for AVNRT/AVRT)</li>
+            <li>Antiarrhythmics if ablation contraindicated</li>
+        </ol>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: SUDDEN PSVT</h4>
+            <p><b>S</b>tarts/stops abruptly<br>
+            <b>U</b>sually regular<br>
+            <b>D</b>izzy spells common<br>
+            <b>D</b>ue to reentry<br>
+            <b>E</b>CG shows narrow QRS<br>
+            <b>N</b>o P waves visible (often)</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 9</h1>
+        <p>First-line drug for terminating PSVT is:</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Adenosine</li>
+            <li data-answer="wrong">Amiodarone</li>
+            <li data-answer="wrong">Lidocaine</li>
+            <li data-answer="wrong">Verapamil</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h2>Wolff-Parkinson-White (WPW) Syndrome</h2>
+        <p><b>WPW</b> is characterized by an accessory pathway (bundle of Kent) connecting atria and ventricles, creating:</p>
+        <ol>
+            <li><b>Preexcitation</b>: Early ventricular activation via accessory pathway (short PR, delta wave)</li>
+            <li><b>Tachyarrhythmias</b>: Orthodromic AVRT (most common), antidromic AVRT, or AF with rapid conduction</li>
+        </ol>
+        
+        <img src="Images/image_ECG_WPW.jpg" alt="ECG showing WPW pattern with short PR interval and delta wave">
+        
+        <p><b>ECG findings</b> in sinus rhythm:</p>
+        <ol>
+            <li>Short PR interval (<120ms)</li>
+            <li>Delta wave (slurred QRS upstroke)</li>
+            <li>Wide QRS (>120ms)</li>
+            <li>Secondary ST-T changes</li>
+        </ol>
+        
+        <p><b>Dangerous features</b> include:</p>
+        <ol>
+            <li>History of rapid AF (>250 bpm)</li>
+            <li>Multiple accessory pathways</li>
+            <li>Short accessory pathway refractory period</li>
+        </ol>
+        
+        <h3>Management</h3>
+        <p>Acute treatment depends on tachycardia type:</p>
+        <ol>
+            <li><b>Orthodromic AVRT</b>: Adenosine, procainamide</li>
+            <li><b>Antidromic AVRT/AF</b>: Procainamide, ibutilide (avoid AV node blockers)</li>
+        </ol>
+        
+        <p>Definitive treatment is catheter ablation of accessory pathway.</p>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: WOLFF-PARKINSON-WHITE</h4>
+            <p><b>W</b>ide QRS<br>
+            <b>O</b>verly rapid conduction risk<br>
+            <b>L</b>ook for delta wave<br>
+            <b>F</b>ast AF dangerous<br>
+            <b>P</b>athway connects atria to ventricles<br>
+            <b>A</b>blation curative<br>
+            <b>R</b>eentrant tachycardia common<br>
+            <b>K</b>ent bundle present<br>
+            <b>I</b>nterval PR short<br>
+            <b>N</b>o AV blockers in AF<br>
+            <b>S</b>udden death risk<br>
+            <b>O</b>nly procainamide safe in AF<br>
+            <b>N</b>arrow-complex tachycardia possible too<br>
+            <b>W</b>atch for preexcitation<br>
+            <b>H</b>igh ventricular rates dangerous<br>
+            <b>I</b>nteresting ECG findings<br>
+            <b>T</b>reat with ablation<br>
+            <b>E</b>CG shows delta waves</p>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 10</h1>
+        <p>Which drug is CONTRAINDICATED in WPW with atrial fibrillation?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Procainamide</li>
+            <li data-answer="correct">Verapamil</li>
+            <li data-answer="wrong">Amiodarone</li>
+            <li data-answer="wrong">Ibutilide</li>
+        </ul>
+    </div>
+
+    <div class="placeholder" id="empty">Test</div>
+
+</div>

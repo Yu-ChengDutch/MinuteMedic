@@ -1,0 +1,329 @@
+<div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-banner">
+        <h1 id="welcome-title">Welcome to the page on Ventricular Arrythmias!</h1>
+        <p id="welcome-description">Explore the following topics to enhance your knowledge.</p>
+    </div>
+    
+    <div class="explanation-card">
+        <h1>Introduction to Ventricular Arrhythmias & Conduction Blocks</h1>
+        <p>The heart's electrical system is a marvel of biological engineering, coordinating the synchronized contraction of atrial and ventricular myocardium to maintain efficient cardiac output. <b>Ventricular arrhythmias</b> and <b>conduction blocks</b> represent disruptions in this delicate system, often with life-threatening consequences.</p>
+
+        <h2>Anatomical Foundations</h2>
+        <p>The ventricular conduction system originates at the <b>atrioventricular (AV) node</b>, continues as the <b>bundle of His</b> which bifurcates into <b>right and left bundle branches</b>, and terminates in the extensive <b>Purkinje fiber network</b>. This specialized tissue conducts impulses 2-3 times faster than working myocardium, ensuring near-simultaneous ventricular activation.</p>
+
+        <h2>Historical Perspective</h2>
+        <p>The study of cardiac arrhythmias began with <b>Augustus Waller's</b> first human electrocardiogram (1887). <b>Willem Einthoven's</b> string galvanometer (1903) allowed clinical ECGs, while <b>Mines</b> and <b>Garrey</b> established reentry theory (1910s). The <b>His bundle electrogram</b> (1969) revolutionized conduction system analysis.</p>
+
+        <h2>Electrophysiological Principles</h2>
+        <p>Cardiac myocytes maintain a resting membrane potential (-90mV) via <b>Na+/K+ ATPase</b>. Action potentials propagate via gap junctions, with <b>phase 0 depolarization</b> (Na+ influx), <b>phase 1-3 repolarization</b> (K+ efflux), and <b>phase 4 resting potential</b>. Abnormal automaticity, triggered activity, or reentry circuits underlie arrhythmias.</p>
+
+        <h2>Risk Factor Spectrum</h2>
+        <p>Major risk factors include <b>coronary artery disease</b> (50% of sudden cardiac deaths), <b>cardiomyopathies</b>, <b>electrolyte disturbances</b> (K+, Mg2+, Ca2+), <b>drug toxicity</b> (digoxin, antiarrhythmics), and <b>genetic channelopathies</b> (Long QT, Brugada syndromes).</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 1</h1>
+        <p>Which anatomical structure serves as the only normal electrical connection between atria and ventricles?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Bachmann's bundle</li>
+            <li data-answer="correct">AV node</li>
+            <li data-answer="wrong">Left bundle branch</li>
+            <li data-answer="wrong">Coronary sinus</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 2</h1>
+        <p>Which ion movement is primarily responsible for ventricular myocyte phase 0 depolarization?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Sodium influx</li>
+            <li data-answer="wrong">Potassium efflux</li>
+            <li data-answer="wrong">Calcium influx</li>
+            <li data-answer="wrong">Chloride efflux</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Ventricular Premature Complexes (VPCs)</h1>
+        <p><b>Ventricular premature complexes</b> (VPCs, also called PVCs) are early depolarizations originating from ectopic ventricular foci, appearing as wide QRS complexes (>120ms) without preceding P waves. They occur in >60% of healthy individuals but increase in frequency with <b>age</b> and <b>cardiac disease</b>.</p>
+
+        <h2>Pathophysiological Mechanisms</h2>
+        <p>Three primary mechanisms underlie VPCs: <b>enhanced automaticity</b> (ectopic pacemaker cells fire faster than sinus node), <b>triggered activity</b> (early afterdepolarizations [EADs] or delayed afterdepolarizations [DADs]), and <b>reentry</b> (circus movement around areas of scar or ischemia).</p>
+
+        <h3>Clinical Significance</h3>
+        <p>While often benign, VPCs may indicate underlying pathology when frequent (>10/hr), multifocal, or occurring in patterns (bigeminy, trigeminy). <b>"R-on-T phenomenon"</b> (VPC landing on T wave) can precipitate ventricular tachycardia/fibrillation.</p>
+
+        <img src="Images/image_ECG_PVC.jpg">
+
+        <div class="mnemonic">
+            <b>Mnemonic: "PIRATES" for VPC Causes</b><br>
+            <b>P</b>ulmonary disease (COPD, PE)<br>
+            <b>I</b>schemia/infarction<br>
+            <b>R</b>epolarization abnormalities (LQTS)<br>
+            <b>A</b>nemia/alcohol<br>
+            <b>T</b>oxins (digoxin, tricyclics)<br>
+            <b>E</b>lectrolytes (hypokalemia, hypomagnesemia)<br>
+            <b>S</b>tructural heart disease (cardiomyopathy)
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 3</h1>
+        <p>Which VPC characteristic most strongly suggests pathological significance?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Single morphology</li>
+            <li data-answer="wrong">Heart rate <60 bpm</li>
+            <li data-answer="correct">R-on-T phenomenon</li>
+            <li data-answer="wrong">Post-exercise occurrence</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 4</h1>
+        <p>A patient with frequent VPCs has hypokalemia and hypomagnesemia. Which mechanism most likely explains their arrhythmia?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Normal automaticity</li>
+            <li data-answer="correct">Triggered activity (EADs)</li>
+            <li data-answer="wrong">Microreentry</li>
+            <li data-answer="wrong">Parasympathetic excess</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Ventricular Tachycardia (VT)</h1>
+        <p><b>Ventricular tachycardia</b> is defined as ≥3 consecutive ventricular beats at rate >100 bpm, classified by duration (non-sustained <30 sec, sustained ≥30 sec) and morphology (monomorphic vs polymorphic). It accounts for 70-80% of wide-complex tachycardias and carries significant mortality risk.</p>
+
+        <h2>Etiological Spectrum</h2>
+        <p>Ischemic cardiomyopathy (post-MI scar reentry) causes 70% of VT cases. Non-ischemic causes include <b>dilated cardiomyopathy</b>, <b>hypertrophic cardiomyopathy</b>, <b>arrhythmogenic RV dysplasia</b>, and <b>infiltrative diseases</b> (sarcoidosis, amyloidosis). Genetic channelopathies (e.g., Brugada, CPVT) cause polymorphic VT.</p>
+
+        <h3>Electrocardiographic Features</h3>
+        <p>Monomorphic VT shows regular wide QRS (>140ms) with <b>AV dissociation</b> (independent P waves), <b>fusion beats</b>, and <b>capture beats</b>. Polymorphic VT has changing QRS morphology, often degenerating into VF. <b>Torsades de pointes</b> ("twisting of points") is a polymorphic VT with QRS axis rotation, occurring in long QT syndromes.</p>
+
+        <img src="Images/image_ECG_VTACH.jpg">
+
+        <h4>Management Strategies</h4>
+        <p>Acute treatment depends on stability: <b>unstable VT</b> requires immediate synchronized cardioversion (100-200J), while <b>stable VT</b> may respond to IV amiodarone (150mg bolus) or procainamide. Long-term prevention involves <b>ICD implantation</b> (primary/secondary prevention) and <b>catheter ablation</b> of reentrant circuits.</p>
+
+        <div class="mnemonic">
+            <b>Mnemonic: "VT or not VT?" - Brugada Criteria for VT Diagnosis</b><br>
+            <b>V</b>1-V6 concordance (all positive or negative)<br>
+            <b>T</b>ime from QRS onset to nadir S >100ms in one precordial lead<br>
+            <b>O</b>ther findings: AV dissociation, fusion/capture beats<br>
+            <b>R</b>BBB morphology with V1 R > r' or V6 QRS <40ms<br>
+            <b>N</b>o typical RBBB/LBBB pattern<br>
+            <b>O</b>nset with premature P wave suggests SVT<br>
+            <b>T</b>achycardia history increases VT probability
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 5</h1>
+        <p>Which ECG finding is pathognomonic for ventricular tachycardia rather than SVT with aberrancy?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Regular rhythm</li>
+            <li data-answer="correct">AV dissociation</li>
+            <li data-answer="wrong">Heart rate 180 bpm</li>
+            <li data-answer="wrong">QRS duration 120ms</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 6</h1>
+        <p>A patient with prolonged QT interval develops a polymorphic VT with twisting QRS axis. What is the most appropriate immediate treatment?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">IV verapamil</li>
+            <li data-answer="wrong">IV adenosine</li>
+            <li data-answer="correct">IV magnesium sulfate</li>
+            <li data-answer="wrong">IV digoxin</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Ventricular Fibrillation (VF)</h1>
+        <p><b>Ventricular fibrillation</b> represents chaotic, disorganized ventricular depolarizations without effective contraction, appearing as irregular waveforms without discernible QRS complexes. It is the initial rhythm in 70% of sudden cardiac deaths, requiring immediate defibrillation.</p>
+
+        <img src="Images/image_ECG_VFIB.jpg">
+
+        <h2>Pathophysiological Cascade</h2>
+        <p>VF begins when multiple wavelets of depolarization propagate randomly through the ventricles due to <b>dispersion of refractoriness</b> and <b>fractionation of wavefronts</b>. This creates >300 uncoordinated contractions/minute, resulting in <b>pulseless electrical activity</b> and circulatory collapse within seconds.</p>
+
+        <h3>Reversible Causes (Hs and Ts)</h3>
+        <p>Management follows ACLS algorithms while addressing reversible causes: <b>Hypoxia</b>, <b>Hypovolemia</b>, <b>Hydrogen ions</b> (acidosis), <b>Hyper/hypokalemia</b>, <b>Hypothermia</b>, <b>Toxins</b>, <b>Tamponade</b>, <b>Tension pneumothorax</b>, <b>Thrombosis</b> (coronary/pulmonary).</p>
+
+        <h4>Treatment Protocol</h4>
+        <p>Immediate <b>defibrillation</b> (200-360J biphasic) is paramount, followed by CPR during rhythm checks. Epinephrine (1mg q3-5min) or amiodarone (300mg bolus) may be administered. Post-resuscitation care involves <b>therapeutic hypothermia</b> (32-36°C for 24h) and <b>coronary angiography</b> if STEMI is suspected.</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 7</h1>
+        <p>Which characteristic is essential for diagnosing ventricular fibrillation on ECG?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Regular wide QRS complexes</li>
+            <li data-answer="wrong">Rate <100 bpm</li>
+            <li data-answer="correct">Chaotic undulations without identifiable QRS</li>
+            <li data-answer="wrong">Presence of P waves</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 8</h1>
+        <p>A patient develops VF during acute STEMI. After successful defibrillation, which intervention is most critical for preventing recurrence?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Oral beta-blocker administration</li>
+            <li data-answer="correct">Emergency coronary revascularization</li>
+            <li data-answer="wrong">IV lidocaine infusion</li>
+            <li data-answer="wrong">Permanent pacemaker implantation</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>First-Degree AV Block</h1>
+        <p><b>First-degree AV block</b> manifests as PR interval prolongation (>200ms) with maintained 1:1 AV conduction. While generally benign, marked PR prolongation (>300ms) may cause hemodynamic compromise due to reduced ventricular filling time.</p>
+
+        <h2>Pathological Substrates</h2>
+        <p>Common causes include <b>increased vagal tone</b> (athletes), <b>AV nodal disease</b>, <b>medications</b> (beta-blockers, CCBs, digoxin), and <b>inflammatory conditions</b> (Lyme disease, rheumatic fever). It represents delayed conduction without actual block, typically at the AV node.</p>
+
+        <h3>Clinical Implications</h3>
+        <p>Asymptomatic patients require no treatment. Symptomatic cases (e.g., pacemaker syndrome from excessive PR prolongation) may need <b>pacemaker implantation</b>. Progression to higher-grade block occurs in <5% annually.</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 9</h1>
+        <p>Which medication class most commonly causes first-degree AV block as a side effect?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Loop diuretics</li>
+            <li data-answer="correct">Beta-blockers</li>
+            <li data-answer="wrong">ACE inhibitors</li>
+            <li data-answer="wrong">Statins</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 10</h1>
+        <p>A marathon runner has PR interval 220ms on ECG. What is the most likely underlying mechanism?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Increased vagal tone</li>
+            <li data-answer="wrong">Left bundle branch fibrosis</li>
+            <li data-answer="wrong">Myocardial ischemia</li>
+            <li data-answer="wrong">Hyperkalemia</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Second-Degree AV Block: Mobitz Type I (Wenckebach)</h1>
+        <p><b>Mobitz I (Wenckebach)</b> block shows progressive PR prolongation until a P wave fails to conduct, typically at the AV node. The ECG reveals <b>"grouped beating"</b> with RR interval shortening before the dropped beat.</p>
+
+        <h2>Characteristic Features</h2>
+        <p>The block ratio (e.g., 3:2, 4:3) describes conducted vs non-conducted P waves. The pause containing the dropped beat is <b>less than twice</b> the preceding PP interval. This distinguishes it from Mobitz II where PR remains constant before sudden block.</p>
+
+        <div class="mnemonic">
+            <b>Mnemonic: "LONGER, LONGER, DROP" for Wenckebach</b><br>
+            Progressive PR <b>LONGER</b>ening<br>
+            RR intervals get <b>LONGER</b> then shorter<br>
+            Then a QRS <b>DROP</b>s<br>
+            Then the cycle resets
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 11</h1>
+        <p>Which feature differentiates Mobitz I from Mobitz II second-degree AV block?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Progressive PR prolongation before block</li>
+            <li data-answer="wrong">Wide QRS complexes</li>
+            <li data-answer="wrong">Fixed block ratio</li>
+            <li data-answer="wrong">Association with syncope</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 12</h1>
+        <p>A patient with inferior MI develops 4:3 Wenckebach block. Where is the most likely anatomical site of block?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">AV node</li>
+            <li data-answer="wrong">Bundle of His</li>
+            <li data-answer="wrong">Left bundle branch</li>
+            <li data-answer="wrong">Purkinje fibers</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Second-Degree AV Block: Mobitz Type II</h1>
+        <p><b>Mobitz II</b> block involves sudden failure of conduction <b>without</b> preceding PR prolongation, typically below the AV node (His-Purkinje system). It carries higher risk of progression to complete heart block (35-50% annually).</p>
+
+        <h2>Electrocardiographic Diagnosis</h2>
+        <p>The hallmark is <b>constant PR intervals</b> before sudden non-conducted P waves, usually with a <b>fixed conduction ratio</b> (e.g., 2:1, 3:1). QRS is often wide due to associated bundle branch disease. Unlike Wenckebach, the pause equals exactly <b>two PP intervals</b>.</p>
+
+        <h3>Clinical Management</h3>
+        <p>Asymptomatic Mobitz II requires <b>permanent pacing</b> due to unpredictable progression to complete heart block. Symptomatic patients receive <b>transvenous pacing</b> emergently. Reversible causes (e.g., Lyme carditis) may respond to antibiotics.</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 13</h1>
+        <p>Which finding on ECG most strongly suggests Mobitz II rather than Mobitz I block?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Narrow QRS complexes</li>
+            <li data-answer="correct">Fixed PR intervals before blocked P waves</li>
+            <li data-answer="wrong">Progressive RR interval shortening</li>
+            <li data-answer="wrong">Occurrence during sleep</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 14</h1>
+        <p>A patient with anterior STEMI develops 2:1 AV block with wide QRS. What is the most appropriate intervention?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Observation only</li>
+            <li data-answer="wrong">IV atropine</li>
+            <li data-answer="correct">Temporary pacing</li>
+            <li data-answer="wrong">Oral theophylline</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Third-Degree (Complete) AV Block</h1>
+        <p><b>Complete heart block</b> features total dissociation of atrial and ventricular activity, with atrial rate exceeding ventricular escape rate. The escape rhythm determines QRS width: <b>narrow</b> (junctional, 40-60 bpm) vs <b>wide</b> (ventricular, 20-40 bpm).</p>
+
+        <h2>Etiological Considerations</h2>
+        <p>Congenital complete block occurs with <b>maternal lupus</b> (anti-Ro/SSA antibodies). Acquired causes include <b>degenerative fibrosis</b> (Lenègre-Lev disease), <b>ischemia</b> (right coronary occlusion), <b>infiltrative diseases</b> (amyloidosis), and <b>valvular surgery</b> (aortic valve replacement).</p>
+
+        <h3>Treatment Imperatives</h3>
+        <p>Hemodynamically unstable patients require immediate <b>transcutaneous/transvenous pacing</b>. Permanent <b>dual-chamber pacemaker</b> is indicated for symptomatic bradycardia or escape rate <40 bpm. Reversible causes (e.g., drug toxicity) should be addressed.</p>
+
+        <div class="mnemonic">
+            <b>Mnemonic: "BLOCKED" for Complete Heart Block Causes</b><br>
+            <b>B</b>orn with it (congenital)<br>
+            <b>L</b>enègre-Lev disease<br>
+            <b>O</b>perations (cardiac surgery)<br>
+            <b>C</b>oronary ischemia<br>
+            <b>K</b>nown infiltrative diseases (sarcoid, amyloid)<br>
+            <b>E</b>ndocarditis (abscess extension)<br>
+            <b>D</b>rugs (beta-blockers, digoxin, CCBs)
+        </div>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 15</h1>
+        <p>Which feature distinguishes complete heart block from other AV blocks?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">PR interval prolongation</li>
+            <li data-answer="correct">Complete AV dissociation with atrial rate > ventricular rate</li>
+            <li data-answer="wrong">Grouped beating pattern</li>
+            <li data-answer="wrong">Exercise-induced worsening</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 16</h1>
+        <p>A newborn has complete heart block with anti-Ro/SSA positive mother. What is the most likely pathogenesis?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Congenital His bundle hypoplasia</li>
+            <li data-answer="correct">Maternal antibody-mediated AV nodal destruction</li>
+            <li data-answer="wrong">Chromosomal trisomy</li>
+            <li data-answer="wrong">Perinatal hypoxia</li>
+        </ul>
+    </div>
+
+    <div class="placeholder" id="empty">Test</div>
+
+</div>

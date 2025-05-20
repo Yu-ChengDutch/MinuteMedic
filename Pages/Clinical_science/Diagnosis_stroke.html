@@ -1,0 +1,215 @@
+<div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-banner">
+        <h1 id="welcome-title">Welcome to the acute stroke page!</h1>
+        <p id="welcome-description">Explore the following topics to enhance your knowledge.</p>
+    </div>
+    
+    <div class="explanation-card">
+        <h1>Introduction to Acute Stroke</h1>
+        <h2>Historical Perspective</h2>
+        <p>The understanding of stroke has evolved significantly over centuries. The term <strong>"apoplexy"</strong> was used by Hippocrates (460–370 BCE) to describe sudden paralysis, likely due to stroke. In the 17th century, Johann Jacob Wepfer identified <strong>intracranial hemorrhage</strong> as a cause of apoplexy after postmortem examinations. The 19th century saw the distinction between <strong>ischemic</strong> and <strong>hemorrhagic</strong> strokes, while the 20th century brought revolutionary imaging techniques and thrombolytic therapy.</p>
+
+        <h2>Neurovascular Anatomy</h2>
+        <p>The brain's blood supply originates from two paired arteries: the <strong>internal carotid arteries</strong> (anterior circulation) and the <strong>vertebral arteries</strong> (posterior circulation), which merge to form the basilar artery. These vessels give rise to:</p>
+        <ol>
+            <li><strong>Anterior cerebral artery (ACA):</strong> Supplies medial frontal and parietal lobes</li>
+            <li><strong>Middle cerebral artery (MCA):</strong> Supplies lateral hemispheres (dominant for language in 95% right-handers)</li>
+            <li><strong>Posterior cerebral artery (PCA):</strong> Supplies occipital lobes and medial temporal lobes</li>
+        </ol>
+        <p>The <strong>Circle of Willis</strong> provides collateral circulation, though its completeness varies among individuals.</p>
+        <img src="Images/image_willis.jpg" alt="Diagram of Circle of Willis showing cerebral arterial circulation">
+
+        <h2>Pathophysiology</h2>
+        <p>Stroke occurs due to <strong>disruption of cerebral blood flow</strong>, leading to neuronal ischemia. The <strong>ischemic cascade</strong> begins within seconds:</p>
+        <ol>
+            <li>Failure of Na+/K+ ATPase → membrane depolarization</li>
+            <li>Glutamate excitotoxicity via NMDA/AMPA receptors</li>
+            <li>Calcium influx → mitochondrial dysfunction</li>
+            <li>Free radical formation → lipid peroxidation</li>
+            <li>Apoptosis/necrosis</li>
+        </ol>
+        <p>The <strong>ischemic penumbra</strong> represents salvageable tissue surrounding the irreversibly damaged core, forming the target for acute interventions.</p>
+
+        <h2>Etiology and Risk Factors</h2>
+        <p>Stroke etiology follows the <strong>TOAST classification</strong>:</p>
+        <ol>
+            <li>Large artery atherosclerosis (e.g., carotid stenosis)</li>
+            <li>Cardioembolism (e.g., atrial fibrillation)</li>
+            <li>Small vessel occlusion (lacunar strokes)</li>
+            <li>Other determined cause (e.g., vasculitis, dissection)</li>
+            <li>Undetermined cause</li>
+        </ol>
+        <p>Modifiable risk factors include <strong>hypertension</strong> (most significant), diabetes, smoking, dyslipidemia, and physical inactivity. Non-modifiable factors include age, male sex, and genetic predisposition.</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 1</h1>
+        <p>Which arterial structure provides the primary collateral circulation between anterior and posterior cerebral circulations?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Middle meningeal artery</li>
+            <li data-answer="correct">Circle of Willis</li>
+            <li data-answer="wrong">External carotid artery</li>
+            <li data-answer="wrong">Dural venous sinuses</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 2</h1>
+        <p>A 68-year-old male presents with sudden right hemiplegia and aphasia. Which vessel is most likely occluded?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Left anterior cerebral artery</li>
+            <li data-answer="correct">Left middle cerebral artery</li>
+            <li data-answer="wrong">Right posterior cerebral artery</li>
+            <li data-answer="wrong">Basilar artery</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Diagnosis of Acute Stroke</h1>
+        <h2>Clinical Localization</h2>
+        <p><strong>Time is brain</strong>: Approximately 1.9 million neurons die each minute during acute ischemia. Rapid assessment follows the <strong>FAST</strong> mnemonic:</p>
+        <div class="mnemonic">
+            <strong>F</strong>ace drooping<br>
+            <strong>A</strong>rm weakness<br>
+            <strong>S</strong>peech difficulty<br>
+            <strong>T</strong>ime to call emergency services
+        </div>
+        <p>Specific syndromes include:</p>
+        <h3>Middle Cerebral Artery (MCA) Stroke</h3>
+        <p>Contralateral hemiparesis (face/arm > leg), hemisensory loss, gaze preference toward lesion, and:</p>
+        <ol>
+            <li><strong>Dominant hemisphere</strong> (usually left): Broca's, Wernicke's, or global aphasia</li>
+            <li><strong>Non-dominant hemisphere</strong>: Neglect, anosognosia, constructional apraxia</li>
+        </ol>
+        <h3>Posterior Circulation Stroke</h3>
+        <p>"Crossed" deficits (ipsilateral cranial nerve palsy + contralateral motor/sensory), vertigo, ataxia, visual field defects (homonymous hemianopia), or cortical blindness.</p>
+
+        <h2>Imaging</h2>
+        <p><strong>Non-contrast CT</strong> remains first-line to exclude hemorrhage. Early ischemic changes may include:</p>
+        <ol>
+            <li>Hyperdense vessel sign (clot visibility)</li>
+            <li>Loss of gray-white differentiation</li>
+            <li>Insular ribbon sign</li>
+        </ol>
+        <p><strong>MRI with DWI</strong> is superior for detecting acute ischemia (within minutes), showing restricted diffusion as bright signal. Perfusion imaging identifies penumbra.</p>
+        <img src="ct_vs_mri_stroke.jpg" alt="Comparison of CT and MRI findings in acute ischemic stroke">
+    </div>
+
+    <div class="question-card">
+        <h1>Question 3</h1>
+        <p>Which imaging finding is most specific for acute ischemic stroke within the first 3 hours?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Hypodensity on CT</li>
+            <li data-answer="correct">Restricted diffusion on DWI-MRI</li>
+            <li data-answer="wrong">Leukoaraiosis on FLAIR</li>
+            <li data-answer="wrong">Enhancement with gadolinium</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 4</h1>
+        <p>A patient presents with left-sided neglect and dressing apraxia but no aphasia. Where is the lesion most likely located?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Left frontal lobe</li>
+            <li data-answer="correct">Right parietal lobe</li>
+            <li data-answer="wrong">Left occipital lobe</li>
+            <li data-answer="wrong">Brainstem</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Acute Treatment (Dutch Guidelines)</h1>
+        <h2>Prehospital Care</h2>
+        <p>The <strong>chain of survival</strong> includes:</p>
+        <ol>
+            <li>Recognition using FAST</li>
+            <li>Immediate emergency call (112 in the Netherlands)</li>
+            <li>Rapid transport to stroke center</li>
+            <li>Pre-notification to hospital</li>
+        </ol>
+        <p>Avoid glucose-containing fluids unless hypoglycemia is confirmed. Maintain oxygen saturation >94%.</p>
+
+        <h2>Intravenous Thrombolysis (IV-tPA)</h2>
+        <p>Alteplase (0.9 mg/kg, max 90 mg) is administered within <strong>4.5 hours</strong> of symptom onset after exclusion of:</p>
+        <div class="mnemonic">
+            <strong>CONTRAINDICATIONS</strong>:<br>
+            <strong>C</strong>urrent intracranial hemorrhage<br>
+            <strong>O</strong>ral anticoagulation with INR >1.7<br>
+            <strong>N</strong>eurosurgery/trauma in past 3 months<br>
+            <strong>T</strong>ime unknown or >4.5 hours<br>
+            <strong>R</strong>ecent myocardial infarction<br>
+            <strong>A</strong>rterial puncture at non-compressible site<br>
+            <strong>I</strong>ntracranial neoplasm/AVM<br>
+            <strong>N</strong>otable hypertension (>185/110 mmHg)<br>
+            <strong>D</strong>eficit rapidly improving<br>
+        </div>
+
+        <h2>Endovascular Thrombectomy (EVT)</h2>
+        <p>For large vessel occlusion (LVO) in anterior circulation within <strong>6 hours</strong> (selected cases up to 24 hours with perfusion mismatch). Requires:</p>
+        <ol>
+            <li>NIHSS ≥2 for anterior circulation, ≥6 for posterior</li>
+            <li>ASPECTS score ≥6 on CT or infarct core <70 mL on MRI</li>
+        </ol>
+
+        <h2>Supportive Care</h2>
+        <p>Includes:</p>
+        <ol>
+            <li><strong>Blood pressure management</strong>: Permissive hypertension unless >220/120 mmHg or thrombolysis candidate</li>
+            <li><strong>Glycemic control</strong>: Target 140-180 mg/dL</li>
+            <li><strong>Fever control</strong>: Paracetamol for temperature >37.5°C</li>
+            <li><strong>Dysphagia screening</strong>: Before oral intake</li>
+        </ol>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 5</h1>
+        <p>Which patient is the best candidate for IV alteplase?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">68F, wake-up stroke, NIHSS 12</li>
+            <li data-answer="correct">55M, last known well 3 hours ago, NIHSS 8, no hemorrhage on CT</li>
+            <li data-answer="wrong">72M, INR 2.1 on warfarin, NIHSS 15</li>
+            <li data-answer="wrong">45F, BP 190/105 mmHg, NIHSS 6</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 6</h1>
+        <p>What is the minimum NIHSS score typically required for endovascular thrombectomy in anterior circulation stroke?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">0</li>
+            <li data-answer="wrong">10</li>
+            <li data-answer="correct">2</li>
+            <li data-answer="wrong">20</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Subacute Management and Secondary Prevention</h1>
+        <h2>Early Rehabilitation</h2>
+        <p>Initiated within 24-48 hours if medically stable. Includes:</p>
+        <ol>
+            <li>Mobilization to prevent complications (DVT, pneumonia)</li>
+            <li>Speech therapy for aphasia/dysphagia</li>
+            <li>Constraint-induced movement therapy for motor deficits</li>
+        </ol>
+
+        <h2>Secondary Prevention</h2>
+        <p>Based on stroke subtype:</p>
+        <h3>Noncardioembolic Stroke</h3>
+        <p><strong>Antiplatelet therapy</strong>:</p>
+        <ol>
+            <li>Aspirin 100 mg/day + clopidogrel 75 mg/day for 21 days (CHANCE protocol), then single agent</li>
+            <li>Alternatively, monotherapy with aspirin, clopidogrel, or aspirin/dipyridamole</li>
+        </ol>
+        <h3>Cardioembolic Stroke</h3>
+        <p><strong>Anticoagulation</strong> (after exclusion of hemorrhage, typically after 3-14 days):</p>
+        <ol>
+            <li>Non-valvular AF: DOACs preferred over warfarin</li>
+            <li>Mechanical valves: Warfarin</li>
+        </ol>
+        <p><strong>Risk factor control</strong>: Target BP <140/90 mmHg, LDL <1.8 mmol/L, HbA1c <7%.</p>
+    </div>
+
+    <div class="placeholder" id="empty">Test</div>
+
+</div>

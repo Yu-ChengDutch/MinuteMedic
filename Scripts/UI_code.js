@@ -126,6 +126,8 @@ function toggleExpandableContent(card) {
 
 function showPage(page, load=true){
 
+    console.log(page);
+
     fetch(page)
     .then(response => {
         if (!response.ok) {
@@ -174,15 +176,23 @@ function loadScript(src) {
     document.head.appendChild(script);
 }
 
-function fetch_random() {
-
-    explorable_cards = cards
-    pages = []
+function get_rand(){
 
     // A more cryptographically sound approach to random float
     const array = new Uint32Array(1);
     crypto.getRandomValues(array);
     const random = array[0] / (2**32); // Normalize to [0, 1)
+
+    return random
+
+}
+
+function fetch_random() {
+
+    explorable_cards = cards
+    pages = []
+
+    random = get_rand();
 
     while(explorable_cards.length != 0) {
 
@@ -207,5 +217,83 @@ function fetch_random() {
     const random_page = Math.floor(random * pages.length);
 
     showPage(pages[random_page]);
+
+};
+
+function random_questions(){
+
+    explorable_cards = cards;
+    pages = [];
+
+    showPage("Pages/Basic.html");
+
+    document.getElementById("welcome-title").innerHTML = "Welcome to the quiz";
+
+    // Build up the quiz
+
+    randoms = [get_rand(), get_rand(), get_rand(), get_rand(), get_rand()]
+
+    while(explorable_cards.length != 0) {
+
+        current_card = explorable_cards[0]
+
+        if (Object.keys(current_card).includes("DetailedCardInfo")) {
+
+            explorable_cards = explorable_cards.concat(current_card["DetailedCardInfo"])
+
+        };
+
+        if (Object.keys(current_card).includes("Page")) {
+
+            pages.push(current_card["Page"]);
+
+        };
+
+        explorable_cards = explorable_cards.slice(1);
+    
+    };
+
+    let random_questions = []
+
+    console.log(randoms);
+
+    for(let i = 0; i<randoms.length; i++) {
+
+        rand_page = pages[Math.floor(randoms[i] * pages.length)];
+
+        console.log(rand_page);
+
+        fetch(rand_page)
+        .then(res => res.text())
+        .then(html => {
+            // Parse the HTML into a document
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+
+            // Find all <div> elements with a specific class
+            const divs = doc.querySelectorAll('div.question-card');
+
+            random_questions.push(divs);
+        });
+
+    };
+
+    const flatList = Array.from(random_questions).flat();
+    console.log(flatList);
+
+    // Insert questions
+
+    const parent = document.getElementById('welcomeScreen');
+    let newChild = document.createElement('div'); // or any element
+
+    for(let i =0; i<random_questions.length; i++) {
+
+        console.log(random_questions[i])
+
+        newChild = random_questions[i];
+        newChild.querySelector('h1').innerHTML = "Question " + toString(i);
+        parent.insertBefore(newChild, parent.children[-1]);
+
+    };    
 
 };

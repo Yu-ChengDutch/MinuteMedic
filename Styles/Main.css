@@ -35,6 +35,8 @@ H1, H2, H3 {
 .fake-button {
 
     padding: 5vw;
+    margin: auto;
+    width: 50vw;
     border-radius: 1vw;
     background-color: var(--primary);
     text-align: center;

@@ -67,11 +67,15 @@
                             },
                             {
                                 "Name": "Circulatory system",
-                                "Description": "Rule 2 of medicine: keep the heart pumping"
+                                "Description": "Rule 2 of medicine: keep the heart pumping",
+                                "Icon": "Images/icon_heart.png",
+                                "Page": "Pages/Basic_science/Embryology_heart.html"
                             },
                             {
-                                "Name": "Urinary system",
-                                "Description": "P*issing all over your assumptions"
+                                "Name": "Urinary & reproductive system",
+                                "Description": "P*issing all over your assumptions",
+                                "Icon": "Images/icon_sex.png",
+                                "Page": "Pages/Basic_science/Embryology_urinary_reproductive.html"
                             },
                             {
                                 "Name": "Integumentary system",
@@ -102,16 +106,29 @@
                                 "Description": "They hate us, cause they ain't us",
                                 "Page": "Pages/Basic_science/Embryology_nervous_system.html",
                                 "Icon": "Images/icon_nerve.png"
-                            },
-                            {
-                                "Name": "Reproductive system",
-                                "Description": "All c*nts and d*ckheads"
                             }
                         ]
                     },
                     {
                         "Name": "Human development",
-                        "Description": "Extra-uterine embryology"
+                        "Description": "Extra-uterine embryology",
+                        "Icon": "Images/icon_person.png",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Childhood development",
+                                "Description": "What it means to be a child",
+                                "Icon": "Images/icon_baby.png",
+                                "Page": "Pages/Basic_science/Human_development.html"
+                            },
+                            {
+                                "Name": "Puberty & Tanner staging",
+                                "Description": "And then beyond...",
+                                "Icon": "Images/icon_person.png",
+                                "Page": "Pages/Basic_science/Puberty.html"
+                            }
+
+                        ]
                     },
                     {
                         "Name": "Gerontogenesis",
@@ -119,7 +136,9 @@
                     },
                     {
                         "Name": "Thanatology",
-                        "Description": "What happen to our body after we die?"
+                        "Description": "What happen to our body after we die?",
+                        "Icon": "Images/icon_death.png",
+                        "Page": "Pages/Basic_science/Thanatology.html"
                     }
                 ]},
             {   "Name": "Infectiology", 
@@ -522,7 +541,20 @@
                     }
                 ]
             },
-            { "Name": "Psychology", "Description": "Mens sana in corpore sana. Amen.", "Icon": "Images/icon_magnifier.png", "Extra": "More details about Detail 3." }
+            { 
+                "Name": "Psychology", 
+                "Description": "Mens sana in corpore sana. Amen.", 
+                "Icon": "Images/icon_magnifier.png", 
+                "Extra": "More details about Detail 3.",
+                "DetailedCardInfo": [
+                    {
+                        "Name": "Motivational interview & change",
+                        "Icon": "Images/icon_person.png",
+                        "Description": "Change the world and start with yourself",
+                        "Page": "Pages/Applied_science/Psychology_motivational_interviewing.html"
+                    }
+                ]
+            }
         ]
     },
     {   "Name": "Clinical science", 
@@ -695,15 +727,75 @@
                                         "Description": "Strokes, but even more complicated",
                                         "Icon": "Images/icon_brain.png",
                                         "Page": "Pages/Clinical_science/Diagnosis_brain_stem_strokes.html"
+                                    },
+                                    {
+                                        "Name": "Acute stroke",
+                                        "Description": "HELP!",
+                                        "Icon": "Images/icon_brain.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_stroke.html"
+                                    }
+
+                                ]
+                            },
+                            {
+                                "Name": "Neuropathies",
+                                "Icon": "Images/icon_nerve.png",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Mononeuropathies",
+                                        "Description": "One for all...",
+                                        "Icon": "Images/icon_nerve.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_mononeuropathy.html"
+                                    },
+                                    {
+                                        "Name": "Polyneuropathies",
+                                        "Description": "...and all for one",
+                                        "Icon": "Images/icon_person.png",
+                                        "Page": "Pages/clinical_science/Diagnosis_polyneuropathy.html"
+                                    }
+
+                                ]
+                            },
+                            {
+                                "Name": "Muscular dystrophies",
+                                "Icon": "Images/icon_muscle.png",
+                                "Description": "Kinda what I want to specialise in",
+                                "Page": "Pages/Clinical_science/Diagnosis_muscular_dystrophies.html"
+                            }
+
+                        ]},
+                    { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
+                    { 
+                        "Name": "Cardiology", 
+                        "Description": "Diseases of the heart", 
+                        "Icon": "Images/icon_heart.png", 
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Arrhythmias",
+                                "Icon": "Images/icon_rhythm.png",
+                                "Description": "Rikketik",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Supraventricular arrhythmias",
+                                        "Icon": "Images/icon_rhythm.png",
+                                        "Description": "With their origin above the ventricle",
+                                        "Page": "Pages/Clinical_science/Diagnosis_supraventricular_arrhythmias.html"
+                                    },
+                                    {
+                                        "Name": "Ventricular arrhythmias",
+                                        "Icon": "Images/icon_rhythm.png",
+                                        "Description": "With their origin in the ventricle",
+                                        "Page": "Pages/Clinical_science/Diagnosis_ventricular_arrythmias.html"
                                     }
 
                                 ]
                             }
 
                         ]},
-                    { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
-                    { "Name": "Cardiology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
                     {   "Name": "Pulmonology", 
                         "Description": "Diseases of the respiratory system", 
                         "Icon": "Images/icon_lungs.png", 
@@ -769,6 +861,21 @@
                                 "Icon": "Images/icon_joint.png",
                                 "Description": "Red, swollen, painful",
                                 "Page": "Pages/Clinical_science/Diagnosis_joint_inflammation.html"
+                            },
+                            {
+                                "Name": "Fractures",
+                                "Icon": "Images/icon_fracture.png",
+                                "Description": "Oops, broken!",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Limb fractures",
+                                        "Icon": "Images/icon_arm.png",
+                                        "Description": "Just giving it arms and legs",
+                                        "Page": "Pages/Clinical_science/Diagnosis_limb_fractures.html"
+                                    }
+
+                                ]
                             }
 
                         ]},
@@ -851,13 +958,47 @@
                 "Icon": "Images/icon_pill.png",
                 "DetailedCardInfo": [
                     {
-                        "Name": "Alimentary tract and metabolism"
+                        "Name": "Alimentary tract and metabolism",
+                        "Icon": "Images/icon_intestines.png",
+                        "Description": "Curing the tube",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Antiemetics and GERD medication",
+                                "Icon": "Images/icon_acid.png",
+                                "Description": "Puke, blegh",
+                                "Page": "Pages/Clinical_science/Treatment_antiemetics.html"
+                            }
+
+                        ]
                     },
                     {
-                        "Name": "Blood and blood forming organs"
+                        "Name": "Blood and blood forming organs",
+                        "Description": "Anticoagulants etc.",
+                        "Icon": "Images/icon_blood.png",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Anticoagulants",
+                                "Description": "When there is stuff you don't want the blood to do",
+                                "Icon": "Images/icon_balance.png",
+                                "Page": "Pages/Clinical_science/Treatment_anticoagulants.html"
+                            }
+
+                        ]
                     },
                     {
-                        "Name": "Cardiovascular system"
+                        "Name": "Cardiovascular system",
+                        "Icon": "Images/icon_heart.png",
+                        "Description": "Heart and vessels",
+                        "DetailedCardInfo": [
+                            {
+                                "Name": "Antihypertensives and diuretics",
+                                "Description": "To pee or not to pee, that is the question",
+                                "Icon": "Images/icon_kidneys.png",
+                                "Page": "Pages/Clinical_science/Treatment_antihypertensives.html"
+                            }
+                        ]
                     },
                     {
                         "Name": "Dermatologicals"
@@ -907,7 +1048,18 @@
                         "Name": "Sensory organs"
                     },
                     {
-                        "Name": "Various"
+                        "Name": "Various",
+                        "Icon": "Images/icon_question.png",
+                        "Description": "Vaccinations and such",
+                        "DetailedCardInfo": [
+                            
+                            {
+                                "Name": "Vaccinations (Dutch system)",
+                                "Description": "The way we do things here",
+                                "Icon": "Images/icon_injection.png",
+                                "Page": "Pages/Clinical_science/Treatment_vaccines.html"
+                            }
+                        ]
                     }
                 ]
             }

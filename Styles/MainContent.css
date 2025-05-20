@@ -173,7 +173,14 @@ ol {
 
 .explanation-card img {
 
+    width: auto;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-height: 35vh;
+    padding: 1vh;
+    border: 0.5vh solid #616161;
 
 }
 
