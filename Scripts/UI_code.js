@@ -220,6 +220,8 @@ function fetch_random() {
 
 };
 
+// TODO: Make this work
+
 function random_questions(){
 
     explorable_cards = cards;
