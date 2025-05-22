@@ -1110,10 +1110,61 @@
                 "DetailedCardInfo": [
 
                     {
+                        "Name": "Introduction to wine",
+                        "Icon": "Images/icon_wine.png",
+                        "Description": "Page on the basics of wine",
+                        "Page": "Pages/Random/wine_intro.html"
+                    },
+                    {
                         "Name": "White wine",
                         "Icon": "Images/icon_white_wine.png",
                         "Description": "Weirdly, this becomes the blood of Christ",
-                        "Page": "Pages/Random/white_wine.html"
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Introduction to white wine",
+                                "Icon": "Images/icon_wine.png",
+                                "Description": "Just general stuff",
+                                "Page": "Pages/Random/white_wine.html"
+                            },
+                            {
+                                "Name": "Chardonnay",
+                                "Icon": "Images/icon_white_wine.png",
+                                "Description": "The main star of the show",
+                                "Page": "Pages/Random/chardonnay.html"
+                            },
+                            {
+                                "Name": "Sauvignon blanc",
+                                "Icon": "Images/icon_white_wine.png",
+                                "Description": "A well-known varietal",
+                                "Page": "Pages/Random/sauvignon_blanc.html"
+                            },
+                            {
+                                "Name": "Riesling",
+                                "Icon": "Images/icon_white_wine.png",
+                                "Description": "The German kaiser",
+                                "Page": "Pages/Random/riesling.html"
+                            },
+                            {
+                                "Name": "Pinot Grigio",
+                                "Icon": "Images/icon_white_wine.png",
+                                "Description": "L'italiano",
+                                "Page": "Pages/Random/pinot_grigio.html"
+                            },
+                            {
+                                "Name": "Gewürztraminer",
+                                "Icon": "Images/icon_white_wine.png",
+                                "Description": "Der zweite Deutscher",
+                                "Page": "Pages/Random/gewuerztraminer.html"
+                            },
+                            {
+                                "Name": "Viognier",
+                                "Icon": "Images/icon_white_wine.png",
+                                "Description": "I mean, this one got me into wine again",
+                                "Page": "Pages/Random/viognier.html"
+                            }
+
+                        ]
                     },
                     {
                         "Name": "Red wine",

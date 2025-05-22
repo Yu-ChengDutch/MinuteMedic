@@ -105,7 +105,18 @@ function showWelcomeScreen(detailedCardInfo, title, description="") {
 
         } else {
 
+            
             detailedCard.onclick = () => showPage(detail.Page, true);
+
+            if (Object.keys(detail).includes('Page')) {
+
+                detailedCard.id = 'page';
+
+            } else {
+
+                detailedCard.id = 'no-page';
+
+            };
 
         };
         

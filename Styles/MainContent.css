@@ -114,6 +114,19 @@
     transition: max-height 5s ease-out; /* Smooth transition */
 }
 
+#page {
+
+    border-left: 1vw solid #A5D6A7;
+
+}
+
+#no-page {
+
+    border-left: 1vw solid #FFCC80;
+
+}
+
+
 /* Make up for the levels */
 
 .explanation-card {
@@ -260,5 +273,4 @@ ol {
     .detailed-card {
         width: 60vw;
     }
-
 };
