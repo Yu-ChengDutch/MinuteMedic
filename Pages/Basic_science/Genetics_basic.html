@@ -1,0 +1,340 @@
+<div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-banner">
+        <h1 id="welcome-title">Welcome to the basic page on genetics!</h1>
+        <p id="welcome-description">Explore the following topics to enhance your knowledge.</p>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Introduction to Fundamental Human Genetics</h1>
+        <p>The study of human genetics represents the cornerstone of understanding both normal biological function and disease pathogenesis. The field traces its origins to Gregor Mendel's work with pea plants in the 19th century, but has since evolved into a sophisticated discipline that integrates molecular biology, biochemistry, and clinical medicine. Modern clinical genetics emerged in the mid-20th century following the discovery of the DNA double helix by Watson and Crick in 1953, which provided the structural basis for understanding genetic inheritance.</p>
+        
+        <h2>Anatomical Basis of Genetics</h2>
+        <p>At the cellular level, genetic information is stored in the <b>nucleus</b> of eukaryotic cells, packaged into <b>chromosomes</b>. Humans have 46 chromosomes arranged in 23 pairs - 22 autosomal pairs and 1 pair of sex chromosomes (XX in females, XY in males). Each chromosome contains a single, continuous DNA molecule that is tightly coiled around histone proteins. The complete set of genetic material in an organism is called the <b>genome</b>, which in humans contains approximately 3 billion base pairs and an estimated 20,000-25,000 protein-coding genes.</p>
+        
+        <h2>Physiological Organization of Genetic Material</h2>
+        <p>The flow of genetic information follows the central dogma of molecular biology: <b>DNA → RNA → Protein</b>. This process begins with <b>transcription</b> in the nucleus, where a segment of DNA is copied into messenger RNA (mRNA). The mRNA then undergoes processing (including splicing to remove introns) before being transported to the cytoplasm, where <b>translation</b> occurs on ribosomes to synthesize proteins. The regulation of this process is complex and involves numerous control mechanisms that determine when and how much of a particular protein is produced.</p>
+        
+        <img src="Images/image_dna_to_protein.png" alt="Diagram illustrating the central dogma of molecular biology showing DNA transcription to RNA and translation to protein">
+        
+        <h3>Historical Milestones in Genetics</h3>
+        <p>The field has progressed through several key phases: from Mendelian genetics (1860s), to the chromosomal theory of inheritance (early 1900s), the discovery of DNA structure (1953), development of recombinant DNA technology (1970s), the Human Genome Project (1990-2003), and now the era of next-generation sequencing and precision medicine. Each advancement has dramatically enhanced our ability to diagnose, understand, and potentially treat genetic disorders.</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 1</h1>
+        <p>Which of the following correctly describes the organization of human genetic material?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">The genome is divided into 24 pairs of chromosomes in somatic cells</li>
+            <li data-answer="correct">DNA is packaged with histone proteins to form chromatin in the nucleus</li>
+            <li data-answer="wrong">The central dogma states that proteins can be reverse transcribed into DNA</li>
+            <li data-answer="wrong">Human genes are evenly distributed across all chromosomes</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 2</h1>
+        <p>What was the primary contribution of Gregor Mendel to the field of genetics?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Discovery of the DNA double helix structure</li>
+            <li data-answer="wrong">Development of chromosomal theory of inheritance</li>
+            <li data-answer="correct">Establishment of the laws of inheritance through pea plant experiments</li>
+            <li data-answer="wrong">Identification of the first human genetic disorder</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Patterns of Inheritance</h1>
+        <p>Understanding inheritance patterns is fundamental to clinical genetics as it allows for accurate risk assessment and genetic counseling. The major patterns include autosomal dominant, autosomal recessive, X-linked, and mitochondrial inheritance, each with distinct characteristics and implications for disease transmission.</p>
+        
+        <h2>Autosomal Dominant Inheritance</h2>
+        <p>Autosomal dominant disorders require only <b>one copy</b> of the mutated gene to cause the phenotype. These conditions typically appear in every generation, with a 50% chance of transmission from an affected parent to offspring. Key features include:</p>
+        <ol>
+            <li>Males and females are equally affected</li>
+            <li>Vertical transmission pattern (appears in multiple generations)</li>
+            <li>Unaffected individuals do not transmit the condition</li>
+            <li>Variable expressivity and incomplete penetrance are common</li>
+        </ol>
+        
+        <p>Examples include Huntington disease, Marfan syndrome, and neurofibromatosis type 1. The molecular basis often involves <b>haploinsufficiency</b> (where one functional copy is insufficient) or <b>dominant-negative effects</b> (where the mutant protein interferes with normal protein function).</p>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: DOMINANT traits</h4>
+            <p><b>D</b>irect transmission from parent to child<br>
+            <b>O</b>ne allele sufficient for expression<br>
+            <b>M</b>ales and females equally affected<br>
+            <b>I</b>ncomplete penetrance possible<br>
+            <b>N</b>o skipping generations typically<br>
+            <b>A</b>utosomal location<br>
+            <b>N</b>ew mutations occur<br>
+            <b>T</b>ransmission risk is 50%</p>
+        </div>
+        
+        <h2>Autosomal Recessive Inheritance</h2>
+        <p>Autosomal recessive disorders require <b>two copies</b> of the mutated gene (homozygous or compound heterozygous) for phenotypic expression. Carriers (heterozygotes) with one mutated copy are typically asymptomatic. Characteristics include:</p>
+        <ol>
+            <li>Males and females equally affected</li>
+            <li>Often seen in siblings but not parents (horizontal pattern)</li>
+            <li>25% recurrence risk for carrier parents</li>
+            <li>Increased frequency in consanguineous families</li>
+        </ol>
+        
+        <p>Examples include cystic fibrosis, sickle cell anemia, and Tay-Sachs disease. The molecular mechanisms often involve <b>loss-of-function mutations</b> where both copies must be impaired to cause disease.</p>
+        
+        <img src="Images/image_pedigree.jpg" alt="Comparison of pedigree patterns showing autosomal dominant, autosomal recessive, and X-linked inheritance">
+    </div>
+
+    <div class="question-card">
+        <h1>Question 3</h1>
+        <p>A 32-year-old woman with neurofibromatosis type 1 (autosomal dominant) is concerned about passing the condition to her children. What is the probability that her child will inherit the condition?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">100%</li>
+            <li data-answer="correct">50%</li>
+            <li data-answer="wrong">25%</li>
+            <li data-answer="wrong">0% if the father is unaffected</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 4</h1>
+        <p>Which of the following is NOT a characteristic feature of autosomal recessive inheritance?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Typically appears only in siblings, not parents</li>
+            <li data-answer="wrong">25% recurrence risk for carrier parents</li>
+            <li data-answer="correct">Affected individuals always have an affected parent</li>
+            <li data-answer="wrong">Increased frequency with consanguinity</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>X-Linked Inheritance</h1>
+        <p>X-linked inheritance patterns differ between males and females due to the presence of only one X chromosome in males (hemizygosity). There are two main types: X-linked recessive and X-linked dominant, with the former being more common in clinical practice.</p>
+        
+        <h2>X-Linked Recessive Inheritance</h2>
+        <p>X-linked recessive disorders primarily affect males, who inherit the X chromosome from their mothers. Females can be carriers but are rarely affected due to random X-inactivation (lyonization). Key features:</p>
+        <ol>
+            <li>Males are predominantly affected</li>
+            <li>No male-to-male transmission (fathers pass Y chromosome to sons)</li>
+            <li>Female carriers have a 50% chance of passing the mutation to offspring</li>
+            <li>Affected males transmit the mutation to all daughters (who become carriers) but not to sons</li>
+        </ol>
+        
+        <p>Examples include Duchenne muscular dystrophy, hemophilia A, and red-green color blindness. The molecular basis typically involves loss-of-function mutations in genes located on the X chromosome.</p>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: X-Linked Recessive Rules</h4>
+            <p>"<b>Sons inherit from mothers</b> - No male-to-male transmission"<br>
+            "<b>Dads give X to daughters</b> - All daughters of affected males are carriers"<br>
+            "<b>Moms give X to both</b> - Carrier females have 50% risk for sons and daughters"</p>
+        </div>
+        
+        <h2>X-Linked Dominant Inheritance</h2>
+        <p>X-linked dominant disorders are rare but important to recognize. Both males and females can be affected, though males are often more severely affected due to having only one X chromosome. Characteristics include:</p>
+        <ol>
+            <li>Females are more frequently affected than males (but often less severely)</li>
+            <li>No male-to-male transmission</li>
+            <li>Affected males transmit to all daughters but no sons</li>
+            <li>Affected females have a 50% chance of passing the mutation to offspring regardless of sex</li>
+        </ol>
+        
+        <p>Examples include X-linked hypophosphatemic rickets and Rett syndrome (though Rett syndrome is usually lethal in males). The molecular mechanisms often involve gain-of-function mutations or haploinsufficiency of X-chromosome genes that escape X-inactivation.</p>
+        
+        <img src="Images/images_x_inactivation.jpg" alt="Diagram showing the process of X chromosome inactivation in females and its implications for X-linked disorders">
+    </div>
+
+    <div class="question-card">
+        <h1>Question 5</h1>
+        <p>A couple is concerned about X-linked recessive conditions in their family. The mother is a known carrier of hemophilia A. What is the probability that their son will have hemophilia?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">100%</li>
+            <li data-answer="correct">50%</li>
+            <li data-answer="wrong">25%</li>
+            <li data-answer="wrong">0%</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 6</h1>
+        <p>Which statement about X-linked dominant inheritance is TRUE?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Affected males cannot have affected daughters</li>
+            <li data-answer="wrong">Male-to-male transmission is common</li>
+            <li data-answer="correct">Affected females have a 50% chance of passing the condition to each child</li>
+            <li data-answer="wrong">Males and females are equally likely to be affected and equally severe</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Mitochondrial Inheritance</h1>
+        <p>Mitochondrial inheritance, also called maternal inheritance, follows a unique pattern due to the fact that mitochondria and their DNA (mtDNA) are inherited exclusively from the mother. This occurs because the egg contributes virtually all mitochondria to the zygote, while sperm mitochondria are degraded after fertilization.</p>
+        
+        <h2>Characteristics of Mitochondrial Disorders</h2>
+        <p>Mitochondrial disorders demonstrate several distinct features that differentiate them from nuclear genetic conditions:</p>
+        <ol>
+            <li><b>Maternal transmission</b>: Affected males cannot pass the condition to their offspring</li>
+            <li><b>Variable expression</b>: Due to heteroplasmy (mixed populations of normal and mutant mtDNA)</li>
+            <li><b>Threshold effect</b>: Disease manifests only when the proportion of mutant mtDNA exceeds a tissue-specific threshold</li>
+            <li><b>Multisystem involvement</b>: Typically affect tissues with high energy demands (CNS, muscle, heart)</li>
+        </ol>
+        
+        <p>Examples include MELAS (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes), Leber hereditary optic neuropathy (LHON), and Kearns-Sayre syndrome. The molecular basis involves mutations in mitochondrial genes that affect oxidative phosphorylation and cellular energy production.</p>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: Mitochondrial Inheritance</h4>
+            <p>"<b>M</b>other's <b>M</b>itochondria <b>M</b>atter"<br>
+            "<b>3 No's</b>: No paternal transmission, No skipping generations, No male-to-male transmission"</p>
+        </div>
+        
+        <h2>Heteroplasmy and Its Clinical Implications</h2>
+        <p>Heteroplasmy refers to the presence of both normal and mutated mtDNA within a cell, tissue, or individual. This phenomenon explains much of the variability in mitochondrial disorders:</p>
+        <ol>
+            <li>The percentage of mutant mtDNA can vary between tissues</li>
+            <li>Disease severity often correlates with mutant load</li>
+            <li>During oogenesis, mitochondrial bottleneck effects can lead to dramatic shifts in heteroplasmy levels between generations</li>
+            <li>Prenatal diagnosis is challenging due to potential differences between fetal tissues</li>
+        </ol>
+        
+        <p>This biological characteristic leads to the clinical observation that individuals with the same mtDNA mutation may have vastly different phenotypes, and that asymptomatic mothers can have severely affected children (or vice versa) due to random segregation of mitochondrial genomes during development.</p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 7</h1>
+        <p>A 25-year-old woman with a mitochondrial disorder is planning a pregnancy. What is the risk of her child inheriting the condition?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">0%</li>
+            <li data-answer="wrong">25%</li>
+            <li data-answer="correct">Potentially up to 100%, depending on heteroplasmy</li>
+            <li data-answer="wrong">50% for each gender</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 8</h1>
+        <p>Which of the following is NOT a characteristic feature of mitochondrial inheritance?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Maternal transmission pattern</li>
+            <li data-answer="wrong">Variable expression due to heteroplasmy</li>
+            <li data-answer="correct">Male-to-male transmission occurs</li>
+            <li data-answer="wrong">High energy tissues preferentially affected</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Chromosomal Abnormalities</h1>
+        <p>Chromosomal abnormalities represent a major category of genetic disorders, accounting for a significant proportion of spontaneous abortions, congenital anomalies, and intellectual disability. These abnormalities can be numerical (involving whole chromosomes) or structural (affecting parts of chromosomes).</p>
+        
+        <h2>Numerical Chromosomal Abnormalities</h2>
+        <p>Numerical abnormalities involve the gain or loss of entire chromosomes, resulting in <b>aneuploidy</b>. The most common viable aneuploidies in humans involve the sex chromosomes and chromosome 21. Mechanisms include nondisjunction during meiosis or mitosis, leading to:</p>
+        <ol>
+            <li><b>Trisomy</b>: Presence of an extra chromosome (e.g., Trisomy 21 - Down syndrome)</li>
+            <li><b>Monosomy</b>: Absence of one chromosome (e.g., Turner syndrome - 45,X)</li>
+            <li><b>Polyploidy</b>: Complete extra sets of chromosomes (rare in live births)</li>
+        </ol>
+        
+        <p>The clinical consequences of aneuploidy depend on the specific chromosome involved and the extent of genetic imbalance. Autosomal aneuploidies are generally more severe than sex chromosome aneuploidies due to the larger gene content of autosomes.</p>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: Common Trisomies</h4>
+            <p>"<b>13, 18, 21</b> - The teen trisomies that can survive to birth"<br>
+            "<b>Patau, Edwards, Down</b> - In order of decreasing survival"<br>
+            "<b>13 is lethal, 18 is severe, 21 is viable</b>"</p>
+        </div>
+        
+        <h2>Structural Chromosomal Abnormalities</h2>
+        <p>Structural abnormalities result from chromosome breakage and abnormal recombination. Major types include:</p>
+        <ol>
+            <li><b>Deletions</b>: Loss of chromosomal material (e.g., 22q11.2 deletion syndrome)</li>
+            <li><b>Duplications</b>: Gain of chromosomal material (e.g., Charcot-Marie-Tooth disease type 1A)</li>
+            <li><b>Translocations</b>: Exchange of material between chromosomes (Robertsonian or reciprocal)</li>
+            <li><b>Inversions</b>: Reversal of a chromosome segment (paracentric or pericentric)</li>
+            <li><b>Ring chromosomes</b>: Formation of circular chromosomes after breakage</li>
+        </ol>
+        
+        <p>The phenotypic consequences depend on whether the rearrangement is balanced (no net gain or loss of genetic material) or unbalanced. Balanced carriers are often phenotypically normal but at risk for producing unbalanced gametes, leading to reproductive risks.</p>
+        
+        <img src="Images/image_chromosomal_abnormalities.jpg" alt="Diagram showing different types of chromosomal abnormalities including deletions, duplications, translocations, and inversions">
+    </div>
+
+    <div class="question-card">
+        <h1>Question 9</h1>
+        <p>Which of the following chromosomal abnormalities is most compatible with survival to adulthood?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Trisomy 13 (Patau syndrome)</li>
+            <li data-answer="wrong">Trisomy 18 (Edwards syndrome)</li>
+            <li data-answer="correct">Trisomy 21 (Down syndrome)</li>
+            <li data-answer="wrong">Monosomy 21</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 10</h1>
+        <p>A phenotypically normal individual is found to have a balanced reciprocal translocation between chromosomes 4 and 11. What is their primary genetic risk?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Increased risk of cancer development</li>
+            <li data-answer="wrong">Certainty of having children with birth defects</li>
+            <li data-answer="correct">Risk of producing unbalanced gametes leading to abnormal offspring</li>
+            <li data-answer="wrong">Progressive neurological deterioration</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>Genetic Testing in Clinical Practice</h1>
+        <p>The advent of modern genetic technologies has revolutionized diagnostic approaches in clinical genetics. Understanding the indications, limitations, and interpretation of various genetic tests is essential for clinicians managing patients with suspected genetic disorders.</p>
+        
+        <h2>Types of Genetic Tests</h2>
+        <p>Genetic testing modalities can be categorized based on their scope and resolution:</p>
+        <ol>
+            <li><b>Chromosomal microarray (CMA)</b>: Detects copy number variants (CNVs) genome-wide at high resolution (typically >50kb)</li>
+            <li><b>Karyotyping</b>: Visualizes whole chromosomes at ~5-10Mb resolution, detecting aneuploidy and large structural rearrangements</li>
+            <li><b>FISH (Fluorescence in situ hybridization)</b>: Targets specific loci to confirm microdeletions or translocations</li>
+            <li><b>Single gene testing</b>: Sequences a specific gene when phenotype strongly suggests a particular disorder</li>
+            <li><b>Gene panels</b>: Simultaneously tests multiple genes associated with a particular phenotype</li>
+            <li><b>Whole exome sequencing (WES)</b>: Sequences all protein-coding regions (~2% of genome)</li>
+            <li><b>Whole genome sequencing (WGS)</b>: Sequences entire genome, including non-coding regions</li>
+        </ol>
+        
+        <p>The choice of test depends on the clinical scenario, with considerations including diagnostic yield, cost, turnaround time, and incidental findings. CMA has become first-line for developmental delay/intellectual disability, while WES is increasingly used for heterogeneous phenotypes.</p>
+        
+        <div class="mnemonic">
+            <h4>Mnemonic: Test Resolution</h4>
+            <p>"<b>Karyotype sees forests, CMA sees trees, sequencing sees leaves</b>"<br>
+            (From lowest to highest resolution: karyotype → microarray → sequencing)</p>
+        </div>
+        
+        <h2>Interpretation of Genetic Test Results</h2>
+        <p>Proper interpretation requires understanding several key concepts:</p>
+        <ol>
+            <li><b>Variant classification</b>: Pathogenic, likely pathogenic, variant of uncertain significance (VUS), likely benign, benign</li>
+            <li><b>ACMG guidelines</b>: Standardized framework for variant interpretation incorporating population data, computational predictions, and functional evidence</li>
+            <li><b>Phenotype-genotype correlation</b>: The clinical relevance of a variant depends on patient presentation</li>
+            <li><b>Incidental findings</b>: Unrelated but medically actionable results that may be discovered incidentally</li>
+        </ol>
+        
+        <p>Genetic test results must always be interpreted in the context of the patient's clinical presentation. A VUS should not be used for clinical decision-making without additional evidence, and negative results do not necessarily exclude a genetic diagnosis (due to limitations in test sensitivity or our current knowledge).</p>
+        
+    </div>
+
+    <div class="question-card">
+        <h1>Question 11</h1>
+        <p>Which genetic test would be most appropriate as first-line evaluation for a child with global developmental delay, dysmorphic features, and no obvious syndrome diagnosis?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Karyotype</li>
+            <li data-answer="correct">Chromosomal microarray</li>
+            <li data-answer="wrong">Whole exome sequencing</li>
+            <li data-answer="wrong">Single gene testing for Fragile X</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 12</h1>
+        <p>A genetic test reports a "variant of uncertain significance (VUS)" in a gene associated with the patient's phenotype. What is the most appropriate next step?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Inform the patient they definitely have the genetic disorder</li>
+            <li data-answer="wrong">Disregard the result as meaningless</li>
+            <li data-answer="correct">Document the finding but avoid using it for clinical decision-making without further evidence</li>
+            <li data-answer="wrong">Test all family members for the same variant</li>
+        </ul>
+    </div>    
+
+    <div class="placeholder" id="empty">Test</div>
+
+</div>

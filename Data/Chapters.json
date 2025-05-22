@@ -9,17 +9,21 @@
         "DetailedCardInfo": [
             {   "Name": "Genetics", 
                 "Description": "The DNA and RNA that makes us ... us", 
-                "Icon": "https://via.placeholder.com/50", 
+                "Icon": "Images/icon_gene.png", 
                 "Extra": "More details about Detail 1.", 
                 "DetailedCardInfo": [
 
                     {
                         "Name": "Basic genetics",
-                        "Description": "All about our DNA and how it usually produces protein"
+                        "Description": "All about our DNA and how it usually produces protein",
+                        "Icon": "Images/icon_gene.png",
+                        "Page": "Pages/Basic_science/Genetics_basic.html"
                     },
                     {
-                        "Name": "Clinical genetics",
-                        "Description": "Everything that can go wrong with our DNA"
+                        "Name": "Reproductive genetics",
+                        "Description": "How we get more of it",
+                        "Icon": "Images/icon_sex.png",
+                        "Page": "Pages/Basic_science/Genetics_reproductive.html"
                     }
 
                 ]},
@@ -435,6 +439,18 @@
                         "Page": "Pages/Applied_science/Physiology_temperature.html"
                     },
                     {
+                        "Name": "Iron physiology",
+                        "Description": "Uptake, storage etc.",
+                        "Icon": "Images/icon_iron.png",
+                        "Page": "Pages/Applied_science/Physiology_iron.html"
+                    },
+                    {
+                        "Name": "Muscle physiology",
+                        "Description": "STRONG!",
+                        "Icon": "Images/icon_muscle.png",
+                        "Page": "PAges/Applied_science/Physiology_muscle.html"
+                    },
+                    {
                         "Name": "Acid-base metabolism",
                         "Description": "A bit sour faced...",
                         "Icon": "Images/icon_acid.png",
@@ -484,7 +500,7 @@
             { 
                 "Name": "Histology", 
                 "Description": "Seeing different shades of pink hits a lot different now", 
-                "Icon": "Images/icon_temperature.png", 
+                "Icon": "Images/icon_bacterium.png", 
                 "Extra": "Blabla", 
                 "DetailedCardInfo": [
                     {
@@ -620,6 +636,12 @@
                                 "Description": "Inherited cancer-predisposing syndromes",
                                 "Icon": "Images/icon_gene.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_onco-genetics.html"
+                            },
+                            {
+                                "Name": "Pulmo-oncology",
+                                "Description": "Lungs and stuff",
+                                "Icon": "Images/icon_lungs.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_lung_cancer.html"
                             }
                         ]},
                     { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
@@ -1073,6 +1095,36 @@
             { "Name": "Ethics", "Description": "The science of what we should and shouldn`t do", "Icon": "Images/icon_scale.png", "Extra": "More details about Detail 1.", "Page": "Pages/Metascience/Ethics.html" },
             { "Name": "Research methodology", "Description": "How we know what we know now, no?", "Icon": "Images/icon_computer.png", "Extra": "More details about Detail 2.", "Page": "Pages/Metascience/ResearchMethods.html" },
             { "Name": "Medical law", "Description": "Limited only to the jurisdiction of the Kingdom of the Netherlands!.", "Icon": "Images/icon_book.png", "Extra": "More details about Detail 3.", "Page": "Pages/Metascience/Law.html"}
+        ]
+    },
+    {
+        "Name": "Random",
+        "Content": "Other stuff I like",
+        "Style": "",
+        "DetailedCardInfo": [
+
+            {
+                "Name": "Wine",
+                "Icon":"Images/icon_wine.png",
+                "Description": "The drink of God",
+                "DetailedCardInfo": [
+
+                    {
+                        "Name": "White wine",
+                        "Icon": "Images/icon_white_wine.png",
+                        "Description": "Weirdly, this becomes the blood of Christ",
+                        "Page": "Pages/Random/white_wine.html"
+                    },
+                    {
+                        "Name": "Red wine",
+                        "Icon": "Images/icon_red_wine.png",
+                        "Description": "This'd make so much more sense",
+                        "Page": "Pages/Random/red_wine.html"
+                    }
+
+                ]
+            }
+
         ]
     }
     ]
