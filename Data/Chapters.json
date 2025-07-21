@@ -1098,6 +1098,112 @@
         ]
     },
     {
+        "Name": "Textbooks",
+        "Content": "Full textbooks in my format",
+        "DetailedCardInfo": [
+            
+            {   "Name": "Brain Injury Medicine, 3rd edition",
+                "Icon": "Images/icon_brain.png",
+                "Description": "TBI rehabilitation",
+                "DetailedCardInfo": [
+
+                    {
+
+                        "Name": "Chapter I", 
+                        "Page": "Pages/Textbooks/BIM/ChapterI.html",
+                        "Icon": "Images/icon_book.png",
+                        "Description": "Introduction"
+
+                    },
+                    {
+                        "Name": "Chapter II",
+                        "Page": "Pages/Textbooks/BIM/ChapterII.html",
+                        "Icon": "Images/icon_question.png",
+                        "Description": "Epidemiology and prevention"
+                    },
+                    {
+                        "Name": "Chapter III",
+                        "Page": "Pages/Textbooks/BIM/ChapterIII.html",
+                        "Icon": "Images/icon_magnifier.png",
+                        "Description": "Imaging and diagnostics"
+                    },
+                    {
+                        "Name": "Chapter IV",
+                        "Page": "Pages/Textbooks/BIM/ChapterIV.html",
+                        "Icon": "Images/icon_growth.png",
+                        "Description": "Prognosis and functional assessment"
+                    },
+                    {
+                        "Name": "Chapter V",
+                        "Page": "Pages/Textbooks/BIM/ChapterV.html",
+                        "Icon": "Images/icon_pill.png",
+                        "Description": "Acute care"
+                    },
+                    {
+                        "Name": "Chapter VI",
+                        "Page": "Pages/Textbooks/BIM/ChapterVI.html",
+                        "Icon": "Images/icon_baby.png",
+                        "Description": "Rehabilitative care and specific populations"
+                    },
+                    {
+                        "Name": "Chapter VII",
+                        "Page": "Pages/Textbooks/BIM/ChapterVII.html",
+                        "Icon": "Images/icon_brain.png",
+                        "Description": "Neurologic problems"
+                    },
+                    {
+                        "Name": "Chapter VIII",
+                        "Page": "Pages/Textbooks/BIM/ChapterVIII.html",
+                        "Icon": "Images/icon_muscle.png",
+                        "Description": "Neuromuskuloskeletal problems"
+                    },
+                    {
+                        "Name": "Chapter IX",
+                        "Page": "Pages/Textbooks/BIM/ChapterIX.html",
+                        "Icon": "Images/icon_pill.png",
+                        "Description": "Medical management issues"
+                    },
+                    {
+                        "Name": "Chapter X",
+                        "Page": "Pages/Textbooks/BIM/ChapterX.html",
+                        "Icon": "Images/icon_brain.png",
+                        "Description": "Cognitive and behavioural issues"
+                    },
+                    {
+                        "Name": "Chapter XI",
+                        "Page": "Pages/Textbooks/BIM/ChapterXI.html",
+                        "Icon": "Images/icon_lungs.png",
+                        "Description": "Speech, language and swallowing"
+                    },
+                    {
+                        "Name": "Chapter XII",
+                        "Page": "Pages/Textbooks/BIM/ChapterXII.html",
+                        "Icon": "Images/icon_person",
+                        "Description": "Motor recovery and ADL"
+                    },
+                    {
+                        "Name": "Chapter XIII",
+                        "Page": "Pages/Textbooks/BIM/ChapterXIII.html",
+                        "Icon": "Images/icon_dog.png",
+                        "Description": "Neuropsychopharmacology, and alternative treatments"
+                    },
+                    {
+                        "Name": "Chapter XIV",
+                        "Page": "Pages/Textbooks/BIM/ChapterXIV.html",
+                        "Icon": "Images/icon_person.png",
+                        "Description": "Psychosocial, and vocational issues"
+                    },
+                    {
+                        "Name": "Chapter XV",
+                        "Page": "Pages/Textbooks/BIM/ChapterXV.html",
+                        "Icon": "Images/icon_book.png",
+                        "Description": "Medicolegal, and ethical issues"
+                    }         
+                ]}
+
+        ]
+    },
+    {
         "Name": "Random",
         "Content": "Other stuff I like",
         "Style": "",
