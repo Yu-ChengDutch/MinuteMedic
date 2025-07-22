@@ -1101,7 +1101,39 @@
         "Name": "Textbooks",
         "Content": "Full textbooks in my format",
         "DetailedCardInfo": [
-            
+            {
+                "Name": "Now AAPMR - Stroke",
+                "Icon": "Images/icon_brain.png",
+                "Description": "Stroke rehabilitation",
+                "DetailedCardInfo": [
+
+                    {
+                        "Name": "Stroke proper",
+                        "Page": "Pages/Textbooks/AAPMR - Stroke/Stroke.html",
+                        "Icon": "Images/icon_person.png",
+                        "Description": "Stroke proper in the adult"
+                    },
+                    {
+                        "Name": "Natural recovery",
+                        "Page": "Pages/Textbooks/AAPMR - Stroke/Natural_recovery.html",
+                        "Icon": "Images/icon_brain.png",
+                        "Description": "Stroke recovery in absence"
+                    },
+                    {
+                        "Name": "Paediatric stroke",
+                        "Page": "Pages/Textbooks/AAPMR - Stroke/Paediatric_stroke.html",
+                        "Icon": "Images/icon_baby.png",
+                        "Description": "Stroke proper in the child"
+                    },
+                    {
+                        "Name": "Emerging science",
+                        "Page": "Pages/Textbooks/AAPMR - Stroke/Emerging_science.html",
+                        "Icon": "Images/icon_book.png",
+                        "Description": "Some articles I found"
+                    }
+
+                ]
+            },            
             {   "Name": "Brain Injury Medicine, 3rd edition",
                 "Icon": "Images/icon_brain.png",
                 "Description": "TBI rehabilitation",
