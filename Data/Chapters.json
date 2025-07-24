@@ -980,6 +980,21 @@
                 "Icon": "Images/icon_pill.png",
                 "DetailedCardInfo": [
                     {
+                        "Name": "Introduction to Pharmacology",
+                        "Icon": "Images/icon_pill.png",
+                        "Description": "Pharmacokinetics, genetics etc.",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Pharmacogenetics",
+                                "Icon": "Images/icon_gene.png",
+                                "Description": "Influence of genes on pharmacology",
+                                "Page": "Pages/Clinical_science/Treatment_pharmacogenetics.html"
+                            }
+
+                        ]
+                    },
+                    {
                         "Name": "Alimentary tract and metabolism",
                         "Icon": "Images/icon_intestines.png",
                         "Description": "Curing the tube",
