@@ -1,0 +1,780 @@
+<div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-banner">
+        <h1 id="welcome-title">Welcome to the page on Pharmacokinetics!</h1>
+        <p id="welcome-description">This page mirrors the page by the Farmacotherapeutisch Kompas.</p>
+    </div>
+
+    <div class="explanation-card">
+        <h1><b>Introduction</b></h1>
+        <p>
+            Pharmacokinetics describes the processes a substance undergoes in the body, primarily focusing on the
+            <b>active
+                substance in a medicine</b>. These processes also apply to excipients, preservatives, and food
+            components. A
+            special mention is made for <b>prodrugs</b>, which are inactive substances that become active only after
+            metabolism in the intestinal wall and/or liver. The core processes of pharmacokinetics are <b>absorption,
+                distribution, metabolism, and excretion</b>. Metabolism and excretion are often grouped together as
+            <b>elimination</b>. Pharmacokinetics establishes relationships between these processes and time, using
+            mathematical formulas to approximate them, which allows for insights and predictions in practice. For
+            instance,
+            PK formulas can predict how drug concentration depends on dose, administration form, and the body's
+            condition.
+        </p>
+
+        <h1><b>Het gedrag van het geneesmiddel in het lichaam (The behavior of the drug in the body)</b></h1>
+        <p>
+            This section discusses the general behavior of a drug in the body and explains key concepts and definitions.
+            It
+            also addresses changes in drug pharmacokinetics due to organ dysfunction or diseases.
+            <br><br>
+            A drug contains one or more active substances in a specific dosage form. Sometimes, an inactive substance
+            (prodrug) is included that becomes active after metabolic conversion in the body. The dosage form helps
+            deliver
+            the active substance to the correct location in the body.
+            <br><br> <b>Lokale toediening (Local administration)</b>: If the site of action (receptor) is reasonably
+            accessible from outside the body, the active substance is applied locally, close to its working site.
+            Examples
+            include topical creams, eye/ear/nose drops, inhalers, rectal preparations (enemas, tablets, suppositories
+            for
+            local action), and local anesthetics.
+            <br><br> <b>Systemische toediening (Systemic administration)</b>: If direct application to the site of
+            action is
+            not possible, the circulatory system is used to transport the substance. Examples include various oral forms
+            (tablets, capsules, liquids), parenteral forms (intravenous, intramuscular, subcutaneous, epidural,
+            intrathecal), rectal (suppository, enema), sublingual, nasal sprays, and transdermal patches.
+        </p>
+
+        <h2><b>Absorptie (Absorption)</b></h2>
+        <p>
+            For systemic action, intravenous administration directly introduces the drug into circulation, chosen for
+            rapid
+            effect or when other routes are unavailable. For other routes, the active substance must be released from
+            the
+            dosage form and dissolve to move into circulation. This uptake into circulation is called <b>absorption</b>.
+            It
+            usually occurs via <b>passive diffusion</b>, sometimes facilitated diffusion, or active transport via an
+            <b>influx-transporter</b>.
+            <br><br> <b>Snelheid van absorptie (Speed of absorption)</b>: This depends on the dosage form,
+            administration
+            route, and physicochemical properties of the active substance. For example, a solid dosage form will enter
+            circulation slower than a dissolved form because it requires time for disintegration and dissolution.
+            Special
+            dosage forms exist for prolonged, delayed, or controlled release. If the drug diffuses quickly from blood to
+            tissues after absorption, the absorption speed determines the onset of action. A higher absorption speed can
+            lead to side effects due to a rapid rise in plasma concentration, especially for drugs with a narrow
+            therapeutic
+            window. For chronically administered drugs, slow absorption is often beneficial as it reduces plasma
+            concentration fluctuations. <b>Tmax</b> is the average time a drug needs to reach its maximum plasma
+            concentration (Cmax).
+            <br><br> <b>Mate van absorptie (Extent of absorption)</b>: This is a crucial kinetic parameter that partly
+            determines <b>bioavailability</b>. Bioavailability (F) indicates the fraction of the administered active
+            substance that ultimately reaches systemic circulation and becomes available for action, relative to an
+            intravenous administration of the same dose. F ranges from 0 (no drug available) to 1 (all drug available).
+            Loss
+            (1-F) can occur due to incomplete release from the dosage form, partial absorption (e.g., active transport
+            back
+            to the GI lumen via an <b>efflux-transporter</b>), or breakdown in the GI tract and/or liver during the
+            <b>first-pass effect</b>.
+            <br> The extent of absorption and bioavailability can vary between different dosage forms and even between
+            brand-name and generic drugs. F values can help estimate necessary dose adjustments when switching dosage
+            forms.
+            <br> Bioavailability can also vary significantly <b>inter-individually</b> (between persons) or
+            <b>intra-individually</b> (within the same person), especially with a larger first-pass effect or when food
+            influences absorption. Such variations can lead to fluctuating plasma concentrations, affecting drug
+            efficacy
+            and requiring extra attention to clinical effect, action, and side effects. The source mentions if such
+            variations are common for a drug and if its bioavailability (F) is known. F is equal to the ratio of the
+            "area
+            under the curve" (AUC) of plasma concentration vs. time after oral administration compared to intravenous
+            administration (which is 100% bioavailable).
+        </p>
+
+        <h2><b>Distributie (Distribution)</b></h2>
+        <p>
+            For a drug to be effective, it must reach its site of action (bio-phase). After entering systemic
+            circulation,
+            several processes begin: <b>distribution in the blood, binding to plasma proteins</b> (albumin, α1-acid
+            glycoprotein) or erythrocytes, <b>diffusion into extravascular tissues</b>, and <b>binding to tissue
+                components</b>. Elimination processes (metabolism and excretion) also continue. The extent and manner of
+            these processes depend on the drug's physicochemical properties and the patient's physical condition.
+            <br><br> <b>Passive diffusion</b> underlies many of these processes.
+            <br><br> <b>Protein binding</b> plays a significant role; high protein binding means most of the drug stays
+            in
+            plasma, with only the unbound fraction diffusing and being effective. Protein binding is noted in drug texts
+            if
+            it's ≥ 90% due to clinical relevance in drug interactions.
+            <br><br> <b>Transporters</b> are also involved, such as at the blood-brain barrier.
+            <br><br> Distribution is generally <b>heterogeneous</b>. Lipophilic substances tend to bind more to fat and
+            brain tissue.
+            <br><br> The <b>apparent (or fictive) volume of distribution (Vd)</b> is a measure of drug distribution in
+            the
+            body. It relates the amount of drug in the body to its plasma concentration (Vd = amount of drug in body /
+            plasma concentration). It's expressed in liters (l) or l/kg and is not a real volume.
+            <br><br> <b>Practical importance of Vd</b>: A high Vd (e.g., 20-40 l/kg for some tricyclic antidepressants,
+            antipsychotics, up to 200 l/kg for chloroquine) indicates significant tissue binding, meaning a large
+            portion of
+            the dose resides in tissues, and plasma concentration is relatively low. Vd is crucial for determining the
+            necessary <b>loading dose</b> to achieve a desired plasma concentration. For drugs with a large Vd or slow
+            distribution, a loading dose must be given very slowly or in multiple doses to avoid temporarily high plasma
+            concentrations and intoxication, especially if the drug has a narrow therapeutic window (e.g., digoxin,
+            amiodarone). Vd is also important for intoxications: if a drug has a large Vd, forced elimination methods
+            like
+            hemodialysis are generally ineffective.
+        </p>
+        <h2><b>Eliminatie: metabolisme en excretie (Elimination: metabolism and excretion)</b></h2>
+        <p>
+            Elimination of drugs primarily occurs via the <b>liver and kidneys</b>.
+            <br><br> <b>Metabolisme (Metabolism)</b>: In the liver, elimination often occurs through <b>chemical changes
+                to
+                the drug molecules (biotransformation or metabolization)</b>. <b>Prodrugs</b> are an exception; they are
+            inactive substances that become active after metabolic conversion. Metabolism can also occur in other organs
+            like kidneys, intestines, lungs, and placenta, indicating the role of metabolizing enzymes in detoxification
+            and
+            protecting the fetus.
+            <br> <b>First-pass effect</b>: If an orally ingested drug is partly metabolized in the intestinal wall
+            (presystemic metabolism) and/or in the liver before reaching systemic circulation, this is called the
+            first-pass
+            effect. It can significantly reduce and make bioavailability uncertain. Presystemic metabolism is the main
+            cause
+            of reduced bioavailability. Rectal administration can sometimes prevent presystemic metabolism as there are
+            no
+            metabolic enzymes in the rectal wall, and blood from the middle and lower rectal veins bypasses the liver
+            initially.
+            <br> Metabolism reactions are categorized into <b>Type 1 reactions</b> (hydrolysis, oxidation, reduction)
+            and
+            <b>Type 2 or conjugation reactions</b> (acetylation, glucuronidation, sulfation). Type 1 products can be
+            inactive or have a different efficacy/side effect profile. Type 2 products are usually pharmacologically
+            inactive, though exceptions exist (e.g., active glucuronides of morphine and midazolam).
+            <br> The <b>cytochrome P450 (CYP450) system</b> is crucial for drug metabolism (oxidative Type 1 reactions),
+            particularly CYP1, CYP2, and CYP3 families. Important individual enzymes include CYP3A4, CYP1A2, CYP2C9,
+            CYP2C19, and CYP2D6. Many drugs are substrates for specific enzymes, meaning they can be metabolized by them
+            or
+            induce/inhibit them.
+            <br> CYP enzymes show <b>high interindividual variability</b> in catalytic capacity due to genetic variation
+            and
+            environmental factors (enzyme induction/inhibition by food, smoking, co-medication). Genetic polymorphism is
+            especially relevant for drugs metabolized by CYP2D6, -2C9, or -2C19. Clinical signs of relevant genetic
+            polymorphism include unexpectedly low/absent effect or unexpectedly severe side effects.
+            <br><br> <b>Excretie (Excretion)</b>: A substance and/or its metabolite(s) may leave the body mainly via a
+            transporter through <b>bile/feces (excretion)</b>. In some cases, the substance may be reabsorbed from the
+            GI
+            tract after conjugate cleavage (enterohepatic circulation), leading to a longer stay in the body and a
+            prolonged
+            duration of action.
+            <br> The <b>kidneys</b> excrete water-soluble substances through <b>glomerular filtration</b> and/or
+            <b>active
+                tubular secretion</b> via transporters. Hydrophilic substances that are not sufficiently water-soluble
+            are
+            typically converted in the liver into more hydrophilic forms (Type 1 and 2 reactions) before renal
+            excretion.
+            <br> Another elimination mechanism involves <b>energy-dependent efflux pumps/transporters</b>, such as
+            <b>P-glycoprotein (Pgp)</b>. Pgp in the GI tract contributes to reduced bioavailability by excreting
+            absorbed
+            drugs back into the lumen. It also aids in active renal excretion (e.g., digoxin) and is present in the
+            blood-brain barrier and placenta.
+            <br> <b>Clearance (CL)</b> is a measure of the body's elimination capacity by the liver and kidneys (and
+            other
+            pathways) for a drug. It is defined as the volume of plasma completely cleared of the drug per unit time
+            (l/hr
+            or l/hr/kg).
+        </p>
+
+        <h2><b>Verblijfsduur en plateaufase (Duration of stay and plateau phase)</b></h2>
+        <p>
+            The <b>half-life</b> is used as a measure of the duration a drug stays in the body. This can be the
+            <b>plasma
+                half-life (T½)</b> or the <b>elimination half-life (T½el or T½β)</b>. Plasma half-life is the time for
+            plasma concentration to halve. Elimination half-life specifically refers to this value in the elimination
+            phase
+            (when absorption has ceased), providing more information about the elimination rate.
+            <br><br> Half-life is directly proportional to the volume of distribution and inversely proportional to
+            clearance.
+            <br><br> Elimination generally follows <b>first-order kinetics</b>, meaning a fixed percentage of the drug
+            is
+            cleared per unit time. If the elimination system is not saturated, 94% of an administered dose is excreted
+            after
+            four T½el, and 97% after five T½el. This knowledge is important for medication changes, interactions, and
+            managing side effects or intoxications.
+            <br><br> T½el is generally substance-specific and independent of the dosage form. However, with controlled
+            or
+            sustained-release dosage forms, new drug constantly enters circulation, making the T½el appear prolonged
+            (apparent elimination half-life).
+            <br><br> When a drug is administered repeatedly, and the daily absorbed fraction equals the daily eliminated
+            amount, the plasma concentration fluctuates around a nearly constant value, known as the <b>steady state or
+                plateau phase</b>. This plateau is reached after approximately four to five times the T½el. The clinical
+            effect of the drug should generally be assessed during this plateau phase. The average plasma concentration
+            during the plateau phase is proportional to the daily dose and bioavailability, and inversely proportional
+            to
+            the dosing interval and clearance.
+            <br><br> If drug elimination depends on enzymes or transporters, plasma concentration can rise
+            disproportionately with small dose increases if the elimination system becomes saturated (e.g., phenytoin).
+        </p>
+
+        <h2><b>Plasmaconcentratie en werking (Plasma concentration and effect)</b></h2>
+        <p>
+            For a drug to work, a certain amount of active substance must reach the relevant receptors. Since this is
+            not
+            directly measurable, plasma concentration is often used as a proxy. However, plasma concentration does not
+            always directly correlate with the clinical effect (efficacy and side effects). This one-to-one relationship
+            doesn't hold when active metabolites are formed (each with their own clearance, Vd, and half-life) or for
+            irreversible receptor/enzyme blockers (where action persists after drug elimination until new
+            receptors/enzymes
+            are produced).
+            <br><br> For most active substances, there is a reasonable to good correlation between dose/plasma
+            concentration
+            and clinical effect.
+            <br><br> <b>Therapeutic Drug Monitoring (TDM)</b> (monitoring plasma concentration) can be especially useful
+            for
+            drugs with a <b>narrow therapeutic window</b>, unexpected changes in clinical effect in unstable patients
+            (ICU
+            patients), in cases of interactions, and for checking therapy adherence. For chronic drugs requiring a
+            constant
+            plasma concentration, TDM helps determine a reference plasma concentration for the patient. Examples include
+            phenytoin and lithium. TDM is also used for adherence monitoring for anti-epileptics, antidepressants,
+            antipsychotics, and some immunosuppressants.
+        </p>
+        <h1>
+            <b>Het gedrag van monoklonale antilichamen in het lichaam (The behavior of monoclonal antibodies in the
+                body)</b>
+        </h1>
+        <p>
+            Intact monoclonal antibodies are among the largest molecules used as drugs. Their <b>molecular size and
+                structure lead to an abnormal pharmacokinetics</b> compared to smaller molecules. Most registered
+            monoclonal
+            antibodies belong to the IgG family and are used for autoimmune diseases, oncology, and asthma.
+            <br><br> <b>Absorptie</b>: Monoclonal antibodies are <b>not absorbed from the GI tract</b> because they are
+            proteins broken down in the gut, and their large size and hydrophilic nature limit intestinal wall
+            permeability.
+            Thus, most are administered <b>intravenously</b>, some subcutaneously or intramuscularly. Local
+            administration
+            is rarely possible (e.g., intra-ocular for macular degeneration, pulmonary for asthma).
+            <br> Absorption after subcutaneous or intramuscular administration is much slower than for smaller
+            molecules.
+            They struggle to cross the endothelial barrier and are transported via the lymph, eventually reaching the
+            blood/circulation via lymph nodes. The time to maximal blood levels (one to eight days) depends on injection
+            site, lymph composition, and physical movement.
+            <br><br> <b>Biologische beschikbaarheid (Bioavailability)</b>: After subcutaneous or intramuscular
+            administration, bioavailability (relative to IV) is often <b>lower (approx. 50-75%)</b> than for smaller
+            molecules, due to proteolysis (breakdown) in the lymph.
+            <br><br> <b>Verdelingsvolume (Volume of distribution)</b>: Monoclonal antibodies have a <b>small Vd</b>.
+            Their
+            large size and hydrophilic nature prevent diffusion from the bloodstream, so their Vd often approximates the
+            <b>plasma volume</b>. Some extravasation can occur via convection and pinocytosis in endothelial cells. In
+            tumor
+            tissue, they mostly accumulate in or near blood vessels. Tumor penetration depends on interstitial pressure
+            and
+            antibody structure. Modifying antibodies (e.g., using only Fab-fragments) can improve tissue distribution.
+            <br><br> <b>Metabolisme (Metabolism)</b>: Due to their size, monoclonal antibodies are <b>not (or hardly)
+                excreted in urine</b>. They are broken down into peptides and amino acids, likely through
+            <b>proteolysis</b>
+            in tissues, especially intracellularly in endothelial and target cells. Phagocytes (macrophages, natural
+            killer
+            cells) also break them down after Fc-part binding.
+            <br><br> <b>(Eliminatie)halfwaardetijd ((Elimination) half-life)</b>: Intact monoclonal antibodies typically
+            have a <b>long half-life</b>. This is because they are naturally protected from elimination by <b>neonatal
+                Fc-receptors (FcRn)</b>. Endogenous IgG has a half-life of about 23 days. FcRn protects circulating
+            immunoglobulins from degradation by binding to their non-specific Fc-portion intracellularly, then returning
+            them to circulation. Unbound immunoglobulin is degraded intracellularly. At high doses, elimination becomes
+            non-linear due to saturation of these protective receptors, leading to increased clearance.
+            <br><br> <b>Nieuwe ontwikkelingen (New developments)</b>: Modifications to the immunoglobulin molecule aim
+            to
+            improve tissue distribution and/or therapeutic activity. <b>Fab-fragments</b> (antibodies without an
+            Fc-part)
+            are already used; their smaller size allows better tissue distribution but results in a significantly
+            shorter
+            half-life (e.g., 30 minutes). Fab-fragments can also be renally cleared as relatively small molecules.
+            Experiments are ongoing to modify the Fc-part to improve pharmacokinetics.
+        </p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 1</h1>
+        <p>Which route of administration avoids first-pass metabolism?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Oral</li>
+            <li data-answer="correct">Rectal</li>
+            <li data-answer="wrong">Subcutaneous</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 2</h1>
+        <p>What does the volume of distribution (Vd) indicate?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Drug half-life</li>
+            <li data-answer="wrong">Drug clearance</li>
+            <li data-answer="correct">Extent of drug distribution into tissues</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 3</h1>
+        <p>Which factor does NOT influence drug absorption?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Dosage form</li>
+            <li data-answer="correct">Plasma protein binding</li>
+            <li data-answer="wrong">Administration route</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 4</h1>
+        <p>What is the primary reason monoclonal antibodies are not given orally?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">They are degraded in the GI tract</li>
+            <li data-answer="wrong">They are highly lipophilic</li>
+            <li data-answer="wrong">They are rapidly absorbed</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 5</h1>
+        <p>What does bioavailability (F) of 1 mean?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">100% of the drug reaches systemic circulation</li>
+            <li data-answer="wrong">All of the drug is excreted unchanged</li>
+            <li data-answer="wrong">The drug has no side effects</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 6</h1>
+        <p>Which factor most directly affects the loading dose?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Clearance</li>
+            <li data-answer="correct">Volume of distribution</li>
+            <li data-answer="wrong">Bioavailability</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 7</h1>
+        <p>What is the primary role of the cytochrome P450 system?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Protein binding</li>
+            <li data-answer="correct">Drug metabolism</li>
+            <li data-answer="wrong">Renal excretion</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 8</h1>
+        <p>Which process is typically responsible for the elimination of hydrophilic drugs?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Renal excretion</li>
+            <li data-answer="wrong">Biliary secretion</li>
+            <li data-answer="wrong">Metabolic oxidation</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 9</h1>
+        <p>When is Therapeutic Drug Monitoring (TDM) most useful?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">For drugs with large therapeutic windows</li>
+            <li data-answer="wrong">For short-acting antibiotics</li>
+            <li data-answer="correct">For drugs with narrow therapeutic windows</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 10</h1>
+        <p>Which mechanism is responsible for drug efflux at the blood-brain barrier?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">CYP3A4</li>
+            <li data-answer="wrong">Facilitated diffusion</li>
+            <li data-answer="correct">P-glycoprotein</li>
+        </ul>
+    </div>
+
+    <div class="explanation-card">
+        <h1>
+            <b>Kinetische parameters bij zwangerschap, functiestoornissen en ziekten (Kinetic parameters during
+                pregnancy, organ dysfunctions, and diseases)</b>
+        </h1>
+        <h2><b>Inleiding (Introduction)</b></h2>
+        <p>
+            Pharmacokinetic parameters published in official product information and textbooks are <b>average values</b>
+            obtained from relatively healthy individuals. Increasingly, these values are also determined in target
+            patient
+            groups and populations known to have altered kinetic parameters, such as infants, young children, the
+            elderly,
+            pregnant women, and people with kidney or liver diseases. Changes in drug distribution and elimination rates
+            are
+            particularly important.
+        </p>
+
+        <h2><b>Zwangerschap (Pregnancy)</b></h2>
+        <p>
+            During pregnancy, physiological changes can affect drug use, especially for drugs with a <b>narrow
+                therapeutic
+                window</b>. Changes include:
+            <br><br> Increased stomach pH (affecting absorption and bioavailability).
+            <br><br> Increased plasma volume (up to approx. 42%) and total body water (up to approx. 21%; important for
+            hydrophilic drugs).
+            <br><br> Increased glomerular filtration rate (approx. 50%).
+            <br><br> Unpredictable changes in tubular processes (important for elimination).
+            <br><br> Induction of CYP2D6 and CYP3A4 enzymes, and inhibition of CYP1A2 and CYP2C19 enzymes (important for
+            elimination or active substance formation).
+        </p>
+
+        <h2><b>Nierfunctiestoornissen (Renal dysfunctions)</b></h2>
+        <p>
+            For most drugs and active metabolites removed by the kidneys, elimination occurs through <b>glomerular
+                filtration</b>. Significant reduction in glomerular filtration due to kidney disease increases the risk
+            of
+            <b>drug accumulation</b>. If renal function is stable, dose reduction can be calculated based on
+            <b>creatinine
+                clearance</b> and the fraction normally renally eliminated. Total clearance (renal + extrarenal) is used
+            for
+            adjustment.
+            <br><br> Various formulas estimate kidney function. Older drugs often use creatinine clearance (Clcr)
+            estimated
+            by the Cockcroft-Gault formula. Newer drugs often use body surface area-normalized estimated glomerular
+            filtration rate (eGFR) calculated by CKD-EPI or MDRD formulas.
+            <br><br> The KNMP (Royal Dutch Pharmacists Association) working group recommends using Clcr for dosing
+            advice in
+            the G-Standard because studies supporting the advice often rely on Clcr. Adjusting Clcr to eGFR for dosing
+            advice is unlikely to improve patient outcomes.
+            <br><br> Drug distribution typically does not change with impaired renal function, unless edema (e.g.,
+            nephrotic
+            syndrome) or end-stage renal failure is present.
+            <br><br> Special attention is needed for immature kidneys in neonates and the slow decline in renal function
+            with aging.
+        </p>
+
+        <h2><b>Leverfunctiestoornissen (Liver dysfunctions)</b></h2>
+        <p>
+            Predicting a potential decrease in elimination with liver disease is often difficult. Factors include:
+            <br><br> Decreased activity of some CYP450 enzyme families.
+            <br><br> Changes in functional liver tissue.
+            <br><br> Changes in liver blood flow (e.g., histological changes in capillary walls, presence of shunts,
+            reduced
+            blood flow).
+            <br><br> Oxygen deficiency (affecting oxygen-dependent Phase-1 oxidation reactions).
+            <br><br> The liver has significant regenerative capacity and reserve, so impaired function may only become
+            noticeable in advanced stages of liver disease.
+            <br><br> Due to the diverse nature of liver abnormalities and the lack of clear parameters to measure them
+            (unlike renal dysfunction), predicting the extent and manner of changes in drug elimination is difficult.
+            <br><br> A critical aspect is <b>impaired renal function</b> that can occur with liver diseases. If the
+            unchanged drug or an active metabolite is significantly eliminated via the kidneys, dose reduction might be
+            necessary. Serum creatinine may not accurately reflect renal function in liver failure patients due to
+            decreased
+            muscle mass and reduced conversion of creatine to creatinine. In practice, renal function is often
+            overestimated
+            in patients with liver cirrhosis based on creatinine clearance.
+            <br><br> Reduced hepatic elimination capacity in young children also requires attention.
+        </p>
+
+        <h2><b>Hartfalen (Heart failure)</b></h2>
+        <p>
+            Changes in organ circulation can alter absorption, distribution, and elimination.
+            <br><br> <b>Edema</b> increases the volume of distribution, thereby lowering the plasma concentration of
+            hydrophilic drugs.
+            <br><br> Edema around the intestines is considered a factor influencing absorption.
+            <br><br> Local hypoxia can damage tissues, such as parts of the liver, affecting CYP450 system function.
+            <br><br> These factors can lead to an unexpected drug effect. Special attention is needed for drugs with a
+            relatively <b>low bioavailability (F < 20%)</b>, as small changes can have significant consequences.
+        </p>
+
+        <h2><b>Anorexia nervosa, cachexie en obesitas (Anorexia nervosa, cachexia, and obesity)</b></h2>
+        <p>
+            In diseases with rapid body weight loss (e.g., anorexia nervosa, HIV wasting, malignancy cachexia),
+            significant metabolic changes occur, altering drug response.
+            <br><br> Kinetic parameters are usually changed: <b>body composition and thus Vd</b>, <b>plasma protein
+                binding</b> (due to protein deficiency), and <b>reduced liver function and clearance</b>. Research
+            on drug pharmacokinetics and necessary dose adjustments in these groups is limited.
+            <br><br> In (morbid) obesity and after bariatric surgery, important pharmacokinetic changes also occur.
+            <br> <b>Obesity</b>: Factors include increased fat mass, increased cardiac output, and altered liver and
+            kidney blood flow, influencing distribution, metabolism, and clearance. Dose adjustments for some drugs
+            depend on drug properties (lipophilicity, protein binding, extraction ratio, clearance route) and
+            patient characteristics (degree of overweight, liver/kidney dysfunction).
+            <br> <b>Bariatric surgery</b>: Changes in GI anatomy and physiology (smaller stomach volume, higher
+            stomach pH, reduced exposure to digestive enzymes, reduced absorption surface) can affect drug
+            absorption. Weight loss can also change Vd, depending on drug properties. These changes can alter
+            systemic drug exposure.
+            <br><br> Extra vigilance is advised for drug effects and side effects in these patient groups.
+        </p>
+
+        <h2><b>Intensive care-patiënten (Intensive care patients)</b></h2>
+        <p>
+            Drug effects are often unpredictable in ICU patients due to infrequent steady-state conditions. Major
+            influences on pharmacokinetics include:
+            <br><br> Changes in <b>circulation, liver function, kidney function, fluid and electrolyte balance</b>.
+            <br><br> Changes in <b>Vd</b> (due to muscle loss, edema, fluid administration/removal, extracorporeal
+            circulation like dialysis or ECMO).
+            <br><br> <b>Parenteral administration</b> is often necessary due to significant disruption of enteral
+            physiology, and some medications cannot be given via feeding tubes.
+            <br><br> For many commonly used ICU drugs, alternative dosing regimens and other important
+            considerations (e.g., PK changes in Vd) have been mapped out. Due to uncertainty of drug effects,
+            <b>intensive blood level monitoring (TDM)</b> is frequently used.
+        </p>
+
+        <h2><b>Afwijkende maag-darmmotiliteit (Abnormal gastrointestinal motility)</b></h2>
+        <p>
+            Changes in GI motility can alter the speed and/or extent of absorption, depending on where the drug is
+            normally absorbed and the type of motility disorder. Motility can be altered by disease or co-medication
+            (e.g., anticholinergics, opiates, domperidone, metoclopramide). These changes are generally rarely
+            relevant. A significant exception is <b>intoxication with anticholinergic agents</b>, where stomach
+            motility and absorption can be severely delayed, leading to a maximal effect manifesting only after
+            days. In other intoxications, Tmax is often difficult to predict.
+        </p>
+
+        <h1>
+            <b>Interacties tijdens de verschillende kinetische processen (Interactions during the various
+                kinetic processes)</b>
+        </h1>
+        <h2><b>Inleiding (Introduction)</b></h2>
+        <p>
+            Drug interactions can occur during various kinetic processes, leading to a <b>decrease or increase in
+                the amount of drug at the receptors</b>. The clinical relevance of these changes (in efficacy and/or
+            side effects) depends on the <b>therapeutic window</b> of the drug and the patient's homeostatic
+            mechanisms to compensate for effect changes (e.g., blood pressure, body temperature regulation).
+        </p>
+        <h2><b>Absorptie (Absorption)</b></h2>
+        <p>
+            <br><br> <b>Chemical reactions in the GI tract</b>: Interactions can occur when drugs become unsuitable
+            for absorption due to chemical reactions. Examples include calcium ions (from antacids, milk, tube
+            feeding) with tetracycline, (tube) feeding with levothyroxine, bisphosphonates, fluoroquinolones; iron
+            ions with doxycycline; colestyramine with vitamin K antagonists and digoxin. This mechanism is utilized
+            in intoxications by administering activated charcoal orally.
+            <br><br> <b>Presystemic metabolism</b>: Interference with absorption also happens via presystemic
+            metabolism in the GI tract, primarily involving <b>CYP3A4</b>. Inhibition of intestinal CYP3A4 by one
+            drug can enhance the absorption and increase the bioavailability of another drug significantly affected
+            by the first-pass effect (presystemic clearance). Grapefruit juice, for example, is thought to
+            irreversibly inhibit intestinal CYP3A4 for about 74 hours. Another example is Cushing's syndrome when
+            budesonide is combined with some macrolide antibiotics (erythromycin, clarithromycin) or triazoles
+            (itraconazole, fluconazole, voriconazole), which inhibit its presystemic and systemic metabolism,
+            leading to high budesonide concentrations.
+            <br><br> <b>pH influence</b>: Altering stomach pH is another mechanism. For instance, "enteric coated"
+            tablets should not be taken simultaneously with antacids, as increased stomach pH causes premature
+            dissolution.
+            <br><br> <b>Altered GI motility</b>: Changes in GI motility can be clinically relevant, especially with
+            severe diarrhea, ileus, or due to drug interactions, and can significantly delay absorption in
+            intoxications.
+        </p>
+
+        <h2><b>Eiwitbinding (Protein binding)</b></h2>
+        <p>
+            Interactions due to plasma protein binding interference are rarely clinically relevant. If one drug
+            displaces another from protein binding, the concentration of unbound (and thus active) drug in plasma
+            initially rises. However, this increase is quickly offset by rapid distribution to interstitial
+            spaces/tissues and increased elimination.
+            <br><br> A clinically relevant temporary increase in unbound concentration is only expected if drug A
+            has:
+            <br> <b>High plasma protein binding (≥ 90%)</b>.
+            <br> A <b>small volume of distribution</b>.
+            <br> A <b>narrow therapeutic window</b>.
+            <br> Is eliminated by a <b>saturable enzyme or transporter system</b>.
+            <br><br> In known interactions (e.g., tolbutamide/sulfonamides, vitamin K antagonists/salicylates),
+            other mechanisms (like elimination influence) play a more significant role than protein displacement.
+            Protein binding is mentioned in drug texts if ≥ 90%.
+        </p>
+
+        <h2><b>Eliminatie (Elimination)</b></h2>
+        <p>
+            Interactions in the elimination phase can result from <b>competition for available enzymes</b> (e.g.,
+            plasma esterases, P450 enzymes) and <b>transporters</b> (e.g., in tubular secretion, biliary excretion).
+            Other factors like renal blood flow and urine pH can also influence the eliminated amount per unit time
+            (e.g., NSAIDs with lithium or metformin, sodium bicarbonate with quinidine or methotrexate).
+            <br><br> <b>CYP450 system interactions</b>: The clinical relevance can be more precisely predicted due
+            to the classification into subfamilies and isoenzymes. The risk of interaction increases if the
+            substrate (the drug whose metabolism is affected) has only one important metabolic pathway, and the
+            relevant enzyme is strongly inhibited or induced by another drug.
+            <br> <b>Table 2</b> provides examples of strong inhibitors and inducers for various CYP450 subfamilies
+            that cause important clinical interactions.
+            <br> - <b>CYP1A2</b>: Strong inhibitors include ciprofloxacin, fluvoxamine. Strong inducers include
+            carbamazepine, phenobarbital, phenytoin, rifampicin, tobacco.
+            <br> - <b>CYP2C19</b>: Strong inhibitors include fluvoxamine. Strong inducers include apalutamide,
+            enzalutamide, rifampicin.
+            <br> - <b>CYP2C8</b>: Strong inhibitors include gemfibrozil, clopidogrel. Strong inducers include
+            rifampicin.
+            <br> - <b>CYP2C9</b>: Strong inhibitors include benzbromarone, phenylbutazone, fluconazole, miconazole,
+            voriconazole. Strong inducers include carbamazepine, phenobarbital, phenytoin, rifampicin.
+            <br> - <b>CYP2D6</b>: Strong inhibitors include bupropion, cinacalcet, (nor)fluoxetine, paroxetine,
+            quinine, quinidine, propafenone, ritonavir, terbinafine. This subgroup is generally relatively
+            insensitive to inducing substances.
+            <br> - <b>CYP2E1</b>: Strong inhibitors include disulfiram. Strong inducers include isoniazid, ethanol.
+            <br> - <b>CYP3A4</b>: Strong inhibitors include macrolides (clarithromycin, erythromycin), imidazole
+            derivatives (itraconazole, ketoconazole, posaconazole, voriconazole), HIV protease inhibitors
+            (ritonavir, saquinavir), ribociclib, grapefruit (juice). Strong inducers include apalutamide,
+            enzalutamide, ceritinib, dabrafenib, idelalisib, lorlatinib, mitotane, carbamazepine, rifampicin, St.
+            John's wort.
+            <br> <b>Consequences of interactions</b>: Interactions can have major consequences if the substrate has
+            a <b>small bioavailability (F < 20%)</b>, a <b>narrow therapeutic window</b>, or if the
+                    substrate/metabolite has <b>toxic properties</b>. For example, the high risk of 'torsades de
+                    pointes' with interactions between (moderately to strong) enzyme inhibitors and QT-interval
+                    prolonging drugs.
+                    <br> <b>Onset and offset</b>: <b>Inhibition of CYP enzymes</b> occurs quickly and is usually
+                    reversible; its disappearance depends on the inhibitor's half-life. <b>Induction of CYP
+                        enzymes</b> (extra enzyme production) is more gradual (days to weeks). The disappearance of
+                    induction is also gradual (usually several weeks), depending on the inducer's half-life and the
+                    breakdown of the extra enzymes produced.
+                    <br><br> Drug texts generally list more potential interactions than drug monitoring systems
+                    because the ultimate clinical relevance is not always predictable, as it is a sum of effects on
+                    both enzyme systems and transporters.
+        </p>
+
+        <h1><b>Gebruikte begrippen (Used concepts)</b></h1>
+        <p>
+            The source includes a glossary of key pharmacokinetic terms and their meanings. These include:
+            <br><br> <b>Absorptie</b>: Uptake of a substance into circulation.
+            <br><br> <b>Absorptiefase</b>: State where absorption predominates over
+            distribution/elimination.
+            <br><br> <b>Actief transport</b>: Energy-consuming movement of molecules across cell membrane
+            against concentration gradient via a transporter.
+            <br><br> <b>Algemene circulatie</b>: Circulation excluding portal venous system.
+            <br><br> <b>AUC ('Area Under the Curve')</b>: Area under plasma concentration vs. time curve;
+            measure of bioavailability and exposure.
+            <br><br> <b>Biologische beschikbaarheid</b>: Fraction of administered dose reaching systemic
+            circulation unchanged.
+            <br><br> <b>Biotransformatie</b>: Chemical changes to molecules by enzymes, usually in GI
+            tract/liver, forming metabolites; Phase 1 and Phase 2 reactions.
+            <br><br> <b>Bloedspiegel</b>: Concentration of substance in blood at a specific time.
+            <br><br> <b>Creatinineklaring</b>: Volume of plasma cleared of creatinine per unit time,
+            indicating glomerular filtration rate (GFR).
+            <br><br> <b>Cumulatie</b>: Accumulation of substance when input exceeds elimination.
+            <br><br> <b>Cytochroom P450</b>: Main enzyme system in GI tract/liver for xenobiotic
+            biotransformation.
+            <br><br> <b>Diffusie</b>: Movement of molecules down a concentration gradient.
+            <br><br> <b>Distributie</b>: Distribution of substance throughout the body.
+            <br><br> <b>Doseerfrequentie</b>: Number of times a drug is administered per unit time.
+            <br><br> <b>eGFR ('estimated Glomerular Filtration Rate')</b>: Estimated GFR per 1.73 m² body
+            surface area, important measure of kidney function.
+            <br><br> <b>Eiwitbinding</b>: Fraction of drug bound to plasma proteins in systemic circulation.
+            <br><br> <b>Eliminatie</b>: Removal of substance from the body by metabolization and excretion.
+            <br><br> <b>Eliminatiefase</b>: State where only elimination occurs.
+            <br><br> <b>Excretie</b>: Removal of substance from body, usually via urine or bile/feces.
+            <br><br> <b>Enterohepatische kringloop</b>: Reabsorption of substance from intestine after
+            biliary excretion.
+            <br><br> <b>Enzyminductie</b>: Increased metabolic activity due to increased enzyme production.
+            <br><br> <b>First-pass-effect</b>: Metabolism of absorbed drug in intestinal wall/liver before
+            systemic circulation.
+            <br><br> <b>Gefaciliteerde diffusie</b>: Transporter-mediated movement down concentration
+            gradient without energy.
+            <br><br> <b>Halfwaardetijd (T½)</b>: Time for plasma concentration to halve (phase unspecified).
+            <br><br> <b>Halfwaardetijd (T½el or T½β)</b>: Time for plasma concentration to halve in
+            elimination phase.
+            <br><br> <b>Homeostatische mechanismen</b>: Mechanisms maintaining bodily homeostasis.
+            <br><br> <b>Keerdosis</b>: Amount of substance administered per single dose.
+            <br><br> <b>Klaring</b>: Measure of elimination capacity by liver, kidney, etc.; volume of
+            plasma cleared of substance per unit time.
+            <br><br> <b>Metaboliet</b>: Substance formed after biotransformation.
+            <br><br> <b>Passieve diffusie</b>: Movement down concentration gradient without transporter or
+            energy.
+            <br><br> <b>Plasmaconcentratie</b>: Concentration of substance in plasma at a specific time.
+            <br><br> <b>Plateaufase ('steady-state')</b>: Equilibrium where absorbed amount equals
+            eliminated amount, leading to constant plasma concentration fluctuations.
+            <br><br> <b>Receptor</b>: Protein (usually on cell membrane) to which a drug molecule binds,
+            initiating or blocking a reaction.
+            <br><br> <b>Therapeutische breedte</b>: Difference in drug amount for therapeutic vs. toxic
+            effect; narrow range means toxic effects occur quickly with accumulation/small overdose.
+            <br><br> <b>Transporter</b>: Transport protein in cell membrane moving specific molecules.
+            <br><br> <b>Verdelingsvolume</b>: Ratio of drug amount in body to plasma concentration.
+        </p>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 11</h1>
+        <p>Which pharmacokinetic change is most characteristic of pregnancy?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Decreased plasma volume</li>
+            <li data-answer="correct">Increased glomerular filtration rate</li>
+            <li data-answer="wrong">Decreased stomach pH</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 12</h1>
+        <p>Why is creatinine clearance preferred over eGFR for drug dosing?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">eGFR is more accurate in elderly patients</li>
+            <li data-answer="wrong">Clcr overestimates kidney function</li>
+            <li data-answer="correct">Dosing studies are based on Clcr</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 13</h1>
+        <p>Which factor complicates drug dosing in liver disease?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Unpredictable changes in liver blood flow and enzyme activity</li>
+            <li data-answer="wrong">Increased glomerular filtration rate</li>
+            <li data-answer="wrong">Higher plasma protein levels</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 14</h1>
+        <p>In heart failure, what contributes most to decreased hydrophilic drug concentration?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Increased volume of distribution due to edema</li>
+            <li data-answer="wrong">Decreased renal excretion</li>
+            <li data-answer="wrong">Enhanced hepatic metabolism</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 15</h1>
+        <p>Which statement about protein binding interactions is correct?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">They are almost always clinically significant</li>
+            <li data-answer="correct">They matter mostly when drugs are ≥90% bound with low Vd and narrow therapeutic
+                window</li>
+            <li data-answer="wrong">They are irrelevant for any drug with renal clearance</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 16</h1>
+        <p>What is a critical issue in drug dosing for anorexic or cachectic patients?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">High fat mass</li>
+            <li data-answer="correct">Protein deficiency affecting plasma protein binding</li>
+            <li data-answer="wrong">Increased liver function</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 17</h1>
+        <p>Which CYP enzyme is most strongly inhibited by grapefruit juice?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">CYP2D6</li>
+            <li data-answer="wrong">CYP1A2</li>
+            <li data-answer="correct">CYP3A4</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 18</h1>
+        <p>What best explains the delayed absorption in anticholinergic intoxication?</p>
+        <ul class="options" id="options">
+            <li data-answer="correct">Severe inhibition of GI motility</li>
+            <li data-answer="wrong">Increased enzyme induction</li>
+            <li data-answer="wrong">Enhanced gastric emptying</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 19</h1>
+        <p>What is a common cause of altered drug absorption after bariatric surgery?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Increased enzymatic degradation</li>
+            <li data-answer="correct">Reduced absorption surface and increased pH</li>
+            <li data-answer="wrong">Higher gastric motility</li>
+        </ul>
+    </div>
+
+    <div class="question-card">
+        <h1>Question 20</h1>
+        <p>Which feature increases the clinical relevance of a CYP interaction?</p>
+        <ul class="options" id="options">
+            <li data-answer="wrong">Wide therapeutic window</li>
+            <li data-answer="correct">Single metabolic pathway with strong inhibition or induction</li>
+            <li data-answer="wrong">High protein binding with large Vd</li>
+        </ul>
+    </div>
+
+    <div class="placeholder" id="empty">Test</div>
+
+</div>

@@ -732,7 +732,20 @@
                                 "Page": "Pages/Clinical_science/Diagnosis_pos_neg.html"
                             }
                         ]},
-                    { "Name": "Somnology", "Description": "Conditions preceding, during or following sleep", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
+                    {   "Name": "Somnology", 
+                        "Description": "Conditions preceding, during or following sleep", 
+                        "Icon": "Images/icon_sleep.png", 
+                        "Extra": "More details about Detail 1.",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Sleep problems after stroke/TBI",
+                                "Description": "Preparation for Roessingh",
+                                "Icon": "Images/icon_brain.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_sleep_after_stroke.html"
+                            }
+
+                        ]},
                     {   "Name": "Neurology", 
                         "Description": "Diseases of the nervous system", 
                         "Icon": "Images/icon_brain.png", 
@@ -869,6 +882,12 @@
                                 "Icon": "Images/icon_rash.png",
                                 "Description": "It's red, and it itches",
                                 "Page": "Pages/Clinical_science/Diagnosis_inflammatory_dermatoses.html"
+                            },
+                            {
+                                "Name": "Pressure ulcers",
+                                "Icon": "Images/icon_skin.png",
+                                "Description": "The only thing relevant for me",
+                                "Page": "Pages/Clinical_science/Diagnosis_pressure_ulcers.html"
                             }
 
                         ]},
@@ -986,10 +1005,22 @@
                         "DetailedCardInfo": [
 
                             {
+                                "Name": "Pharmacokinetics",
+                                "Icon": "Images/icon_kidneys.png",
+                                "Description": "Clearing of pharmaca",
+                                "Page": "Pages/Clinical_science/Treatment_pharmacokinetics.html"
+                            },
+                            {
                                 "Name": "Pharmacogenetics",
                                 "Icon": "Images/icon_gene.png",
                                 "Description": "Influence of genes on pharmacology",
                                 "Page": "Pages/Clinical_science/Treatment_pharmacogenetics.html"
+                            },
+                            {
+                                "Name": "Toxicology",
+                                "Icon": "Images/icon_chemistry.png",
+                                "Description": "Chronic and acute intoxications",
+                                "Page": "Pages/Clinical_science/Treatment_toxicology.html"
                             }
 
                         ]
