@@ -433,69 +433,95 @@
             {   "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "Images/icon_temperature.png", "Extra": "More details about Detail 2.",
                 "DetailedCardInfo": [ 
                     {
-                        "Name": "Temperature regulation",
-                        "Description": "Fever and the like",
+                        "Name": "Physiological conditions",
+                        "Description": "How it is supposed to work",
+                        "Icon": "Images/icon_person.png",
+                        "DetailedCardInfo": [
+
+                            {
+                                "Name": "Temperature regulation",
+                                "Description": "Fever and the like",
+                                "Icon": "Images/icon_temperature.png",
+                                "Page": "Pages/Applied_science/Physiology_temperature.html"
+                            },
+                            {
+                                "Name": "Iron physiology",
+                                "Description": "Uptake, storage etc.",
+                                "Icon": "Images/icon_iron.png",
+                                "Page": "Pages/Applied_science/Physiology_iron.html"
+                            },
+                            {
+                                "Name": "Muscle physiology",
+                                "Description": "STRONG!",
+                                "Icon": "Images/icon_muscle.png",
+                                "Page": "Pages/Applied_science/Physiology_muscle.html"
+                            },
+                            {
+                                "Name": "Acid-base metabolism",
+                                "Description": "A bit sour faced...",
+                                "Icon": "Images/icon_acid.png",
+                                "Page": "Pages/Applied_science/Physiology_acid_base.html"
+                            },
+                            {
+                                "Name": "Menstrual cycle and hormones",
+                                "Description": "Oof, hormonal...",
+                                "Icon": "Images/icon_uterus.png",
+                                "Page": "Pages/Applied_science/Physiology_period.html"
+                            },
+                            {
+                                "Name": "Cardiac elektrophysiology",
+                                "Description": "Pulsing and beating...",
+                                "Icon": "Images/icon_heart.png",
+                                "Page": "Pages/Applied_Science/Physiology_cardiac_elektrophysiology.html"
+                            },
+                            {
+                                "Name": "Blood coagulation",
+                                "Icon": "Images/icon_blood.png",
+                                "Page": "Pages/Applied_science/Physiology_coagulation.html"
+                            },
+                            {
+                                "Name": "Blood",
+                                "Icon": "Images/icon_blood.png",
+                                "Page": "Pages/Applied_science/Physiology_blood.html"
+                            },
+                            {
+                                "Name": "Liver function tests",
+                                "Icon": "Images/icon_liver.png",
+                                "Description": "How well the thing does its things",
+                                "Page": "Pages/Applied_science/Physiology_liver_function.html"
+                            }
+
+                        ]
+                    },
+                    {
+                        "Name": "Abnormal physiology",
+                        "Description": "Diving deeper into symptoms",
                         "Icon": "Images/icon_temperature.png",
-                        "Page": "Pages/Applied_science/Physiology_temperature.html"
-                    },
-                    {
-                        "Name": "Iron physiology",
-                        "Description": "Uptake, storage etc.",
-                        "Icon": "Images/icon_iron.png",
-                        "Page": "Pages/Applied_science/Physiology_iron.html"
-                    },
-                    {
-                        "Name": "Muscle physiology",
-                        "Description": "STRONG!",
-                        "Icon": "Images/icon_muscle.png",
-                        "Page": "PAges/Applied_science/Physiology_muscle.html"
-                    },
-                    {
-                        "Name": "Acid-base metabolism",
-                        "Description": "A bit sour faced...",
-                        "Icon": "Images/icon_acid.png",
-                        "Page": "Pages/Applied_science/Physiology_acid_base.html"
-                    },
-                    {
-                        "Name": "Menstrual cycle and hormones",
-                        "Description": "Oof, hormonal...",
-                        "Icon": "Images/icon_uterus.png",
-                        "Page": "Pages/Applied_science/Physiology_period.html"
-                    },
-                    {
-                        "Name": "Cardiac elektrophysiology",
-                        "Description": "Pulsing and beating...",
-                        "Icon": "Images/icon_heart.png",
-                        "Page": "Pages/Applied_Science/Physiology_cardiac_elektrophysiology.html"
-                    },
-                    {
-                        "Name": "Blood coagulation",
-                        "Icon": "Images/icon_blood.png",
-                        "Page": "Pages/Applied_science/Physiology_coagulation.html"
-                    },
-                    {
-                        "Name": "Blood",
-                        "Icon": "Images/icon_blood.png",
-                        "Page": "Pages/Applied_science/Physiology_blood.html"
-                    },
-                    {
-                        "Name": "Pleural effusion",
-                        "Icon": "Images/icon_lungs.png",
-                        "Description": "Liquid in the lungspace",
-                        "Page": "Pages/Applied_science/Physiology_pleural_effusion.html"
-                    },
-                    {
-                        "Name": "Hypersensitivity and antibodies",
-                        "Icon": "Images/icon_antibody.png",
-                        "Description": "You're overreacting...",
-                        "Page": "Pages/Applied_science/Physiology_hypersensitivity.html"
-                    },
-                    {
-                        "Name": "Liver function tests",
-                        "Icon": "Images/icon_liver.png",
-                        "Description": "How well the thing does its things",
-                        "Page": "Pages/Applied_science/Physiology_liver_function.html"
+                        "DetailedCardInfo": [
+
+                            
+                            {
+                                "Name": "Pleural effusion",
+                                "Icon": "Images/icon_lungs.png",
+                                "Description": "Liquid in the lungspace",
+                                "Page": "Pages/Applied_science/Physiology_pleural_effusion.html"
+                            },
+                            {
+                                "Name": "Hypersensitivity and antibodies",
+                                "Icon": "Images/icon_antibody.png",
+                                "Description": "You're overreacting...",
+                                "Page": "Pages/Applied_science/Physiology_hypersensitivity.html"
+                            },
+                            {
+                                "Name": "Dystonia and spasticity",
+                                "Icon": "Images/icon_muscle.png",
+                                "Description": "A bit tense there",
+                                "Page": "Pages/Applied_science/Physiology_dystonia.html"
+                            }
+
+                        ]
                     }
+                    
                 ]},
             { 
                 "Name": "Histology", 
