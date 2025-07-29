@@ -756,6 +756,21 @@
                                 "Description": "... what it says",
                                 "Icon": "Images/icon_scale.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_pos_neg.html"
+                            },
+                            {
+                                "Name": "Mood disorders",
+                                "Description": "I don't know how to feel about it",
+                                "Icon": "Images/icon_mood.png",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Major Depressive Disorder (MDD)",
+                                        "Description": "Everything is terrible",
+                                        "Icon": "Images/icon_depression.png",
+                                        "Page": "Pages/Clinical_science/Diagnosis_MDD.html"
+                                    }
+
+                                ]
                             }
                         ]},
                     {   "Name": "Somnology", 
@@ -823,6 +838,12 @@
                                 "Icon": "Images/icon_muscle.png",
                                 "Description": "Kinda what I want to specialise in",
                                 "Page": "Pages/Clinical_science/Diagnosis_muscular_dystrophies.html"
+                            },
+                            {
+                                "Name": "Neuropathic pain",
+                                "Icon": "Images/icon_pain.png",
+                                "Description": "It hurts, but where",
+                                "Page": "Pages/Clinical_science/Diagnosis_neuropathic_pain.html"
                             }
 
                         ]},
