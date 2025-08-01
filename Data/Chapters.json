@@ -964,6 +964,21 @@
                                     }
 
                                 ]
+                            },
+                            {
+                                "Name": "Amputations",
+                                "Icon": "Images/icon_arm.png",
+                                "Description": "Aaaand ... gone",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Upper limb amputations",
+                                        "Icon": "Images/icon_arm.png",
+                                        "Description": "Costing me an arm ...",
+                                        "Page": "Pages/Clinical_science/Diagnosis_ul_amputation.html"
+                                    }
+
+                                ]
                             }
 
                         ]},
