@@ -979,6 +979,27 @@
                                     }
 
                                 ]
+                            },
+                            {
+                                "Name": "Deformations",
+                                "Icon": "Images/icon_scoliosis.png",
+                                "Description": "Slightly crooked",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Scoliosis",
+                                        "Icon": "Images/icon_scoliosis.png",
+                                        "Description": "Ya breakin' my back",
+                                        "Page": "Pages/Clinical_science/Diagnosis_scoliosis.html"
+                                    },
+                                    {
+                                        "Name": "Muscle contractures",
+                                        "Icon": "Images/icon_muscle.png",
+                                        "Description": "Shorter, and shorter",
+                                        "Page": "Pages/Clinical_science/Diagnosis_contractures.html"
+                                    }
+
+                                ]
                             }
 
                         ]},
