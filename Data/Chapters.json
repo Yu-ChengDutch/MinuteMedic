@@ -361,15 +361,37 @@
                                         "DetailedCardInfo": [
                                             {
                                                 "Name": "Cerebrum",
-                                                "Description": "When we say someone is 'cerebral', this is it"
+                                                "Description": "When we say someone is 'cerebral', this is it",
+                                                "Icon": "Images/icon_brain.png",
+                                                "DetailedCardInfo": [
+
+                                                    {
+                                                        "Name": "Diencephalon", 
+                                                        "Description": "The tween-brain lies inbe-tween",
+                                                        "Icon": "Images/icon_brain.png",
+                                                        "Page": "Pages/Applied_science/Anatomy_diencephalon.html"
+                                                    },
+                                                    {
+                                                        "Name": "Telencephalon", 
+                                                        "Description": "The big brain",
+                                                        "Icon": "Images/icon_brain.png",
+                                                        "Page": "Pages/Applied_science/Anatomy_telencephalon.html"
+                                                    }
+
+                                                ]
+                                                
                                             },
                                             {
                                                 "Name": "Cerebellum",
-                                                "Description": "The big thing, but small"
+                                                "Description": "The big thing, but small",
+                                                "Page": "Pages/Applied_science/Anatomy_cerebellum.html",
+                                                "Icon": "Images/icon_cerebellum.png"
                                             },
                                             {
                                                 "Name": "Brainstem",
-                                                "Description": "The ultimate sine-qua-non"
+                                                "Description": "The ultimate sine-qua-non",
+                                                "Page": "Pages/Applied_science/Anatomy_brainstem.html",
+                                                "Icon": "Images/icon_brainstem.png"
                                             }
                                         ]
                                     },
