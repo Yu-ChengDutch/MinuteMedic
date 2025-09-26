@@ -1022,6 +1022,21 @@
                                     }
 
                                 ]
+                            },
+                            {
+                                "Name": "Muscelotendinous injuries",
+                                "Icon": "Images/icon_muscle.png",
+                                "Description": "Oof, that hurts",
+                                "DetailedCardInfo": [
+
+                                    {
+                                        "Name": "Patellofemoral pain syndrome",
+                                        "Icon": "Images/icon_leg.png",
+                                        "Description": "Pain in the ... patellofemoral region",
+                                        "Page": "Pages/Clinical_science/Diagnosis_patellofemoral.html"
+                                    }
+
+                                ]
                             }
 
                         ]},
