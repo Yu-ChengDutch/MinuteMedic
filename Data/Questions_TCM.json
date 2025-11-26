@@ -1,0 +1,2079 @@
+{
+    "Questions": [
+        {
+            "Question": "How old is acupuncture?",
+            "Answer": [
+                "3500 years old",
+                "2500 years old",
+                "5000 years old"
+            ]
+        },
+        {
+            "Question": "What does Cohen say you should do wtih a safe but not effective method?",
+            "Answer": [
+                "Tolerate",
+                "Recommend",
+                "Avoid"
+            ]
+        },
+        {
+            "Question": "In what year did acupuncture open up to non-physicians in NL?",
+            "Answer": [
+                "1980",
+                "1990",
+                "2000"
+            ]
+        },
+        {
+            "Question": "What was the first major medical text book of acupuncture?",
+            "Answer": [
+                "Huangdi Neijing",
+                "Shanghan Lun",
+                "Shi Ji"
+            ]
+        },
+        {
+            "Question": "In what dynasty was acupuncture banned?",
+            "Answer": [
+                "Qing dynasty",
+                "Ming dynasty",
+                "Han dynasty"
+            ]
+        },
+        {
+            "Question": "How many Cun is the width of dig. 2-4?",
+            "Answer": [
+                "2 Cun",
+                "3 Cun",
+                "4 Cun"
+            ]
+        },
+        {
+            "Question": "What substance is not in Bonghan channels?",
+            "Answer": [
+                "Blood",
+                "Hyluronic acid",
+                "Amino acids",
+                "Nucleotides"
+            ]
+        },
+        {
+            "Question": "Who has the most chance of fainting during acupuncture?",
+            "Answer": [
+                "A first-timer",
+                "A pregnant woman",
+                "An elderly person"
+            ]
+        },
+        {
+            "Question": "What does běn (本) as opposed to biāo (表) refer to in TCM?",
+            "Answer": [
+                "The root cause",
+                "The symptoms",
+                "The treatment"
+            ]
+        },
+        {
+            "Question": "West is:",
+            "Answer": [
+                "Yin",
+                "Yang"
+            ]
+        },
+        {
+            "Question": "South is:",
+            "Answer": [
+                "Yang",
+                "Yin"
+            ]
+        },
+        {
+            "Question": "Up is:",
+            "Answer": [
+                "Yang",
+                "Yin"
+            ]
+        },
+        {
+            "Question": "Posterolateral is:",
+            "Answer": [
+                "Yang",
+                "Yin"
+            ]
+        },
+        {
+            "Question": "Liver, heart and kidneys are all:",
+            "Answer": [
+                "Yin organs",
+                "Yang organs"
+            ]
+        },
+        {
+            "Question": "The intestines are:",
+            "Answer": [
+                "Yang organs",
+                "Yin organs"
+            ]
+        },
+        {
+            "Question": "What is not a Yang pathogen?",
+            "Answer": [
+                "Dampness",
+                "Heat",
+                "Wind"
+            ]
+        },
+        {
+            "Question": "Cold and damp are:",
+            "Answer": [
+                "Yin pathogens",
+                "Yang pathogens"
+            ]
+        },
+        {
+            "Question": "Yang is associated with:",
+            "Answer": [
+                "Sympathetic nervous system",
+                "Parasympathetic nervous system"
+            ]
+        },
+        {
+            "Question": "Symptoms get better with a cold pack, so the cause is likely:",
+            "Answer": [
+                "Yin deficiency or Yang excess",
+                "Yang deficiency or Yin excess"
+            ]
+        },
+        {
+            "Question": "Fire is the Mother of:",
+            "Answer": [
+                "Earth",
+                "Metal",
+                "Wood",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Earth is the Mother of:",
+            "Answer": [
+                "Metal",
+                "Wood",
+                "Fire",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Water is the Mother of:",
+            "Answer": [
+                "Wood",
+                "Fire",
+                "Earth",
+                "Metal"
+            ]
+        },
+        {
+            "Question": "Wood is the Mother of:",
+            "Answer": [
+                "Fire",
+                "Earth",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Fire is the Grandmother of:",
+            "Answer": [
+                "Metal",
+                "Wood",
+                "Earth",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Earth is the Grandmother of:",
+            "Answer": [
+                "Water",
+                "Wood",
+                "Earth",
+                "Metal"
+            ]
+        },
+        {
+            "Question": "Contraction is associated with:",
+            "Answer": [
+                "Metal",
+                "Wood",
+                "Fire",
+                "Earth",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Expansion or growth is associated with:",
+            "Answer": [
+                "Wood",
+                "Metal",
+                "Fire",
+                "Earth",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Winter is associated with:",
+            "Answer": [
+                "Water",
+                "Wood",
+                "Fire",
+                "Earth",
+                "Metal"
+            ]
+        },
+        {
+            "Question": "Bitter is associated with:",
+            "Answer": [
+                "Fire",
+                "Wood",
+                "Earth",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Sweet is associated with:",
+            "Answer": [
+                "Earth",
+                "Wood",
+                "Fire",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Mother creates Child, and Grandmother ... Grandchild:",
+            "Answer": [
+                "Controls/Destroys",
+                "Overacts",
+                "Insults"
+            ]
+        },
+        {
+            "Question": "Mother creates Child, and Grandchild ... Grandmother:",
+            "Answer": [
+                "Insults",
+                "Overacts",
+                "Controls/Destroys"
+            ]
+        },
+        {
+            "Question": "Insulting is part of the ... cycles:",
+            "Answer": [
+                "Pathological",
+                "Physiological"
+            ]
+        },
+        {
+            "Question": "Which element governs the Liver–Gallbladder pair?",
+            "Answer": [
+                "Wood",
+                "Fire",
+                "Earth",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the emotion of anger?",
+            "Answer": [
+                "Wood",
+                "Fire",
+                "Earth",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "The sensory organ associated with the Liver is:",
+            "Answer": [
+                "Eyes",
+                "Nose",
+                "Ears",
+                "Mouth",
+                "Tongue"
+            ]
+        },
+        {
+            "Question": "The tissues controlled by the Liver are:",
+            "Answer": [
+                "Tendons",
+                "Muscles",
+                "Bones",
+                "Skin",
+                "Vessels"
+            ]
+        },
+        {
+            "Question": "Joy is associated with which element?",
+            "Answer": [
+                "Fire",
+                "Wood",
+                "Earth",
+                "Water",
+                "Metal"
+            ]
+        },
+        {
+            "Question": "The Heart opens into the:",
+            "Answer": [
+                "Tongue",
+                "Nose",
+                "Mouth",
+                "Eyes",
+                "Ears"
+            ]
+        },
+        {
+            "Question": "Blood vessels are governed by which zang organ?",
+            "Answer": [
+                "Heart",
+                "Liver",
+                "Lung",
+                "Spleen",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "The paired fu-organ of the Heart is the:",
+            "Answer": [
+                "Small intestine",
+                "Gallbladder",
+                "Stomach",
+                "Large intestine",
+                "Bladder"
+            ]
+        },
+        {
+            "Question": "Which element governs the Spleen–Stomach pair?",
+            "Answer": [
+                "Earth",
+                "Wood",
+                "Fire",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Muscles (flesh) are controlled by which organ?",
+            "Answer": [
+                "Spleen",
+                "Heart",
+                "Liver",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "The emotion linked to the Spleen is:",
+            "Answer": [
+                "Worry",
+                "Fear",
+                "Anger",
+                "Joy",
+                "Grief"
+            ]
+        },
+        {
+            "Question": "The Spleen opens into the:",
+            "Answer": [
+                "Mouth",
+                "Eyes",
+                "Tongue",
+                "Nose",
+                "Ears"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Lung–Large Intestine pair?",
+            "Answer": [
+                "Metal",
+                "Earth",
+                "Fire",
+                "Wood",
+                "Water"
+            ]
+        },
+        {
+            "Question": "The emotion of grief or mourning belongs to:",
+            "Answer": [
+                "Metal",
+                "Water",
+                "Wood",
+                "Fire",
+                "Earth"
+            ]
+        },
+        {
+            "Question": "The Lung opens into the:",
+            "Answer": [
+                "Nose",
+                "Mouth",
+                "Ears",
+                "Eyes",
+                "Tongue"
+            ]
+        },
+        {
+            "Question": "Skin and body hair are governed by which organ?",
+            "Answer": [
+                "Lung",
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "The fu-organ paired with the Lung is the:",
+            "Answer": [
+                "Large intestine",
+                "Stomach",
+                "Gallbladder",
+                "Small intestine",
+                "Bladder"
+            ]
+        },
+        {
+            "Question": "Which element governs the Kidney–Bladder pair?",
+            "Answer": [
+                "Water",
+                "Metal",
+                "Wood",
+                "Fire",
+                "Earth"
+            ]
+        },
+        {
+            "Question": "The sensory organ associated with the Kidney is:",
+            "Answer": [
+                "Ears",
+                "Eyes",
+                "Tongue",
+                "Nose",
+                "Mouth"
+            ]
+        },
+        {
+            "Question": "Bones are governed by which zang organ?",
+            "Answer": [
+                "Kidney",
+                "Heart",
+                "Liver",
+                "Lung",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "The emotion of fear is linked to:",
+            "Answer": [
+                "Water",
+                "Metal",
+                "Earth",
+                "Fire",
+                "Wood"
+            ]
+        },
+        {
+            "Question": "Tendons reflect the state of which organ system?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Lung",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "The organ that opens into the eyes is:",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Spleen",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the tongue as a sensory opening?",
+            "Answer": [
+                "Fire",
+                "Metal",
+                "Earth",
+                "Wood",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Mourning and grief predominantly disturb which organ?",
+            "Answer": [
+                "Lung",
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "The paired fu-organ of the Kidney is the:",
+            "Answer": [
+                "Bladder",
+                "Gallbladder",
+                "Large intestine",
+                "Small intestine",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which element controls muscles and flesh?",
+            "Answer": [
+                "Earth",
+                "Fire",
+                "Metal",
+                "Water",
+                "Wood"
+            ]
+        },
+        {
+            "Question": "Joy most directly affects which zang organ?",
+            "Answer": [
+                "Heart",
+                "Kidney",
+                "Liver",
+                "Spleen",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "The organ whose emotion is anger opens into the:",
+            "Answer": [
+                "Eyes",
+                "Ears",
+                "Mouth",
+                "Tongue",
+                "Nose"
+            ]
+        },
+        {
+            "Question": "Which element governs the tissues of the skin and body hair?",
+            "Answer": [
+                "Metal",
+                "Wood",
+                "Fire",
+                "Earth",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Which organ stores Blood and regulates its volume according to activity (e.g., movement vs rest)?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Lung",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Liver and thus links Blood storage with the emotion of anger and the sense organ of the eyes?",
+            "Answer": [
+                "Wood",
+                "Fire",
+                "Earth",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Which type of Qi nourishes, moistens, and accompanies Blood much like haemoglobin binds to red cells?",
+            "Answer": [
+                "Ying Qi",
+                "Wei Qi",
+                "Zong Qi",
+                "Kong Qi"
+            ]
+        },
+        {
+            "Question": "Which organ pair transforms food into Gu Qi, the precursor for Blood formation?",
+            "Answer": [
+                "Spleen/Stomach",
+                "Heart/Small Intestine",
+                "Liver/Gallbladder",
+                "Lung/Large Intestine"
+            ]
+        },
+        {
+            "Question": "Which Jing-related substance, arriving around age 14, is responsible for the onset of menstruation?",
+            "Answer": [
+                "Tian Gui",
+                "Jin-Ye",
+                "Yuan Qi",
+                "Wei Qi"
+            ]
+        },
+        {
+            "Question": "Which organ governs the vessels and ensures Blood circulates to nourish and moisten all tissues?",
+            "Answer": [
+                "Heart",
+                "Lung",
+                "Liver",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which substance, derived from fluids, combines with Blood as one of its essential moistening components?",
+            "Answer": [
+                "Jin-Ye",
+                "Wei Qi",
+                "Zong Qi",
+                "Po"
+            ]
+        },
+        {
+            "Question": "Which organ-sense pairing explains why Blood deficiency may lead to visual disturbances such as blurred vision or floaters?",
+            "Answer": [
+                "Liver–Eyes",
+                "Heart–Tongue",
+                "Spleen–Mouth",
+                "Kidney–Ears"
+            ]
+        },
+        {
+            "Question": "Which organ controls the Blood by governing its circulation and pulse, and corresponds to the Fire element and the Tongue as its opening?",
+            "Answer": [
+                "Heart",
+                "Lung",
+                "Spleen",
+                "Liver"
+            ]
+        },
+        {
+            "Question": "Which organ produces Blood from Gu Qi, keeps Blood inside the vessels, corresponds to the Earth element, and opens into the Mouth?",
+            "Answer": [
+                "Spleen",
+                "Kidney",
+                "Heart",
+                "Gallbladder"
+            ]
+        },
+        {
+            "Question": "Which organ stores Blood, regulates menstruation, nourishes the eyes and tendons, corresponds to the Wood element, and is associated with anger?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Spleen",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which organ pushes Blood into the vessels by dispersing Qi, corresponds to the Metal element, and opens into the Nose?",
+            "Answer": [
+                "Lung",
+                "Heart",
+                "Liver",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which organ ensures Blood remains within the uterine vessels, corresponds to the Water element, and is associated with the emotion of fear?",
+            "Answer": [
+                "Kidney",
+                "Liver",
+                "Heart",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Qi is the ... of Blood:",
+            "Answer": [
+                "Governor",
+                "Mother"
+            ]
+        },
+        {
+            "Question": "Which organ primarily governs the transformation of JinYe through Yang-warming power?",
+            "Answer": [
+                "Kidney Yang",
+                "Spleen Yang",
+                "Heart Fire",
+                "Liver Qi"
+            ]
+        },
+        {
+            "Question": "Which sense organ reflects the state of Liver Blood and thus influences the distribution of Ye fluids to the deeper tissues?",
+            "Answer": [
+                "The eyes",
+                "The tongue",
+                "The nose",
+                "The ears"
+            ]
+        },
+        {
+            "Question": "Why does excessive sweating lead to Blood deficiency according to JinYe–Blood interaction?",
+            "Answer": [
+                "Because Jin forms part of Blood and its loss depletes the substrate for Blood production",
+                "Because sweat drains Heart Fire directly",
+                "Because sweating exhausts Wei Qi only",
+                "Because sweating forces Qi to descend too strongly"
+            ]
+        },
+        {
+            "Question": "Which element is associated with the organ system that opens to the nose and distributes the clear portion of JinYe beneath the skin?",
+            "Answer": [
+                "Metal",
+                "Water",
+                "Wood",
+                "Fire"
+            ]
+        },
+        {
+            "Question": "Which organ is responsible for the first separation of clear and turbid fluids after extraction from the Stomach?",
+            "Answer": [
+                "Spleen",
+                "Liver",
+                "Heart",
+                "Gallbladder"
+            ]
+        },
+        {
+            "Question": "Jin fluids correspond to which aspect of Yin–Yang within JinYe physiology?",
+            "Answer": [
+                "Yang aspect (lighter, clearer, exterior)",
+                "Yin aspect (denser, deeper)",
+                "Both Yin and Yang equally",
+                "Neither Yin nor Yang"
+            ]
+        },
+        {
+            "Question": "Ye fluids are primarily stored and used by which body regions?",
+            "Answer": [
+                "Joints, spinal column, marrow, and brain",
+                "Skin and pores",
+                "Muscles and tendons",
+                "Lung and chest"
+            ]
+        },
+        {
+            "Question": "Which element–emotion pair most directly disrupts the movement of Liver Qi and therefore JinYe distribution through the tendons?",
+            "Answer": [
+                "Wood–Anger",
+                "Fire–Joy",
+                "Earth–Pensiveness",
+                "Metal–Grief"
+            ]
+        },
+        {
+            "Question": "Which organ opens to the mouth and therefore reflects Spleen’s ability to transform and transport JinYe?",
+            "Answer": [
+                "Spleen",
+                "Lung",
+                "Kidney",
+                "Heart"
+            ]
+        },
+        {
+            "Question": "Which fu organ performs the second purification of fluids after the Spleen’s initial separation?",
+            "Answer": [
+                "Small Intestine",
+                "Large Intestine",
+                "Gallbladder",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which organ controls the waterways and ensures that the clear portion of JinYe reaches the skin and muscles?",
+            "Answer": [
+                "Lung",
+                "Heart",
+                "Gallbladder",
+                "Triple Burner"
+            ]
+        },
+        {
+            "Question": "Damage to which type of fluid is typically primary and mild, manifesting as dryness of the skin and orifices?",
+            "Answer": [
+                "Jin",
+                "Ye",
+                "Blood",
+                "Essence"
+            ]
+        },
+        {
+            "Question": "Which organ’s element corresponds with the capacity to moisten through upward steaming of JinYe sent back to the Lung?",
+            "Answer": [
+                "Kidney (Water)",
+                "Spleen (Earth)",
+                "Liver (Wood)",
+                "Heart (Fire)"
+            ]
+        },
+        {
+            "Question": "Phlegm accumulation usually reflects what underlying pathological process regarding JinYe?",
+            "Answer": [
+                "Excess or improper transformation of fluids",
+                "Primary loss of Ye",
+                "Direct collapse of Heart Qi",
+                "Excess sweating of Jin"
+            ]
+        },
+        {
+            "Question": "Which emotional state scatters Heart Fire and can therefore impair the proper distribution of JinYe through the vessels?",
+            "Answer": [
+                "Excess joy",
+                "Anger",
+                "Fear",
+                "Grief"
+            ]
+        },
+        {
+            "Question": "Why does chronic Blood loss eventually damage Ye fluids?",
+            "Answer": [
+                "Because Ye supports the nourishing Yin component of Blood, and Blood loss forces Ye to compensate",
+                "Because Blood loss exhausts Yang Qi only",
+                "Because Ye is stored exclusively in the Heart",
+                "Because Ye and Wei Qi are identical"
+            ]
+        },
+        {
+            "Question": "Which organ ultimately separates the clear portion of fluids to the Triple Heater while sending the cloudy portion to form urine?",
+            "Answer": [
+                "Bladder",
+                "Kidney",
+                "Small Intestine",
+                "Large Intestine"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Heart, whose Fire governs the vessels and thus the circulation of Blood nourished by JinYe?",
+            "Answer": [
+                "Fire",
+                "Earth",
+                "Water",
+                "Metal"
+            ]
+        },
+        {
+            "Question": "Which organ pair (zang–fu) relates to the smooth movement of Qi, influencing the distribution of JinYe through tension and directional force?",
+            "Answer": [
+                "Liver–Gallbladder",
+                "Heart–Small Intestine",
+                "Spleen–Stomach",
+                "Kidney–Bladder"
+            ]
+        },
+        {
+            "Question": "Dryness of joints and spinal tissues indicates damage to which fluid and therefore weakness in which associated Qi component?",
+            "Answer": [
+                "Ye and Ying Qi",
+                "Jin and Wei Qi",
+                "Jin and Yuan Qi",
+                "Blood and Wei Qi"
+            ]
+        },
+        {
+            "Question": "Which vital substance forms the constitutional basis for growth and development and is associated with the Kidneys and the Water element?",
+            "Answer": [
+                "Jing",
+                "Qi",
+                "Shen",
+                "Blood",
+                "JinYe"
+            ]
+        },
+        {
+            "Question": "Which organ–sense pair reflects the Spleen’s role in transforming postnatal Qi?",
+            "Answer": [
+                "Spleen–Mouth",
+                "Liver–Eyes",
+                "Heart–Ears",
+                "Lung–Tongue",
+                "Kidney–Nose"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Liver and Gallbladder and is associated with directional force and anger?",
+            "Answer": [
+                "Wood",
+                "Fire",
+                "Earth",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Which emotional state disturbs the Heart, scatters Shen, and belongs to the Fire element?",
+            "Answer": [
+                "Joy (excessive)",
+                "Fear",
+                "Anger",
+                "Worry",
+                "Grief"
+            ]
+        },
+        {
+            "Question": "Which tissue is governed by the Liver due to its role in regulating tension and smooth Qi flow?",
+            "Answer": [
+                "Sinews (tendons)",
+                "Muscles",
+                "Bones",
+                "Skin and body hair",
+                "Vessels"
+            ]
+        },
+        {
+            "Question": "Which sense organ is linked to the Kidney because Jing nourishes the brain and auditory acuity?",
+            "Answer": [
+                "Ears",
+                "Eyes",
+                "Nose",
+                "Tongue",
+                "Mouth"
+            ]
+        },
+        {
+            "Question": "Which vital substance is most directly produced daily from food and drink and associated with the Spleen?",
+            "Answer": [
+                "Qi",
+                "Jing",
+                "Shen",
+                "Blood",
+                "JinYe"
+            ]
+        },
+        {
+            "Question": "Shen depends on the stability of Jing and Qi. Which organ is responsible for housing Shen?",
+            "Answer": [
+                "Heart",
+                "Liver",
+                "Kidney",
+                "Spleen",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which sensation corresponds to the Lung’s function of opening to the exterior and controlling Wei Qi?",
+            "Answer": [
+                "Smell (Nose)",
+                "Taste (Tongue)",
+                "Vision (Eyes)",
+                "Hearing (Ears)",
+                "Speech (Mouth)"
+            ]
+        },
+        {
+            "Question": "Which element governs transformation, nourishment, and the muscles?",
+            "Answer": [
+                "Earth",
+                "Water",
+                "Wood",
+                "Metal",
+                "Fire"
+            ]
+        },
+        {
+            "Question": "Fear causes Qi to descend and is primarily linked to which organ?",
+            "Answer": [
+                "Kidney",
+                "Heart",
+                "Liver",
+                "Lung",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which organ governs Blood and houses the Ethereal Soul (Hun), aligning it with the Wood element?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Lung",
+                "Spleen",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which organ–opening pair reflects the Heart’s role in manifesting Shen on the exterior?",
+            "Answer": [
+                "Heart–Tongue",
+                "Heart–Eyes",
+                "Heart–Mouth",
+                "Heart–Ears",
+                "Heart–Nose"
+            ]
+        },
+        {
+            "Question": "Which body fluid pair best corresponds to Kidney Yin supporting the deep reserves of the body?",
+            "Answer": [
+                "Marrow and Brain Fluids",
+                "Sweat",
+                "Tears",
+                "Nasal mucus",
+                "Stomach fluids"
+            ]
+        },
+        {
+            "Question": "Which vital substance is associated with clarity of Spirit, consciousness, and is described as subtle and ‘gas-like’?",
+            "Answer": [
+                "Shen",
+                "Qi",
+                "Jing",
+                "Blood",
+                "JinYe"
+            ]
+        },
+        {
+            "Question": "Which element rules descent, boundary formation, and the Lungs/LI pair?",
+            "Answer": [
+                "Metal",
+                "Wood",
+                "Earth",
+                "Water",
+                "Fire"
+            ]
+        },
+        {
+            "Question": "Which organ controls bones because its Jing generates marrow?",
+            "Answer": [
+                "Kidney",
+                "Liver",
+                "Spleen",
+                "Heart",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which emotional pattern obstructs Spleen transformation, leading to dampness?",
+            "Answer": [
+                "Worry/Overthinking",
+                "Grief",
+                "Fear",
+                "Anger",
+                "Joy"
+            ]
+        },
+        {
+            "Question": "Which external sign best reflects Heart Blood and Shen quality?",
+            "Answer": [
+                "Complexion",
+                "Hair quality",
+                "Nail strength",
+                "Skin elasticity",
+                "Tooth condition"
+            ]
+        },
+        {
+            "Question": "Which organ stores the corporeal soul (Po) and corresponds with grief and the Metal element?",
+            "Answer": [
+                "Lung",
+                "Liver",
+                "Kidney",
+                "Heart",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which form of Qi directly derives from jing and acts as the catalyst for transforming Zong Qi into Zhen Qi?",
+            "Answer": [
+                "Yuan Qi",
+                "Wei Qi",
+                "Gu Qi",
+                "Ying Qi",
+                "Zhong Qi"
+            ]
+        },
+        {
+            "Question": "Which organ is primarily responsible for ensuring the downward movement of Qi, preventing cough and dyspnoea?",
+            "Answer": [
+                "Lung",
+                "Liver",
+                "Heart",
+                "Gallbladder",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which type of Qi circulates between skin and muscles and regulates opening and closing of the pores?",
+            "Answer": [
+                "Wei Qi",
+                "Ying Qi",
+                "Zong Qi",
+                "Zhen Qi",
+                "Zangfu Qi"
+            ]
+        },
+        {
+            "Question": "Which organ’s Qi must rise so that Gu Qi can reach the Lungs?",
+            "Answer": [
+                "Spleen",
+                "Stomach",
+                "Kidney",
+                "Gallbladder",
+                "Heart"
+            ]
+        },
+        {
+            "Question": "Which emotion corresponds to the Wood element and disrupts the Liver’s regulatory function of Qi?",
+            "Answer": [
+                "Anger",
+                "Fear",
+                "Grief",
+                "Joy",
+                "Pensiveness"
+            ]
+        },
+        {
+            "Question": "Stagnation of Liver Qi most commonly disrupts which other organ’s physiological Qi direction?",
+            "Answer": [
+                "Stomach Qi sinking",
+                "Heart Qi sinking",
+                "Kidney Qi rising",
+                "Lung Qi sinking",
+                "Bladder Qi sinking"
+            ]
+        },
+        {
+            "Question": "Which Qi is formed when Gu Qi combines with air in the Lung?",
+            "Answer": [
+                "Zong Qi",
+                "Wei Qi",
+                "Ying Qi",
+                "Zongfu Qi",
+                "Jingluo Qi"
+            ]
+        },
+        {
+            "Question": "Which organ opens to the nose and therefore reflects the state of descending Qi?",
+            "Answer": [
+                "Lung",
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which organ is associated with the element Metal, the emotion of grief, and the skin as its tissue?",
+            "Answer": [
+                "Lung",
+                "Heart",
+                "Liver",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which form of Qi is the final refined form that circulates in the meridians and nourishes the Zang-Fu?",
+            "Answer": [
+                "Zhen Qi",
+                "Gu Qi",
+                "Zong Qi",
+                "Wei Qi",
+                "Yuan Qi"
+            ]
+        },
+        {
+            "Question": "Which organ controls the sinews and influences the ability of Qi to move in all directions?",
+            "Answer": [
+                "Liver",
+                "Lung",
+                "Spleen",
+                "Heart",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Failure of Lung Qi to descend can result in which symptom?",
+            "Answer": [
+                "Dyspnoea",
+                "Cold limbs",
+                "Vertigo",
+                "Loose stools",
+                "Polyuria"
+            ]
+        },
+        {
+            "Question": "Which organ pair corresponds to Fire, governs consciousness, and opens into the tongue?",
+            "Answer": [
+                "Heart–Small Intestine",
+                "Liver–Gallbladder",
+                "Lung–Large Intestine",
+                "Spleen–Stomach",
+                "Kidney–Bladder"
+            ]
+        },
+        {
+            "Question": "Which Qi warms the body, supports organ function, and represents the Yang aspect of Qi?",
+            "Answer": [
+                "Wei Qi",
+                "Gu Qi",
+                "Zhong Qi",
+                "Ying Qi",
+                "Stomach Qi"
+            ]
+        },
+        {
+            "Question": "Which organ’s Qi must rise in order to support Lung Qi’s descending movement?",
+            "Answer": [
+                "Kidney",
+                "Stomach",
+                "Heart",
+                "Large Intestine",
+                "Gallbladder"
+            ]
+        },
+        {
+            "Question": "Which orifice is governed by the Liver and reflects the sufficiency of Liver Blood?",
+            "Answer": [
+                "Eyes",
+                "Tongue",
+                "Mouth",
+                "Nose",
+                "Ears"
+            ]
+        },
+        {
+            "Question": "Which organ controls transformation and transportation of Gu Qi, preventing blood from leaking out of vessels?",
+            "Answer": [
+                "Spleen",
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which pathomechanism corresponds to Wood excess causing Qi to forcefully move upward?",
+            "Answer": [
+                "Rebellious Liver Qi",
+                "Sinking Spleen Qi",
+                "Cold obstructing Stomach Qi",
+                "Deficient Kidney Yin",
+                "Heart Qi stagnation"
+            ]
+        },
+        {
+            "Question": "Which location-specific name refers to Zhen Qi circulating in the meridians?",
+            "Answer": [
+                "Jingluo Qi",
+                "Zong Qi",
+                "Zangfu Qi",
+                "Zhong Qi",
+                "Mingmen Qi"
+            ]
+        },
+        {
+            "Question": "The Ming Men, located between the Kidneys, primarily provides which physiological quality?",
+            "Answer": [
+                "Warmth and Yang drive",
+                "Regulation of sweat",
+                "Storage of Gu Qi",
+                "Direction of Spleen Qi",
+                "Control of the sinews"
+            ]
+        },
+        {
+            "Question": "Welke organen behoren tot het Hout-element en openen in de ogen?",
+            "Answer": [
+                "Lever en Galblaas",
+                "Hart en Dunne Darm",
+                "Milt en Maag",
+                "Long en Dikke Darm",
+                "Nier en Blaas"
+            ]
+        },
+        {
+            "Question": "Welke emotie verstoort primair de Lever-Qi en veroorzaakt stijgende (rebellerende) Qi?",
+            "Answer": [
+                "Woede",
+                "Vreugde",
+                "Bezorgdheid",
+                "Angst",
+                "Verdriet"
+            ]
+        },
+        {
+            "Question": "Welke organen behoren tot het Vuur-element en reguleren bewustzijn via de shen?",
+            "Answer": [
+                "Hart en Dunne Darm",
+                "Lever en Galblaas",
+                "Milt en Maag",
+                "Long en Dikke Darm",
+                "Nieren en Blaas"
+            ]
+        },
+        {
+            "Question": "Welke zhi-geestfunctie behoort bij de Nier en staat voor wilskracht en volharding?",
+            "Answer": [
+                "Zhi",
+                "Yi",
+                "Hun",
+                "Po",
+                "Shen"
+            ]
+        },
+        {
+            "Question": "Welk zielsaspect behoort tot de Lever en is betrokken bij plannen en doelen stellen?",
+            "Answer": [
+                "Hun",
+                "Yi",
+                "Po",
+                "Shen",
+                "Zhi"
+            ]
+        },
+        {
+            "Question": "Welke orgaanfunctie is primair betrokken bij prolaps door Qi-ineenstorting?",
+            "Answer": [
+                "Milt-Qi",
+                "Long-Qi",
+                "Hart-Qi",
+                "Lever-Qi",
+                "Maag-Qi"
+            ]
+        },
+        {
+            "Question": "Welke Qi-deficiëntie geeft vooral bleekheid, vermoeidheid en koude extremiteiten door bloedgebrek?",
+            "Answer": [
+                "Milt-Qi deficiëntie",
+                "Lever-Qi stagnatie",
+                "Hart-Vuur excess",
+                "Nier-Yang excess",
+                "Long-Qi rebellie"
+            ]
+        },
+        {
+            "Question": "Welke zielsfunctie behoort bij de Long en regelt emoties en sensorische integratie?",
+            "Answer": [
+                "Po",
+                "Shen",
+                "Hun",
+                "Yi",
+                "Zhi"
+            ]
+        },
+        {
+            "Question": "Welke opening hoort bij de Long en correspondeert met het Metaal-element?",
+            "Answer": [
+                "Neus",
+                "Ogen",
+                "Mond",
+                "Tong",
+                "Oren"
+            ]
+        },
+        {
+            "Question": "Welke emotie put de Nier uit en leidt tot Qi-daling en instorting?",
+            "Answer": [
+                "Angst",
+                "Woede",
+                "Bezorgdheid",
+                "Vreugde",
+                "Verdriet"
+            ]
+        },
+        {
+            "Question": "Welke Qi beweegt normaal neerwaarts maar kan rebelleren en opwaarts bewegen, leidend tot hoest of dyspneu?",
+            "Answer": [
+                "Long-Qi",
+                "Maag-Qi",
+                "Milt-Qi",
+                "Lever-Qi",
+                "Nier-Qi"
+            ]
+        },
+        {
+            "Question": "Welke orgaanopening hoort bij het Aarde-element en weerspiegelt de staat van de Milt?",
+            "Answer": [
+                "Mond",
+                "Neus",
+                "Ogen",
+                "Oren",
+                "Tong"
+            ]
+        },
+        {
+            "Question": "Welke geestfunctie behoort tot de Milt en regelt denken, concentratie en cognitieve verwerking?",
+            "Answer": [
+                "Yi",
+                "Po",
+                "Hun",
+                "Shen",
+                "Zhi"
+            ]
+        },
+        {
+            "Question": "Welke weefselcategorie hoort bij de Nieren vanwege de relatie met Jing en merg?",
+            "Answer": [
+                "Botten",
+                "Spieren",
+                "Huid en haar",
+                "Bloedvaten",
+                "Pezen"
+            ]
+        },
+        {
+            "Question": "Welke emotie veroorzaakt Qi-stagnatie in het algemeen en tast vooral de Lever aan?",
+            "Answer": [
+                "Stress en frustratie",
+                "Vreugde",
+                "Overmatig denken",
+                "Schrik",
+                "Verdriet"
+            ]
+        },
+        {
+            "Question": "Welke orgaanopening weerspiegelt het Hart en toont de kwaliteit van shen en bloed?",
+            "Answer": [
+                "Tong",
+                "Oren",
+                "Ogen",
+                "Neus",
+                "Mond"
+            ]
+        },
+        {
+            "Question": "Welke weefsel hoort bij het Hout-element en weerspiegelt de staat van de Lever?",
+            "Answer": [
+                "Pezen",
+                "Spieren",
+                "Botten",
+                "Huid",
+                "Bloedvaten"
+            ]
+        },
+        {
+            "Question": "Wat is de primaire behandeling bij Qi-deficiëntie van Milt of Nieren die leidt tot collaps?",
+            "Answer": [
+                "Tonificatie van Qi",
+                "Draineren van Damp",
+                "Klaren van Hitte",
+                "Subdueren van Lever-Yang",
+                "Losmaken van stagnatie"
+            ]
+        },
+        {
+            "Question": "Welke pathologie ontstaat wanneer Qi stagneert in een meridiaan?",
+            "Answer": [
+                "Lokale pijn door exces",
+                "Prolaps van organen",
+                "Insomnie door bloeddeficiëntie",
+                "Overmatig zweten",
+                "Oedeem door Nier-yang"
+            ]
+        },
+        {
+            "Question": "Welke shen-gerelateerde stoornis geeft insomnie door mentale onrust, niet door bloeddeficiëntie?",
+            "Answer": [
+                "Rusteloze shen",
+                "Hun-dissociatie",
+                "Po-deficiëntie",
+                "Yi-stagnatie",
+                "Zhi-overactiviteit"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Liver because of its upward, expansive movement and regulation of free flow of Qi?",
+            "Answer": [
+                "Wood (木)",
+                "Fire (火)",
+                "Earth (土)",
+                "Metal (金)",
+                "Water (水)"
+            ]
+        },
+        {
+            "Question": "Which sensory organ belongs to the Liver because Liver Blood nourishes its function?",
+            "Answer": [
+                "Eyes",
+                "Ears",
+                "Nose",
+                "Tongue",
+                "Mouth"
+            ]
+        },
+        {
+            "Question": "Which organ stores Blood, enabling vision and movement?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Spleen",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which emotion damages the Liver due to its rising and forceful Qi?",
+            "Answer": [
+                "Anger",
+                "Fear",
+                "Joy",
+                "Pensiveness",
+                "Sadness"
+            ]
+        },
+        {
+            "Question": "Which organ houses the Hun, responsible for ideas, planning and movement?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Spleen",
+                "Lung",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which organ controls the blood vessels and governs circulation of Blood?",
+            "Answer": [
+                "Heart",
+                "Spleen",
+                "Liver",
+                "Lung",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which sensory organ reflects the state of Heart Blood and Shen?",
+            "Answer": [
+                "Tongue",
+                "Nose",
+                "Ears",
+                "Eyes",
+                "Mouth"
+            ]
+        },
+        {
+            "Question": "Which emotion weakens the Heart by dispersing Heart Qi?",
+            "Answer": [
+                "Excessive joy",
+                "Fear",
+                "Anger",
+                "Pensiveness",
+                "Grief"
+            ]
+        },
+        {
+            "Question": "Which organ houses the Shen, making complexion and speech indicative of its state?",
+            "Answer": [
+                "Heart",
+                "Spleen",
+                "Kidney",
+                "Liver",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Heart due to its warm, radiant, consciousness-governing nature?",
+            "Answer": [
+                "Fire (火)",
+                "Wood (木)",
+                "Earth (土)",
+                "Metal (金)",
+                "Water (水)"
+            ]
+        },
+        {
+            "Question": "Which organ transforms Gu Qi and ascends clear Qi, stabilising organs in place?",
+            "Answer": [
+                "Spleen",
+                "Heart",
+                "Liver",
+                "Kidney",
+                "Large Intestine"
+            ]
+        },
+        {
+            "Question": "Which sensory opening reflects the Spleen's function of transformation and taste?",
+            "Answer": [
+                "Mouth",
+                "Nose",
+                "Eyes",
+                "Ears",
+                "Tongue"
+            ]
+        },
+        {
+            "Question": "Which emotion damages the Spleen by knotting its Qi?",
+            "Answer": [
+                "Pensiveness / overthinking",
+                "Anger",
+                "Fear",
+                "Joy",
+                "Sadness"
+            ]
+        },
+        {
+            "Question": "Which tissue is governed by the Spleen because it provides postnatal Qi?",
+            "Answer": [
+                "Muscles/flesh",
+                "Bones",
+                "Vessels",
+                "Tendons",
+                "Skin/hair"
+            ]
+        },
+        {
+            "Question": "Which organ controls the skin and hair through spreading of Wei Qi?",
+            "Answer": [
+                "Lung",
+                "Heart",
+                "Liver",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which sensory organ belongs to the Lung because of its role in respiration?",
+            "Answer": [
+                "Nose",
+                "Ears",
+                "Tongue",
+                "Eyes",
+                "Mouth"
+            ]
+        },
+        {
+            "Question": "Which emotion injures the Lung by constricting Qi and impairing descent?",
+            "Answer": [
+                "Grief/sadness",
+                "Anger",
+                "Fear",
+                "Pensiveness",
+                "Excess joy"
+            ]
+        },
+        {
+            "Question": "Which organ houses the Po, giving immediate sensory and visceral reactions?",
+            "Answer": [
+                "Lung",
+                "Heart",
+                "Spleen",
+                "Liver",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Lung because of its descending, contractive quality?",
+            "Answer": [
+                "Metal (金)",
+                "Wood (木)",
+                "Fire (火)",
+                "Earth (土)",
+                "Water (水)"
+            ]
+        },
+        {
+            "Question": "Which organ stores Jing and controls water metabolism?",
+            "Answer": [
+                "Kidney",
+                "Liver",
+                "Spleen",
+                "Lung",
+                "Heart"
+            ]
+        },
+        {
+            "Question": "Which sensory opening belongs to the Kidney because Jing governs auditory function?",
+            "Answer": [
+                "Ears",
+                "Nose",
+                "Eyes",
+                "Tongue",
+                "Mouth"
+            ]
+        },
+        {
+            "Question": "Which tissue is controlled by the Kidney because Jing produces marrow?",
+            "Answer": [
+                "Bones",
+                "Muscles",
+                "Tendons",
+                "Vessels",
+                "Skin/hair"
+            ]
+        },
+        {
+            "Question": "Which emotion injures the Kidney by descending Qi too abruptly?",
+            "Answer": [
+                "Fear",
+                "Anger",
+                "Joy",
+                "Pensiveness",
+                "Sadness"
+            ]
+        },
+        {
+            "Question": "Which spirit is housed in the Kidney and governs willpower and drive?",
+            "Answer": [
+                "Zhi",
+                "Hun",
+                "Shen",
+                "Yi",
+                "Po"
+            ]
+        },
+        {
+            "Question": "Which organ receives Qi from the Lung to support respiration?",
+            "Answer": [
+                "Kidney",
+                "Heart",
+                "Spleen",
+                "Liver",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which element corresponds to the Kidney because it stores, cools, and stabilises?",
+            "Answer": [
+                "Water (水)",
+                "Wood (木)",
+                "Metal (金)",
+                "Fire (火)",
+                "Earth (土)"
+            ]
+        },
+        {
+            "Question": "Which organ’s dysfunction leads to dizziness and dry eyes due to insufficient Blood storage?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Lung",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which organ controls the tendons because its Blood nourishes flexibility and movement?",
+            "Answer": [
+                "Liver",
+                "Spleen",
+                "Heart",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which organ manifests in the hair due to its dependence on Jing?",
+            "Answer": [
+                "Kidney",
+                "Lung",
+                "Heart",
+                "Spleen",
+                "Liver"
+            ]
+        },
+        {
+            "Question": "Which organ pair (Zang–Fu) corresponds to Wood because one stores Blood and the other provides decisiveness?",
+            "Answer": [
+                "Liver–Gallbladder",
+                "Heart–Small Intestine",
+                "Spleen–Stomach",
+                "Lung–Large Intestine",
+                "Kidney–Bladder"
+            ]
+        },
+        {
+            "Question": "Which Fu organ is responsible for separating clear from turbid substances and is connected to critical judgement and the Heart Shen?",
+            "Answer": [
+                "Small Intestine",
+                "Large Intestine",
+                "Bladder",
+                "Gall Bladder",
+                "San Jiao"
+            ]
+        },
+        {
+            "Question": "Which Zang organ stores Blood and houses the Hun, influencing imagination and goal-directed planning?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Spleen",
+                "Lung",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which element is associated with the Liver, tendons, eyes, and the emotion of anger?",
+            "Answer": [
+                "Wood",
+                "Fire",
+                "Earth",
+                "Metal",
+                "Water"
+            ]
+        },
+        {
+            "Question": "Which Fu organ receives food from the Stomach and transforms it into faeces while reabsorbing liquids?",
+            "Answer": [
+                "Large Intestine",
+                "Small Intestine",
+                "Stomach",
+                "Bladder",
+                "Gall Bladder"
+            ]
+        },
+        {
+            "Question": "Which organ opens to the tongue and reflects Heart Blood and Shen?",
+            "Answer": [
+                "Heart",
+                "Liver",
+                "Spleen",
+                "Lung",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which Fu organ is considered a 'hollow organ' Yang, but stores bile rather than wastes?",
+            "Answer": [
+                "Gall Bladder",
+                "Bladder",
+                "Small Intestine",
+                "Large Intestine",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which Zang organ is responsible for generating postnatal Qi from food and governs muscles?",
+            "Answer": [
+                "Spleen",
+                "Liver",
+                "Kidney",
+                "Heart",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which Fu organ is involved in mobilising Yuan Qi and controlling transport of fluids through the body?",
+            "Answer": [
+                "San Jiao",
+                "Bladder",
+                "Small Intestine",
+                "Large Intestine",
+                "Gall Bladder"
+            ]
+        },
+        {
+            "Question": "Which organ opens to the nose and manifests in the skin and body hair, reflecting Wei Qi?",
+            "Answer": [
+                "Lung",
+                "Spleen",
+                "Heart",
+                "Kidney",
+                "Liver"
+            ]
+        },
+        {
+            "Question": "Which Fu organ’s spiritual function relates to letting go of the past?",
+            "Answer": [
+                "Large Intestine",
+                "Small Intestine",
+                "Bladder",
+                "Gall Bladder",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which Zang organ stores Jing, governs bones, and opens to the ears?",
+            "Answer": [
+                "Kidney",
+                "Liver",
+                "Heart",
+                "Lung",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which Fu organ depends on Kidney Yang for heat to transform liquids into urine?",
+            "Answer": [
+                "Bladder",
+                "Small Intestine",
+                "Large Intestine",
+                "Gall Bladder",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which organ’s Qi is responsible for correct movement and distributes Qi to tendons?",
+            "Answer": [
+                "Gall Bladder",
+                "Liver",
+                "Spleen",
+                "Kidney",
+                "Heart"
+            ]
+        },
+        {
+            "Question": "Which Zang organ regulates free flow of Qi to ensure proper Spleen rising and Stomach sinking?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Lung",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which Fu organ is considered the 'sea of Food and Drink' and helps generate organic liquids?",
+            "Answer": [
+                "Stomach",
+                "Small Intestine",
+                "Large Intestine",
+                "Bladder",
+                "Gall Bladder"
+            ]
+        },
+        {
+            "Question": "Which extraordinary vessel is known as the 'sea of Yin' and regulates menstruation?",
+            "Answer": [
+                "Ren Mai",
+                "Du Mai",
+                "Chong Mai",
+                "Dai Mai",
+                "Yang Wei Mai"
+            ]
+        },
+        {
+            "Question": "Which Zang organ manifests in the nails and depends on Blood to nourish them?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Spleen",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which Fu organ’s spiritual function relates to emotional security and trust, linked to Zhi?",
+            "Answer": [
+                "Bladder",
+                "Small Intestine",
+                "Gall Bladder",
+                "Large Intestine",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which organ governs Blood vessels and circulation, storing Blood temporarily?",
+            "Answer": [
+                "Heart",
+                "Liver",
+                "Spleen",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which organ’s dysfunction may lead to rectal prolapse due to sinking Qi?",
+            "Answer": [
+                "Large Intestine",
+                "Small Intestine",
+                "Spleen",
+                "Bladder",
+                "Stomach"
+            ]
+        },
+        {
+            "Question": "Which organ opens to the eyes, nourishes them with Blood, and is influenced by the emotion of anger?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Lung",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which Fu organ pushes out blood and babies, while the corresponding Zang stores Blood during pregnancy?",
+            "Answer": [
+                "Uterus",
+                "Stomach",
+                "Bladder",
+                "Gall Bladder",
+                "Large Intestine"
+            ]
+        },
+        {
+            "Question": "Which organ regulates tendon movement through provision of Qi, while Blood comes from the Liver?",
+            "Answer": [
+                "Gall Bladder",
+                "Liver",
+                "Spleen",
+                "Kidney",
+                "Heart"
+            ]
+        },
+        {
+            "Question": "Which organ stores Blood and nourishes the Marrow and Brain?",
+            "Answer": [
+                "Kidney",
+                "Liver",
+                "Heart",
+                "Spleen",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "Which Fu organ helps Spleen extract postnatal Qi by separating clear substances from turbid?",
+            "Answer": [
+                "Small Intestine",
+                "Stomach",
+                "Large Intestine",
+                "Gall Bladder",
+                "Bladder"
+            ]
+        },
+        {
+            "Question": "Which organ is responsible for pushing JinYe to transpiration in the upper Jiao?",
+            "Answer": [
+                "San Jiao - Upper Heater",
+                "Bladder",
+                "Small Intestine",
+                "Lung",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Which Zang organ houses the Shen and manifests in the complexion and pulse?",
+            "Answer": [
+                "Heart",
+                "Liver",
+                "Lung",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which organ’s free circulation of Qi helps Liver Qi rise and vice versa?",
+            "Answer": [
+                "Gall Bladder",
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Spleen"
+            ]
+        },
+        {
+            "Question": "Which Fu organ receives turbid liquids from Small Intestine to produce urine?",
+            "Answer": [
+                "Bladder",
+                "Large Intestine",
+                "Stomach",
+                "Gall Bladder",
+                "San Jiao"
+            ]
+        },
+        {
+            "Question": "Which Zang organ’s Hun (ethereal soul) influences planning, determination, and imagination?",
+            "Answer": [
+                "Liver",
+                "Heart",
+                "Kidney",
+                "Lung",
+                "Spleen"
+            ]
+        }
+    ]
+}

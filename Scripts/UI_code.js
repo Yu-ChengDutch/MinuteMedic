@@ -243,3 +243,94 @@ function fetch_random(category) {
     showPage(pages[random_page]);
 
 };
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        // Pick a random index from 0 to i
+        const j = Math.floor(Math.random() * (i + 1));
+        // Swap elements array[i] and array[j]
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+function TCM_questions() {
+
+    page = "Pages/TCM_questions.html"
+
+    fetch ("Data/Questions_TCM.json")
+    .then(response => {
+        if (!response.ok) {
+        throw new Error('Network response was not ok');
+        }
+        return response.json();  // Parse the JSON from the response
+    })
+    .then(data => {
+
+        // Get 10 random questions
+
+        questions = data["Questions"];
+
+        selected_questions = shuffleArray(questions).slice(0, 10);
+
+        // For each question, create div and append to page below id="TCM_button"
+
+        const mainContent = document.getElementById('mainContent');
+
+        for (let i = 0; i < selected_questions.length; i++) {
+
+            new_question = document.createElement('div');
+            new_question.className = "question-card";
+
+            new_question.innerHTML = `
+            
+                <h1>${"Question " + (i + 1).toString()}</h1>
+                <p>${selected_questions[i].Question}</p>
+
+            `;
+
+            unordered_list = document.createElement('ul');
+            unordered_list.className = "options";
+            unordered_list.id = "options";
+
+            // Append options to options
+
+            correct_answer = selected_questions[i].Answer[0];
+            shuffled_answers = shuffleArray(selected_questions[i].Answer);
+
+            for (let j = 0; j < shuffled_answers.length; j++) {
+
+                current_question = document.createElement('li');
+                current_question.setAttribute("data-answer", shuffled_answers[j] == correct_answer ? "correct" : "wrong");
+                current_question.innerHTML =`
+                
+                    ${shuffled_answers[j]}
+                `;
+                unordered_list.appendChild(current_question);
+
+            };
+
+            new_question.appendChild(unordered_list);
+
+            mainContent.appendChild(new_question);
+        };
+
+    }).then(() => {
+        loadScript('Scripts/Questions.js');
+
+        var fake_buttons = document.getElementsByClassName('fake-button');
+
+        while(fake_buttons[0]) {
+            fake_buttons[0].parentNode.removeChild(fake_buttons[0]);
+        };
+
+        // Adjust title and description
+
+        document.getElementById('welcome-title').innerText = "Traditional Chinese Medicine Questions";
+        document.getElementById('welcome-description').innerText = "Test your knowledge with these questions on Traditional Chinese Medicine.";
+    })
+    .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+    });
+}
+
