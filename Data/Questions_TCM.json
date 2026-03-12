@@ -766,7 +766,59 @@
                 "Spleen",
                 "Liver"
             ]
-        }
+        },
+								 {
+														"Question": "Anger is associated with the ...",
+														"Answer": ["Liver", "Heart","Lung"]
+									},
+								{
+														"Question": "Joy is associated with the ...",
+														"Answer": ["Heart", "Liver"]
+									},
+{
+														"Question": "Sadness is associated with the ...",
+														"Answer": ["Lung", "Heart","Liver"]
+									},
+{
+														"Question": "Worry is associated with the ...",
+														"Answer": ["Spleen", "Heart","Lung"]
+									},
+{
+														"Question": "Fear is associated with the ...",
+														"Answer": ["Kidney", "Heart","Lung"]
+									},
+{
+														"Question": "Shock causes the Qi to ...",
+														"Answer": ["Scatter", "Stagnate","Overproduce"]
+									},
+{
+														"Question": "Bitter is associated with the ...",
+														"Answer": ["Heart", "Liver","Lung"]
+									},
+{
+														"Question": "Sour is associated with the ...",
+														"Answer": ["Liver", "Heart","Lung"]
+									},
+{
+														"Question": "Sweet is associated with the ...",
+														"Answer": ["Spleen", "Heart","Lung"]
+									},
+{
+														"Question": "Spicy is associated with the ...",
+														"Answer": ["Lung", "Heart","Lung"]
+									},
+{
+														"Question": "Salt is associated with the ...",
+														"Answer": ["Kidney", "Heart","Lung"]
+									},
+{
+														"Question": "Which EPF is most associated with diet?",
+														"Answer": ["Cold", "Wind", "Summer heat"]
+									},
+{
+														"Question": "What causes cold?",
+														"Answer": ["Raw foods", "Dairy products", "Crispy food"]
+									}
 
 
     ]
