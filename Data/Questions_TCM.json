@@ -818,6 +818,86 @@
 {
 														"Question": "What causes cold?",
 														"Answer": ["Raw foods", "Dairy products", "Crispy food"]
+									},
+{
+														"Question": "Bitter herbs cause?",
+														"Answer": ["Cold", "Damp", "Heat"]
+									},
+{
+														"Question": "Dairy products cause?",
+														"Answer": ["Damp", "Cold", "Heat"]
+									},
+{
+														"Question": "Crispy food and carbs cause?",
+														"Answer": ["Dryness", "Damp", "Heat"]
+									},
+{
+														"Question": "Oily foods cause?",
+														"Answer": ["Heat", "Damp", "Cold"]
+									},
+{
+														"Question": "Alcoholic drinks cause?",
+														"Answer": ["Heat", "Damp", "Cold"]
+									},
+{
+														"Question": "Ejaculation causes loss of ...",
+														"Answer": ["Jing", "Qi", "Xue"]
+									},
+{
+														"Question": "Liver is most sensitive to ...",
+														"Answer": ["Wind", "Cold", "Hart"]
+									},
+{
+														"Question": "A viral airway infection is ...",
+														"Answer": ["Wind-Cold", "Wind-Heat", "Wind-Cold-Damp", "Local Wind"]
+									},
+{
+														"Question": "An allergic reaction / urticaria is ...",
+														"Answer": ["Wind-Heat", "Wind-Cold", "Wind-Cold-Damp", "Local Wind"]
+									},
+{
+														"Question": "A reumatologic condition, typically with changing focus is ...",
+														"Answer": ["Wind-Cold-Damp", "Wind-Heat", "Wind-Cold", "Local Wind"]
+									},
+{
+														"Question": "A facialis paresis is ...",
+														"Answer": ["Local Wind", "Wind-Heat", "Wind-Cold-Damp", "Wind Cold"]
+									},
+{
+														"Question": "The Lungs control the opening and closing of pores, but the sweating itself is controlled by ...",
+														"Answer": ["Heart", "Spleen", "Liver", "Kidney"]
+									},
+{
+														"Question": "Which is more stable?",
+														"Answer": ["Internal Wind", "External Wind"]
+									},
+{
+														"Question": "Moxa is used to treat...",
+														"Answer": ["Cold", "Heat", "Wind", "Summerheat"]
+									},
+{
+														"Question": "The Heart most sensitive to...",
+														"Answer": ["Heat", "Wind", "Cold", "Damp", "Dryness"]
+									},
+{
+														"Question": "The Liver most sensitive to...",
+														"Answer": ["Wind", "Heat", "Cold", "Damp", "Dryness"]
+									},
+{
+														"Question": "The Kidney most sensitive to...",
+														"Answer": ["Cold", "Wind", "Heat", "Damp", "Dryness"]
+									},
+{
+														"Question": "The Spleen most sensitive to...",
+														"Answer": ["Damp", "Wind", "Cold", "Heat", "Dryness"]
+									},
+{
+														"Question": "The Dryness most sensitive to...",
+														"Answer": ["Lung", "Wind", "Cold", "Damp", "Heat"]
+									},
+{
+														"Question": "The Heart most sensitive to...",
+														"Answer": ["Heat", "Wind", "Cold", "Damp", "Dryness"]
 									}
 
 
