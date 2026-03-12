@@ -896,9 +896,117 @@
 														"Answer": ["Lung", "Wind", "Cold", "Damp", "Heat"]
 									},
 {
-														"Question": "The Heart most sensitive to...",
-														"Answer": ["Heat", "Wind", "Cold", "Damp", "Dryness"]
-									}
+														"Question": "Langdurig gebogen zitten over een bureau kan zorgen voor ...",
+														"Answer": ["Long Qi def.", "Long Yin def.", "Lung dryness"]
+									},
+{
+														"Question": "Dyspnoe, zwakke stem, licht hoesten, overdag spontaan zweten, niet willen praten, helder bleek gelaat, snel verkouden",
+														"Answer": ["Long Qi def.", "Long Yin def.", "Lung dryness"]
+									},
+{
+														"Question": "Long Qi def. kan leiden tot",
+														"Answer": ["Long Yin def.", "Lung dryness"]
+									},
+{
+														"Question": "Droge hoest, zwakke hese stem, droge keel, nachtzweten, moe, dun lijf/thorax, niet willen platen",
+														"Answer": ["Long Yin def.", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Droge hoest, droge huid/keel/mond, hese stem. Geen andere symptomen.",
+														"Answer": ["Lung dryness", "Long Qi def.", "Long Yin def."]
+									},
+{
+														"Question": "Maag Yin of Nier Yin def. kan zorgen voor",
+														"Answer": ["Lung dryness", "Long Qi def.", "Long Yin def."]
+									},
+{
+														"Question": "Roken kan zorgen voor",
+														"Answer": ["Long Yin def.", "Lung dryness", "Long Qi def.", ]
+									},
+{
+														"Question": "Aversie tegen koude, niezen, koorts, iets dyspnoe, verstopte neus met waterig snot spierpijn",
+														"Answer": ["Invasie van Long door Wind-Koude", "Invasie van Long door Wind-Hitte", "Lung dryness", "Long Qi def.", ]
+									},
+{
+														"Question": "Echte koorts, keelpijn, aversie voor koude, hoest, verstopte neus met dik, geel snot, hoofdpijn, spierpijn, licht zweten, lichte dorst",
+														"Answer": ["Invasie van Long door Wind-Hitte", "Invasie van Long door Wind-Koude", "Lung dryness", "Long Qi def.", ]
+									},
+{
+														"Question": "Chronische hoest met overvloedig en wit sputum, slijm in keel, koude gevoel, duizelig, PODB, zwaar wattig hoofd",
+														"Answer": ["Cold-Phlegm in Lung", "Invasie van Long door Wind-Koude", "Invasie van Long door Wind-Hitte", "Lung dryness", "Long Qi def.", ]
+									},
+{
+														"Question": "Blaffend hoesten, geel-groen sputum, dyspnoe, piepen, PODB, hitte gevoel, insomnie, agitatie, wattig hoofd",
+														"Answer": ["Heat-Phlegm in Lung", "Invasie van Long door Wind-Hitte", "Lung dryness", "Long Qi def.", ]
+									},
+{
+														"Question": "Buikpijn, diarree met slijm en bloed, vol gevoel in buik, stinkende ontlasting, brandende anus, koorts, zweten, dorst (zonder drinkbehoefte)",
+														"Answer": ["Damp-Hitte in Dikke Darm", "Droogte in Dikke Darm", "Maag Vuur", "Maag Qi def."]
+									},
+{
+														"Question": "Droge ontlasting, moeilijk poepen, slank, droge mond en keel, vieze adem, duizelig",
+														"Answer": ["Droogte in Dikke Darm", "Damp-Hitte in Dikke Darm", "Maag Vuur", "Maag Qi def."]
+									},
+{
+														"Question": "Droogte in Dikke Darm kan worden veroorzaakt door",
+             "Answer": ["Onregelmatig eten", "Warm eten", "Vettig eten"]
+},
+{
+														"Question": "slechte eetlust, moe, brijige ontlasting, opgezette buik na het eten, willen liggen, zwakke ledematen",
+             "Answer": ["Milt Qi. def", "Stomach Qi. def.", "Milt Yang def."]
+},
+{
+														"Question": "Malnutrition (esp. protein), chronic expositio to damp, eating too much or irregularly may cause:",
+             "Answer": ["Milt Qi. def", "Stomach Qi. def.", "Milt Yang def."]
+},
+{
+														"Question": "willen liggen met opgetrokken benen, zwakke ledematen, slechte eetlust, opgezette buik na eten, moe, kouwelijk, koude ledematen, brijige ontlasting",
+             "Answer": ["Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "naar beneden trekkend gevoel, zwaartegevoel in buik, prolaps, neiging naar obesitas, urgente micties, hemorrhoïden en spataderen",
+             "Answer": ["Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "Milt Qi def. may cause:",
+             "Answer": ["Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "purpura, bloedingen (huid, ontlasting, menorragie), slechte eetlust, opgezette buik",
+             "Answer": ["De Milt controleert het Bloed niet", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "vol gevoel in bovenbuik, zwaar gevoel, zoete of geen smaak, geen dorst, moe, misselijk",
+             "Answer": ["Invasie Koude-Damp Milt", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "volle buik, zwaar gevoel, lichte koorts, stinkende brijige ontlasting, brandende anus, doffe hoofdpijn, jeuk, zweten",
+             "Answer": ["Invasie Damp-Hitte Milt", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "Eating spoiled food may cause",
+             "Answer": ["Invasie Damp-Hitte Milt", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "vermoeidheid in de ochtend, onbehaaglijk gevoel in bovenbuik, geen eetlust, geen smaak, losse def, zwakke ledematen",
+             "Answer": ["Maag Qi def.", "Maag Hitte", "Maag Yin def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "geen eetlust, honger zonder te willen eten, pijn in de bovenbuik, droge mond en keel in de namiddag, behoefte kleine slokjes te drinken",
+             "Answer": ["Maag Yin def.", "Maag Qi def.", "Maag Hitte", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "mentaal rusteloos, obstipatie, droge mond, mondzweren, zuurbranden, enorme honger ,brandend gevoel in de bovenbuik, dorst en behofte aan koude dranken",
+             "Answer": ["Maag Hitte", "Maag Yin def.", "Maag Qi def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "vol gevoel weg na braken, boeren, insomnia, wisselende ontlasting, vol gevoel in de bovenbuik met zuurbranden",
+             "Answer": ["Voedselretentie in de Maag", "Maag Hitte", "Maag Yin def.", "Maag Qi def.", "Milt Qi. def", "Milt Yang def."]
+}
+
+
+
+
 
 
     ]
