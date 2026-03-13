@@ -9,7 +9,7 @@
             ]
         },
         {
-            "Question": "What does Cohen say you should do wtih a safe but not effective method?",
+            "Question": "What does Cohen say you should do with a safe but not effective method?",
             "Answer": [
                 "Tolerate",
                 "Recommend",
@@ -1001,9 +1001,55 @@
 },
 {
 "Question": "vol gevoel weg na braken, boeren, insomnia, wisselende ontlasting, vol gevoel in de bovenbuik met zuurbranden",
-             "Answer": ["Voedselretentie in de Maag", "Maag Hitte", "Maag Yin def.", "Maag Qi def.", "Milt Qi. def", "Milt Yang def."]
+             "Answer": ["Voedselretentie in de Maag", "Slijm benevelt de Shen", "Maag Hitte", "Maag Yin def.", "Maag Qi def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "palpitaties, moe, lege pols, dyspnoe d'effort, bleek gelaat, spontaan zweten",
+             "Answer": ["Hart Qi def.", "Oplaaiend Hart Vuur", "Slijm benevelt de Shen", "Hart Yang def.", "Hart Yin def.", "Milt Yang def."]
+},
+{
+"Question": "Chronische rouw of bloedverlies kan wat veroorzaken?",
+             "Answer": ["Hart Qi def.", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Yang def.", "Hart Yin def.", "Long Qi def."]
+},
+{
+"Question": "dyspnoe d'effort, moe, spontaan zweten, vol gevoel hart, koude gevoel, helder en bleek gelaat, palpitaties, koude handen, diepe en zwakke pols",
+             "Answer": ["Hart Yang def.", "Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Qi def.", "Hart Yin def.", "Milt Yang def."]
+},
+{
+"Question": "Hart Qi def. of chronische Nier Yang def. kan wat veroorzaken? ",
+             "Answer": ["Hart Yang def.", "Oplaaiend Hart Vuur", "Hart Qi def.", "Hart Yin def.", "Milt Yang def."]
+},
+{
+"Question": "insomnia, veel dromen, snel schrikken, slecht geheugen, angst, friemelen, palpitaties, mentaal rusteloos, nachtzweten, geen beslag, continue aanstaan",
+             "Answer": ["Hart Yin def.", "Hart Bloed def.", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Hart Bloed def. kan een complicatie zijn van ...",
+             "Answer": ["Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "palpitaties met insomnia, slecht geheugen, duizelig, veel dromen, angst, snel schrikken, dof-bleek gelaat, bleke lippen",
+             "Answer": ["Hart Bloed def.", "Oplaaiend Hart Vuur", "Slijm benevelt de Shen", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "mentaal rusteloos, geagiteerd, hitte gevoel, insomnia, veel dromen, rood gelaat, Mond- en tongulceraties, dorst en hartkloppingen, palpitaties",
+             "Answer": ["Oplaaiend Hart Vuur", "Hart Bloed def.", "Slijm benevelt de Shen", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Chronische stress kan via de Lever zorgen voor ...",
+             "Answer": ["Oplaaiend Hart Vuur", "Hart Bloed def.", "Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "bewusteloos, lethargisch, afasie, slijm braken, mentale verwardheid, rochelend geluid in de keel",
+             "Answer": ["Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "... kan worden veroorzaakt door: bij kinderen kan het constitutioneel zijn, veel vet eten, koud en en rauw voedsel, chronische angst",
+             "Answer": ["Slijm benevelt de Shen", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+"Question": "Volte syndroom met Dian "krankzinnigheid" en Kuang "geweldadig gedrag" c.q. de Manische fase in de Manische Depressiviteit; icm met Interne Wind -> CVA. Pols vol, snel, glijdend of koordvormig. Tong rood, gezwollen, geel droog sticky beslag, met diepe hart crack",
+             "Answer": ["Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
 }
-
 
 
 
