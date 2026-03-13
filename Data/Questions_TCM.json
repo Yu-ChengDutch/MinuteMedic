@@ -977,7 +977,7 @@
 },
 {
 "Question": "vol gevoel in bovenbuik, zwaar gevoel, zoete of geen smaak, geen dorst, moe, misselijk",
-             "Answer": ["Invasie Koude-Damp Milt", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+             "Answer": ["Invasie Koude-Damp Milt", "Lever Wind", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
 },
 {
 "Question": "volle buik, zwaar gevoel, lichte koorts, stinkende brijige ontlasting, brandende anus, doffe hoofdpijn, jeuk, zweten",
@@ -1047,13 +1047,134 @@
 "Question": "... kan worden veroorzaakt door: bij kinderen kan het constitutioneel zijn, veel vet eten, koud en en rauw voedsel, chronische angst",
              "Answer": ["Slijm benevelt de Shen", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
 },
-"Question": "Volte syndroom met Dian "krankzinnigheid" en Kuang "geweldadig gedrag" c.q. de Manische fase in de Manische Depressiviteit; icm met Interne Wind -> CVA. Pols vol, snel, glijdend of koordvormig. Tong rood, gezwollen, geel droog sticky beslag, met diepe hart crack",
+{
+"Question": "Volte syndroom met Dian 'krankzinnigheid' en Kuang 'geweldadig gedrag' c.q. de Manische fase in de Manische Depressiviteit; icm met Interne Wind -> CVA. Pols vol, snel, glijdend of koordvormig. Tong rood, gezwollen, geel droog sticky beslag, met diepe hart crack",
              "Answer": ["Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "geen druk op buik willen, opgezette buik, flatulentie, obstipatie, braken, plotse heftige buikpijn, borborygmus",
+             "Answer": ["Dunne Darm Koude", "Dikke Darm Koude", "Lever Wind", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "zuchten, brok in de keel, en PMS (Lever geeft menstruatiebloed vrij, maar het vasthouden vóór menstruatie kan stagnatie geven), opgezet gevoel in borstkas/borsten en bovenbuik, stemmingswisselingen en depressie",
+             "Answer": ["Lever Qi stagnatie", "Opstijgend Lever Yang", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "duizelig, tinnitus (hogere toon of piep; nierproblematiek leidt tot een **lage brom**), wazig zien, droge mond, insomnia, woede uitbarstingen, hoofdpijn, irritatie",
+             "Answer": ["Opstijgend Lever Yang", "Lever Qi stagnatie", "Lever Wind", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "... kan veroorzaakt worden door: emotionele problemen (boosheid, frustratie en verbittering), eten tijdens werk (of anderszins geen rustmoment maken)",
+             "Answer": ["Opstijgend Lever Yang", "Lever Qi stagnatie", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Opstijgende Lever Vuur (want druk blijft bestaan) kan veroorzaakt worden door ...",
+             "Answer": ["Opstijgend Lever Yang", "Lever Qi stagnatie", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "woede uitbarstingen etc. maar zeker ook veel nachtmerries en bittere smaak, hoofdpijn, irritatie, rood gelaat, rode ogen",
+             "Answer": ["Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Wind", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Hart Vuur kan worden veroorzaakt door ...",
+             "Answer": ["Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "tintelende ledematen, insomnie, 'floaters', spierzwakte, krampen (voornamelijk nachtelijke kuitkrampen), hulpeloos gevoel, wazig zien, dof/bleek gelaat, weinig menstruatiebloed",
+             "Answer": ["Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "doofheid (e.g., Sudden Deafness), duizeligheid, paralyse, convulsies, tremor, tics (bijv., epilepsie, M. Parkinson, CVA) met wisselende aard",
+             "Answer": ["Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "een vetten verteren, NV, dorst zonder willen drinken, zwaar gevoel, wisselende ontlasting, volle flank, bittere smaak",
+             "Answer": ["Damp-Hitte in de Galblaas", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang"]
+},
+{
+"Question": "... kan veroorzaakt worden door: EPF damp, veel vet of zuivel eten, herhaalde gevoelens van woede -> Lever Qi Stag. -> ...",
+             "Answer": ["Damp-Hitte in de Galblaas", "de Nier ontvangt de Qi niet", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang"]
+},
+{
+"Question": "rugpijn, nachtzweten, duizeligheid, lage tinnitus, droge mond in de nacht, slecht geheugen, botpijn, infertiliteit, moe, depressie, warme handpalm, dorst lage rugklachten",
+             "Answer": ["Nier Yin def.", "Nier Jing def.", "de Nier ontvangt de Qi niet", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Nier Yang def."]
+},
+{
+"Question": "menopause veroorzaakt typisch ...",
+             "Answer": ["Nier Yin def.", "Nier Jing def.", "de Nier ontvangt de Qi niet", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Nier Yang def."]
+},
+{
+"Question": "zwakke benen en knieën, helder witte gelaatskleur, impotentie, erge vermoeidheid, oedeem in benen, vrouwelijke infertiliteit,  impotentie, weinig zaad, laag libido, depressie, lage rugklachten, koude gevoel in de rug, veel heldere urine",
+             "Answer": ["Nier Yang def", "Nier Yin def.", "de Nier ontvangt de Qi niet", "Nier Jing def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "Laat sluiten fontanel, doofheid, mentale retardatie, botontkalking, slecht geheugen, losse tanden, prematuur grijs worden, lage rugpijn, infertiliteit, primaire amennorhoe, mentaal niet scherp, bij kinderen botonwikkelen, verder zwakke knieën, haaruitval, zwakke seksuele activiteit",
+             "Answer": ["Nier Jing def.", "Nier Yang def", "de Nier ontvangt de Qi niet", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "Veel/snel achter elkaar bevallen kan ... veroorzaken",
+             "Answer": ["Nier Jing def.", "Nier Yang def", "de Nier ontvangt de Qi niet", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "Snelle en zwakke ademhaling, moeilijk inademen (want de Nier Qi moet de Long Qi ontvangen voor de inademing (moet naar onderen)), chronisch hoest/astma, spontaan zweten, mentaal rusteloos, tinnitus, dyspnoe d'effort, lage rugpijn, helder gekleurde urine",
+             "Answer": ["de Nier ontvangt de Qi niet", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "excessieve fysieke belasting (tijdens jeugd periode) kan ... veroorzaken",
+             "Answer": ["de Nier ontvangt de Qi niet", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "vaak plassen, hematurie, koorts, volle en pijnlijke flanken, hitte gevoel, randerig gevoel tijdens palssen, donkere urine, moeilijke mictie",
+             "Answer": ["Damp-Hitte in de Blaas", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie"]
+},
+{
+"Question": "Dik plakkerig geel beslag op de tongwortel kan wijzen op ...",
+             "Answer": ["Damp-Hitte in de Blaas", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie"]
+},
+{
+"Question": "Langdurig opgekropte gevoelens van jaloezie kan leiden tot ...",
+             "Answer": ["Damp-Hitte in de Blaas", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie"]
+},
+{
+"Question": "Stekende pijn is ...",
+             "Answer": ["Bloed stagnatie", "Qi stagnatie"]
+},
+{
+"Question": "Drukkende pijn is ...",
+             "Answer": ["Qi stagnatie", "Bloed stagnatie"]
+},
+{
+"Question": "Long Yang def. leidt tot pitting oedeem in ...",
+             "Answer": ["Gelaat en handen", "Abdomen en ledematen", "Benen en enkels"]
+},
+{
+"Question": "Milt Yang def. leidt tot pitting oedeem in ...",
+             "Answer": ["Abdomen en ledematen", "Gelaat en handen", "Benen en enkels"]
+},
+{
+"Question": "Nier Yang def. leidt tot pitting oedeem in ...",
+             "Answer": ["Benen en enkels", "Gelaat en handen", "Abdomen en ledematen"]
+},
+{
+"Question": "Non-pitting oedeem komt door ...",
+             "Answer": ["Qi def.", "Bloed def.", "Yin ex.", "Yang ex."]
+},
+{
+"Question": "Warm gevoel, rood gelaat, rode huid uitslag, dorst, bloedingen, ulceratie, rode tong, snelle pols, bloed in ontlasting, menorrhagie",
+             "Answer": ["Bloed Hitte", "Hart vuur", "Lever Hitte"]
+},
+{
+"Question": "Lever Qi stagnatie kan via intern vuur zorgen voor",
+             "Answer": ["Bloed Hitte", "Nier vuur", "Long Hitte"]
+},
+{
+"Question": "The female Jing cycle takes ... ",
+             "Answer": ["7 years", "8 years"]
+},
+{
+"Question": "The male Jing cycle takes ... ",
+             "Answer": ["8 years", "7 years"]
 }
 
-
-
-
-
-    ]
+]
 }
