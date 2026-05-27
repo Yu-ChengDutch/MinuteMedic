@@ -806,6 +806,12 @@
                                 "Description": "Preparation for Roessingh",
                                 "Icon": "Images/icon_brain.png",
                                 "Page": "Pages/Clinical_science/Diagnosis_sleep_after_stroke.html"
+                            },
+																															{
+                                "Name": "Sleep hallucinations",
+                                "Description": "Preparation for Rivierduinen",
+                                "Icon": "Images/icon_brain.png",
+                                "Page": "Pages/Clinical_science/Diagnosis_sleep_hallucinations.html"
                             }
 
                         ]},
