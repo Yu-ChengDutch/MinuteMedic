@@ -375,7 +375,26 @@
                                                         "Name": "Telencephalon", 
                                                         "Description": "The big brain",
                                                         "Icon": "Images/icon_brain.png",
-                                                        "Page": "Pages/Applied_science/Anatomy_telencephalon.html"
+                                                        "DetailedCardInfo":[
+                                                            {
+                                                                "Name": "General Introduction to the forebrain",
+                                                                "Description": "What it says",
+                                                                "Icon": "Images/icon_brain.png",
+                                                                "Page": "Pages/Applied_science/Anatomy_telencephalon.html"
+                                                            },
+                                                            {
+                                                                "Name": "Striatum",
+                                                                "Description": "The stripy subcortical bit",
+                                                                "Icon": "Images/icon_brain.png",
+                                                                "Page": "Pages/Applied_science/Anatomy_striatum.html"
+                                                            },
+                                                            {
+                                                                "Name": "Thalamus",
+                                                                "Description": "New York grand central",
+                                                                "Icon": "Images/icon_brain.png",
+                                                                "Page": "Pages/Applied_science/Anatomy_thalamus.html"
+                                                            }
+                                                        ]
                                                     }
 
                                                 ]
@@ -511,6 +530,12 @@
                                 "Icon": "Images/icon_liver.png",
                                 "Description": "How well the thing does its things",
                                 "Page": "Pages/Applied_science/Physiology_liver_function.html"
+                            },
+                            {
+                                "Name": "Neurotransmitters",
+                                "Icon": "Images/icon_brain.png",
+                                "Description": "Substances in the brain",
+                                "Page": "Pages/Applied_science/Physiology_neurotransmitters.html"
                             }
 
                         ]

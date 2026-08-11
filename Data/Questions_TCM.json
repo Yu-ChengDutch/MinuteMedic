@@ -766,8 +766,543 @@
                 "Spleen",
                 "Liver"
             ]
+        },
+        {
+            "Question": "太沖 (Great Surge) is known as:",
+            "Answer": [
+                "Liver 3",
+                "Lung 5",
+                "Lung 7"
+            ]
+        },
+        {
+            "Question": "尺澤 (Cubit Marsh) is known as:",
+            "Answer": [
+                "Lung 5",
+                "Lung 3",
+                "Kidney 7"
+            ]
+        },
+        {
+            "Question": "列缺 (Broken Sequence) is known as:",
+            "Answer":[
+                "Lung 7",
+                "Kidney 7",
+                "Liver 3"
+            ]
+        },
+        {
+            "Question": "太谿 (Great Ravine) is known as:",
+            "Answer": [
+                "Kidney 3",
+                "Kidney 6",
+                "Lung 7"
+            ]
+        },
+        {
+            "Question": "照海 (Shining Sea) is known as:",
+            "Answer": [
+                "Kidney 6",
+                "Lung 7",
+                "Liver 3"
+            ]
+        },
+        {
+            "Question": "復溜 (Recover Flow) is known as:",
+            "Answer": [
+                "Kidney 7",
+                "Stomach 36",
+                "Large Intestine 4"
+            ]
+        },
+        {
+            "Question": "足三里 (Leg Three Li) is known as:",
+            "Answer": [
+                "Stomach 36",
+                "Liver 3",
+                "Lung 7"
+            ]
+        },
+        {
+            "Question": "合谷 (Union Valley) is known as:",
+            "Answer": [
+                "Large Intestine 4",
+                "Stomach 36",
+                "Bladder 2"
+            ]
+        },
+        {
+            "Question": "What point should you not use on pregnant women?",
+            "Answer": [
+                "LI 4 - 合谷 (Union Valley)",
+                "ST36 - 足三里 (Leg Three Li)",
+                "KD7 - 復溜 (Recover Flow)"
+            ]
+        },
+        {
+            "Question": "What point specifically tonifies Wei Qi?",
+            "Answer": [
+                "ST36 - 足三里 (Leg Three Li)",
+                "LU5 - 尺澤 (Cubit Marsh)",
+                "KD6 - 照海 (Shining Sea)"
+            ]
+        },
+        {
+            "Question": "When walking makes something worse, it's associated with the ...",
+            "Answer": [
+                "Liver",
+                "Spleen",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "When sitting makes something worse, it's associated with the ...",
+            "Answer": [
+                "Spleen",
+                "Liver",
+                "Kidney",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "When standing makes something worse, it's associated with the ...",
+            "Answer": [
+                "Kidney",
+                "Liver",
+                "Spleen",
+                "Lung"
+            ]
+        },
+        {
+            "Question": "When laying down makes something worse, it's associated with the ...",
+            "Answer": [
+                "Lung",
+                "Liver",
+                "Spleen",
+                "Kidney"
+            ]
+        },
+        {
+            "Question": "Fever is a ...",
+            "Answer": [
+                "Fight between an EPF and Wei Qi",
+                "An excess of Yang or insufficiency of Yin",
+                "An excess of Fire or insufficiency of Water"
+            ]
+        },
+        {
+            "Question": "Shivers without fever is",
+            "Answer": [
+                "Yin excess / Yang emptiness",
+                "Yang excess / Yin emptiness"
+            ]
+        },
+        {
+            "Question": "Insuffiency of Qi gives ...",
+            "Answer": [
+                "Sweating at minimal exercise",
+                "Functional tremor",
+                "Diarrhea"
+            ]
+        },
+        {
+            "Question": "Thirst without desire to drink indicates ...",
+            "Answer": [
+                "Damp heat",
+                "Fire",
+                "Internal Wind"
+            ]
+        },
+        {
+            "Question": "Excess urine indicates ...",
+            "Answer": [
+                "Cold",
+                "Damp Heat",
+                "Internal Wind"
+            ]
+        },
+        {
+            "Question": "Cloudy urine indicates ...",
+            "Answer": [
+                "Damp Heat",
+                "Cold or emptiness",
+                "External Wind"
+            ]
+        },
+        {
+            "Question": "Nadruppelen or incontinence indicates ...",
+            "Answer": [
+                "KD Qi emptiness",
+                "KD Yang excess",
+                "KD Yin insuffiency"
+            ]
+        },
+        {
+            "Question": "Pain worsening with pressure is caused by ...",
+            "Answer": [
+                "Excess",
+                "Emptiness"
+            ]
+        },
+        {
+            "Question": "Pain improving with pressure is caused by ...",
+            "Answer": [
+                "Emptiness",
+                "Excess"                
+            ]
+        },
+        {
+            "Question": "Koliekpijnen komen door: ",
+            "Answer": [
+                "Stagnatie van Qi en Xue",
+                "Nierproblematiek",
+                "Longen"
+            ]
+        },
+        {
+            "Question": "Nightly cramps are related to:",
+            "Answer": [
+                "Liver's function of storing blood",
+                "Bladder's function of storing urine",
+                "Lung's function of regulating water metabolism"
+            ]
+        },
+        {
+            "Question": "Burning stomach ache is caused by: ",
+            "Answer": [
+                "Heat invasion",
+                "Damp Heat", 
+                "External Wind"
+            ]
+        },
+        {
+            "Question": "Stagnation of Qi/Xue will cause an explosive rise of Liver Yang, leading to an headache: ",
+            "Answer": [
+                "On top of the head",
+                "On the temples",
+                "On the forehead"                
+            ]
+        },
+        {
+            "Question": "Pain in the upper left quadrant is likely not :",
+            "Answer": [
+                "Internal Wind",
+                "EPF invastion",
+                "Liver Heat attacking the Stomach",
+                "Food stagnation",
+                "Damp stagnation",
+                "Spleen Qi emptiness"                    
+            ]
+        },
+        {
+            "Question": "Pain between the shoulder blades may be",
+            "Answer": [
+                "Yang em emptiness",
+                "Yin emptiness"
+            ]
+        },
+        {
+            "Question": "Muscle ache is:",
+            "Answer": [
+                "Spleen Qi pathology",
+                "Liver Qi pathology",
+                "Kidney Qi pathology"
+            ]
+        },
+        {
+            "Question": "Een inslaapstoornis wordt veroorzaakt door de:",
+            "Answer": [
+                "Milt-Hart as",
+                "Hitte invasie",
+                "Flegma"                
+            ]
+        },
+        {
+            "Question": "Phlegm causes lethargy and ...",
+            "Answer": [
+                "Thick, tough mucus",
+                "Watery mucus",
+                "Bloody mucus"
+            ]
+        },
+        {
+            "Question": "Yellow mucus is caused by ...",
+            "Answer": [
+                "Damp Heat",
+                "Cold",
+                "Wind"
+            ]
+        },
+        {
+            "Question": "Watery mucus is caused by ...",
+            "Answer": [
+                "Cold",
+                "Wind",
+                "Phlegm"
+            ]
+        },
+        {
+            "Question": "Besides emptiness of the stomach, apetite is regulated by ...",
+            "Answer": [
+                "Spleen Qi",
+                "Liver Qi",
+                "Lung Qi"
+            ]
+        },
+        {
+            "Question": "Constant small hunger is caused by ...",
+            "Answer": [
+                "Stomach Heat",
+                "Stomach Cold",
+                "Kidney Yang"
+            ]
+        },
+        {
+            "Question": "The PMS type of 'irritable and snappy' is caused by:",
+            "Answer": [
+                "Liver Qi stagnation",
+                "Heart Fire",
+                "Liver Xue deficiency"
+            ]
+        },
+        {
+            "Question": "The PMS type of 'easy to cry' is caused by:",
+            "Answer": [
+                "Liver Xue deficiency",
+                "Spleen Yang deficiency",
+                "Liver Qi stagnation"
+            ]
+        },
+        {
+            "Question": "The PMS type of 'cold and lethargic' is caused by:",
+            "Answer": [
+                "Kidney or Spleen Yang deficiency",
+                "Liver Qi stagnation",
+                "Liver Xue deficiency"
+            ]
+        },
+        {
+            "Question": "The Left wrist is responsible for: ",
+            "Answer": [
+                "Heart, Liver, Kidney",
+                "Lung, Spleen, Pericardium"                
+            ]
+        },
+        {
+            "Question": "The middle position is called: ",
+            "Answer": [
+                "Guan",
+                "Cun",
+                "Chi"
+            ]
+        },
+        {
+            "Question": "The third position on the left wrist is:",
+            "Answer": [
+                "Kidney / Bladder",
+                "Liver",
+                "Heart / Small Intestine"
+            ]
+        },
+        {
+            "Question": "Middle position on the right is: ",
+            "Answer": [
+                "Spleen / Stomach",
+                "Lung / Large Intestine",
+                "Pericardium"
+            ]
+        },
+        {
+            "Question": "A floating pulse is:",
+            "Answer": [
+                "Easily felt at the superficial level, but not deeper",
+                "Only felt in the middle, but not superficial nor deep",
+                "Just a very weak pulse"
+            ]
+        },
+        {
+            "Question": "A floating pulse generally indicates ...",
+            "Answer": [
+                "External Wind pathology",
+                "Internal pathology",
+                "Summerheat pathology"
+            ]
+        },
+        {
+            "Question": "A sinking pulse is also known as ...",
+            "Answer": [
+                "Deep",
+                "Superficial",
+                "Wide"
+            ]
+        },
+        {
+            "Question": "A sinking pulse generally indicates ...",
+            "Answer": [
+                "Internal pathology",
+                "External pathology"
+            ]
+        },
+        {
+            "Question": "Yin/Xue deficiency, and Qi/Yang deficiency are associated with ...",
+            "Answer": [
+                "Floating / Deep",
+                "Deep / Floating"
+            ]
+        },
+        {
+            "Question": "Slow pulse and rapid pulse are associated as follows: ",
+            "Answer": [
+                "Cold / Yang def. and Heat",
+                "Heat and Cold",
+                "Qi and Xue"
+            ]
+        },
+        {
+            "Question": "A rough pulse is: ",
+            "Answer": [
+                "Xue stagnation",
+                "Qi stagnation",
+                "Yang exces"
+            ]
+        },
+        {
+            "Question": "A slippery (smooth with a viscous sensation) is not ...",
+            "Answer": [
+                "Dryness",
+                "Damp",
+                "Food retention",
+                "Pregnancy"
+            ]
+        },
+        {
+            "Question": "A big (i.e., broad) pulse is:",
+            "Answer": [
+                "Heat ex.",
+                "Heat def.",
+                "Damp"
+            ]
+        },
+        {
+            "Question": "A thin (i.e., thready - 'fine but with distinct edges') pulse is ...",
+            "Answer": [
+                "Blood or Qi def.",
+                "Yin ex.",
+                "ST pathology"
+            ]
+        },
+        {
+            "Question": "An empty pulse is: ",
+            "Answer": [
+                "wide but not strong, disappears with slight pressure, forceless",
+                "wide and strong, felt with strength at all levels",
+                "fine but with distinct edges"
+            ]
+        },
+        {
+            "Question": "An empty pulse indicates the same as a ... pulse",
+            "Answer": [
+                "Thin",
+                "Full",
+                "Short"
+            ]
+        },
+        {
+            "Question": "A ... pulse may be normal",
+            "Answer": [
+                "Long",
+                "Short",
+                "Full"
+            ]
+        },
+        {
+            "Question": "Heart disharmony may be indicated by ...",
+            "Answer": [
+                "Regularly missed beats",
+                "Irregularly missed beats"
+            ]
+        },
+        {
+            "Question": "The tongue map front-to-back is:",
+            "Answer": [
+                "KD/UB, intestines, ST/SP, Lungs, Heart",
+                "KD/UB, ST/SP, intestines, Heart, Lungs",
+                "LV/GB, ST/SP, KD/UB, Lungs, Heart"
+            ]
+        },
+        {
+            "Question": "A purple tongue indicates ...",
+            "Answer": [
+                "Xue stasis",
+                "Yang Qi def.",
+                "Exces Heat"
+            ]
+        },
+        {
+            "Question": "Tongue swelling is caused by ...",
+            "Answer": [
+                "Damp accumulation",
+                "Low on JinYe",
+                "Blood stagnation"
+            ]
+        },
+        {
+            "Question": "Stomach Heat is indicated on the tongue by ...",
+            "Answer": [
+                "Long central crack",
+                "Swelling and imprints",
+                "Small crack in front"
+            ]
+        },
+        {
+            "Question": "Yin deficiency may lead to: ",
+            "Answer": [
+                "Dry or geographic tongue",
+                "Visible veins on the underside of the tongue",
+                "Purple tongue"
+            ]
+        },
+        {
+            "Question": "Besides swelling, Damp may cause:",
+            "Answer": [
+                "Thick coating",
+                "Absent coating",
+                "Yellow coating"
+            ]
+        },
+        {
+            "Question": "Heat may lead to: ",
+            "Answer": [
+                "Yellow coating",
+                "Thick coating",
+                "White coating"
+            ]
+        },
+        {
+            "Question": "White tongue coating is related to:",
+            "Answer": [
+                "Damp Cold acc., especially in the Lungs",
+                "Heat, especially in the Stomach",
+                "Internal Wind, especially in the Brain"
+            ]
+        },
+        {
+            "Question": "Strong body odour is associated with ...",
+            "Answer": [
+                "Heat",
+                "Cold",
+                "Damp"
+            ]
+        },
+        {
+            "Question": "Foul breath is associated with ...",
+            "Answer": [
+                "Stomach Heat",
+                "External Wind-Cold in Lungs"
+            ]
         }
-
+        
 
     ]
 }

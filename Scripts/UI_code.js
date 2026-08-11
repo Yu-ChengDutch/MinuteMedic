@@ -210,11 +210,13 @@ function fetch_random(category) {
 
     } else {
 
-        explorable_cards = cards.slice(0, -1);
+        explorable_cards = cards.slice(0, 4);
 
     }
 
     random = get_rand();
+
+    console.log(explorable_cards)
 
     while(explorable_cards.length != 0) {
 
@@ -237,6 +239,9 @@ function fetch_random(category) {
     };
 
     console.log(pages);
+
+    console.log("Is pages empty? " + (pages.length == 0));
+    console.log("Is Anatomy_thalamus.html in pages? " + pages.some(page => page === "Pages/Applied_science/Anatomy_thalamus.html"));
 
     const random_page = Math.floor(random * pages.length);
 
