@@ -9,7 +9,7 @@
             ]
         },
         {
-            "Question": "What does Cohen say you should do wtih a safe but not effective method?",
+            "Question": "What does Cohen say you should do with a safe but not effective method?",
             "Answer": [
                 "Tolerate",
                 "Recommend",
@@ -767,6 +767,7 @@
                 "Liver"
             ]
         },
+<<<<<<< HEAD
         {
             "Question": "太沖 (Great Surge) is known as:",
             "Answer": [
@@ -1305,4 +1306,416 @@
         
 
     ]
+=======
+								 {
+														"Question": "Anger is associated with the ...",
+														"Answer": ["Liver", "Heart","Lung"]
+									},
+								{
+														"Question": "Joy is associated with the ...",
+														"Answer": ["Heart", "Liver"]
+									},
+{
+														"Question": "Sadness is associated with the ...",
+														"Answer": ["Lung", "Heart","Liver"]
+									},
+{
+														"Question": "Worry is associated with the ...",
+														"Answer": ["Spleen", "Heart","Lung"]
+									},
+{
+														"Question": "Fear is associated with the ...",
+														"Answer": ["Kidney", "Heart","Lung"]
+									},
+{
+														"Question": "Shock causes the Qi to ...",
+														"Answer": ["Scatter", "Stagnate","Overproduce"]
+									},
+{
+														"Question": "Bitter is associated with the ...",
+														"Answer": ["Heart", "Liver","Lung"]
+									},
+{
+														"Question": "Sour is associated with the ...",
+														"Answer": ["Liver", "Heart","Lung"]
+									},
+{
+														"Question": "Sweet is associated with the ...",
+														"Answer": ["Spleen", "Heart","Lung"]
+									},
+{
+														"Question": "Spicy is associated with the ...",
+														"Answer": ["Lung", "Heart","Lung"]
+									},
+{
+														"Question": "Salt is associated with the ...",
+														"Answer": ["Kidney", "Heart","Lung"]
+									},
+{
+														"Question": "Which EPF is most associated with diet?",
+														"Answer": ["Cold", "Wind", "Summer heat"]
+									},
+{
+														"Question": "What causes cold?",
+														"Answer": ["Raw foods", "Dairy products", "Crispy food"]
+									},
+{
+														"Question": "Bitter herbs cause?",
+														"Answer": ["Cold", "Damp", "Heat"]
+									},
+{
+														"Question": "Dairy products cause?",
+														"Answer": ["Damp", "Cold", "Heat"]
+									},
+{
+														"Question": "Crispy food and carbs cause?",
+														"Answer": ["Dryness", "Damp", "Heat"]
+									},
+{
+														"Question": "Oily foods cause?",
+														"Answer": ["Heat", "Damp", "Cold"]
+									},
+{
+														"Question": "Alcoholic drinks cause?",
+														"Answer": ["Heat", "Damp", "Cold"]
+									},
+{
+														"Question": "Ejaculation causes loss of ...",
+														"Answer": ["Jing", "Qi", "Xue"]
+									},
+{
+														"Question": "Liver is most sensitive to ...",
+														"Answer": ["Wind", "Cold", "Hart"]
+									},
+{
+														"Question": "A viral airway infection is ...",
+														"Answer": ["Wind-Cold", "Wind-Heat", "Wind-Cold-Damp", "Local Wind"]
+									},
+{
+														"Question": "An allergic reaction / urticaria is ...",
+														"Answer": ["Wind-Heat", "Wind-Cold", "Wind-Cold-Damp", "Local Wind"]
+									},
+{
+														"Question": "A reumatologic condition, typically with changing focus is ...",
+														"Answer": ["Wind-Cold-Damp", "Wind-Heat", "Wind-Cold", "Local Wind"]
+									},
+{
+														"Question": "A facialis paresis is ...",
+														"Answer": ["Local Wind", "Wind-Heat", "Wind-Cold-Damp", "Wind Cold"]
+									},
+{
+														"Question": "The Lungs control the opening and closing of pores, but the sweating itself is controlled by ...",
+														"Answer": ["Heart", "Spleen", "Liver", "Kidney"]
+									},
+{
+														"Question": "Which is more stable?",
+														"Answer": ["Internal Wind", "External Wind"]
+									},
+{
+														"Question": "Moxa is used to treat...",
+														"Answer": ["Cold", "Heat", "Wind", "Summerheat"]
+									},
+{
+														"Question": "The Heart most sensitive to...",
+														"Answer": ["Heat", "Wind", "Cold", "Damp", "Dryness"]
+									},
+{
+														"Question": "The Liver most sensitive to...",
+														"Answer": ["Wind", "Heat", "Cold", "Damp", "Dryness"]
+									},
+{
+														"Question": "The Kidney most sensitive to...",
+														"Answer": ["Cold", "Wind", "Heat", "Damp", "Dryness"]
+									},
+{
+														"Question": "The Spleen most sensitive to...",
+														"Answer": ["Damp", "Wind", "Cold", "Heat", "Dryness"]
+									},
+{
+														"Question": "The Dryness most sensitive to...",
+														"Answer": ["Lung", "Wind", "Cold", "Damp", "Heat"]
+									},
+{
+														"Question": "Langdurig gebogen zitten over een bureau kan zorgen voor ...",
+														"Answer": ["Long Qi def.", "Long Yin def.", "Lung dryness"]
+									},
+{
+														"Question": "Dyspnoe, zwakke stem, licht hoesten, overdag spontaan zweten, niet willen praten, helder bleek gelaat, snel verkouden",
+														"Answer": ["Long Qi def.", "Long Yin def.", "Lung dryness"]
+									},
+{
+														"Question": "Long Qi def. kan leiden tot",
+														"Answer": ["Long Yin def.", "Lung dryness"]
+									},
+{
+														"Question": "Droge hoest, zwakke hese stem, droge keel, nachtzweten, moe, dun lijf/thorax, niet willen platen",
+														"Answer": ["Long Yin def.", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Droge hoest, droge huid/keel/mond, hese stem. Geen andere symptomen.",
+														"Answer": ["Lung dryness", "Long Qi def.", "Long Yin def."]
+									},
+{
+														"Question": "Maag Yin of Nier Yin def. kan zorgen voor",
+														"Answer": ["Lung dryness", "Long Qi def.", "Long Yin def."]
+									},
+{
+														"Question": "Roken kan zorgen voor",
+														"Answer": ["Long Yin def.", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Aversie tegen koude, niezen, koorts, iets dyspnoe, verstopte neus met waterig snot spierpijn",
+														"Answer": ["Invasie van Long door Wind-Koude", "Invasie van Long door Wind-Hitte", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Echte koorts, keelpijn, aversie voor koude, hoest, verstopte neus met dik, geel snot, hoofdpijn, spierpijn, licht zweten, lichte dorst",
+														"Answer": ["Invasie van Long door Wind-Hitte", "Invasie van Long door Wind-Koude", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Chronische hoest met overvloedig en wit sputum, slijm in keel, koude gevoel, duizelig, PODB, zwaar wattig hoofd",
+														"Answer": ["Cold-Phlegm in Lung", "Invasie van Long door Wind-Koude", "Invasie van Long door Wind-Hitte", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Blaffend hoesten, geel-groen sputum, dyspnoe, piepen, PODB, hitte gevoel, insomnie, agitatie, wattig hoofd",
+														"Answer": ["Heat-Phlegm in Lung", "Invasie van Long door Wind-Hitte", "Lung dryness", "Long Qi def."]
+									},
+{
+														"Question": "Buikpijn, diarree met slijm en bloed, vol gevoel in buik, stinkende ontlasting, brandende anus, koorts, zweten, dorst (zonder drinkbehoefte)",
+														"Answer": ["Damp-Hitte in Dikke Darm", "Droogte in Dikke Darm", "Maag Vuur", "Maag Qi def."]
+									},
+{
+														"Question": "Droge ontlasting, moeilijk poepen, slank, droge mond en keel, vieze adem, duizelig",
+														"Answer": ["Droogte in Dikke Darm", "Damp-Hitte in Dikke Darm", "Maag Vuur", "Maag Qi def."]
+									},
+{
+														"Question": "Droogte in Dikke Darm kan worden veroorzaakt door",
+             "Answer": ["Onregelmatig eten", "Warm eten", "Vettig eten"]
+},
+{
+														"Question": "slechte eetlust, moe, brijige ontlasting, opgezette buik na het eten, willen liggen, zwakke ledematen",
+             "Answer": ["Milt Qi. def", "Stomach Qi. def.", "Milt Yang def."]
+},
+{
+														"Question": "Malnutrition (esp. protein), chronic expositio to damp, eating too much or irregularly may cause:",
+             "Answer": ["Milt Qi. def", "Stomach Qi. def.", "Milt Yang def."]
+},
+{
+														"Question": "willen liggen met opgetrokken benen, zwakke ledematen, slechte eetlust, opgezette buik na eten, moe, kouwelijk, koude ledematen, brijige ontlasting",
+             "Answer": ["Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "naar beneden trekkend gevoel, zwaartegevoel in buik, prolaps, neiging naar obesitas, urgente micties, hemorrhoïden en spataderen",
+             "Answer": ["Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "Milt Qi def. may cause:",
+             "Answer": ["Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "purpura, bloedingen (huid, ontlasting, menorragie), slechte eetlust, opgezette buik",
+             "Answer": ["De Milt controleert het Bloed niet", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "vol gevoel in bovenbuik, zwaar gevoel, zoete of geen smaak, geen dorst, moe, misselijk",
+             "Answer": ["Invasie Koude-Damp Milt", "Lever Wind", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "volle buik, zwaar gevoel, lichte koorts, stinkende brijige ontlasting, brandende anus, doffe hoofdpijn, jeuk, zweten",
+             "Answer": ["Invasie Damp-Hitte Milt", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "Eating spoiled food may cause",
+             "Answer": ["Invasie Damp-Hitte Milt", "Zinkende of ineenstortende Milt Qi", "Stomach Qi. def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "vermoeidheid in de ochtend, onbehaaglijk gevoel in bovenbuik, geen eetlust, geen smaak, losse def, zwakke ledematen",
+             "Answer": ["Maag Qi def.", "Maag Hitte", "Maag Yin def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "geen eetlust, honger zonder te willen eten, pijn in de bovenbuik, droge mond en keel in de namiddag, behoefte kleine slokjes te drinken",
+             "Answer": ["Maag Yin def.", "Maag Qi def.", "Maag Hitte", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "mentaal rusteloos, obstipatie, droge mond, mondzweren, zuurbranden, enorme honger ,brandend gevoel in de bovenbuik, dorst en behofte aan koude dranken",
+             "Answer": ["Maag Hitte", "Maag Yin def.", "Maag Qi def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "vol gevoel weg na braken, boeren, insomnia, wisselende ontlasting, vol gevoel in de bovenbuik met zuurbranden",
+             "Answer": ["Voedselretentie in de Maag", "Slijm benevelt de Shen", "Maag Hitte", "Maag Yin def.", "Maag Qi def.", "Milt Qi. def", "Milt Yang def."]
+},
+{
+"Question": "palpitaties, moe, lege pols, dyspnoe d'effort, bleek gelaat, spontaan zweten",
+             "Answer": ["Hart Qi def.", "Oplaaiend Hart Vuur", "Slijm benevelt de Shen", "Hart Yang def.", "Hart Yin def.", "Milt Yang def."]
+},
+{
+"Question": "Chronische rouw of bloedverlies kan wat veroorzaken?",
+             "Answer": ["Hart Qi def.", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Yang def.", "Hart Yin def.", "Long Qi def."]
+},
+{
+"Question": "dyspnoe d'effort, moe, spontaan zweten, vol gevoel hart, koude gevoel, helder en bleek gelaat, palpitaties, koude handen, diepe en zwakke pols",
+             "Answer": ["Hart Yang def.", "Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Qi def.", "Hart Yin def.", "Milt Yang def."]
+},
+{
+"Question": "Hart Qi def. of chronische Nier Yang def. kan wat veroorzaken? ",
+             "Answer": ["Hart Yang def.", "Oplaaiend Hart Vuur", "Hart Qi def.", "Hart Yin def.", "Milt Yang def."]
+},
+{
+"Question": "insomnia, veel dromen, snel schrikken, slecht geheugen, angst, friemelen, palpitaties, mentaal rusteloos, nachtzweten, geen beslag, continue aanstaan",
+             "Answer": ["Hart Yin def.", "Hart Bloed def.", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Hart Bloed def. kan een complicatie zijn van ...",
+             "Answer": ["Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "palpitaties met insomnia, slecht geheugen, duizelig, veel dromen, angst, snel schrikken, dof-bleek gelaat, bleke lippen",
+             "Answer": ["Hart Bloed def.", "Oplaaiend Hart Vuur", "Slijm benevelt de Shen", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "mentaal rusteloos, geagiteerd, hitte gevoel, insomnia, veel dromen, rood gelaat, Mond- en tongulceraties, dorst en hartkloppingen, palpitaties",
+             "Answer": ["Oplaaiend Hart Vuur", "Hart Bloed def.", "Slijm benevelt de Shen", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Chronische stress kan via de Lever zorgen voor ...",
+             "Answer": ["Oplaaiend Hart Vuur", "Hart Bloed def.", "Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "bewusteloos, lethargisch, afasie, slijm braken, mentale verwardheid, rochelend geluid in de keel",
+             "Answer": ["Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "... kan worden veroorzaakt door: bij kinderen kan het constitutioneel zijn, veel vet eten, koud en en rauw voedsel, chronische angst",
+             "Answer": ["Slijm benevelt de Shen", "Slijm Vuur valt het Hart aan", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Volte syndroom met Dian 'krankzinnigheid' en Kuang 'geweldadig gedrag' c.q. de Manische fase in de Manische Depressiviteit; icm met Interne Wind -> CVA. Pols vol, snel, glijdend of koordvormig. Tong rood, gezwollen, geel droog sticky beslag, met diepe hart crack",
+             "Answer": ["Slijm Vuur valt het Hart aan", "Slijm benevelt de Shen", "Oplaaiend Hart Vuur", "Hart Bloed def.", "Hart Yin def.", "Hart Yang def.", "Hart Qi def.", "Milt Yang def."]
+},
+{
+"Question": "geen druk op buik willen, opgezette buik, flatulentie, obstipatie, braken, plotse heftige buikpijn, borborygmus",
+             "Answer": ["Dunne Darm Koude", "Dikke Darm Koude", "Lever Wind", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "zuchten, brok in de keel, en PMS (Lever geeft menstruatiebloed vrij, maar het vasthouden vóór menstruatie kan stagnatie geven), opgezet gevoel in borstkas/borsten en bovenbuik, stemmingswisselingen en depressie",
+             "Answer": ["Lever Qi stagnatie", "Opstijgend Lever Yang", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "duizelig, tinnitus (hogere toon of piep; nierproblematiek leidt tot een **lage brom**), wazig zien, droge mond, insomnia, woede uitbarstingen, hoofdpijn, irritatie",
+             "Answer": ["Opstijgend Lever Yang", "Lever Qi stagnatie", "Lever Wind", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "... kan veroorzaakt worden door: emotionele problemen (boosheid, frustratie en verbittering), eten tijdens werk (of anderszins geen rustmoment maken)",
+             "Answer": ["Opstijgend Lever Yang", "Lever Qi stagnatie", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Opstijgende Lever Vuur (want druk blijft bestaan) kan veroorzaakt worden door ...",
+             "Answer": ["Opstijgend Lever Yang", "Lever Qi stagnatie", "Opstijgend Lever Vuur", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "woede uitbarstingen etc. maar zeker ook veel nachtmerries en bittere smaak, hoofdpijn, irritatie, rood gelaat, rode ogen",
+             "Answer": ["Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Wind", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "Hart Vuur kan worden veroorzaakt door ...",
+             "Answer": ["Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "tintelende ledematen, insomnie, 'floaters', spierzwakte, krampen (voornamelijk nachtelijke kuitkrampen), hulpeloos gevoel, wazig zien, dof/bleek gelaat, weinig menstruatiebloed",
+             "Answer": ["Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "doofheid (e.g., Sudden Deafness), duizeligheid, paralyse, convulsies, tremor, tics (bijv., epilepsie, M. Parkinson, CVA) met wisselende aard",
+             "Answer": ["Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang", "Lever Qi stagnatie", "Maag Qi def.", "Milt Yang def."]
+},
+{
+"Question": "een vetten verteren, NV, dorst zonder willen drinken, zwaar gevoel, wisselende ontlasting, volle flank, bittere smaak",
+             "Answer": ["Damp-Hitte in de Galblaas", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang"]
+},
+{
+"Question": "... kan veroorzaakt worden door: EPF damp, veel vet of zuivel eten, herhaalde gevoelens van woede -> Lever Qi Stag. -> ...",
+             "Answer": ["Damp-Hitte in de Galblaas", "de Nier ontvangt de Qi niet", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Opstijgend Lever Yang"]
+},
+{
+"Question": "rugpijn, nachtzweten, duizeligheid, lage tinnitus, droge mond in de nacht, slecht geheugen, botpijn, infertiliteit, moe, depressie, warme handpalm, dorst lage rugklachten",
+             "Answer": ["Nier Yin def.", "Nier Jing def.", "de Nier ontvangt de Qi niet", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Nier Yang def."]
+},
+{
+"Question": "menopause veroorzaakt typisch ...",
+             "Answer": ["Nier Yin def.", "Nier Jing def.", "de Nier ontvangt de Qi niet", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur", "Nier Yang def."]
+},
+{
+"Question": "zwakke benen en knieën, helder witte gelaatskleur, impotentie, erge vermoeidheid, oedeem in benen, vrouwelijke infertiliteit,  impotentie, weinig zaad, laag libido, depressie, lage rugklachten, koude gevoel in de rug, veel heldere urine",
+             "Answer": ["Nier Yang def", "Nier Yin def.", "de Nier ontvangt de Qi niet", "Nier Jing def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "Laat sluiten fontanel, doofheid, mentale retardatie, botontkalking, slecht geheugen, losse tanden, prematuur grijs worden, lage rugpijn, infertiliteit, primaire amennorhoe, mentaal niet scherp, bij kinderen botonwikkelen, verder zwakke knieën, haaruitval, zwakke seksuele activiteit",
+             "Answer": ["Nier Jing def.", "Nier Yang def", "de Nier ontvangt de Qi niet", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "Veel/snel achter elkaar bevallen kan ... veroorzaken",
+             "Answer": ["Nier Jing def.", "Nier Yang def", "de Nier ontvangt de Qi niet", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "Snelle en zwakke ademhaling, moeilijk inademen (want de Nier Qi moet de Long Qi ontvangen voor de inademing (moet naar onderen)), chronisch hoest/astma, spontaan zweten, mentaal rusteloos, tinnitus, dyspnoe d'effort, lage rugpijn, helder gekleurde urine",
+             "Answer": ["de Nier ontvangt de Qi niet", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "excessieve fysieke belasting (tijdens jeugd periode) kan ... veroorzaken",
+             "Answer": ["de Nier ontvangt de Qi niet", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie", "Opstijgend Lever Vuur"]
+},
+{
+"Question": "vaak plassen, hematurie, koorts, volle en pijnlijke flanken, hitte gevoel, randerig gevoel tijdens palssen, donkere urine, moeilijke mictie",
+             "Answer": ["Damp-Hitte in de Blaas", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie"]
+},
+{
+"Question": "Dik plakkerig geel beslag op de tongwortel kan wijzen op ...",
+             "Answer": ["Damp-Hitte in de Blaas", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie"]
+},
+{
+"Question": "Langdurig opgekropte gevoelens van jaloezie kan leiden tot ...",
+             "Answer": ["Damp-Hitte in de Blaas", "Nier Jing def.", "Nier Yang def", "Nier Yin def.", "Lever Wind", "Lever Bloed Deficiëntie"]
+},
+{
+"Question": "Stekende pijn is ...",
+             "Answer": ["Bloed stagnatie", "Qi stagnatie"]
+},
+{
+"Question": "Drukkende pijn is ...",
+             "Answer": ["Qi stagnatie", "Bloed stagnatie"]
+},
+{
+"Question": "Long Yang def. leidt tot pitting oedeem in ...",
+             "Answer": ["Gelaat en handen", "Abdomen en ledematen", "Benen en enkels"]
+},
+{
+"Question": "Milt Yang def. leidt tot pitting oedeem in ...",
+             "Answer": ["Abdomen en ledematen", "Gelaat en handen", "Benen en enkels"]
+},
+{
+"Question": "Nier Yang def. leidt tot pitting oedeem in ...",
+             "Answer": ["Benen en enkels", "Gelaat en handen", "Abdomen en ledematen"]
+},
+{
+"Question": "Non-pitting oedeem komt door ...",
+             "Answer": ["Qi def.", "Bloed def.", "Yin ex.", "Yang ex."]
+},
+{
+"Question": "Warm gevoel, rood gelaat, rode huid uitslag, dorst, bloedingen, ulceratie, rode tong, snelle pols, bloed in ontlasting, menorrhagie",
+             "Answer": ["Bloed Hitte", "Hart vuur", "Lever Hitte"]
+},
+{
+"Question": "Lever Qi stagnatie kan via intern vuur zorgen voor",
+             "Answer": ["Bloed Hitte", "Nier vuur", "Long Hitte"]
+},
+{
+"Question": "The female Jing cycle takes ... ",
+             "Answer": ["7 years", "8 years"]
+},
+{
+"Question": "The male Jing cycle takes ... ",
+             "Answer": ["8 years", "7 years"]
+}
+
+]
+>>>>>>> b9ee148eac7d3ca68f6ea95c1924fbffaefdaee3
 }
