@@ -641,6 +641,12 @@
                         "Icon": "Images/icon_person.png",
                         "Description": "Change the world and start with yourself",
                         "Page": "Pages/Applied_science/Psychology_motivational_interviewing.html"
+                    },
+                    {
+                        "Name": "Psychiatric interview",
+                        "Icon": "Images/icon_person.png",
+                        "Description": "How to talk to crazy people",
+                        "Page": "Pages/Applied_science/Psychology_psychiatric_interview.html"
                     }
                 ]
             }
