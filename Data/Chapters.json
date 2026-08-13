@@ -647,6 +647,12 @@
                         "Icon": "Images/icon_person.png",
                         "Description": "How to talk to crazy people",
                         "Page": "Pages/Applied_science/Psychology_psychiatric_interview.html"
+                    },
+                    {
+                        "Name": "Pseudopsychiatric disorders",
+                        "Icon": "Images/icon_person.png",
+                        "Description": "When it could be something else",
+                        "Page": "Pages/Applied_science/Psychology_pseudopsychiatric_emergencies.html"
                     }
                 ]
             }
