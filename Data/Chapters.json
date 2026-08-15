@@ -1,1529 +1,1564 @@
 {
     "Name": "Chapters",
     "Subdivision": [
-    {   
-        "Name": "Basic science", 
-        "Content": "Cell biology, embryology etc.", 
-        "Style": "url('Images/image_cells.jpg')",
-        "DetailedDescription": "The basic sciences of medicine are all about how nature works and about how it interacts with humans. It shows us the basics of medicine, without actually delving into the structures that we usually think of as 'human'. Still, they are some of the most high-value subjects to be studying! Good luck~",
-        "DetailedCardInfo": [
-            {   "Name": "Genetics", 
-                "Description": "The DNA and RNA that makes us ... us", 
-                "Icon": "Images/icon_gene.png", 
-                "Extra": "More details about Detail 1.", 
-                "DetailedCardInfo": [
-
-                    {
-                        "Name": "Basic genetics",
-                        "Description": "All about our DNA and how it usually produces protein",
-                        "Icon": "Images/icon_gene.png",
-                        "Page": "Pages/Basic_science/Genetics_basic.html"
-                    },
-                    {
-                        "Name": "Reproductive genetics",
-                        "Description": "How we get more of it",
-                        "Icon": "Images/icon_sex.png",
-                        "Page": "Pages/Basic_science/Genetics_reproductive.html"
-                    }
-
-                ]},
-            {   "Name": "Cell biology", 
-                "Description": "The biology of our smallest units", 
-                "Icon": "https://via.placeholder.com/50", 
-                "Extra": "More details about Detail 2.",
-                "DetailedCardInfo": [
-                    {
-                        "Name": "Intracellular biology", 
-                        "Description": "Everything going on within the cell"
-                    },
-                    {
-                        "Name": "Intercellular biology",
-                        "Description": "BSc. in communication but between cells ... and more challenging"
-                    },
-                    {
-                        "Name": "Extracellular biology",
-                        "Description": "On cellular products and tissue formation"
-                    }
-                ]},
-            {   "Name": "Growth and development", 
-                "Description": "About who we are and where we come from", 
-                "Icon": "Images/icon_growth.png", 
-                "Extra": "More details about Detail 3.",
-                "DetailedCardInfo": [
-                    {
-                        "Name": "Embryology",
-                        "Description": "Intra-uterine human development",
-                        "Icon": "Images/icon_baby.png",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Introduction",
-                                "Description": "What is embryology?",
-                                "Icon": "Images/icon_baby.png",
-                                "Page": "Pages/Basic_science/Embryology_introduction.html"
-                            },
-                            {
-                                "Name": "Respiratory sytem",
-                                "Description": "Rule 1 of medicine: keep air in the lung"
-                            },
-                            {
-                                "Name": "Digestive system",
-                                "Description": "A bunch of bullsh*it"
-                            },
-                            {
-                                "Name": "Circulatory system",
-                                "Description": "Rule 2 of medicine: keep the heart pumping",
-                                "Icon": "Images/icon_heart.png",
-                                "Page": "Pages/Basic_science/Embryology_heart.html"
-                            },
-                            {
-                                "Name": "Urinary & reproductive system",
-                                "Description": "P*issing all over your assumptions",
-                                "Icon": "Images/icon_sex.png",
-                                "Page": "Pages/Basic_science/Embryology_urinary_reproductive.html"
-                            },
-                            {
-                                "Name": "Integumentary system",
-                                "Description": "We're just sacks of flesh and bones"
-                            },
-                            {
-                                "Name": "Skeletal sytem",
-                                "Description": "Bones. Just bones, bro!"
-                            },
-                            {
-                                "Name": "Muscular system",
-                                "Description": "I'll be back!"
-                            },
-                            {
-                                "Name": "Endocrine system",
-                                "Description": "You're being hormonal right now..."
-                            },
-                            {
-                                "Name": "Exocrine system",
-                                "Description": "Brb. Crying tears of joy rn"
-                            },
-                            {
-                                "Name": "Lymphatic system",
-                                "Description": "The circulatory system's less famous cousin"
-                            },
-                            {
-                                "Name": "Nervous system",
-                                "Description": "They hate us, cause they ain't us",
-                                "Page": "Pages/Basic_science/Embryology_nervous_system.html",
-                                "Icon": "Images/icon_nerve.png"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Human development",
-                        "Description": "Extra-uterine embryology",
-                        "Icon": "Images/icon_person.png",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Childhood development",
-                                "Description": "What it means to be a child",
-                                "Icon": "Images/icon_baby.png",
-                                "Page": "Pages/Basic_science/Human_development.html"
-                            },
-                            {
-                                "Name": "Puberty & Tanner staging",
-                                "Description": "And then beyond...",
-                                "Icon": "Images/icon_person.png",
-                                "Page": "Pages/Basic_science/Puberty.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Gerontogenesis",
-                        "Description": "The science of getting older"
-                    },
-                    {
-                        "Name": "Thanatology",
-                        "Description": "What happen to our body after we die?",
-                        "Icon": "Images/icon_death.png",
-                        "Page": "Pages/Basic_science/Thanatology.html"
-                    }
-                ]},
-            {   "Name": "Infectiology", 
-                "Description": "Microbes, viruses and everything in between", 
-                "Icon": "https://via.placeholder.com/50", 
-                "Extra": "More details about Detail 3.", 
-                "DetailedCardInfo": [
-
-                    {
-                        "Name": "Microbiology", 
-                        "Description": "The scientific study of cooties"
-                    },
-                    {
-                        "Name": "Epidemiology", 
-                        "Description": "How do the cooties spread?"
-                    },
-                    {
-                        "Name": "Infection prevention",
-                        "Description": "How do we prevent the spread of cooties?"
-                    }
-
-            ]}
-        ]
-    },
-    {   
-        "Name": "Applied science", 
-        "Content": "Anatomy, physiology etc.", 
-        "Style": "url('Images/image_anatomy.jpg')",
-        "DetailedDescription": "The applied sciences make up the bulk of medicine. They describe how the human body is constructed and works. The structures and functions described in the applied sciences form the basis for clinical pathology and disease categories.",
-        "DetailedCardInfo": [
-            {   "Name": "Anatomy", 
-                "Description": "The structures that determine how we are", 
-                "DetailedDescription": "Anatomy is the science that describes the structure of the human body. It is essential to be able to not only understand, but also to locate the the source of symptoms. ",
-                "Icon": "Images/icon_anatomy.png", 
-                "Extra": "More details about Detail 1.", 
-                "DetailedCardInfo": [
-                    {
-                        "Name": "Respiratory sytem",
-                        "Description": "Rule 1 of medicine: keep air in the lung",
-                        "Icon": "Images/icon_lungs.png",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Upper airways",
-                                "Description": "So. Much. Snot."
-                            },
-                            {
-                                "Name": "Lower airways",
-                                "Icon": "Images/icon_lungs.png",
-                                "Description": "Lungs. Not just one, but two of them!",
-                                "Page": "Pages/Applied_science/Anatomy_respiratory.html"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Digestive system",
-                        "Description": "A bunch of bullsh*it",
-                        "Icon": "Images/icon_intestines.png",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Upper digestive tract",
-                                "Description": "To Treitz! And not beyond..."
-                            },
-                            {
-                                "Name": "Lower digestive tract",
-                                "Description": "Truly full of bullsh*t"
-                            },
-                            {
-                                "Name": "Accessory organs",
-                                "Icon": "Images/icon_liver.png",
-                                "Page": "Pages/Applied_science/Anatomy_digestive_accesory.html"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Circulatory system",
-                        "Description": "Rule 2 of medicine: keep the heart pumping",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Heart"
-                            },
-                            {
-                                "Name": "Arteries",
-                                "DetailedCardInfo": [
-                                    {
-                                        "Name": "Large arteries"
-                                    },
-                                    {
-                                        "Name": "Organ-specified arteries"
-                                    },
-                                    {
-                                        "Name": "Cerebral blood supply"
-                                    }
-                                ]
-                            },
-                            {
-                                "Name": "Veins"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Urinary system",
-                        "Icon": "Images/icon_salt.png",
-                        "Description": "P*issing all over your assumptions",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Kidneys",
-                                "Icon": "Images/icon_salt.png",
-                                "Description": "My bean buddies",
-                                "Page": "Pages/applied_science/Anatomy_renal.html"
-                            },
-                            {
-                                "Name": "Lower urinary tract",
-                                "Description": "Footballs used to be made from bladder"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Integumentary system",
-                        "Description": "We're just sacks of flesh and bones"
-                    },
-                    {
-                        "Name": "Skeletal sytem",
-                        "Description": "Bones. Just bones, bro!",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Axial skeleton"
-                            },
-                            {
-                                "Name": "Appendicular skeleton"
-                            },
-                            {
-                                "Name": "Dental anatomy"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Muscular system",
-                        "Description": "I'll be back!",
-                        "Icon": "Images/icon_muscle.png",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Axial muscles",
-                                "Description": "Abs, bro! Chicks dig 'em"
-                            },
-                            {
-                                "Name": "Upper (axio)appendicular muscles",
-                                "Description": "Chest and arms, bro! Beats everything"
-                            },
-                            {
-                                "Name": "Lower (axio)appendicular muscles",
-                                "Description": "Never skip leg day!",
-                                "Icon": "Images/icon_leg.png",
-                                "Page": "Pages/Muscular_lower.html"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Endocrine system",
-                        "Description": "You're being hormonal right now...",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Central endocrine glands"
-                            },
-                            {
-                                "Name": "(Para)thyroid gland"
-                            },
-                            {
-                                "Name": "Abdominal glands"
-                            },
-                            {
-                                "Name": "Reproductive glands"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Exocrine system",
-                        "Description": "Brb. Crying tears of joy rn",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Eyes"
-                            },
-                            {
-                                "Name": "Ears"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Lymphatic system",
-                        "Description": "The circulatory system's less famous cousin",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Lymph vessels"
-                            },
-                            {
-                                "Name": "Lymph nodes"
-                            },
-                            {
-                                "Name": "Spleen"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Nervous system",
-                        "Description": "They hate us, cause they ain't us",
-                        "Icon": "Images/icon_nerve.png",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Central nervous system",
-                                "Icon": "Images/icon_cns.png",
-                                "Description": "Brain + spine",
-                                "DetailedCardInfo": [
-                                    {
-                                        "Name": "Brain",
-                                        "Icon": "Images/icon_brain.png",
-                                        "Description": "What makes us ... us",
-                                        "DetailedCardInfo": [
-                                            {
-                                                "Name": "Cerebrum",
-                                                "Description": "When we say someone is 'cerebral', this is it",
-                                                "Icon": "Images/icon_brain.png",
-                                                "DetailedCardInfo": [
-
-                                                    {
-                                                        "Name": "Diencephalon", 
-                                                        "Description": "The tween-brain lies inbe-tween",
-                                                        "Icon": "Images/icon_brain.png",
-                                                        "Page": "Pages/Applied_science/Anatomy_diencephalon.html"
-                                                    },
-                                                    {
-                                                        "Name": "Telencephalon", 
-                                                        "Description": "The big brain",
-                                                        "Icon": "Images/icon_brain.png",
-                                                        "DetailedCardInfo":[
-                                                            {
-                                                                "Name": "General Introduction to the forebrain",
-                                                                "Description": "What it says",
-                                                                "Icon": "Images/icon_brain.png",
-                                                                "Page": "Pages/Applied_science/Anatomy_telencephalon.html"
-                                                            },
-                                                            {
-                                                                "Name": "Striatum",
-                                                                "Description": "The stripy subcortical bit",
-                                                                "Icon": "Images/icon_brain.png",
-                                                                "Page": "Pages/Applied_science/Anatomy_striatum.html"
-                                                            },
-                                                            {
-                                                                "Name": "Thalamus",
-                                                                "Description": "New York grand central",
-                                                                "Icon": "Images/icon_brain.png",
-                                                                "Page": "Pages/Applied_science/Anatomy_thalamus.html"
-                                                            }
-                                                        ]
-                                                    }
-
-                                                ]
-                                                
-                                            },
-                                            {
-                                                "Name": "Cerebellum",
-                                                "Description": "The big thing, but small",
-                                                "Page": "Pages/Applied_science/Anatomy_cerebellum.html",
-                                                "Icon": "Images/icon_cerebellum.png"
-                                            },
-                                            {
-                                                "Name": "Brainstem",
-                                                "Description": "The ultimate sine-qua-non",
-                                                "Page": "Pages/Applied_science/Anatomy_brainstem.html",
-                                                "Icon": "Images/icon_brainstem.png"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "Name": "Spinal cord",
-                                        "Description": "How does info get where?",
-                                        "Icon": "Images/icon_spinal_cord.png",
-                                        "Page": "Pages/Applied_science/Anatomy_spinal_cord.html"
-                                    }
-                                ]
-                            },
-                            {
-                                "Name": "Peripheral nervous system",
-                                "Icon": "Images/icon_leg.png",
-                                "Description": "Don't shoot the messenger!",
-                                "DetailedCardInfo": [
-                                    {
-                                        "Name": "Cranial nerves",
-                                        "Icon": "Images/icon_brain.png",
-                                        "Description": "It's all in your head...",
-                                        "Page": "Pages/Applied_science/Anatomy_cranial_nerves.html"
-                                    },
-                                    {
-                                        "Name": "Somatic nervous system",
-                                        "Icon": "Images/icon_muscle.png",
-                                        "Description": "We are what we do",
-                                        "DetailedCardInfo": [
-                                            {
-                                                "Name": "Derma- and myotomes",
-                                                "Description": "It always does strike a nerve",
-                                                "Icon": "Images/icon_skin.png",
-                                                "Page": "Pages/Nervous_peripheral_somatic_dermatomes.html"
-                                            },
-                                            {
-                                                "Name": "Nerves and their branches",
-                                                "Description": "Where taken the path less taken is inefficient"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "Name": "Visceral nervous system",
-                                        "Description": "Just a gut feeling..."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Reproductive system",
-                        "Description": "All c*nts and d*ckheads",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Male reproductive system"
-                            },
-                            {
-                                "Name": "Female reproductive system"
-                            }
-                        ]
-                    }
-                ]},
-            {   "Name": "Physiology", "Description": "What works how ... or at least how it`s supposed to work", "Icon": "Images/icon_temperature.png", "Extra": "More details about Detail 2.",
-                "DetailedCardInfo": [ 
-                    {
-                        "Name": "Physiological conditions",
-                        "Description": "How it is supposed to work",
-                        "Icon": "Images/icon_person.png",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Temperature regulation",
-                                "Description": "Fever and the like",
-                                "Icon": "Images/icon_temperature.png",
-                                "Page": "Pages/Applied_science/Physiology_temperature.html"
-                            },
-                            {
-                                "Name": "Iron physiology",
-                                "Description": "Uptake, storage etc.",
-                                "Icon": "Images/icon_iron.png",
-                                "Page": "Pages/Applied_science/Physiology_iron.html"
-                            },
-                            {
-                                "Name": "Muscle physiology",
-                                "Description": "STRONG!",
-                                "Icon": "Images/icon_muscle.png",
-                                "Page": "Pages/Applied_science/Physiology_muscle.html"
-                            },
-                            {
-                                "Name": "Acid-base metabolism",
-                                "Description": "A bit sour faced...",
-                                "Icon": "Images/icon_acid.png",
-                                "Page": "Pages/Applied_science/Physiology_acid_base.html"
-                            },
-                            {
-                                "Name": "Menstrual cycle and hormones",
-                                "Description": "Oof, hormonal...",
-                                "Icon": "Images/icon_uterus.png",
-                                "Page": "Pages/Applied_science/Physiology_period.html"
-                            },
-                            {
-                                "Name": "Cardiac elektrophysiology",
-                                "Description": "Pulsing and beating...",
-                                "Icon": "Images/icon_heart.png",
-                                "Page": "Pages/Applied_Science/Physiology_cardiac_elektrophysiology.html"
-                            },
-                            {
-                                "Name": "Blood coagulation",
-                                "Icon": "Images/icon_blood.png",
-                                "Page": "Pages/Applied_science/Physiology_coagulation.html"
-                            },
-                            {
-                                "Name": "Blood",
-                                "Icon": "Images/icon_blood.png",
-                                "Page": "Pages/Applied_science/Physiology_blood.html"
-                            },
-                            {
-                                "Name": "Liver function tests",
-                                "Icon": "Images/icon_liver.png",
-                                "Description": "How well the thing does its things",
-                                "Page": "Pages/Applied_science/Physiology_liver_function.html"
-                            },
-                            {
-                                "Name": "Neurotransmitters",
-                                "Icon": "Images/icon_brain.png",
-                                "Description": "Substances in the brain",
-                                "Page": "Pages/Applied_science/Physiology_neurotransmitters.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Abnormal physiology",
-                        "Description": "Diving deeper into symptoms",
-                        "Icon": "Images/icon_temperature.png",
-                        "DetailedCardInfo": [
-
-                            
-                            {
-                                "Name": "Pleural effusion",
-                                "Icon": "Images/icon_lungs.png",
-                                "Description": "Liquid in the lungspace",
-                                "Page": "Pages/Applied_science/Physiology_pleural_effusion.html"
-                            },
-                            {
-                                "Name": "Hypersensitivity and antibodies",
-                                "Icon": "Images/icon_antibody.png",
-                                "Description": "You're overreacting...",
-                                "Page": "Pages/Applied_science/Physiology_hypersensitivity.html"
-                            },
-                            {
-                                "Name": "Dystonia and spasticity",
-                                "Icon": "Images/icon_muscle.png",
-                                "Description": "A bit tense there",
-                                "Page": "Pages/Applied_science/Physiology_dystonia.html"
-                            }
-
-                        ]
-                    }
-                    
-                ]},
-            { 
-                "Name": "Histology", 
-                "Description": "Seeing different shades of pink hits a lot different now", 
-                "Icon": "Images/icon_bacterium.png", 
-                "Extra": "Blabla", 
-                "DetailedCardInfo": [
-                    {
-                        "Name": "Respiratory sytem",
-                        "Description": "Cells that make us breath"
-                    },
-                    {
-                        "Name": "Digestive system",
-                        "Description": "Cells that process our food"
-                    },
-                    {
-                        "Name": "Circulatory system",
-                        "Description": "Cells that contain our blood; and our blood itself"
-                    },
-                    {
-                        "Name": "Urinary system",
-                        "Description": "Cells that process our waste"
-                    },
-                    {
-                        "Name": "Integumentary system",
-                        "Description": "Cells that separate us from the outside world"
-                    },
-                    {
-                        "Name": "Skeletal sytem",
-                        "Description": "Cells that keep us upright"
-                    },
-                    {
-                        "Name": "Muscular system",
-                        "Description": "Cells that move us"
-                    },
-                    {
-                        "Name": "Endocrine system",
-                        "Description": "Cells that produce without ducts"
-                    },
-                    {
-                        "Name": "Exocrine system",
-                        "Description": "Cells that produce ... with ducts"
-                    },
-                    {
-                        "Name": "Immune system",
-                        "Description": "Cells that protect us from within",
-                        "Icon": "Images/icon_temperature.png",
-                        "Page": "Pages/Applied_science/Histology_immune.html"
-                    },
-                    {
-                        "Name": "Nervous system",
-                        "Description": "Cells that are ... us",
-                        "Icon": "Images/icon_brain.png",
-                        "Page": "Pages/Applied_science/Histology_nerves.html"
-                    },
-                    {
-                        "Name": "Reproductive system",
-                        "Description": "Cells that become us"
-                    }
-                ]
-            },
-            { 
-                "Name": "Psychology", 
-                "Description": "Mens sana in corpore sana. Amen.", 
-                "Icon": "Images/icon_magnifier.png", 
-                "Extra": "More details about Detail 3.",
-                "DetailedCardInfo": [
-                    {
-                        "Name": "Motivational interview & change",
-                        "Icon": "Images/icon_person.png",
-                        "Description": "Change the world and start with yourself",
-                        "Page": "Pages/Applied_science/Psychology_motivational_interviewing.html"
-                    },
-                    {
-                        "Name": "Psychiatric interview",
-                        "Icon": "Images/icon_person.png",
-                        "Description": "How to talk to crazy people",
-                        "Page": "Pages/Applied_science/Psychology_psychiatric_interview.html"
-                    },
-                    {
-                        "Name": "Pseudopsychiatric disorders",
-                        "Icon": "Images/icon_person.png",
-                        "Description": "When it could be something else",
-                        "Page": "Pages/Applied_science/Psychology_pseudopsychiatric_emergencies.html"
-                    }
-                ]
-            }
-        ]
-    },
-    {   "Name": "Clinical science", 
-        "Content": "Diagnoses, treatments etc.", 
-        "Style": "url('Images/image_stethoscope.jpg')",
-        "DetailedDescription": "So, then there it is: medicine. Basically, medicine is about the clinical sciences. If you master the art of diagnosis and treatment, you`re on your way to be a great doctor. It`s all about pattern recognition and creative thinking here. You think you`ve got what it takes?",
-        "DetailedCardInfo": [
-            {
-                "Name": "Diagnoses",
-                "Description": "This roughly follows the ICD-11 structure",
-                "Icon": "Images/icon_magnifier.png",
-                "DetailedCardInfo": [
-                    { "Name": "Infectious disease", 
-                    "Description": "Diseases caused by bacteria, viruses, fungi or parasites", 
-                    "Icon": "Images/icon_bacterium.png", 
+        {
+            "Name": "Basic science",
+            "Content": "Cell biology, embryology etc.",
+            "Style": "url('Images/image_cells.jpg')",
+            "DetailedDescription": "The basic sciences of medicine are all about how nature works and about how it interacts with humans. It shows us the basics of medicine, without actually delving into the structures that we usually think of as 'human'. Still, they are some of the most high-value subjects to be studying! Good luck~",
+            "DetailedCardInfo": [
+                {
+                    "Name": "Genetics",
+                    "Description": "The DNA and RNA that makes us ... us",
+                    "Icon": "Images/icon_gene.png",
                     "Extra": "More details about Detail 1.",
                     "DetailedCardInfo": [
-
                         {
-                            "Name": "Food-borne pathogens",
-                            "Icon": "Images/icon_intestines.png",
-                            "Description": "You are what you eat",
-                            "Page": "Pages/Clinical_science/Diagnosis_food_born_pathogens.html"
+                            "Name": "Basic genetics",
+                            "Description": "All about our DNA and how it usually produces protein",
+                            "Icon": "Images/icon_gene.png",
+                            "Page": "Pages/Basic_science/Genetics_basic.html"
                         },
                         {
-                            "Name": "Zoonotic diseases",
-                            "Icon": "Images/icon_dog.png",
-                            "Description": "CAN I PET THAT DAWGGG!",
-                            "Page": "Pages/Clinical_science/Diagnosis_zoonotic.html"
-                        },
-                        {
-                            "Name": "Paediatric infectious disease",
-                            "Icon": "Images/icon_child.png",
-                            "Description": "Disease 1 t/m 6",
-                            "Page": "Pages/Clinical_science/Diagnosis_paediatric_infections.html"
+                            "Name": "Reproductive genetics",
+                            "Description": "How we get more of it",
+                            "Icon": "Images/icon_sex.png",
+                            "Page": "Pages/Basic_science/Genetics_reproductive.html"
                         }
-
-                    ] },
-                    { 
-                        "Name": "Oncology", 
-                        "Description": "Various forms of benign and malign cancer", 
-                        "Icon": "Images/icon_cancer.png", 
-                        "Extra": "More details about Detail 1.",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Neuro-oncology",
-                                "Description": "Neoplasms of brain or CNS",
-                                "Icon": "Images/icon_brain.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_neuro-onco.html"
-                            },
-                            {
-                                "Name": "Oncology-haematology",
-                                "Description": "Neoplasms of haematopoietic or lymphoid tissues",
-                                "Icon": "Images/icon_blood.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_onco_haematology.html"
-                            },
-                            {
-                                "Name": "General oncology",
-                                "Description": "Malignant neoplasms elsewhere"
-                            },
-                            {
-                                "Name": "Onco-genetics",
-                                "Description": "Inherited cancer-predisposing syndromes",
-                                "Icon": "Images/icon_gene.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_onco-genetics.html"
-                            },
-                            {
-                                "Name": "Pulmo-oncology",
-                                "Description": "Lungs and stuff",
-                                "Icon": "Images/icon_lungs.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_lung_cancer.html"
-                            }
-                        ]},
-                    { "Name": "Haematology", "Description": "Diseases of the blood or blood-forming organs", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { 
-                        "Name": "Immunology", 
-                        "Description": "Disease of the immune system", 
-                        "Icon": "Images/icon_vessel.png",
-                        "Extra": "More details about Detail 1.",
-                        "DetailedCardInfo":[
-                            {
-                                "Name": "Vasculites / lymphangitis",
-                                "Description": "Inflammation of the vessels",
-                                "Icon": "Images/icon_vessel.png",
-                                "DetailedCardInfo": [
-                                    {
-                                        "Name": "Introduction",
-                                        "Description": "An overview of vasculites",
-                                        "Icon": "Images/icon_vessel.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_vasculites_intro.html"
-                                    }
-                                ]
-                            }
-                        ]},
-                    {   "Name": "Homeostasis", 
-                        "Description": "Endocrine, nutritional or metabolic diseases", 
-                        "Icon": "Images/icon_balance.png", 
-                        "Extra": "More details about Detail 1.",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Endocrine disorders",
-                                "Icon": "Images/icon_hormone.png",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Diabetes mellitus",
-                                        "Icon": "Images/icon_sugar.png",
-                                        "Page": "Pages/Clinical_science/diagnosis_DM.html"
-                                    },
-                                    {
-                                        "Name": "Thyroid dysfunction",
-                                        "Icon": "Images/icon_thyroid.png",
-                                        "Description": "Hot 'n cold",
-                                        "Page": "Pages/Clinical_science/Diagnosis_thyroid.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Nutritional disorders"
-                            },
-                            {
-                                "Name": "Metabolic disorders",
-                                "Icon": "Images/icon_metabolism.png",
-                                "DetailedCardInfo": [
-                                    {
-                                        "Name": "Electrolyte imbalances",
-                                        "Icon": "Images/icon_salt.png",
-                                        "Page": "Pages/clinical_science/Diagnosis_electrolytes.html"
-                                    },
-                                    {
-                                        "Name": "Vitamin deficiencies",
-                                        "Icon": "Images/icon_pill.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_vitamin_deficiencies.html"
-                                    }
-                                ]
-                            }]},
-                    { "Name": "Psychiatry", "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V", "Icon": "Images/icon_brain.png", "Extra": "More details about Detail 1.",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Neurodevelopmental disorders"
-                            },
-                            {
-                                "Name": "Neurocognitive disorders",
-                                "Description": "Learn to let go",
-                                "Icon": "Images/icon_brain.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_dementia.html"
-                            },
-                            {
-                                "Name": "Personality disorders",
-                                "Description": "When it's YOU who is odd",
-                                "Icon": "Images/icon_person.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_personality_disorders.html"
-                            },
-                            {
-                                "Name": "Positive/negative symptoms",
-                                "Description": "... what it says",
-                                "Icon": "Images/icon_scale.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_pos_neg.html"
-                            },
-                            {
-                                "Name": "Mood disorders",
-                                "Description": "I don't know how to feel about it",
-                                "Icon": "Images/icon_mood.png",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Major Depressive Disorder (MDD)",
-                                        "Description": "Everything is terrible",
-                                        "Icon": "Images/icon_depression.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_MDD.html"
-                                    }
-
-                                ]
-                            }
-                        ]},
-                    {   "Name": "Somnology", 
-                        "Description": "Conditions preceding, during or following sleep", 
-                        "Icon": "Images/icon_sleep.png", 
-                        "Extra": "More details about Detail 1.",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Sleep problems after stroke/TBI",
-                                "Description": "Preparation for Roessingh",
-                                "Icon": "Images/icon_brain.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_sleep_after_stroke.html"
-                            },
-																															{
-                                "Name": "Sleep hallucinations",
-                                "Description": "Preparation for Rivierduinen",
-                                "Icon": "Images/icon_brain.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_sleep_hallucinations.html"
-                            }
-
-                        ]},
-                    {   "Name": "Neurology", 
-                        "Description": "Diseases of the nervous system", 
-                        "Icon": "Images/icon_brain.png", 
-                        "Extra": "More details about Detail 1.",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Strokes",
-                                "Icon": "Images/icon_brain.png",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Brainstem strokes",
-                                        "Description": "Strokes, but even more complicated",
-                                        "Icon": "Images/icon_brain.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_brain_stem_strokes.html"
-                                    },
-                                    {
-                                        "Name": "Acute stroke",
-                                        "Description": "HELP!",
-                                        "Icon": "Images/icon_brain.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_stroke.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Neuropathies",
-                                "Icon": "Images/icon_nerve.png",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Mononeuropathies",
-                                        "Description": "One for all...",
-                                        "Icon": "Images/icon_nerve.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_mononeuropathy.html"
-                                    },
-                                    {
-                                        "Name": "Polyneuropathies",
-                                        "Description": "...and all for one",
-                                        "Icon": "Images/icon_person.png",
-                                        "Page": "Pages/clinical_science/Diagnosis_polyneuropathy.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Muscular dystrophies",
-                                "Icon": "Images/icon_muscle.png",
-                                "Description": "Kinda what I want to specialise in",
-                                "Page": "Pages/Clinical_science/Diagnosis_muscular_dystrophies.html"
-                            },
-                            {
-                                "Name": "Neuropathic pain",
-                                "Icon": "Images/icon_pain.png",
-                                "Description": "It hurts, but where",
-                                "Page": "Pages/Clinical_science/Diagnosis_neuropathic_pain.html"
-                            }
-
-                        ]},
-                    { "Name": "(Neuro)ophthalmology", "Description": "Diseases of the visual system", "Icon": "https://via.placeholder.com/50", "Extra": "More details about Detail 1." },
-                    { "Name": "Otolaryngology", "Description": "Diseases of the ear or mastoid process", "Icon": "", "Extra": ""},
-                    { 
-                        "Name": "Cardiology", 
-                        "Description": "Diseases of the heart", 
-                        "Icon": "Images/icon_heart.png", 
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Arrhythmias",
-                                "Icon": "Images/icon_rhythm.png",
-                                "Description": "Rikketik",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Supraventricular arrhythmias",
-                                        "Icon": "Images/icon_rhythm.png",
-                                        "Description": "With their origin above the ventricle",
-                                        "Page": "Pages/Clinical_science/Diagnosis_supraventricular_arrhythmias.html"
-                                    },
-                                    {
-                                        "Name": "Ventricular arrhythmias",
-                                        "Icon": "Images/icon_rhythm.png",
-                                        "Description": "With their origin in the ventricle",
-                                        "Page": "Pages/Clinical_science/Diagnosis_ventricular_arrythmias.html"
-                                    }
-
-                                ]
-                            }
-
-                        ]},
-                    {   "Name": "Pulmonology", 
-                        "Description": "Diseases of the respiratory system", 
-                        "Icon": "Images/icon_lungs.png", 
-                        "Extra": "",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Pulmonary embolism",
-                                "Icon": "Images/icon_lungs.png",
-                                "Description": "If a clot meets a tiny tube",
-                                "Page": "Pages/Clinical_science/Diagnosis_pulmonary_embolism.html"
-                            }
-
-                        ]},
-                    {   "Name": "Gastroenterology", 
-                        "Description": "Diseases of the digestive system", 
-                        "Icon": "Images/icon_intestines.png", 
-                        "Extra": "",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "(Fatty) liver disease",
-                                "Description": "Also a large bit about cirrhosis",
-                                "Icon": "Images/icon_liver.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_FLD.html"
-                            },
-                            {
-                                "Name": "IBS/IBD",
-                                "Description": "Both conditions",
-                                "Icon": "Images/icon_intestines.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_IBD_IBS.html"
-                            },
-                            {
-                                "Name": "Abdominal hernia",
-                                "Description": "A quick overview",
-                                "Icon": "Images/icon_intestines.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_hernia.html"
-                            }
-
-                        ]},
-                    {   "Name": "Dermatology", 
-                        "Description": "Diseases of the skin", 
-                        "Icon": "Images/icon_skin.png", 
-                        "Extra": "",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Inflammatory dermatoses",
-                                "Icon": "Images/icon_rash.png",
-                                "Description": "It's red, and it itches",
-                                "Page": "Pages/Clinical_science/Diagnosis_inflammatory_dermatoses.html"
-                            },
-                            {
-                                "Name": "Pressure ulcers",
-                                "Icon": "Images/icon_skin.png",
-                                "Description": "The only thing relevant for me",
-                                "Page": "Pages/Clinical_science/Diagnosis_pressure_ulcers.html"
-                            }
-
-                        ]},
-                    {   "Name": "Orthopaedics and PM&R", 
-                        "Description": "Diseases of the musculoskeletal system or connective tissue", 
-                        "Icon": "Images/icon_joint.png", 
-                        "Extra": "",
-                        "DetailedCardInfo": [
-                            
-                            {
-                                "Name": "Joint inflammations",
-                                "Icon": "Images/icon_joint.png",
-                                "Description": "Red, swollen, painful",
-                                "Page": "Pages/Clinical_science/Diagnosis_joint_inflammation.html"
-                            },
-                            {
-                                "Name": "Fractures",
-                                "Icon": "Images/icon_fracture.png",
-                                "Description": "Oops, broken!",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Limb fractures",
-                                        "Icon": "Images/icon_arm.png",
-                                        "Description": "Just giving it arms and legs",
-                                        "Page": "Pages/Clinical_science/Diagnosis_limb_fractures.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Amputations",
-                                "Icon": "Images/icon_arm.png",
-                                "Description": "Aaaand ... gone",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Upper limb amputations",
-                                        "Icon": "Images/icon_arm.png",
-                                        "Description": "Costing me an arm ...",
-                                        "Page": "Pages/Clinical_science/Diagnosis_ul_amputation.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Deformations",
-                                "Icon": "Images/icon_scoliosis.png",
-                                "Description": "Slightly crooked",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Scoliosis",
-                                        "Icon": "Images/icon_scoliosis.png",
-                                        "Description": "Ya breakin' my back",
-                                        "Page": "Pages/Clinical_science/Diagnosis_scoliosis.html"
-                                    },
-                                    {
-                                        "Name": "Muscle contractures",
-                                        "Icon": "Images/icon_muscle.png",
-                                        "Description": "Shorter, and shorter",
-                                        "Page": "Pages/Clinical_science/Diagnosis_contractures.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Muscelotendinous injuries",
-                                "Icon": "Images/icon_muscle.png",
-                                "Description": "Oof, that hurts",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Patellofemoral pain syndrome",
-                                        "Icon": "Images/icon_leg.png",
-                                        "Description": "Pain in the ... patellofemoral region",
-                                        "Page": "Pages/Clinical_science/Diagnosis_patellofemoral.html"
-                                    }
-
-                                ]
-                            }
-
-                        ]},
-                    { 
-                        "Name": "Urology and gynaecology", 
-                        "Description": "Diseases of the genitourinary system", 
-                        "Icon": "Images/icon_uterus.png", 
-                        "Extra": "",
-                        "DetailedCardInfo":[
-
-                            {
-                                "Name": "STDs",
-                                "Description": "Sexually transmitted diseases",
-                                "Icon": "Images/icon_sex.png",
-                                "DetailedCardInfo": [
-
-                                    {
-                                        "Name": "Bacterial STDs",
-                                        "Icon": "Images/icon_bacterium.png",
-                                        "Page": "Pages/Clinical_science/diagnosis_bacterial_STDs.html"
-                                    },
-                                    {
-                                        "Name": "Viral STDs",
-                                        "Icon": "Images/icon_virus.png",
-                                        "Page": "Pages/Clinical_science/Diagnosis_viral_STDs.html"
-                                    }
-
-                                ]
-                            },
-                            {
-                                "Name": "Glomerular injury",
-                                "Description": "Nephritic/nephrotic syndromes",
-                                "Icon": "Images/icon_kidneys.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_nephritic_nephrotic.html"
-                            },
-                            {
-                                "Name": "Complications of pregnancy",
-                                "Description": "Exactly what the name says",
-                                "Icon": "Images/icon_baby.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_complications_of_pregnancy.html"
-                            }
-
-                        ]},
-                    { "Name": "Sexuology", "Description": "Conditions related to sexual health", "Icon": "", "Extra": ""},
-                    { "Name": "Obstetrics", "Description": "Pregnancy, childbirth or the puerperium", "Icon": "", "Extra": ""},
-                    { "Name": "Perinatal medicine", "Description": "Certain conditions originating in the perinatal period", "Icon": "", "Extra": ""},
-                    { 
-                        "Name": "Paediatrics", 
-                        "Description": "Developmental anomalies", 
-                        "Icon": "Images/icon_child.png", 
-                        "Extra": "",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Hernia diaphragmatica",
-                                "Description": "A hole in the breathing muscle",
-                                "Icon": "Images/icon_lungs.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_hernia_diaphragmatica.html"
-                            },
-                            {
-                                "Name": "Neural Tube Disorders",
-                                "Description": "When the neural tube doesn't close",
-                                "Icon": "Images/icon_bulge.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_spina_bifida.html"
-                            },
-                            {
-                                "Name": "Sex chromosome syndromes",
-                                "Description": "Issues with the sex chromosomes",
-                                "Icon": "Images/icon_gene.png",
-                                "Page": "Pages/Clinical_science/Diagnosis_sex_chromosome.html"
-                            }
-
-                        ]},
-                    { "Name": "Toxology", "Description": "Injury, poisoning or certain other consequences of external causes", "Icon": "", "Extra": ""}        
-                ]
-            },
-            {
-                "Name": "Treatment",
-                "Description": "This roughly follows the ATC system",
-                "Icon": "Images/icon_pill.png",
-                "DetailedCardInfo": [
-                    {
-                        "Name": "Introduction to Pharmacology",
-                        "Icon": "Images/icon_pill.png",
-                        "Description": "Pharmacokinetics, genetics etc.",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Pharmacokinetics",
-                                "Icon": "Images/icon_kidneys.png",
-                                "Description": "Clearing of pharmaca",
-                                "Page": "Pages/Clinical_science/Treatment_pharmacokinetics.html"
-                            },
-                            {
-                                "Name": "Pharmacogenetics",
-                                "Icon": "Images/icon_gene.png",
-                                "Description": "Influence of genes on pharmacology",
-                                "Page": "Pages/Clinical_science/Treatment_pharmacogenetics.html"
-                            },
-                            {
-                                "Name": "Toxicology",
-                                "Icon": "Images/icon_chemistry.png",
-                                "Description": "Chronic and acute intoxications",
-                                "Page": "Pages/Clinical_science/Treatment_toxicology.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Alimentary tract and metabolism",
-                        "Icon": "Images/icon_intestines.png",
-                        "Description": "Curing the tube",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Antiemetics and GERD medication",
-                                "Icon": "Images/icon_acid.png",
-                                "Description": "Puke, blegh",
-                                "Page": "Pages/Clinical_science/Treatment_antiemetics.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Blood and blood forming organs",
-                        "Description": "Anticoagulants etc.",
-                        "Icon": "Images/icon_blood.png",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Anticoagulants",
-                                "Description": "When there is stuff you don't want the blood to do",
-                                "Icon": "Images/icon_balance.png",
-                                "Page": "Pages/Clinical_science/Treatment_anticoagulants.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Cardiovascular system",
-                        "Icon": "Images/icon_heart.png",
-                        "Description": "Heart and vessels",
-                        "DetailedCardInfo": [
-                            {
-                                "Name": "Antihypertensives and diuretics",
-                                "Description": "To pee or not to pee, that is the question",
-                                "Icon": "Images/icon_kidneys.png",
-                                "Page": "Pages/Clinical_science/Treatment_antihypertensives.html"
-                            }
-                        ]
-                    },
-                    {
-                        "Name": "Dermatologicals"
-                    },
-                    {
-                        "Name": "Genito urinary system and sex hormones"
-                    },
-                    {
-                        "Name": "Systemic hormonal preparations"
-                    },
-                    {
-                        "Name": "Antiinfective for systemic use",
-                        "Description": "... antibiotics",
-                        "Icon": "Images/icon_bacterium.png",
-                        "Page": "Pages/Clinical_science/Treatment_antibiotics.html"
-                    },
-                    {
-                        "Name": "Antineoplastic and immunomodulating agens"
-                    },
-                    {
-                        "Name": "Musculo-skeletal system"
-                    },
-                    {
-                        "Name": "Nervous system",
-                        "Icon": "Images/icon_brain.png",
-                        "Description": "Neurological and psychoactive drugs",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Antidepressants and antipsychotics",
-                                "Description": "Gaudete in veritate",
-                                "Icon": "Images/icon_person.png",
-                                "Page": "Pages/Clinical_science/Treatment_antipsychotics_antidepressants.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Antiparasitic products, insecticides and repellants"
-                    },
-                    {
-                        "Name": "Respiratory system",
-                        "Icon": "Images/icon_lungs.png",
-                        "Page": "Pages/Clinical_science/Treatment_respiratory.html"
-                    },
-                    {
-                        "Name": "Sensory organs"
-                    },
-                    {
-                        "Name": "Various",
-                        "Icon": "Images/icon_question.png",
-                        "Description": "Vaccinations and such",
-                        "DetailedCardInfo": [
-                            
-                            {
-                                "Name": "Vaccinations (Dutch system)",
-                                "Description": "The way we do things here",
-                                "Icon": "Images/icon_injection.png",
-                                "Page": "Pages/Clinical_science/Treatment_vaccines.html"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {   "Name": "Metascience", 
-        "Content": "Statistics, philosophy etc.", 
-        "Style": "",
-        "DetailedDescription": "Here we are: we`ve considered the basics of medicine, the building blocks of the human body and everything that can go wrong with it. Now what about what we should, or shouldn`t do? Or whether we`re actually there ... like, at all? The metasciences teach us all that, and more, probably, I think ... therefore I am.",
-        "DetailedCardInfo": [
-            { "Name": "Ethics", "Description": "The science of what we should and shouldn`t do", "Icon": "Images/icon_scale.png", "Extra": "More details about Detail 1.", "Page": "Pages/Metascience/Ethics.html" },
-            { "Name": "Research methodology", "Description": "How we know what we know now, no?", "Icon": "Images/icon_computer.png", "Extra": "More details about Detail 2.", "Page": "Pages/Metascience/ResearchMethods.html" },
-            { "Name": "Medical law", "Description": "Limited only to the jurisdiction of the Kingdom of the Netherlands!.", "Icon": "Images/icon_book.png", "Extra": "More details about Detail 3.", "Page": "Pages/Metascience/Law.html"}
-        ]
-    },
-    {
-        "Name": "Textbooks",
-        "Content": "Full textbooks in my format",
-        "DetailedCardInfo": [
-            {
-                "Name": "Now AAPMR - Stroke",
-                "Icon": "Images/icon_brain.png",
-                "Description": "Stroke rehabilitation",
-                "DetailedCardInfo": [
-
-                    {
-                        "Name": "Stroke proper",
-                        "Page": "Pages/Textbooks/AAPMR - Stroke/Stroke.html",
-                        "Icon": "Images/icon_person.png",
-                        "Description": "Stroke proper in the adult"
-                    },
-                    {
-                        "Name": "Natural recovery",
-                        "Page": "Pages/Textbooks/AAPMR - Stroke/Natural_recovery.html",
-                        "Icon": "Images/icon_brain.png",
-                        "Description": "Stroke recovery in absence"
-                    },
-                    {
-                        "Name": "Paediatric stroke",
-                        "Page": "Pages/Textbooks/AAPMR - Stroke/Paediatric_stroke.html",
-                        "Icon": "Images/icon_baby.png",
-                        "Description": "Stroke proper in the child"
-                    },
-                    {
-                        "Name": "Emerging science",
-                        "Page": "Pages/Textbooks/AAPMR - Stroke/Emerging_science.html",
-                        "Icon": "Images/icon_book.png",
-                        "Description": "Some articles I found"
-                    }
-
-                ]
-            },            
-            {   "Name": "Brain Injury Medicine, 3rd edition",
-                "Icon": "Images/icon_brain.png",
-                "Description": "TBI rehabilitation",
-                "DetailedCardInfo": [
-
-                    {
-
-                        "Name": "Chapter I", 
-                        "Page": "Pages/Textbooks/BIM/ChapterI.html",
-                        "Icon": "Images/icon_book.png",
-                        "Description": "Introduction"
-
-                    },
-                    {
-                        "Name": "Chapter II",
-                        "Page": "Pages/Textbooks/BIM/ChapterII.html",
-                        "Icon": "Images/icon_question.png",
-                        "Description": "Epidemiology and prevention"
-                    },
-                    {
-                        "Name": "Chapter III",
-                        "Page": "Pages/Textbooks/BIM/ChapterIII.html",
-                        "Icon": "Images/icon_magnifier.png",
-                        "Description": "Imaging and diagnostics"
-                    },
-                    {
-                        "Name": "Chapter IV",
-                        "Page": "Pages/Textbooks/BIM/ChapterIV.html",
-                        "Icon": "Images/icon_growth.png",
-                        "Description": "Prognosis and functional assessment"
-                    },
-                    {
-                        "Name": "Chapter V",
-                        "Page": "Pages/Textbooks/BIM/ChapterV.html",
-                        "Icon": "Images/icon_pill.png",
-                        "Description": "Acute care"
-                    },
-                    {
-                        "Name": "Chapter VI",
-                        "Page": "Pages/Textbooks/BIM/ChapterVI.html",
-                        "Icon": "Images/icon_baby.png",
-                        "Description": "Rehabilitative care and specific populations"
-                    },
-                    {
-                        "Name": "Chapter VII",
-                        "Page": "Pages/Textbooks/BIM/ChapterVII.html",
-                        "Icon": "Images/icon_brain.png",
-                        "Description": "Neurologic problems"
-                    },
-                    {
-                        "Name": "Chapter VIII",
-                        "Page": "Pages/Textbooks/BIM/ChapterVIII.html",
-                        "Icon": "Images/icon_muscle.png",
-                        "Description": "Neuromuskuloskeletal problems"
-                    },
-                    {
-                        "Name": "Chapter IX",
-                        "Page": "Pages/Textbooks/BIM/ChapterIX.html",
-                        "Icon": "Images/icon_pill.png",
-                        "Description": "Medical management issues"
-                    },
-                    {
-                        "Name": "Chapter X",
-                        "Page": "Pages/Textbooks/BIM/ChapterX.html",
-                        "Icon": "Images/icon_brain.png",
-                        "Description": "Cognitive and behavioural issues"
-                    },
-                    {
-                        "Name": "Chapter XI",
-                        "Page": "Pages/Textbooks/BIM/ChapterXI.html",
-                        "Icon": "Images/icon_lungs.png",
-                        "Description": "Speech, language and swallowing"
-                    },
-                    {
-                        "Name": "Chapter XII",
-                        "Page": "Pages/Textbooks/BIM/ChapterXII.html",
-                        "Icon": "Images/icon_person",
-                        "Description": "Motor recovery and ADL"
-                    },
-                    {
-                        "Name": "Chapter XIII",
-                        "Page": "Pages/Textbooks/BIM/ChapterXIII.html",
-                        "Icon": "Images/icon_dog.png",
-                        "Description": "Neuropsychopharmacology, and alternative treatments"
-                    },
-                    {
-                        "Name": "Chapter XIV",
-                        "Page": "Pages/Textbooks/BIM/ChapterXIV.html",
-                        "Icon": "Images/icon_person.png",
-                        "Description": "Psychosocial, and vocational issues"
-                    },
-                    {
-                        "Name": "Chapter XV",
-                        "Page": "Pages/Textbooks/BIM/ChapterXV.html",
-                        "Icon": "Images/icon_book.png",
-                        "Description": "Medicolegal, and ethical issues"
-                    }         
-                ]}
-
-        ]
-    },
-    {
-        "Name": "Random",
-        "Content": "Other stuff I like",
-        "Style": "",
-        "DetailedCardInfo": [
-
-            {
-                "Name": "Wine",
-                "Icon":"Images/icon_wine.png",
-                "Description": "The drink of God",
-                "DetailedCardInfo": [
-
-                    {
-                        "Name": "Introduction to wine",
-                        "Icon": "Images/icon_wine.png",
-                        "Description": "Page on the basics of wine",
-                        "Page": "Pages/Random/wine_intro.html"
-                    },
-                    {
-                        "Name": "White wine",
-                        "Icon": "Images/icon_white_wine.png",
-                        "Description": "Weirdly, this becomes the blood of Christ",
-                        "DetailedCardInfo": [
-
-                            {
-                                "Name": "Introduction to white wine",
-                                "Icon": "Images/icon_wine.png",
-                                "Description": "Just general stuff",
-                                "Page": "Pages/Random/white_wine.html"
-                            },
-                            {
-                                "Name": "Chardonnay",
-                                "Icon": "Images/icon_white_wine.png",
-                                "Description": "The main star of the show",
-                                "Page": "Pages/Random/chardonnay.html"
-                            },
-                            {
-                                "Name": "Sauvignon blanc",
-                                "Icon": "Images/icon_white_wine.png",
-                                "Description": "A well-known varietal",
-                                "Page": "Pages/Random/sauvignon_blanc.html"
-                            },
-                            {
-                                "Name": "Riesling",
-                                "Icon": "Images/icon_white_wine.png",
-                                "Description": "The German kaiser",
-                                "Page": "Pages/Random/riesling.html"
-                            },
-                            {
-                                "Name": "Pinot Grigio",
-                                "Icon": "Images/icon_white_wine.png",
-                                "Description": "L'italiano",
-                                "Page": "Pages/Random/pinot_grigio.html"
-                            },
-                            {
-                                "Name": "Gewürztraminer",
-                                "Icon": "Images/icon_white_wine.png",
-                                "Description": "Der zweite Deutscher",
-                                "Page": "Pages/Random/gewuerztraminer.html"
-                            },
-                            {
-                                "Name": "Viognier",
-                                "Icon": "Images/icon_white_wine.png",
-                                "Description": "I mean, this one got me into wine again",
-                                "Page": "Pages/Random/viognier.html"
-                            }
-
-                        ]
-                    },
-                    {
-                        "Name": "Red wine",
-                        "Icon": "Images/icon_red_wine.png",
-                        "Description": "This'd make so much more sense",
-                        "Page": "Pages/Random/red_wine.html"
-                    }
-
-                ]
-            }
-
-        ]
-    }
+                    ]
+                },
+                {
+                    "Name": "Cell biology",
+                    "Description": "The biology of our smallest units",
+                    "Icon": "https://via.placeholder.com/50",
+                    "Extra": "More details about Detail 2.",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Intracellular biology",
+                            "Description": "Everything going on within the cell"
+                        },
+                        {
+                            "Name": "Intercellular biology",
+                            "Description": "BSc. in communication but between cells ... and more challenging"
+                        },
+                        {
+                            "Name": "Extracellular biology",
+                            "Description": "On cellular products and tissue formation"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Growth and development",
+                    "Description": "About who we are and where we come from",
+                    "Icon": "Images/icon_growth.png",
+                    "Extra": "More details about Detail 3.",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Embryology",
+                            "Description": "Intra-uterine human development",
+                            "Icon": "Images/icon_baby.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Introduction",
+                                    "Description": "What is embryology?",
+                                    "Icon": "Images/icon_baby.png",
+                                    "Page": "Pages/Basic_science/Embryology_introduction.html"
+                                },
+                                {
+                                    "Name": "Respiratory sytem",
+                                    "Description": "Rule 1 of medicine: keep air in the lung"
+                                },
+                                {
+                                    "Name": "Digestive system",
+                                    "Description": "A bunch of bullsh*it"
+                                },
+                                {
+                                    "Name": "Circulatory system",
+                                    "Description": "Rule 2 of medicine: keep the heart pumping",
+                                    "Icon": "Images/icon_heart.png",
+                                    "Page": "Pages/Basic_science/Embryology_heart.html"
+                                },
+                                {
+                                    "Name": "Urinary & reproductive system",
+                                    "Description": "P*issing all over your assumptions",
+                                    "Icon": "Images/icon_sex.png",
+                                    "Page": "Pages/Basic_science/Embryology_urinary_reproductive.html"
+                                },
+                                {
+                                    "Name": "Integumentary system",
+                                    "Description": "We're just sacks of flesh and bones"
+                                },
+                                {
+                                    "Name": "Skeletal sytem",
+                                    "Description": "Bones. Just bones, bro!"
+                                },
+                                {
+                                    "Name": "Muscular system",
+                                    "Description": "I'll be back!"
+                                },
+                                {
+                                    "Name": "Endocrine system",
+                                    "Description": "You're being hormonal right now..."
+                                },
+                                {
+                                    "Name": "Exocrine system",
+                                    "Description": "Brb. Crying tears of joy rn"
+                                },
+                                {
+                                    "Name": "Lymphatic system",
+                                    "Description": "The circulatory system's less famous cousin"
+                                },
+                                {
+                                    "Name": "Nervous system",
+                                    "Description": "They hate us, cause they ain't us",
+                                    "Page": "Pages/Basic_science/Embryology_nervous_system.html",
+                                    "Icon": "Images/icon_nerve.png"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Human development",
+                            "Description": "Extra-uterine embryology",
+                            "Icon": "Images/icon_person.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Childhood development",
+                                    "Description": "What it means to be a child",
+                                    "Icon": "Images/icon_baby.png",
+                                    "Page": "Pages/Basic_science/Human_development.html"
+                                },
+                                {
+                                    "Name": "Puberty & Tanner staging",
+                                    "Description": "And then beyond...",
+                                    "Icon": "Images/icon_person.png",
+                                    "Page": "Pages/Basic_science/Puberty.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Gerontogenesis",
+                            "Description": "The science of getting older"
+                        },
+                        {
+                            "Name": "Thanatology",
+                            "Description": "What happen to our body after we die?",
+                            "Icon": "Images/icon_death.png",
+                            "Page": "Pages/Basic_science/Thanatology.html"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Infectiology",
+                    "Description": "Microbes, viruses and everything in between",
+                    "Icon": "https://via.placeholder.com/50",
+                    "Extra": "More details about Detail 3.",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Microbiology",
+                            "Description": "The scientific study of cooties"
+                        },
+                        {
+                            "Name": "Epidemiology",
+                            "Description": "How do the cooties spread?"
+                        },
+                        {
+                            "Name": "Infection prevention",
+                            "Description": "How do we prevent the spread of cooties?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Applied science",
+            "Content": "Anatomy, physiology etc.",
+            "Style": "url('Images/image_anatomy.jpg')",
+            "DetailedDescription": "The applied sciences make up the bulk of medicine. They describe how the human body is constructed and works. The structures and functions described in the applied sciences form the basis for clinical pathology and disease categories.",
+            "DetailedCardInfo": [
+                {
+                    "Name": "Anatomy",
+                    "Description": "The structures that determine how we are",
+                    "DetailedDescription": "Anatomy is the science that describes the structure of the human body. It is essential to be able to not only understand, but also to locate the the source of symptoms. ",
+                    "Icon": "Images/icon_anatomy.png",
+                    "Extra": "More details about Detail 1.",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Respiratory sytem",
+                            "Description": "Rule 1 of medicine: keep air in the lung",
+                            "Icon": "Images/icon_lungs.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Upper airways",
+                                    "Description": "So. Much. Snot."
+                                },
+                                {
+                                    "Name": "Lower airways",
+                                    "Icon": "Images/icon_lungs.png",
+                                    "Description": "Lungs. Not just one, but two of them!",
+                                    "Page": "Pages/Applied_science/Anatomy_respiratory.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Digestive system",
+                            "Description": "A bunch of bullsh*it",
+                            "Icon": "Images/icon_intestines.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Upper digestive tract",
+                                    "Description": "To Treitz! And not beyond..."
+                                },
+                                {
+                                    "Name": "Lower digestive tract",
+                                    "Description": "Truly full of bullsh*t"
+                                },
+                                {
+                                    "Name": "Accessory organs",
+                                    "Icon": "Images/icon_liver.png",
+                                    "Page": "Pages/Applied_science/Anatomy_digestive_accesory.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Circulatory system",
+                            "Description": "Rule 2 of medicine: keep the heart pumping",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Heart"
+                                },
+                                {
+                                    "Name": "Arteries",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Large arteries"
+                                        },
+                                        {
+                                            "Name": "Organ-specified arteries"
+                                        },
+                                        {
+                                            "Name": "Cerebral blood supply"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Veins"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Urinary system",
+                            "Icon": "Images/icon_salt.png",
+                            "Description": "P*issing all over your assumptions",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Kidneys",
+                                    "Icon": "Images/icon_salt.png",
+                                    "Description": "My bean buddies",
+                                    "Page": "Pages/applied_science/Anatomy_renal.html"
+                                },
+                                {
+                                    "Name": "Lower urinary tract",
+                                    "Description": "Footballs used to be made from bladder"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Integumentary system",
+                            "Description": "We're just sacks of flesh and bones"
+                        },
+                        {
+                            "Name": "Skeletal sytem",
+                            "Description": "Bones. Just bones, bro!",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Axial skeleton"
+                                },
+                                {
+                                    "Name": "Appendicular skeleton"
+                                },
+                                {
+                                    "Name": "Dental anatomy"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Muscular system",
+                            "Description": "I'll be back!",
+                            "Icon": "Images/icon_muscle.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Axial muscles",
+                                    "Description": "Abs, bro! Chicks dig 'em"
+                                },
+                                {
+                                    "Name": "Upper (axio)appendicular muscles",
+                                    "Description": "Chest and arms, bro! Beats everything"
+                                },
+                                {
+                                    "Name": "Lower (axio)appendicular muscles",
+                                    "Description": "Never skip leg day!",
+                                    "Icon": "Images/icon_leg.png",
+                                    "Page": "Pages/Muscular_lower.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Endocrine system",
+                            "Description": "You're being hormonal right now...",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Central endocrine glands"
+                                },
+                                {
+                                    "Name": "(Para)thyroid gland"
+                                },
+                                {
+                                    "Name": "Abdominal glands"
+                                },
+                                {
+                                    "Name": "Reproductive glands"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Exocrine system",
+                            "Description": "Brb. Crying tears of joy rn",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Eyes"
+                                },
+                                {
+                                    "Name": "Ears"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Lymphatic system",
+                            "Description": "The circulatory system's less famous cousin",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Lymph vessels"
+                                },
+                                {
+                                    "Name": "Lymph nodes"
+                                },
+                                {
+                                    "Name": "Spleen"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Nervous system",
+                            "Description": "They hate us, cause they ain't us",
+                            "Icon": "Images/icon_nerve.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Central nervous system",
+                                    "Icon": "Images/icon_cns.png",
+                                    "Description": "Brain + spine",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Brain",
+                                            "Icon": "Images/icon_brain.png",
+                                            "Description": "What makes us ... us",
+                                            "DetailedCardInfo": [
+                                                {
+                                                    "Name": "Cerebrum",
+                                                    "Description": "When we say someone is 'cerebral', this is it",
+                                                    "Icon": "Images/icon_brain.png",
+                                                    "DetailedCardInfo": [
+                                                        {
+                                                            "Name": "Diencephalon",
+                                                            "Description": "The tween-brain lies inbe-tween",
+                                                            "Icon": "Images/icon_brain.png",
+                                                            "Page": "Pages/Applied_science/Anatomy_diencephalon.html"
+                                                        },
+                                                        {
+                                                            "Name": "Telencephalon",
+                                                            "Description": "The big brain",
+                                                            "Icon": "Images/icon_brain.png",
+                                                            "DetailedCardInfo": [
+                                                                {
+                                                                    "Name": "General Introduction to the forebrain",
+                                                                    "Description": "What it says",
+                                                                    "Icon": "Images/icon_brain.png",
+                                                                    "Page": "Pages/Applied_science/Anatomy_telencephalon.html"
+                                                                },
+                                                                {
+                                                                    "Name": "Striatum",
+                                                                    "Description": "The stripy subcortical bit",
+                                                                    "Icon": "Images/icon_brain.png",
+                                                                    "Page": "Pages/Applied_science/Anatomy_striatum.html"
+                                                                },
+                                                                {
+                                                                    "Name": "Thalamus",
+                                                                    "Description": "New York grand central",
+                                                                    "Icon": "Images/icon_brain.png",
+                                                                    "Page": "Pages/Applied_science/Anatomy_thalamus.html"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Name": "Cerebellum",
+                                                    "Description": "The big thing, but small",
+                                                    "Page": "Pages/Applied_science/Anatomy_cerebellum.html",
+                                                    "Icon": "Images/icon_cerebellum.png"
+                                                },
+                                                {
+                                                    "Name": "Brainstem",
+                                                    "Description": "The ultimate sine-qua-non",
+                                                    "Page": "Pages/Applied_science/Anatomy_brainstem.html",
+                                                    "Icon": "Images/icon_brainstem.png"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Spinal cord",
+                                            "Description": "How does info get where?",
+                                            "Icon": "Images/icon_spinal_cord.png",
+                                            "Page": "Pages/Applied_science/Anatomy_spinal_cord.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Peripheral nervous system",
+                                    "Icon": "Images/icon_leg.png",
+                                    "Description": "Don't shoot the messenger!",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Cranial nerves",
+                                            "Icon": "Images/icon_brain.png",
+                                            "Description": "It's all in your head...",
+                                            "Page": "Pages/Applied_science/Anatomy_cranial_nerves.html"
+                                        },
+                                        {
+                                            "Name": "Somatic nervous system",
+                                            "Icon": "Images/icon_muscle.png",
+                                            "Description": "We are what we do",
+                                            "DetailedCardInfo": [
+                                                {
+                                                    "Name": "Derma- and myotomes",
+                                                    "Description": "It always does strike a nerve",
+                                                    "Icon": "Images/icon_skin.png",
+                                                    "Page": "Pages/Nervous_peripheral_somatic_dermatomes.html"
+                                                },
+                                                {
+                                                    "Name": "Nerves and their branches",
+                                                    "Description": "Where taken the path less taken is inefficient"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Name": "Visceral nervous system",
+                                            "Description": "Just a gut feeling..."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Reproductive system",
+                            "Description": "All c*nts and d*ckheads",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Male reproductive system"
+                                },
+                                {
+                                    "Name": "Female reproductive system"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Physiology",
+                    "Description": "What works how ... or at least how it`s supposed to work",
+                    "Icon": "Images/icon_temperature.png",
+                    "Extra": "More details about Detail 2.",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Physiological conditions",
+                            "Description": "How it is supposed to work",
+                            "Icon": "Images/icon_person.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Temperature regulation",
+                                    "Description": "Fever and the like",
+                                    "Icon": "Images/icon_temperature.png",
+                                    "Page": "Pages/Applied_science/Physiology_temperature.html"
+                                },
+                                {
+                                    "Name": "Iron physiology",
+                                    "Description": "Uptake, storage etc.",
+                                    "Icon": "Images/icon_iron.png",
+                                    "Page": "Pages/Applied_science/Physiology_iron.html"
+                                },
+                                {
+                                    "Name": "Muscle physiology",
+                                    "Description": "STRONG!",
+                                    "Icon": "Images/icon_muscle.png",
+                                    "Page": "Pages/Applied_science/Physiology_muscle.html"
+                                },
+                                {
+                                    "Name": "Acid-base metabolism",
+                                    "Description": "A bit sour faced...",
+                                    "Icon": "Images/icon_acid.png",
+                                    "Page": "Pages/Applied_science/Physiology_acid_base.html"
+                                },
+                                {
+                                    "Name": "Menstrual cycle and hormones",
+                                    "Description": "Oof, hormonal...",
+                                    "Icon": "Images/icon_uterus.png",
+                                    "Page": "Pages/Applied_science/Physiology_period.html"
+                                },
+                                {
+                                    "Name": "Cardiac elektrophysiology",
+                                    "Description": "Pulsing and beating...",
+                                    "Icon": "Images/icon_heart.png",
+                                    "Page": "Pages/Applied_Science/Physiology_cardiac_elektrophysiology.html"
+                                },
+                                {
+                                    "Name": "Blood coagulation",
+                                    "Icon": "Images/icon_blood.png",
+                                    "Page": "Pages/Applied_science/Physiology_coagulation.html"
+                                },
+                                {
+                                    "Name": "Blood",
+                                    "Icon": "Images/icon_blood.png",
+                                    "Page": "Pages/Applied_science/Physiology_blood.html"
+                                },
+                                {
+                                    "Name": "Liver function tests",
+                                    "Icon": "Images/icon_liver.png",
+                                    "Description": "How well the thing does its things",
+                                    "Page": "Pages/Applied_science/Physiology_liver_function.html"
+                                },
+                                {
+                                    "Name": "Neurotransmitters",
+                                    "Icon": "Images/icon_brain.png",
+                                    "Description": "Substances in the brain",
+                                    "Page": "Pages/Applied_science/Physiology_neurotransmitters.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Abnormal physiology",
+                            "Description": "Diving deeper into symptoms",
+                            "Icon": "Images/icon_temperature.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Pleural effusion",
+                                    "Icon": "Images/icon_lungs.png",
+                                    "Description": "Liquid in the lungspace",
+                                    "Page": "Pages/Applied_science/Physiology_pleural_effusion.html"
+                                },
+                                {
+                                    "Name": "Hypersensitivity and antibodies",
+                                    "Icon": "Images/icon_antibody.png",
+                                    "Description": "You're overreacting...",
+                                    "Page": "Pages/Applied_science/Physiology_hypersensitivity.html"
+                                },
+                                {
+                                    "Name": "Dystonia and spasticity",
+                                    "Icon": "Images/icon_muscle.png",
+                                    "Description": "A bit tense there",
+                                    "Page": "Pages/Applied_science/Physiology_dystonia.html"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Histology",
+                    "Description": "Seeing different shades of pink hits a lot different now",
+                    "Icon": "Images/icon_bacterium.png",
+                    "Extra": "Blabla",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Respiratory sytem",
+                            "Description": "Cells that make us breath"
+                        },
+                        {
+                            "Name": "Digestive system",
+                            "Description": "Cells that process our food"
+                        },
+                        {
+                            "Name": "Circulatory system",
+                            "Description": "Cells that contain our blood; and our blood itself"
+                        },
+                        {
+                            "Name": "Urinary system",
+                            "Description": "Cells that process our waste"
+                        },
+                        {
+                            "Name": "Integumentary system",
+                            "Description": "Cells that separate us from the outside world"
+                        },
+                        {
+                            "Name": "Skeletal sytem",
+                            "Description": "Cells that keep us upright"
+                        },
+                        {
+                            "Name": "Muscular system",
+                            "Description": "Cells that move us"
+                        },
+                        {
+                            "Name": "Endocrine system",
+                            "Description": "Cells that produce without ducts"
+                        },
+                        {
+                            "Name": "Exocrine system",
+                            "Description": "Cells that produce ... with ducts"
+                        },
+                        {
+                            "Name": "Immune system",
+                            "Description": "Cells that protect us from within",
+                            "Icon": "Images/icon_temperature.png",
+                            "Page": "Pages/Applied_science/Histology_immune.html"
+                        },
+                        {
+                            "Name": "Nervous system",
+                            "Description": "Cells that are ... us",
+                            "Icon": "Images/icon_brain.png",
+                            "Page": "Pages/Applied_science/Histology_nerves.html"
+                        },
+                        {
+                            "Name": "Reproductive system",
+                            "Description": "Cells that become us"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Psychology",
+                    "Description": "Mens sana in corpore sana. Amen.",
+                    "Icon": "Images/icon_magnifier.png",
+                    "Extra": "More details about Detail 3.",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Motivational interview & change",
+                            "Icon": "Images/icon_person.png",
+                            "Description": "Change the world and start with yourself",
+                            "Page": "Pages/Applied_science/Psychology_motivational_interviewing.html"
+                        },
+                        {
+                            "Name": "Psychiatric interview",
+                            "Icon": "Images/icon_person.png",
+                            "Description": "How to talk to crazy people",
+                            "Page": "Pages/Applied_science/Psychology_psychiatric_interview.html"
+                        },
+                        {
+                            "Name": "Positive/negative symptoms",
+                            "Description": "... what it says",
+                            "Icon": "Images/icon_scale.png",
+                            "Page": "Pages/Clinical_science/Diagnosis_pos_neg.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Clinical science",
+            "Content": "Diagnoses, treatments etc.",
+            "Style": "url('Images/image_stethoscope.jpg')",
+            "DetailedDescription": "So, then there it is: medicine. Basically, medicine is about the clinical sciences. If you master the art of diagnosis and treatment, you`re on your way to be a great doctor. It`s all about pattern recognition and creative thinking here. You think you`ve got what it takes?",
+            "DetailedCardInfo": [
+                {
+                    "Name": "Diagnoses",
+                    "Description": "This roughly follows the ICD-11 structure",
+                    "Icon": "Images/icon_magnifier.png",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Infectious disease",
+                            "Description": "Diseases caused by bacteria, viruses, fungi or parasites",
+                            "Icon": "Images/icon_bacterium.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Food-borne pathogens",
+                                    "Icon": "Images/icon_intestines.png",
+                                    "Description": "You are what you eat",
+                                    "Page": "Pages/Clinical_science/Diagnosis_food_born_pathogens.html"
+                                },
+                                {
+                                    "Name": "Zoonotic diseases",
+                                    "Icon": "Images/icon_dog.png",
+                                    "Description": "CAN I PET THAT DAWGGG!",
+                                    "Page": "Pages/Clinical_science/Diagnosis_zoonotic.html"
+                                },
+                                {
+                                    "Name": "Paediatric infectious disease",
+                                    "Icon": "Images/icon_child.png",
+                                    "Description": "Disease 1 t/m 6",
+                                    "Page": "Pages/Clinical_science/Diagnosis_paediatric_infections.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Oncology",
+                            "Description": "Various forms of benign and malign cancer",
+                            "Icon": "Images/icon_cancer.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Neuro-oncology",
+                                    "Description": "Neoplasms of brain or CNS",
+                                    "Icon": "Images/icon_brain.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_neuro-onco.html"
+                                },
+                                {
+                                    "Name": "Oncology-haematology",
+                                    "Description": "Neoplasms of haematopoietic or lymphoid tissues",
+                                    "Icon": "Images/icon_blood.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_onco_haematology.html"
+                                },
+                                {
+                                    "Name": "General oncology",
+                                    "Description": "Malignant neoplasms elsewhere"
+                                },
+                                {
+                                    "Name": "Onco-genetics",
+                                    "Description": "Inherited cancer-predisposing syndromes",
+                                    "Icon": "Images/icon_gene.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_onco-genetics.html"
+                                },
+                                {
+                                    "Name": "Pulmo-oncology",
+                                    "Description": "Lungs and stuff",
+                                    "Icon": "Images/icon_lungs.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_lung_cancer.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Haematology",
+                            "Description": "Diseases of the blood or blood-forming organs",
+                            "Icon": "https://via.placeholder.com/50",
+                            "Extra": "More details about Detail 1."
+                        },
+                        {
+                            "Name": "Immunology",
+                            "Description": "Disease of the immune system",
+                            "Icon": "Images/icon_vessel.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Vasculites / lymphangitis",
+                                    "Description": "Inflammation of the vessels",
+                                    "Icon": "Images/icon_vessel.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Introduction",
+                                            "Description": "An overview of vasculites",
+                                            "Icon": "Images/icon_vessel.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_vasculites_intro.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Homeostasis",
+                            "Description": "Endocrine, nutritional or metabolic diseases",
+                            "Icon": "Images/icon_balance.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Endocrine disorders",
+                                    "Icon": "Images/icon_hormone.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Diabetes mellitus",
+                                            "Icon": "Images/icon_sugar.png",
+                                            "Page": "Pages/Clinical_science/diagnosis_DM.html"
+                                        },
+                                        {
+                                            "Name": "Thyroid dysfunction",
+                                            "Icon": "Images/icon_thyroid.png",
+                                            "Description": "Hot 'n cold",
+                                            "Page": "Pages/Clinical_science/Diagnosis_thyroid.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Nutritional disorders"
+                                },
+                                {
+                                    "Name": "Metabolic disorders",
+                                    "Icon": "Images/icon_metabolism.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Electrolyte imbalances",
+                                            "Icon": "Images/icon_salt.png",
+                                            "Page": "Pages/clinical_science/Diagnosis_electrolytes.html"
+                                        },
+                                        {
+                                            "Name": "Vitamin deficiencies",
+                                            "Icon": "Images/icon_pill.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_vitamin_deficiencies.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Psychiatry",
+                            "Description": "Mental, behavioural or neurodevelopmental disorders according to the DSM-V",
+                            "Icon": "Images/icon_brain.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Neurodevelopmental disorders"
+                                },
+                                {
+                                    "Name": "Neurocognitive disorders",
+                                    "Description": "Learn to let go",
+                                    "Icon": "Images/icon_brain.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_dementia.html"
+                                },
+                                {
+                                    "Name": "Personality disorders",
+                                    "Description": "When it's YOU who is odd",
+                                    "Icon": "Images/icon_person.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_personality_disorders.html"
+                                },
+                                {
+                                    "Name": "Pseudopsychiatric disorders",
+                                    "Icon": "Images/icon_person.png",
+                                    "Description": "When it could be something else",
+                                    "Page": "Pages/Applied_science/Psychology_pseudopsychiatric_emergencies.html"
+                                },
+                                {
+                                    "Name": "Psychotic disorders",
+                                    "Icon": "Images/icon_person.png",
+                                    "Description": "Disorders characterized by psychosis",
+                                    "Page": "Pages/Clinical_science/Diagnosis_schizophrenia.html"
+                                },
+                                {
+                                    "Name": "Mood disorders",
+                                    "Description": "I don't know how to feel about it",
+                                    "Icon": "Images/icon_mood.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Major Depressive Disorder (MDD)",
+                                            "Description": "Everything is terrible",
+                                            "Icon": "Images/icon_depression.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_MDD.html"
+                                        },
+                                        {
+                                            "Name": "Bipolar disorder, cyclothemia and dysthymia",
+                                            "Description": "Everything is terrible ... sometimes",
+                                            "Icon": "Images/icon_depression.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_bipolar.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Somnology",
+                            "Description": "Conditions preceding, during or following sleep",
+                            "Icon": "Images/icon_sleep.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Sleep problems after stroke/TBI",
+                                    "Description": "Preparation for Roessingh",
+                                    "Icon": "Images/icon_brain.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_sleep_after_stroke.html"
+                                },
+                                {
+                                    "Name": "Sleep hallucinations",
+                                    "Description": "Preparation for Rivierduinen",
+                                    "Icon": "Images/icon_brain.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_sleep_hallucinations.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Neurology",
+                            "Description": "Diseases of the nervous system",
+                            "Icon": "Images/icon_brain.png",
+                            "Extra": "More details about Detail 1.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Strokes",
+                                    "Icon": "Images/icon_brain.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Brainstem strokes",
+                                            "Description": "Strokes, but even more complicated",
+                                            "Icon": "Images/icon_brain.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_brain_stem_strokes.html"
+                                        },
+                                        {
+                                            "Name": "Acute stroke",
+                                            "Description": "HELP!",
+                                            "Icon": "Images/icon_brain.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_stroke.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Neuropathies",
+                                    "Icon": "Images/icon_nerve.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Mononeuropathies",
+                                            "Description": "One for all...",
+                                            "Icon": "Images/icon_nerve.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_mononeuropathy.html"
+                                        },
+                                        {
+                                            "Name": "Polyneuropathies",
+                                            "Description": "...and all for one",
+                                            "Icon": "Images/icon_person.png",
+                                            "Page": "Pages/clinical_science/Diagnosis_polyneuropathy.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Muscular dystrophies",
+                                    "Icon": "Images/icon_muscle.png",
+                                    "Description": "Kinda what I want to specialise in",
+                                    "Page": "Pages/Clinical_science/Diagnosis_muscular_dystrophies.html"
+                                },
+                                {
+                                    "Name": "Neuropathic pain",
+                                    "Icon": "Images/icon_pain.png",
+                                    "Description": "It hurts, but where",
+                                    "Page": "Pages/Clinical_science/Diagnosis_neuropathic_pain.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "(Neuro)ophthalmology",
+                            "Description": "Diseases of the visual system",
+                            "Icon": "https://via.placeholder.com/50",
+                            "Extra": "More details about Detail 1."
+                        },
+                        {
+                            "Name": "Otolaryngology",
+                            "Description": "Diseases of the ear or mastoid process",
+                            "Icon": "",
+                            "Extra": ""
+                        },
+                        {
+                            "Name": "Cardiology",
+                            "Description": "Diseases of the heart",
+                            "Icon": "Images/icon_heart.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Arrhythmias",
+                                    "Icon": "Images/icon_rhythm.png",
+                                    "Description": "Rikketik",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Supraventricular arrhythmias",
+                                            "Icon": "Images/icon_rhythm.png",
+                                            "Description": "With their origin above the ventricle",
+                                            "Page": "Pages/Clinical_science/Diagnosis_supraventricular_arrhythmias.html"
+                                        },
+                                        {
+                                            "Name": "Ventricular arrhythmias",
+                                            "Icon": "Images/icon_rhythm.png",
+                                            "Description": "With their origin in the ventricle",
+                                            "Page": "Pages/Clinical_science/Diagnosis_ventricular_arrythmias.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Pulmonology",
+                            "Description": "Diseases of the respiratory system",
+                            "Icon": "Images/icon_lungs.png",
+                            "Extra": "",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Pulmonary embolism",
+                                    "Icon": "Images/icon_lungs.png",
+                                    "Description": "If a clot meets a tiny tube",
+                                    "Page": "Pages/Clinical_science/Diagnosis_pulmonary_embolism.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Gastroenterology",
+                            "Description": "Diseases of the digestive system",
+                            "Icon": "Images/icon_intestines.png",
+                            "Extra": "",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "(Fatty) liver disease",
+                                    "Description": "Also a large bit about cirrhosis",
+                                    "Icon": "Images/icon_liver.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_FLD.html"
+                                },
+                                {
+                                    "Name": "IBS/IBD",
+                                    "Description": "Both conditions",
+                                    "Icon": "Images/icon_intestines.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_IBD_IBS.html"
+                                },
+                                {
+                                    "Name": "Abdominal hernia",
+                                    "Description": "A quick overview",
+                                    "Icon": "Images/icon_intestines.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_hernia.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Dermatology",
+                            "Description": "Diseases of the skin",
+                            "Icon": "Images/icon_skin.png",
+                            "Extra": "",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Inflammatory dermatoses",
+                                    "Icon": "Images/icon_rash.png",
+                                    "Description": "It's red, and it itches",
+                                    "Page": "Pages/Clinical_science/Diagnosis_inflammatory_dermatoses.html"
+                                },
+                                {
+                                    "Name": "Pressure ulcers",
+                                    "Icon": "Images/icon_skin.png",
+                                    "Description": "The only thing relevant for me",
+                                    "Page": "Pages/Clinical_science/Diagnosis_pressure_ulcers.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Orthopaedics and PM&R",
+                            "Description": "Diseases of the musculoskeletal system or connective tissue",
+                            "Icon": "Images/icon_joint.png",
+                            "Extra": "",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Joint inflammations",
+                                    "Icon": "Images/icon_joint.png",
+                                    "Description": "Red, swollen, painful",
+                                    "Page": "Pages/Clinical_science/Diagnosis_joint_inflammation.html"
+                                },
+                                {
+                                    "Name": "Fractures",
+                                    "Icon": "Images/icon_fracture.png",
+                                    "Description": "Oops, broken!",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Limb fractures",
+                                            "Icon": "Images/icon_arm.png",
+                                            "Description": "Just giving it arms and legs",
+                                            "Page": "Pages/Clinical_science/Diagnosis_limb_fractures.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Amputations",
+                                    "Icon": "Images/icon_arm.png",
+                                    "Description": "Aaaand ... gone",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Upper limb amputations",
+                                            "Icon": "Images/icon_arm.png",
+                                            "Description": "Costing me an arm ...",
+                                            "Page": "Pages/Clinical_science/Diagnosis_ul_amputation.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Deformations",
+                                    "Icon": "Images/icon_scoliosis.png",
+                                    "Description": "Slightly crooked",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Scoliosis",
+                                            "Icon": "Images/icon_scoliosis.png",
+                                            "Description": "Ya breakin' my back",
+                                            "Page": "Pages/Clinical_science/Diagnosis_scoliosis.html"
+                                        },
+                                        {
+                                            "Name": "Muscle contractures",
+                                            "Icon": "Images/icon_muscle.png",
+                                            "Description": "Shorter, and shorter",
+                                            "Page": "Pages/Clinical_science/Diagnosis_contractures.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Muscelotendinous injuries",
+                                    "Icon": "Images/icon_muscle.png",
+                                    "Description": "Oof, that hurts",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Patellofemoral pain syndrome",
+                                            "Icon": "Images/icon_leg.png",
+                                            "Description": "Pain in the ... patellofemoral region",
+                                            "Page": "Pages/Clinical_science/Diagnosis_patellofemoral.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Urology and gynaecology",
+                            "Description": "Diseases of the genitourinary system",
+                            "Icon": "Images/icon_uterus.png",
+                            "Extra": "",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "STDs",
+                                    "Description": "Sexually transmitted diseases",
+                                    "Icon": "Images/icon_sex.png",
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Bacterial STDs",
+                                            "Icon": "Images/icon_bacterium.png",
+                                            "Page": "Pages/Clinical_science/diagnosis_bacterial_STDs.html"
+                                        },
+                                        {
+                                            "Name": "Viral STDs",
+                                            "Icon": "Images/icon_virus.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_viral_STDs.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "Glomerular injury",
+                                    "Description": "Nephritic/nephrotic syndromes",
+                                    "Icon": "Images/icon_kidneys.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_nephritic_nephrotic.html"
+                                },
+                                {
+                                    "Name": "Complications of pregnancy",
+                                    "Description": "Exactly what the name says",
+                                    "Icon": "Images/icon_baby.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_complications_of_pregnancy.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Sexuology",
+                            "Description": "Conditions related to sexual health",
+                            "Icon": "",
+                            "Extra": ""
+                        },
+                        {
+                            "Name": "Obstetrics",
+                            "Description": "Pregnancy, childbirth or the puerperium",
+                            "Icon": "",
+                            "Extra": ""
+                        },
+                        {
+                            "Name": "Perinatal medicine",
+                            "Description": "Certain conditions originating in the perinatal period",
+                            "Icon": "",
+                            "Extra": ""
+                        },
+                        {
+                            "Name": "Paediatrics",
+                            "Description": "Developmental anomalies",
+                            "Icon": "Images/icon_child.png",
+                            "Extra": "",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Hernia diaphragmatica",
+                                    "Description": "A hole in the breathing muscle",
+                                    "Icon": "Images/icon_lungs.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_hernia_diaphragmatica.html"
+                                },
+                                {
+                                    "Name": "Neural Tube Disorders",
+                                    "Description": "When the neural tube doesn't close",
+                                    "Icon": "Images/icon_bulge.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_spina_bifida.html"
+                                },
+                                {
+                                    "Name": "Sex chromosome syndromes",
+                                    "Description": "Issues with the sex chromosomes",
+                                    "Icon": "Images/icon_gene.png",
+                                    "Page": "Pages/Clinical_science/Diagnosis_sex_chromosome.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Toxology",
+                            "Description": "Injury, poisoning or certain other consequences of external causes",
+                            "Icon": "",
+                            "Extra": ""
+                        }
+                    ]
+                },
+                {
+                    "Name": "Treatment",
+                    "Description": "This roughly follows the ATC system",
+                    "Icon": "Images/icon_pill.png",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Introduction to Pharmacology",
+                            "Icon": "Images/icon_pill.png",
+                            "Description": "Pharmacokinetics, genetics etc.",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Pharmacokinetics",
+                                    "Icon": "Images/icon_kidneys.png",
+                                    "Description": "Clearing of pharmaca",
+                                    "Page": "Pages/Clinical_science/Treatment_pharmacokinetics.html"
+                                },
+                                {
+                                    "Name": "Pharmacogenetics",
+                                    "Icon": "Images/icon_gene.png",
+                                    "Description": "Influence of genes on pharmacology",
+                                    "Page": "Pages/Clinical_science/Treatment_pharmacogenetics.html"
+                                },
+                                {
+                                    "Name": "Toxicology",
+                                    "Icon": "Images/icon_chemistry.png",
+                                    "Description": "Chronic and acute intoxications",
+                                    "Page": "Pages/Clinical_science/Treatment_toxicology.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Alimentary tract and metabolism",
+                            "Icon": "Images/icon_intestines.png",
+                            "Description": "Curing the tube",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Antiemetics and GERD medication",
+                                    "Icon": "Images/icon_acid.png",
+                                    "Description": "Puke, blegh",
+                                    "Page": "Pages/Clinical_science/Treatment_antiemetics.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Blood and blood forming organs",
+                            "Description": "Anticoagulants etc.",
+                            "Icon": "Images/icon_blood.png",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Anticoagulants",
+                                    "Description": "When there is stuff you don't want the blood to do",
+                                    "Icon": "Images/icon_balance.png",
+                                    "Page": "Pages/Clinical_science/Treatment_anticoagulants.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Cardiovascular system",
+                            "Icon": "Images/icon_heart.png",
+                            "Description": "Heart and vessels",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Antihypertensives and diuretics",
+                                    "Description": "To pee or not to pee, that is the question",
+                                    "Icon": "Images/icon_kidneys.png",
+                                    "Page": "Pages/Clinical_science/Treatment_antihypertensives.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Dermatologicals"
+                        },
+                        {
+                            "Name": "Genito urinary system and sex hormones"
+                        },
+                        {
+                            "Name": "Systemic hormonal preparations"
+                        },
+                        {
+                            "Name": "Antiinfective for systemic use",
+                            "Description": "... antibiotics",
+                            "Icon": "Images/icon_bacterium.png",
+                            "Page": "Pages/Clinical_science/Treatment_antibiotics.html"
+                        },
+                        {
+                            "Name": "Antineoplastic and immunomodulating agens"
+                        },
+                        {
+                            "Name": "Musculo-skeletal system"
+                        },
+                        {
+                            "Name": "Nervous system",
+                            "Icon": "Images/icon_brain.png",
+                            "Description": "Neurological and psychoactive drugs",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Antidepressants and antipsychotics",
+                                    "Description": "Gaudete in veritate",
+                                    "Icon": "Images/icon_person.png",
+                                    "Page": "Pages/Clinical_science/Treatment_antipsychotics_antidepressants.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Antiparasitic products, insecticides and repellants"
+                        },
+                        {
+                            "Name": "Respiratory system",
+                            "Icon": "Images/icon_lungs.png",
+                            "Page": "Pages/Clinical_science/Treatment_respiratory.html"
+                        },
+                        {
+                            "Name": "Sensory organs"
+                        },
+                        {
+                            "Name": "Various",
+                            "Icon": "Images/icon_question.png",
+                            "Description": "Vaccinations and such",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Vaccinations (Dutch system)",
+                                    "Description": "The way we do things here",
+                                    "Icon": "Images/icon_injection.png",
+                                    "Page": "Pages/Clinical_science/Treatment_vaccines.html"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Metascience",
+            "Content": "Statistics, philosophy etc.",
+            "Style": "",
+            "DetailedDescription": "Here we are: we`ve considered the basics of medicine, the building blocks of the human body and everything that can go wrong with it. Now what about what we should, or shouldn`t do? Or whether we`re actually there ... like, at all? The metasciences teach us all that, and more, probably, I think ... therefore I am.",
+            "DetailedCardInfo": [
+                {
+                    "Name": "Ethics",
+                    "Description": "The science of what we should and shouldn`t do",
+                    "Icon": "Images/icon_scale.png",
+                    "Extra": "More details about Detail 1.",
+                    "Page": "Pages/Metascience/Ethics.html"
+                },
+                {
+                    "Name": "Research methodology",
+                    "Description": "How we know what we know now, no?",
+                    "Icon": "Images/icon_computer.png",
+                    "Extra": "More details about Detail 2.",
+                    "Page": "Pages/Metascience/ResearchMethods.html"
+                },
+                {
+                    "Name": "Medical law",
+                    "Description": "Limited only to the jurisdiction of the Kingdom of the Netherlands!.",
+                    "Icon": "Images/icon_book.png",
+                    "Extra": "More details about Detail 3.",
+                    "Page": "Pages/Metascience/Law.html"
+                }
+            ]
+        },
+        {
+            "Name": "Textbooks",
+            "Content": "Full textbooks in my format",
+            "DetailedCardInfo": [
+                {
+                    "Name": "Now AAPMR - Stroke",
+                    "Icon": "Images/icon_brain.png",
+                    "Description": "Stroke rehabilitation",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Stroke proper",
+                            "Page": "Pages/Textbooks/AAPMR - Stroke/Stroke.html",
+                            "Icon": "Images/icon_person.png",
+                            "Description": "Stroke proper in the adult"
+                        },
+                        {
+                            "Name": "Natural recovery",
+                            "Page": "Pages/Textbooks/AAPMR - Stroke/Natural_recovery.html",
+                            "Icon": "Images/icon_brain.png",
+                            "Description": "Stroke recovery in absence"
+                        },
+                        {
+                            "Name": "Paediatric stroke",
+                            "Page": "Pages/Textbooks/AAPMR - Stroke/Paediatric_stroke.html",
+                            "Icon": "Images/icon_baby.png",
+                            "Description": "Stroke proper in the child"
+                        },
+                        {
+                            "Name": "Emerging science",
+                            "Page": "Pages/Textbooks/AAPMR - Stroke/Emerging_science.html",
+                            "Icon": "Images/icon_book.png",
+                            "Description": "Some articles I found"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Brain Injury Medicine, 3rd edition",
+                    "Icon": "Images/icon_brain.png",
+                    "Description": "TBI rehabilitation",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Chapter I",
+                            "Page": "Pages/Textbooks/BIM/ChapterI.html",
+                            "Icon": "Images/icon_book.png",
+                            "Description": "Introduction"
+                        },
+                        {
+                            "Name": "Chapter II",
+                            "Page": "Pages/Textbooks/BIM/ChapterII.html",
+                            "Icon": "Images/icon_question.png",
+                            "Description": "Epidemiology and prevention"
+                        },
+                        {
+                            "Name": "Chapter III",
+                            "Page": "Pages/Textbooks/BIM/ChapterIII.html",
+                            "Icon": "Images/icon_magnifier.png",
+                            "Description": "Imaging and diagnostics"
+                        },
+                        {
+                            "Name": "Chapter IV",
+                            "Page": "Pages/Textbooks/BIM/ChapterIV.html",
+                            "Icon": "Images/icon_growth.png",
+                            "Description": "Prognosis and functional assessment"
+                        },
+                        {
+                            "Name": "Chapter V",
+                            "Page": "Pages/Textbooks/BIM/ChapterV.html",
+                            "Icon": "Images/icon_pill.png",
+                            "Description": "Acute care"
+                        },
+                        {
+                            "Name": "Chapter VI",
+                            "Page": "Pages/Textbooks/BIM/ChapterVI.html",
+                            "Icon": "Images/icon_baby.png",
+                            "Description": "Rehabilitative care and specific populations"
+                        },
+                        {
+                            "Name": "Chapter VII",
+                            "Page": "Pages/Textbooks/BIM/ChapterVII.html",
+                            "Icon": "Images/icon_brain.png",
+                            "Description": "Neurologic problems"
+                        },
+                        {
+                            "Name": "Chapter VIII",
+                            "Page": "Pages/Textbooks/BIM/ChapterVIII.html",
+                            "Icon": "Images/icon_muscle.png",
+                            "Description": "Neuromuskuloskeletal problems"
+                        },
+                        {
+                            "Name": "Chapter IX",
+                            "Page": "Pages/Textbooks/BIM/ChapterIX.html",
+                            "Icon": "Images/icon_pill.png",
+                            "Description": "Medical management issues"
+                        },
+                        {
+                            "Name": "Chapter X",
+                            "Page": "Pages/Textbooks/BIM/ChapterX.html",
+                            "Icon": "Images/icon_brain.png",
+                            "Description": "Cognitive and behavioural issues"
+                        },
+                        {
+                            "Name": "Chapter XI",
+                            "Page": "Pages/Textbooks/BIM/ChapterXI.html",
+                            "Icon": "Images/icon_lungs.png",
+                            "Description": "Speech, language and swallowing"
+                        },
+                        {
+                            "Name": "Chapter XII",
+                            "Page": "Pages/Textbooks/BIM/ChapterXII.html",
+                            "Icon": "Images/icon_person",
+                            "Description": "Motor recovery and ADL"
+                        },
+                        {
+                            "Name": "Chapter XIII",
+                            "Page": "Pages/Textbooks/BIM/ChapterXIII.html",
+                            "Icon": "Images/icon_dog.png",
+                            "Description": "Neuropsychopharmacology, and alternative treatments"
+                        },
+                        {
+                            "Name": "Chapter XIV",
+                            "Page": "Pages/Textbooks/BIM/ChapterXIV.html",
+                            "Icon": "Images/icon_person.png",
+                            "Description": "Psychosocial, and vocational issues"
+                        },
+                        {
+                            "Name": "Chapter XV",
+                            "Page": "Pages/Textbooks/BIM/ChapterXV.html",
+                            "Icon": "Images/icon_book.png",
+                            "Description": "Medicolegal, and ethical issues"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Random",
+            "Content": "Other stuff I like",
+            "Style": "",
+            "DetailedCardInfo": [
+                {
+                    "Name": "Wine",
+                    "Icon": "Images/icon_wine.png",
+                    "Description": "The drink of God",
+                    "DetailedCardInfo": [
+                        {
+                            "Name": "Introduction to wine",
+                            "Icon": "Images/icon_wine.png",
+                            "Description": "Page on the basics of wine",
+                            "Page": "Pages/Random/wine_intro.html"
+                        },
+                        {
+                            "Name": "White wine",
+                            "Icon": "Images/icon_white_wine.png",
+                            "Description": "Weirdly, this becomes the blood of Christ",
+                            "DetailedCardInfo": [
+                                {
+                                    "Name": "Introduction to white wine",
+                                    "Icon": "Images/icon_wine.png",
+                                    "Description": "Just general stuff",
+                                    "Page": "Pages/Random/white_wine.html"
+                                },
+                                {
+                                    "Name": "Chardonnay",
+                                    "Icon": "Images/icon_white_wine.png",
+                                    "Description": "The main star of the show",
+                                    "Page": "Pages/Random/chardonnay.html"
+                                },
+                                {
+                                    "Name": "Sauvignon blanc",
+                                    "Icon": "Images/icon_white_wine.png",
+                                    "Description": "A well-known varietal",
+                                    "Page": "Pages/Random/sauvignon_blanc.html"
+                                },
+                                {
+                                    "Name": "Riesling",
+                                    "Icon": "Images/icon_white_wine.png",
+                                    "Description": "The German kaiser",
+                                    "Page": "Pages/Random/riesling.html"
+                                },
+                                {
+                                    "Name": "Pinot Grigio",
+                                    "Icon": "Images/icon_white_wine.png",
+                                    "Description": "L'italiano",
+                                    "Page": "Pages/Random/pinot_grigio.html"
+                                },
+                                {
+                                    "Name": "Gewürztraminer",
+                                    "Icon": "Images/icon_white_wine.png",
+                                    "Description": "Der zweite Deutscher",
+                                    "Page": "Pages/Random/gewuerztraminer.html"
+                                },
+                                {
+                                    "Name": "Viognier",
+                                    "Icon": "Images/icon_white_wine.png",
+                                    "Description": "I mean, this one got me into wine again",
+                                    "Page": "Pages/Random/viognier.html"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Red wine",
+                            "Icon": "Images/icon_red_wine.png",
+                            "Description": "This'd make so much more sense",
+                            "Page": "Pages/Random/red_wine.html"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
