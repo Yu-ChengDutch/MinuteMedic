@@ -821,7 +821,20 @@
                                     "Name": "Personality disorders",
                                     "Description": "When it's YOU who is odd",
                                     "Icon": "Images/icon_person.png",
-                                    "Page": "Pages/Clinical_science/Diagnosis_personality_disorders.html"
+                                    "DetailedCardInfo": [
+                                        {
+                                            "Name": "Introduction to personality disorders",
+                                            "Description": "What kinds of weird are there?",
+                                            "Icon": "Images/icon_person.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_personality_disorders.html"
+                                        },
+                                        {
+                                            "Name": "Borderline personality disorder & crisis",
+                                            "Description": "YOU DON'T LOVE ME?",
+                                            "Icon": "Images/icon_person.png",
+                                            "Page": "Pages/Clinical_science/Diagnosis_bpd.html"
+                                        }
+                                    ]
                                 },
                                 {
                                     "Name": "Pseudopsychiatric disorders",
