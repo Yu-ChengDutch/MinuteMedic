@@ -866,6 +866,12 @@
                                             "Page": "Pages/Clinical_science/Diagnosis_bipolar.html"
                                         }
                                     ]
+                                },
+                                {
+                                    "Name": "Substance-use disorders & withdrawal",
+                                    "Icon": "Images/icon_pill.png",
+                                    "Description": "It's the drugs, man...",
+                                    "Page": "Pages/Clinical_science/Diagnosis_substance_use.html"
                                 }
                             ]
                         },
